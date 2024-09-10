@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot es una aplicación proxy gratuita que permite a otras aplicaciones utilizar Internet de forma más segura. Orbot utiliza Tor para cifrar tu tráfico de Internet y luego lo oculta rebotando a través de una serie de ordenadores en todo el mundo. Tor es un software gratuito y una red abierta que te ayuda a defenderte de una forma de vigilancia de la red que amenaza la libertad y la privacidad personal, las actividades y relaciones comerciales confidenciales y la seguridad del Estado, conocida como análisis del tráfico.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot es una aplicación proxy gratuita que permite a otras aplicaciones utilizar Internet de forma más segura. AnyoneBot utiliza Tor para cifrar tu tráfico de Internet y luego lo oculta rebotando a través de una serie de ordenadores en todo el mundo. Tor es un software gratuito y una red abierta que te ayuda a defenderte de una forma de vigilancia de la red que amenaza la libertad y la privacidad personal, las actividades y relaciones comerciales confidenciales y la seguridad del Estado, conocida como análisis del tráfico.</string>
     <string name="menu_settings">Ajustes</string>
     <string name="menu_log">Registro</string>
     <string name="menu_stop">Detener</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Escanear QR de bridge</string>
     <string name="menu_share_bridge">Compartir el QR del Puente</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Orbot es una aplicación de código abierto que contiene Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. Proporciona un túnel VPN, un proxy HTTP Connect local (HTTPS solo en el puerto 8118) y un proxy SOCKS (9050) en la red Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot es una aplicación de código abierto que contiene Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. Proporciona un túnel VPN, un proxy HTTP Connect local (HTTPS solo en el puerto 8118) y un proxy SOCKS (9050) en la red Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">General</string>
-    <string name="pref_start_boot_title">Iniciar Orbot en el arranque</string>
-    <string name="pref_start_boot_summary">Inicia Orbot y conecta a Tor automáticamente cuando arranca su dispositivo Android</string>
+    <string name="pref_start_boot_title">Iniciar AnyoneBot en el arranque</string>
+    <string name="pref_start_boot_summary">Inicia AnyoneBot y conecta a Tor automáticamente cuando arranca su dispositivo Android</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Huellas digitales, apodos, países y direcciones para el primer salto</string>
     <string name="pref_entrance_node_dialog">Introduzca nodos de entrada</string>
     <string name="pref_allow_background_starts_title">Permitir inicios en segundo plano</string>
-    <string name="pref_allow_background_starts_summary">Deja que cualquier aplicación le diga a Orbot que inicie Tor y servicios relacionados</string>
+    <string name="pref_allow_background_starts_summary">Deja que cualquier aplicación le diga a AnyoneBot que inicie Tor y servicios relacionados</string>
     <string name="pref_proxy_title">Proxy de salida a la red (opcional)</string>
     <string name="pref_proxy_type_title">Tipo de proxy saliente</string>
     <string name="pref_proxy_type_summary">Protocolo a usar para el servidor proxy saliente: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">SÓLO EXPERTOS: Introduce directamente las líneas de configuración en el fichero torrc</string>
     <string name="pref_torrc_dialog">Torrc personalizado</string>
     <string name="bridges_updated">Puentes actualizados</string>
-    <string name="restart_orbot_to_use_this_bridge_">Por favor, reinicia Orbot para habilitar los cambios</string>
+    <string name="restart_to_use_this_bridge_">Por favor, reinicia AnyoneBot para habilitar los cambios</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Si tu red móvil bloquea activamente a Tor, puedes usar un \'Servidor Puente\' como una forma alternativa de entrar. Selecciona una de las opciones para configurar y probar…</string>
     <string name="get_bridges_email">Correo electrónico</string>
     <string name="apps_mode">Modo VPN</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Inicie Tor de nuevo para finalizar el proceso</string>
     <string name="confirm_service_deletion">Confirme el borrado del servicio</string>
     <string name="service_type">Tipo de servicio</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Por favor, reinicia Orbot para habilitar los cambios</string>
+    <string name="please_restart_to_enable_the_changes">Por favor, reinicia AnyoneBot para habilitar los cambios</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Compartir como QR</string>
     <string name="disable">Deshabilitar</string>
@@ -237,7 +237,7 @@
 \n
 \n- Se puede apagar en cualquier momento</string>
     <string name="smart_connect">Conexión inteligente (default)</string>
-    <string name="smart_connect_subtitle">Orbot intenta conectarse a Tor a través de cualquier forma disponible: Directo, Snowflake, Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot intenta conectarse a Tor a través de cualquier forma disponible: Directo, Snowflake, Bridge.</string>
     <string name="direct_connect">Conexión directa a Tor</string>
     <string name="snowflake">Snowflake</string>
     <string name="get_a_bridge_subtitle">Encubre su tráfico. Evita algunos bloqueos de Tor.</string>
@@ -253,12 +253,12 @@
     <string name="having_trouble">¿Tienes problemas\?</string>
     <string name="having_trouble_subtitle">Podemos probar un puente Tor a continuación, pero necesitaremos su ayuda.</string>
     <string name="power_user_mode">Modo de usuario avanzado</string>
-    <string name="power_user_description">Para usuarios familiarizados con Tor. Permite iniciar Orbot sin la configuración de la VPN y muestra los puertos SOCKS y HTTP abiertos</string>
+    <string name="power_user_description">Para usuarios familiarizados con Tor. Permite iniciar AnyoneBot sin la configuración de la VPN y muestra los puertos SOCKS y HTTP abiertos</string>
     <string name="action_activate">Activar</string>
     <string name="volunteer_status_title">Hoy es mejor
 \ngracias a ti.</string>
     <string name="title_choose_apps">Elija las aplicaciones</string>
-    <string name="app_suggested_subtitle">Orbot funciona mejor con aplicaciones de mensajería y redes sociales.</string>
+    <string name="app_suggested_subtitle">AnyoneBot funciona mejor con aplicaciones de mensajería y redes sociales.</string>
     <string name="apps_suggested_title">Aplicaciones sugeridas</string>
     <string name="apps_other_apps">Otras aplicaciones</string>
     <string name="hide_apps">Oculte las aplicaciones de la supervisión de la red y obtenga acceso a ellas cuando estén bloqueadas.</string>
@@ -269,7 +269,7 @@
     <string name="action_use">Uso</string>
     <string name="asking">PREGUNTANDO…</string>
     <string name="no_internet_title">Conectarse a Internet</string>
-    <string name="no_internet_subtitle">Necesitas estar conectado a Internet para usar Orbot.</string>
+    <string name="no_internet_subtitle">Necesitas estar conectado a Internet para usar AnyoneBot.</string>
     <string name="kindness_adjust_title">Ajustes</string>
     <string name="ask_tor">Preguntale a Tor</string>
     <string name="kindess_config_detail">Configura cómo y cuándo tu dispositivo puede actuar como un proxy Snowflake para otros usuarios de Tor.</string>
@@ -287,9 +287,9 @@
     <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Personalizado</string>
     <string name="connection_direct">Directo</string>
-    <string name="pref_flag_secure_summary">Evita que otras aplicaciones tomen capturas de pantalla de Orbot</string>
+    <string name="pref_flag_secure_summary">Evita que otras aplicaciones tomen capturas de pantalla de AnyoneBot</string>
     <string name="pref_flag_secure_title">Seguridad de la pantalla</string>
-    <string name="root_warning">Orbot ha detectado que tu dispositivo está rooteado, lo que puede causar problemas de seguridad.</string>
+    <string name="root_warning">AnyoneBot ha detectado que tu dispositivo está rooteado, lo que puede causar problemas de seguridad.</string>
     <string name="pref_detect_root_summary">Advertir al inicio si los permisos de root están habilitados en este dispositivo</string>
     <string name="pref_detect_root_title">Detección de root</string>
 </resources>

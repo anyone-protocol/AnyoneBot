@@ -40,9 +40,9 @@
     <string name="no_internet_title">Connecter te a internet</string>
     <string name="connection_direct">Directe</string>
     <string name="title_choose_apps">Seliger le applicationes</string>
-    <string name="app_name">Orbot</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="volunteer_mode_alltime_label">Total de tote le tempore</string>
-    <string name="no_internet_subtitle">Tu besonia un connexion de Internet pro usar Orbot.</string>
+    <string name="no_internet_subtitle">Tu besonia un connexion de Internet pro usar AnyoneBot.</string>
     <string name="no_thx">Non, gratias</string>
     <string name="custom_bridge">Ponte personalisate</string>
     <string name="menu_help_others">Adjuta a alteres</string>
@@ -58,7 +58,7 @@
     <string name="btn_use_custom_bridge">Usar un ponte personalisate</string>
     <string name="pref_flag_secure_title">Securitate del schermo</string>
     <string name="menu_app_settings">Parametros del application</string>
-    <string name="app_suggested_subtitle">Orbot functiona melior con applicationes de messageria e retes social.</string>
+    <string name="app_suggested_subtitle">AnyoneBot functiona melior con applicationes de messageria e retes social.</string>
     <string name="get_a_bridge">Ponte de Tor (Obfs4)</string>
     <string name="volunteer_mode_title">Adjuta a alteres
 \nin connecter se a Tor</string>
@@ -132,7 +132,7 @@
     <string name="apps_mode">Modo VPN</string>
     <string name="send_email">Inviar email</string>
     <string name="vpn_default_world">Global (Automatic)</string>
-    <string name="restart_orbot_to_use_this_bridge_">Reinitia Orbot pro activar le cambiamentos</string>
+    <string name="restart_to_use_this_bridge_">Reinitia AnyoneBot pro activar le cambiamentos</string>
     <string name="pref_use_expanded_notifications">Monstrar in le notification le pais e adresse IP de tu nodo de sortita quando sia disponibile</string>
     <string name="proxy_ports">Portos de proxy</string>
     <string name="get_bridges_email_request">Demandar pontes via e-mail</string>
@@ -163,5 +163,5 @@
     <string name="pref_disable_ipv4">Disactivar le connexiones IPv4</string>
     <string name="request_bridges_from_torproject">Demandar pontes ab torproject.org</string>
     <string name="confirm">Confirmar</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Reinitia Orbot pro activar le cambiamentos</string>
+    <string name="please_restart_to_enable_the_changes">Reinitia AnyoneBot pro activar le cambiamentos</string>
 </resources>

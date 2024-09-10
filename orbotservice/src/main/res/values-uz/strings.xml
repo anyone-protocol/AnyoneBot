@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Orbot</string>
-    <string name="status_starting_up">Orbot ishga tushirilmoqda…</string>
+  <string name="app_name">AnyoneBot</string>
+    <string name="status_starting_up">AnyoneBot ishga tushirilmoqda…</string>
   <string name="status_activated">Tor tarmog\'iga ulangan</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
@@ -11,5 +11,5 @@
   <!--Permissions screen-->
   <!--TipsAndTricks screen-->
   <!--Transparent Proxy screen-->
-    <string name="found_existing_tor_process">Mavjud bo\'lgan Tor jarayoni topildi...</string>
+    <string name="found_existing_tor_process">Mavjud bo\'lgan Tor jarayoni topildi…</string>
 </resources>

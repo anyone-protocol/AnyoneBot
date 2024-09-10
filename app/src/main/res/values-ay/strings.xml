@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbotax mä ina proxy aplikasyunawa, llikatuq jan lunthatayasiñatakiw yaqha aplikasyunanakamppachar yanapi. Orbotax Toratuqiw uraqpachan luratanak jan uñjayasiñatak atamirinaktuq jark\'aqi. Torax ina software ukhamawa, ukampirus maynin luratanakapa, aruskipatanakapa, amuyunakap jan uñjayasiñatakiw jark\'aqi.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBotax mä ina proxy aplikasyunawa, llikatuq jan lunthatayasiñatakiw yaqha aplikasyunanakamppachar yanapi. AnyoneBotax Toratuqiw uraqpachan luratanak jan uñjayasiñatak atamirinaktuq jark\'aqi. Torax ina software ukhamawa, ukampirus maynin luratanakapa, aruskipatanakapa, amuyunakap jan uñjayasiñatakiw jark\'aqi.</string>
     <string name="menu_settings">Mayjt\'ayaña</string>
     <string name="menu_log">Imata</string>
     <string name="menu_stop">Sayt\'ayaña</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Chaka QR waruqaña</string>
     <string name="menu_share_bridge">Chaka QR ch\'iqiyaña</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Orbot aplikasyunax inakiwa, kawknïriti Tor IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ukat LibEvent ukaniwa. Tor llikanx mä VPN tunila, mä akankir proxy HTTP Connect (8118 waythapiwja ukanaki HTTPS) ukat mä SOCKS proxy (9050) churi.</string>
+    <string name="wizard_details_msg">AnyoneBot aplikasyunax inakiwa, kawknïriti Tor IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ukat LibEvent ukaniwa. Tor llikanx mä VPN tunila, mä akankir proxy HTTP Connect (8118 waythapiwja ukanaki HTTPS) ukat mä SOCKS proxy (9050) churi.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Wakiskiri</string>
-    <string name="pref_start_boot_title">Orbot qhantaykas qalltaña</string>
-    <string name="pref_start_boot_summary">Android aqtaykasax Orbot, Tor justupak aqtayam</string>
+    <string name="pref_start_boot_title">AnyoneBot qhantaykas qalltaña</string>
+    <string name="pref_start_boot_summary">Android aqtaykasax AnyoneBot, Tor justupak aqtayam</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Nayrïr jalakipañanakan ampar luk\'an chimpunaka, ñanqha sutinaka, markanaka, chiqawjanakapa</string>
     <string name="pref_entrance_node_dialog">Mantanir puriñawjanak qillqantam</string>
     <string name="pref_allow_background_starts_title">Wakichäwinak qhiparkipstayaña</string>
-    <string name="pref_allow_background_starts_summary">Tor ukat niya kipka sirwisyunak qalltpan sasax kawkïr aplikasyunampis Orbot ukar sayakim</string>
+    <string name="pref_allow_background_starts_summary">Tor ukat niya kipka sirwisyunak qalltpan sasax kawkïr aplikasyunampis AnyoneBot ukar sayakim</string>
     <string name="pref_proxy_title">Llikan uñstir proxy (munsta ukaki)</string>
     <string name="pref_proxy_type_title">Uñstir proxy</string>
     <string name="pref_proxy_type_summary">Uñstir yanapiri ajllt\'aña: HTTP, HTTPS, Socks4, Socks5.i</string>
@@ -95,7 +95,7 @@
     <string name="pref_torrc_summary">YATIRINAKATAKIKI: torrc apthapitan chiqak mayjt\'ayam</string>
     <string name="pref_torrc_dialog">Maynipachpatak Torrc kuttayaña</string>
     <string name="bridges_updated">Chakanakax jichhaptayatawa</string>
-    <string name="restart_orbot_to_use_this_bridge_">Mayjt\'ayatanak aqtayañatak Orbot mayamp qhant\'ayam, amp suma</string>
+    <string name="restart_to_use_this_bridge_">Mayjt\'ayatanak aqtayañatak AnyoneBot mayamp qhant\'ayam, amp suma</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jawsañ apnaqirinakax Tor jark\'antañ yatipki ukjax \'Chaka yanapiri\' mantañ apnaqarakismawa. Mayjt\'ayañatak yant\'añatak ajllt\'am…</string>
     <string name="get_bridges_email">Imaylu</string>
     <string name="apps_mode">VPN uka</string>
@@ -118,7 +118,7 @@
     <string name="start_tor_again_for_finish_the_process">Tukuyañatakix Tor mayamp naktayam</string>
     <string name="confirm_service_deletion">Lurañanakax pichsutäniwa</string>
     <string name="service_type">Kunayman lurañanaka</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Mayjt\'ayatanak aqtayañatakix Orbot mayamp qhantt\'ayam, amp suma</string>
+    <string name="please_restart_to_enable_the_changes">Mayjt\'ayatanak aqtayañatakix AnyoneBot mayamp qhantt\'ayam, amp suma</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">QRjam ch\'iqiyaña</string>
     <string name="disable">Jiwt\'ayaña</string>
@@ -229,7 +229,7 @@
     <string name="volunteer_mode_title">Yaqhanakar yanapt\'aña
 \nTor ukar mantaña</string>
     <string name="volunteer_mode_label">Yanapt\'asiña uka</string>
-    <string name="smart_connect_subtitle">Orbot ukax kunaymantuqit Tor ukar waythapisiñ yant\'i: Chiqaki, Snowflake, Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot ukax kunaymantuqit Tor ukar waythapisiñ yant\'i: Chiqaki, Snowflake, Bridge.</string>
     <string name="direct_connect">Tor ukar chiqak waythapïwi</string>
     <string name="smart_connect">Ch\'ikhi waythapïwi (utt\'ayata)</string>
     <string name="direct_connect_subtitle">Akjamat Tor ukar kusa waythapisispa. Tor ukax jan jark\'antatäkchi uka apnaqaña.</string>
@@ -248,7 +248,7 @@
     <string name="action_use">Apnaqaña</string>
     <string name="solve_captcha_instruction">Chakanak mayiñatakix CAPTCHA askicham.</string>
     <string name="bridge_snowflake_amp">Snowflake apnaqas yaqha Tor apnaqirinaktuq mantaña (Thakhi 2 )</string>
-    <string name="no_internet_subtitle">Orbot apnaqañatakix Internet ukanïñamawa.</string>
+    <string name="no_internet_subtitle">AnyoneBot apnaqañatakix Internet ukanïñamawa.</string>
     <string name="v3_delete_client_authorization_confirm">Apnaqirir iyawsañ pichsuña</string>
     <string name="v3_delete_client_authorization">Apnaqirir iyawsañ chimpu pichsuña</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Wi-Fi peers, waythapiyat tispusitiwunaka ukat khiti yaqha jaqis IP ukamar waythapiykaspa jupax Tor ukar mantakispaw saña</string>
@@ -277,15 +277,15 @@
     <string name="secure_your_connection_subtitle">Uñakipat llika aplikasyunanak imantam ukat kunawsatï jark\'atakan ukha mantam.</string>
     <string name="menu_app_settings">Aplikasyun mayjt\'ayaña</string>
     <string name="custom_bridge_subtitle">Tor ukati jark\'antatach ukhax waythapitakiskañapawa. Mayninkir chaka thakhipaw munasi.</string>
-    <string name="power_user_description">Toramp jichuntat apnaqirinakataki. VPN jan mayjt\'ayampikiw Orbot qalltayi ukatx SOCKS jist\'aratamp HTTP waythapiwjanakamp uñachayi</string>
-    <string name="app_suggested_subtitle">Apayanakamp llika aplikasyunanakampiw Orbotax sumpach saranti.</string>
-    <string name="pref_flag_secure_summary">Orbotat yaqha aplikasyun waruqirinakat jark\'aqam</string>
+    <string name="power_user_description">Toramp jichuntat apnaqirinakataki. VPN jan mayjt\'ayampikiw AnyoneBot qalltayi ukatx SOCKS jist\'aratamp HTTP waythapiwjanakamp uñachayi</string>
+    <string name="app_suggested_subtitle">Apayanakamp llika aplikasyunanakampiw AnyoneBotax sumpach saranti.</string>
+    <string name="pref_flag_secure_summary">AnyoneBotat yaqha aplikasyun waruqirinakat jark\'aqam</string>
     <string name="btn_copy_log">Mantat waruqaña</string>
     <string name="log_copied">Mantatax waruqatawa</string>
     <string name="v3_backup_key_warning">Ukataraki: Akax yaqha aplikasyunanakaruw chimpum uñachayaspa</string>
     <string name="pref_isolate_protocol_summary">Sapa waythapiyañ prutukulutakix yaqh yaqha sirkuytu apnaqam</string>
     <string name="paste_bridges">Chakanak lip\'katayaña</string>
-    <string name="root_warning">Jawsañamax rutiyataw ukwa Orbotax katji, jark\'aqañaruw jan walt\'ayaspa.</string>
+    <string name="root_warning">Jawsañamax rutiyataw ukwa AnyoneBotax katji, jark\'aqañaruw jan walt\'ayaspa.</string>
     <string name="setting_padding">K\'iruntata</string>
     <string name="custom_bridge_description">Mayninkir chakax yaqha uñt\'ataruw iyawst\'i. Llikan utjirinakam chiqa jiskt\'am ukhamat kawkniris imatask uka uñjañataki.</string>
 </resources>

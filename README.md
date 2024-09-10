@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="" src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="Orbot" align="center"/>
+<img width="" src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="AnyoneBot" align="center"/>
 
-# Orbot
+# AnyoneBot
 
 ### Android Onion Routing Robot
 

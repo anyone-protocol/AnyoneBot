@@ -18,14 +18,14 @@ static def versionCodeEpoch() {
 
 android {
     defaultConfig {
-        applicationId "org.torproject.android"
+        applicationId "io.anyone.anyonebot"
         versionName getVersionName()
-        minSdkVersion 23
+        minSdkVersion 24
         compileSdk 34
         targetSdkVersion 34
         multiDexEnabled true
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        archivesBaseName = "Orbot"
+        archivesBaseName = "AnyoneBot"
     }
     compileOptions {
 //        coreLibraryDesugaringEnabled true
@@ -46,18 +46,18 @@ android {
     productFlavors {
         fullperm {
             dimension "free"
-            applicationId 'org.torproject.android'
+            applicationId 'io.anyone.anyonebot'
             versionCode 1732300100
             versionName getVersionName()
-            archivesBaseName = "Orbot-${versionName}"
+            archivesBaseName = "AnyoneBot-${versionName}"
         }
 
         nightly {
             dimension "free"
-            applicationId 'org.torproject.android.nightly'
+            applicationId 'io.anyone.anyonebot.nightly'
             versionName getVersionName()
             versionCode versionCodeEpoch()
-            archivesBaseName = "Orbot-${versionName}"
+            archivesBaseName = "AnyoneBot-${versionName}"
         }
     }
 
@@ -100,7 +100,7 @@ android {
         textReport false
         xmlReport false
     }
-    namespace 'org.torproject.android'
+    namespace 'io.anyone.anyonebot'
 }
 dependencies {
     implementation "androidx.core:core-ktx:1.13.1"

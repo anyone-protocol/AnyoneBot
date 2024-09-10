@@ -17,7 +17,7 @@
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <TextView
-            android:id="@+id/orbotLogHeader"
+            android:id="@+id/logHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu_log"
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:tint="@color/panel_background_main"
-            android:backgroundTint="@color/orbot_btn_enabled_purple"
+            android:backgroundTint="@color/btn_enabled_purple"
             android:contentDescription="@string/btn_copy_log"
             android:textColor="@android:color/white"
             android:src="@drawable/ic_copy_log"
@@ -48,11 +48,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/orbotLogHeader"
+            app:layout_constraintTop_toBottomOf="@+id/logHeader"
             android:paddingBottom="@dimen/button_horizontal_large_margin">
 
             <TextView
-                android:id="@+id/orbotLog"
+                android:id="@+id/log"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"

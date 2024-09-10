@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot הינה אפליקציית פרוקסי חינמית המאפשרת לאפליקציות אחרות להשתמש באינטרנט בבטחה. Orbot נעזרת ב-Tor כדי להצפין את תעבורת האינטרנט שלך ולהסוותה באמצעותה ניתובה דרך מספר מחשבים ברחבי העולם. Tor היא תוכנה חופשית ורשת פתוחה המסייעת לך להתגונן מפני סוגים מסוימים של אמצעי ניטור ומעקב אחר רשת האינטרנט המאיימים על הפרטיות, החירות האישית, פעילויות עסקיות ומערכות יחסים חשאיות.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot הינה אפליקציית פרוקסי חינמית המאפשרת לאפליקציות אחרות להשתמש באינטרנט בבטחה. AnyoneBot נעזרת ב-Tor כדי להצפין את תעבורת האינטרנט שלך ולהסוותה באמצעותה ניתובה דרך מספר מחשבים ברחבי העולם. Tor היא תוכנה חופשית ורשת פתוחה המסייעת לך להתגונן מפני סוגים מסוימים של אמצעי ניטור ומעקב אחר רשת האינטרנט המאיימים על הפרטיות, החירות האישית, פעילויות עסקיות ומערכות יחסים חשאיות.</string>
     <string name="menu_settings">הגדרות</string>
     <string name="menu_log">רישום</string>
     <string name="menu_stop">עצור</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">סרוק BridgeQR</string>
     <string name="menu_share_bridge">שתף BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Orbot הוא יישומון קוד פתוח שמכיל Tor,‏ IPtProxy‏ (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ו־LibEvent. הוא מספק מנהרת VPN, מתווך HTTP Connect מקומי (HTTPS רק ביציאה 8118) ומתווך SOCKS‏ (9050) לרשת Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot הוא יישומון קוד פתוח שמכיל Tor,‏ IPtProxy‏ (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ו־LibEvent. הוא מספק מנהרת VPN, מתווך HTTP Connect מקומי (HTTPS רק ביציאה 8118) ומתווך SOCKS‏ (9050) לרשת Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">כללי</string>
-    <string name="pref_start_boot_title">התחל את Orbot בהדלקת המכשיר</string>
-    <string name="pref_start_boot_summary">התחל את Orbot והתחבר לרשת Tor אוטומטית כאשר המכשיר נדלק</string>
+    <string name="pref_start_boot_title">התחל את AnyoneBot בהדלקת המכשיר</string>
+    <string name="pref_start_boot_summary">התחל את AnyoneBot והתחבר לרשת Tor אוטומטית כאשר המכשיר נדלק</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -113,7 +113,7 @@
     <string name="create_a_backup_first">ליצור גיבוי תחילה</string>
     <string name="confirm_service_deletion">אישור מחיקת שירות</string>
     <string name="service_type">סוג שירות</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">נא להפעיל את Orbot מחדש כדי להפעיל את השינויים</string>
+    <string name="please_restart_to_enable_the_changes">נא להפעיל את AnyoneBot מחדש כדי להפעיל את השינויים</string>
     <string name="onion">‎.onion</string>
     <string name="share_as_qr">שיתוף כ־QR</string>
     <string name="enable">הפעלה</string>
@@ -143,7 +143,7 @@
     <string name="enable_debug_log_to_output_must_use_adb_or_alogcat_to_view_">לאפשר יומן ניפוי תקלות אל פלט (חובה להשתמש ב־adb או ב־aLogCat כדי לצפות)</string>
     <string name="pref_use_expanded_notifications_title">התראות מורחבות</string>
     <string name="pref_http_summary">פתחה שדרכה תור מגיש את מתווך ה־HTTP שלו (ברירת מחדל: 8118 או 0 להשבתה)</string>
-    <string name="restart_orbot_to_use_this_bridge_">נא להפעיל את Orbot מחדש כדי לאפשר את השינויים</string>
+    <string name="restart_to_use_this_bridge_">נא להפעיל את AnyoneBot מחדש כדי לאפשר את השינויים</string>
     <string name="apps_mode">מצב VPN</string>
     <string name="vpn_default_world">עולמי (אוטומטי)</string>
     <string name="hidden_services">שירותי בצל</string>
@@ -195,7 +195,7 @@
     <string name="volunteer_mode_alltime_label">סיכום לכל הזמן</string>
     <string name="custom_bridge_description">גשר מותאם אישית מסופק על ידי גופים שמוכרים לך. כדאי לבקש מתוך הרשתות והארגונים המהימנים שלך כדי לראות אם מישהו מארח אחד.</string>
     <string name="proxy_ports">פתחות מתווך</string>
-    <string name="no_internet_subtitle">צריך חיבור לאינטרנט כדי להשתמש ב־Orbot.</string>
+    <string name="no_internet_subtitle">צריך חיבור לאינטרנט כדי להשתמש ב־AnyoneBot.</string>
     <string name="not_sure">בספק\?</string>
     <string name="snowflake_subtitle">חיבור דרך מתנדבי Tor. מעקף חלק מחסימות Tor.</string>
     <string name="use_custom_bridges">שימוש בגשרים מותאמים אישית</string>
@@ -246,7 +246,7 @@
     <string name="connection_direct">ישיר</string>
     <string name="v3_backup_name_hint">שם קובץ גיבוי…</string>
     <string name="asking">מתבצע תשאול...</string>
-    <string name="power_user_description">למשתמשים שמכירים את Tor. מאפשר לך להפעיל את Orbot ללא הגדרת ה־VPN ומציג פתחות SOCKS ו־HTTP פתוחות</string>
+    <string name="power_user_description">למשתמשים שמכירים את Tor. מאפשר לך להפעיל את AnyoneBot ללא הגדרת ה־VPN ומציג פתחות SOCKS ו־HTTP פתוחות</string>
     <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="get_bridges_email_request">בקשת גשרים באמצעות דוא״ל</string>
     <string name="menu_kindness">חסד</string>
@@ -255,7 +255,7 @@
     <string name="use_qr_code">שימוש בקוד QR</string>
     <string name="pref_flag_secure_title">אבטחת מסך</string>
     <string name="menu_app_settings">הגדרות יישומון</string>
-    <string name="root_warning">Orbot זיהה שהמכשיר שלך נפרץ לגישת root, מה שעלול לגרום לבעיות אבטחה.</string>
+    <string name="root_warning">AnyoneBot זיהה שהמכשיר שלך נפרץ לגישת root, מה שעלול לגרום לבעיות אבטחה.</string>
     <string name="btn_change_exit">החלפת פתחה</string>
     <string name="snowflake">Snowflake (מקורי)</string>
     <string name="backup_port_exist">שגיאה: שירות Onion כבר משתמש בפתחה %s</string>
@@ -272,7 +272,7 @@
     <string name="testing_tor_direct_success">הצלחנו. החיבור ל־Tor טוב!</string>
     <string name="btn_start_vpn">התחלת VPN</string>
     <string name="strict_nodes_description">התייחסות להגדרות החרגה של צמתים כדרישה לבניית כל המעגלים. זה עלול לשבור את השימושיות אם לא ניתן ליצור מעגלים עם הגדרות ‚החרגה של צמתים’.</string>
-    <string name="app_suggested_subtitle">Orbot עובד הכי טוב עם יישומוני הודעות ומדיה חברתית.</string>
+    <string name="app_suggested_subtitle">AnyoneBot עובד הכי טוב עם יישומוני הודעות ומדיה חברתית.</string>
     <string name="configure_custom_bridges">הגדרת גשרים מותאמים אישית</string>
     <string name="get_a_bridge">גשר מ־Tor‏ (Obfs4)</string>
     <string name="secure_your_connection_title">מוכן להתחבר</string>
@@ -280,7 +280,7 @@
 \nלהתחבר ל־Tor</string>
     <string name="v3_delete_client_authorization_confirm">מחיקת הרשאת הלקוח</string>
     <string name="captcha">Captcha</string>
-    <string name="pref_flag_secure_summary">למנוע מיישומונים אחרים לצלם את Orbot</string>
+    <string name="pref_flag_secure_summary">למנוע מיישומונים אחרים לצלם את AnyoneBot</string>
     <string name="direct_connect_subtitle">הדרך הטובה ביותר להתחבר ל־Tor. אפשר להשתמש אם Tor לא חסום.</string>
     <string name="volunteer_status_title">היום טוב יותר
 \nבזכותך.</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot este o aplicaţie gratuită de proxy care permite altor aplicaţii să folosească internetul în siguranţă. Orbot foloseşte Tor pentru a cripta traficul de internet după care îl ascunde printr-o serie de calculatoare din întreaga lume. Tor este un program gratuit si o reţea deschisă care te ajută să te aperi de monitorizarea reţelelor, lucru care ameninţă libertatea personală şi intimitatea, activităţi confidenţiale legate de afaceri si relaţii personale şi de analiza traficului.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot este o aplicaţie gratuită de proxy care permite altor aplicaţii să folosească internetul în siguranţă. AnyoneBot foloseşte Tor pentru a cripta traficul de internet după care îl ascunde printr-o serie de calculatoare din întreaga lume. Tor este un program gratuit si o reţea deschisă care te ajută să te aperi de monitorizarea reţelelor, lucru care ameninţă libertatea personală şi intimitatea, activităţi confidenţiale legate de afaceri si relaţii personale şi de analiza traficului.</string>
     <string name="menu_settings">Setări</string>
     <string name="menu_log">log</string>
     <string name="menu_stop">Stop</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">General</string>
-    <string name="pref_start_boot_title">Porneşte Orbot la boot-are</string>
-    <string name="pref_start_boot_summary">Porneste Orbot automat si conecteaza-te la Tor cand porneste dispozitivul</string>
+    <string name="pref_start_boot_title">Porneşte AnyoneBot la boot-are</string>
+    <string name="pref_start_boot_summary">Porneste AnyoneBot automat si conecteaza-te la Tor cand porneste dispozitivul</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Amprente, nick name-uri si adrese pentru primul hop</string>
     <string name="pref_entrance_node_dialog">Introdu noduri de intrare</string>
     <string name="pref_allow_background_starts_title">Permite pornirile din fundal</string>
-    <string name="pref_allow_background_starts_summary">Permite oricărei aplicaţie să anunţe Orbot că porneşti Tor şi serviciile asociate</string>
+    <string name="pref_allow_background_starts_summary">Permite oricărei aplicaţie să anunţe AnyoneBot că porneşti Tor şi serviciile asociate</string>
     <string name="pref_proxy_title">Proxy de retea pentru iesire (optional)</string>
     <string name="pref_proxy_type_title">Tipul proxy-ului de iesire</string>
     <string name="pref_proxy_type_summary">Tipul protocolului pentru proxy: HTTP, HTTPS, Socks4, Socks5</string>
@@ -92,7 +92,7 @@
     <string name="pref_torrc_summary">PENTRU EXPERŢI: introdu direct liniile de configurare ale torrc</string>
     <string name="pref_torrc_dialog">Torrc Personalizat</string>
     <string name="bridges_updated">Punţi activate</string>
-    <string name="restart_orbot_to_use_this_bridge_">Vă rugăm reporniţi Orbot pentru a aplica modificările</string>
+    <string name="restart_to_use_this_bridge_">Vă rugăm reporniţi AnyoneBot pentru a aplica modificările</string>
     <string name="get_bridges_email">Email</string>
     <string name="send_email">Trimite email</string>
     <string name="hidden_services">Servicii ascunse</string>
@@ -100,7 +100,7 @@
     <string name="save">Salvează</string>
     <string name="name">Nume</string>
     <string name="done">Gata!</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Vă rugăm reporniţi Orbot pentru a aplica modificările</string>
+    <string name="please_restart_to_enable_the_changes">Vă rugăm reporniţi AnyoneBot pentru a aplica modificările</string>
     <string name="disable">Dezactivează</string>
     <string name="enable">Activează</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Deschideți Proxy pe toate interfețele</string>
@@ -143,7 +143,7 @@
     <string name="consider_disable_battery_optimizations">Serviciile găzduite rulează, luați în considerare dezactivarea optimizărilor bateriei</string>
     <string name="backup_service">Serviciul de backup <i>(Atenție: Acest lucru ar putea expune configurația serviciului dvs. altor aplicații)</i></string>
     <string name="pref_isolate_port">Izolarea porturilor de destinație</string>
-    <string name="no_internet_subtitle">Aveți nevoie de o conexiune la internet pentru a utiliza Orbot.</string>
+    <string name="no_internet_subtitle">Aveți nevoie de o conexiune la internet pentru a utiliza AnyoneBot.</string>
     <string name="pref_prefer_ipv6">Preferați conexiunile IPv6</string>
     <string name="btn_configure">Alegeți cum să vă conectați</string>
     <string name="configure_header">Configurați-vă conexiunea Tor</string>
@@ -206,7 +206,7 @@
 \nsă se conecteze la Tor</string>
     <string name="volunteer_mode_label">Modul Bunătate</string>
     <string name="volunteer_mode_weekly_label">Total săptămânal</string>
-    <string name="wizard_details_msg">Orbot este o aplicație open-source care conține Tor, OIPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks și LibEvent. Acesta oferă un proxy HTTP local (8118) și un proxy SOCKS (9050) în rețeaua Tor. Orbot are, de asemenea, capacitatea, pe dispozitivul înrădăcinat, de a trimite tot traficul de internet prin Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot este o aplicație open-source care conține Tor, OIPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks și LibEvent. Acesta oferă un proxy HTTP local (8118) și un proxy SOCKS (9050) în rețeaua Tor. AnyoneBot are, de asemenea, capacitatea, pe dispozitivul înrădăcinat, de a trimite tot traficul de internet prin Tor.</string>
     <string name="version">Versiunea:</string>
     <string name="license">Licență:</string>
     <string name="hidden_service_request">O aplicație dorește să deschidă un server de onion pe portul %1$s în rețeaua Tor. Acest lucru este sigur dacă aveți încredere în aplicație.</string>
@@ -239,7 +239,7 @@
     <string name="pref_isolate_dest">Izolați adresele de destinație</string>
     <string name="pref_reduced_connection_padding">Tamponare redusă a conexiunii</string>
     <string name="in_a_browser">Într-un browser, vizitați %s și atingeți Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="smart_connect_subtitle">Orbot încearcă să se conecteze la Tor prin orice modalitate disponibilă: Direct, Snowflake, Punte.</string>
+    <string name="smart_connect_subtitle">AnyoneBot încearcă să se conecteze la Tor prin orice modalitate disponibilă: Direct, Snowflake, Punte.</string>
     <string name="smart_connect">Conectare inteligentă (implicită)</string>
     <string name="get_a_bridge_subtitle">Camuflează traficul. Ocolește unele blocaje Tor.</string>
     <string name="custom_bridge">Punte personalizată</string>
@@ -251,7 +251,7 @@
     <string name="bridges_obtained_connecting">Punți obținute! Se conectează la Tor…</string>
     <string name="custom_bridge_description">O punte personalizată este oferită de cineva cunoscut. Întrebați în cadrul rețelelor și organizațiilor de încredere să vedeți dacă cineva găzduiește una.</string>
     <string name="having_trouble">Am probleme</string>
-    <string name="power_user_description">Pentru utilizatorii familiarizați cu Tor. Vă permite să porniți Orbot fără setarea VPN și afișează porturile SOCKS și HTTP deschise</string>
+    <string name="power_user_description">Pentru utilizatorii familiarizați cu Tor. Vă permite să porniți AnyoneBot fără setarea VPN și afișează porturile SOCKS și HTTP deschise</string>
     <string name="action_activate">Activați</string>
     <string name="title_choose_apps">Selectează aplicații</string>
     <string name="apps_suggested_title">Aplicații sugerate</string>
@@ -266,7 +266,7 @@
     <string name="incorrect_solution">Soluție incorectă</string>
     <string name="having_trouble_subtitle">Putem încerca o punte Tor, dar vom avea nevoie de ajutorul vostru</string>
     <string name="power_user_mode">Mod utilizator expert</string>
-    <string name="app_suggested_subtitle">Orbot funcționează cel mai bine cu aplicațiile de mesagerie și social media.</string>
+    <string name="app_suggested_subtitle">AnyoneBot funcționează cel mai bine cu aplicațiile de mesagerie și social media.</string>
     <string name="setting_debug">Depanare</string>
     <string name="menu_more">Mai mult</string>
     <string name="secure_your_connection_subtitle">Ascundeți aplicațiile de la monitorizarea rețelei și obțineți acces atunci când sunt blocate.</string>
@@ -284,9 +284,9 @@
     <string name="option_only_when_charging">Numai la încărcare</string>
     <string name="btn_copy_log">Copiere jurnal</string>
     <string name="menu_kindness">Bunătate</string>
-    <string name="pref_flag_secure_summary">Împiedicați alte aplicații să facă capturi de ecran din Orbot</string>
+    <string name="pref_flag_secure_summary">Împiedicați alte aplicații să facă capturi de ecran din AnyoneBot</string>
     <string name="pref_flag_secure_title">Ecran de securitate</string>
-    <string name="root_warning">Orbot a detectat că dispozitivul dvs. este deblocat (root), ceea ce poate cauza probleme de securitate.</string>
+    <string name="root_warning">AnyoneBot a detectat că dispozitivul dvs. este deblocat (root), ceea ce poate cauza probleme de securitate.</string>
     <string name="pref_detect_root_summary">Avertizează la pornire dacă permisiunile root sunt activate pe acest dispozitiv</string>
     <string name="pref_detect_root_title">Detectare root</string>
 </resources>

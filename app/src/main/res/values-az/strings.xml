@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Pulsuz proksi tətbiqetməsi olan Orbot başqa tətbiqetmələrə internetdən daha təhlükəsiz istifadə etmək imkanı verir. Orbot sizin internet trafikinizi şifrələmək üçün Tordan istifadə edir və dünyanın hər yerində kompüterlərin birindən o birinə sıçramaqla bunu gizlədir. Tor pulsuz proqram təminatıdır, eyni zamanda sizin şəxsi azadlığınız və təhlükəsizliyinizə, gizli biznes fəaliyyəti və əlaqələrə, o cümlədən trafik analiz adlanan dövlət təhlükəsizliyinə xələl gətirə biləcək şəbəkə nəzarəti formalarından müdafiə olunmağa yardım edən açıq şəbəkədir.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">Pulsuz proksi tətbiqetməsi olan AnyoneBot başqa tətbiqetmələrə internetdən daha təhlükəsiz istifadə etmək imkanı verir. AnyoneBot sizin internet trafikinizi şifrələmək üçün Tordan istifadə edir və dünyanın hər yerində kompüterlərin birindən o birinə sıçramaqla bunu gizlədir. Tor pulsuz proqram təminatıdır, eyni zamanda sizin şəxsi azadlığınız və təhlükəsizliyinizə, gizli biznes fəaliyyəti və əlaqələrə, o cümlədən trafik analiz adlanan dövlət təhlükəsizliyinə xələl gətirə biləcək şəbəkə nəzarəti formalarından müdafiə olunmağa yardım edən açıq şəbəkədir.</string>
     <string name="menu_settings">Quraşdırmalar</string>
     <string name="menu_log">Jurnal</string>
     <string name="menu_stop">Dur</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Əsas</string>
-    <string name="pref_start_boot_title">Android Açıldıqda Orbotu Başlat</string>
-    <string name="pref_start_boot_summary">Android cihazın işə başladıqda avtomatik olaraq Orbot başlansın və Tor-a qoşulsun</string>
+    <string name="pref_start_boot_title">Android Açıldıqda AnyoneBotu Başlat</string>
+    <string name="pref_start_boot_summary">Android cihazın işə başladıqda avtomatik olaraq AnyoneBot başlansın və Tor-a qoşulsun</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Birinci sıçrayış üçün barmaq izləri, nişanlar, ölkələr və ünvanlar</string>
     <string name="pref_entrance_node_dialog">Giriş Kəsişmələrini Əlavə et</string>
     <string name="pref_allow_background_starts_title">Arxa fonun işə başlamasına icazə verin</string>
-    <string name="pref_allow_background_starts_summary">Qoy hər-hansı tətbiqetmə Orbota Tor və əlaqəli xidmətləri işə salmalı olduğunu desin</string>
+    <string name="pref_allow_background_starts_summary">Qoy hər-hansı tətbiqetmə AnyoneBota Tor və əlaqəli xidmətləri işə salmalı olduğunu desin</string>
     <string name="pref_proxy_title">İxrac Edilən Şəbəkə Proksisi (istəyə bağlı)</string>
     <string name="pref_proxy_type_title">İxrac Edilən Proksi Növü</string>
     <string name="pref_proxy_type_summary">Proksi serveri istifadə etmək üçün protokol: HTTP, HTTPS, Socks4, Socks5</string>
@@ -92,12 +92,12 @@
     <string name="pref_torrc_summary">YALNIZ EKSPERTLƏR: birbaşa torrc config xətlərini daxil edin</string>
     <string name="pref_torrc_dialog">Xüsusi Torrc</string>
     <string name="bridges_updated">Körpülər yeniləndi</string>
-    <string name="restart_orbot_to_use_this_bridge_">Dəyişiklikləri aktivləşdirmək üçün Orbot-u yenidən başladın</string>
+    <string name="restart_to_use_this_bridge_">Dəyişiklikləri aktivləşdirmək üçün AnyoneBot-u yenidən başladın</string>
     <string name="get_bridges_email">Emeyl</string>
     <string name="send_email">Emeyl göndərin</string>
     <string name="save">Saxla</string>
     <string name="name">Ad</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Dəyişiklikləri aktivləşdirmək üçün Orbot-u yenidən başladın</string>
+    <string name="please_restart_to_enable_the_changes">Dəyişiklikləri aktivləşdirmək üçün AnyoneBot-u yenidən başladın</string>
     <string name="disable">Söndür</string>
     <string name="enable">İşə sal</string>
     <string name="allow">İcazə ver</string>
@@ -131,7 +131,7 @@
     <string name="onion_port">Soğan limanı</string>
     <string name="restore_backup">Ehtiyyatda olanı bərpa etmə</string>
     <string name="v3_backup_key">Yedək Müştəri Avtorizasiya Açarı</string>
-    <string name="wizard_details_msg">Orbot Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks və LibEvent ehtiva edən açıq mənbəli proqramdır. Tor şəbəkəsinə VPN tuneli, yerli HTTP Connect proksisi (yalnız 8118 portunda HTTPS) və SOCKS proksisi (9050) təmin edir.</string>
+    <string name="wizard_details_msg">AnyoneBot Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks və LibEvent ehtiva edən açıq mənbəli proqramdır. Tor şəbəkəsinə VPN tuneli, yerli HTTP Connect proksisi (yalnız 8118 portunda HTTPS) və SOCKS proksisi (9050) təmin edir.</string>
     <string name="pref_reduced_circuit_padding_summary">Data və batareyanın istifadəsini azaltmaq üçün aşağı yerüstü doldurma alqoritmlərindən istifadə edin</string>
     <string name="copy_address_to_clipboard">Ünvanı panoya kopyalayın</string>
     <string name="hidden_service_request">Tətbiq %1$s portunda soğan serverini Tor şəbəkəsinə açmaq istəyir. Tətbiqə etibar edirsinizsə, bu təhlükəsizdir.</string>
@@ -252,16 +252,16 @@
     <string name="having_trouble">Çətinlik yaşamaq</string>
     <string name="direct_connect">Tor ilə birbaşa əlaqə</string>
     <string name="menu_tor_connection">Tor bağlantısı</string>
-    <string name="power_user_description">Tor ilə tanış olan istifadəçilər üçün. VPN ayarı olmadan Orbot-u işə salmağa imkan verir və açıq SOCKS və HTTP portlarını göstərir</string>
+    <string name="power_user_description">Tor ilə tanış olan istifadəçilər üçün. VPN ayarı olmadan AnyoneBot-u işə salmağa imkan verir və açıq SOCKS və HTTP portlarını göstərir</string>
     <string name="snowflake_amp">Qar dənəciyi (AMP)</string>
     <string name="btn_use_custom_bridge">Xüsusi körpüdən istifadə edin</string>
     <string name="menu_app_settings">Tətbiq Parametrləri</string>
     <string name="snowflake">Snowflake (Orijinal)</string>
     <string name="get_a_bridge_subtitle">Trafikinizi gizlədir. Bəzi Tor bloklamalarının ətrafında olur.</string>
-    <string name="smart_connect_subtitle">Orbot Tor-a istənilən yolla qoşulmağa çalışır: Direct, Snowflake, Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot Tor-a istənilən yolla qoşulmağa çalışır: Direct, Snowflake, Bridge.</string>
     <string name="incorrect_solution">Yanlış Həll</string>
     <string name="bridges_obtained_connecting">Körpülər alındı! tor-a qoşulur...</string>
-    <string name="app_suggested_subtitle">Orbot mesajlaşma və sosial media proqramları ilə ən yaxşı şəkildə işləyir.</string>
+    <string name="app_suggested_subtitle">AnyoneBot mesajlaşma və sosial media proqramları ilə ən yaxşı şəkildə işləyir.</string>
     <string name="title_choose_apps">Proqramları seçin</string>
     <string name="get_a_bridge">Tordan körpü (Obfs4)</string>
     <string name="msg_taking_too_long">Görünür, bu çox uzun çəkir</string>
@@ -270,7 +270,7 @@
     <string name="direct_connect_subtitle">Tor-a qoşulmağın ən yaxşı yolu. Tor bloklanmadıqda istifadə edin.</string>
     <string name="volunteer_status_title">Bu gün daha yaxşıdır
 \nsənə görə.</string>
-    <string name="no_internet_subtitle">Orbotdan istifadə etmək üçün internet bağlantısı lazımdır.</string>
+    <string name="no_internet_subtitle">AnyoneBotdan istifadə etmək üçün internet bağlantısı lazımdır.</string>
     <string name="connection_snowflake">Qar dənəciyi</string>
     <string name="ask_tor">Tordan soruşun</string>
     <string name="option_only_when_charging">Yalnız şarj edərkən</string>
@@ -280,11 +280,11 @@
     <string name="action_use">istifadə edin</string>
     <string name="option_only_on_wifi">Yalnız Wi-Fi-da</string>
     <string name="connection_direct">Birbaşa</string>
-    <string name="asking">SORUŞMAQ...</string>
+    <string name="asking">SORUŞMAQ…</string>
     <string name="menu_kindness">Xeyirxahlıq</string>
     <string name="pref_flag_secure_title">Ekran Təhlükəsizliyi</string>
-    <string name="root_warning">Orbot cihazınızın köklü olduğunu aşkar etdi və bu, təhlükəsizlik problemlərinə səbəb ola bilər.</string>
+    <string name="root_warning">AnyoneBot cihazınızın köklü olduğunu aşkar etdi və bu, təhlükəsizlik problemlərinə səbəb ola bilər.</string>
     <string name="kindess_config_detail">Cihazınızın digər Tor istifadəçiləri üçün Snowflake proksisi kimi necə və nə vaxt çıxış edə biləcəyini konfiqurasiya edin.</string>
-    <string name="pref_flag_secure_summary">Digər proqramların Orbotun skrinşotlarını çəkməsinə mane olun</string>
+    <string name="pref_flag_secure_summary">Digər proqramların AnyoneBotun skrinşotlarını çəkməsinə mane olun</string>
     <string name="many_ways">Tor-a çatmağın bir çox yolu var. Bəziləri sizin üçün digərlərindən daha yaxşı işləyə bilər.</string>
 </resources>

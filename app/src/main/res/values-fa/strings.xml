@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">روبوت پیازی</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="app_description">روبوت پیازی کارهٔ پیشکار آزادی است که دیگر کاره‌ها را در استفاده امن از اینترنت توانمند می‌کند. روبوت پیازی برای رمزگذاری شدآمد اینترنت‌تان و نهفتنش با عبور از میان دنباله‌ای از رایانه‌ها در سراسر جهان، از تور استفاده می‌کند. تور نرم‌افزار آزاد و شبکه‌ای باز است که به شما در برابر شکلی از نظارت شبکه با نام تجزیهٔ شدآمد که محرمانگی و آزادی فردی، فعّالیت‌های تجاری محرمانه و امنیت ملّی را تهدید می‌کند، یاری می‌رساند.</string>
     <string name="menu_settings">تنظیمات</string>
     <string name="menu_log">گزارشات</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">فقط متخصصان: خط‌های پیکربندی torrc را به صورت مستقیم وارد کنید</string>
     <string name="pref_torrc_dialog">سفارشی Torrc</string>
     <string name="bridges_updated">پُل‌ها به‌روز شدند</string>
-    <string name="restart_orbot_to_use_this_bridge_">برای به‌کار انداختن تغییرات، روبوت پیازی را دوباره آغاز کنید</string>
+    <string name="restart_to_use_this_bridge_">برای به‌کار انداختن تغییرات، روبوت پیازی را دوباره آغاز کنید</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">اگر شبکه همراهتان فعّالانه تور را مسدود می‌کند، می‌توانید از یک «کارساز پل» به عنوان راهی جایگزین برای ورود استفاده کنید. برای پیکربندی و آزمودن، یکی از گزینه‌ها را برگزینید…</string>
     <string name="get_bridges_email">رایانامه</string>
     <string name="apps_mode">حالت وی‌پی‌ان</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">برای پایان فرآیند، دوباره تور را آغاز کنید</string>
     <string name="confirm_service_deletion">حذف خدمت را تأیید کنید</string>
     <string name="service_type">گونهٔ خدمت</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">برای به‌کار انداختن تغییرات، روبوت پیازی را دوباره آغاز کنید</string>
+    <string name="please_restart_to_enable_the_changes">برای به‌کار انداختن تغییرات، روبوت پیازی را دوباره آغاز کنید</string>
     <string name="onion">‪.onion‬</string>
     <string name="share_as_qr">هم‌رسانی با کیوآر کد</string>
     <string name="disable">از کار انداختن</string>

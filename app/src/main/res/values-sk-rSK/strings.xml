@@ -8,8 +8,8 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot je bezplatná aplikácia proxy, ktorá umožňuje iným aplikáciám bezpečnejšie využívať internet. Orbot používa Tor na šifrovanie vášho internetového prenosu a potom ho skryje tým, že skáče po sérii počítačov po celom svete. Tor je slobodný softvér a otvorená sieť, ktorá vám pomáha brániť proti určitému druhu sieťového dohľadu, ktorý ohrozuje osobnú slobodu a súkromie, dôverné obchodné činnosti a vzťahy a štátnu bezpečnosť známu ako dopravná analýza.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot je bezplatná aplikácia proxy, ktorá umožňuje iným aplikáciám bezpečnejšie využívať internet. AnyoneBot používa Tor na šifrovanie vášho internetového prenosu a potom ho skryje tým, že skáče po sérii počítačov po celom svete. Tor je slobodný softvér a otvorená sieť, ktorá vám pomáha brániť proti určitému druhu sieťového dohľadu, ktorý ohrozuje osobnú slobodu a súkromie, dôverné obchodné činnosti a vzťahy a štátnu bezpečnosť známu ako dopravná analýza.</string>
     <string name="menu_settings">Nastavenia</string>
     <string name="menu_log">Denník</string>
     <string name="menu_stop">Zastaviť</string>
@@ -20,9 +20,9 @@
     <string name="menu_exit">Ukončenie</string>
     <string name="menu_scan">Skenovať BridgeQR</string>
     <string name="menu_share_bridge">Zdieľať BridgeQR</string>
-    <string name="wizard_details_msg">Orbot je open-source aplikácia, ktorá obsahuje Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks a LibEvent. Poskytuje tunel VPN, miestny proxy server HTTP Connect (HTTPS len na porte 8118) a proxy server SOCKS (9050) do siete Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot je open-source aplikácia, ktorá obsahuje Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks a LibEvent. Poskytuje tunel VPN, miestny proxy server HTTP Connect (HTTPS len na porte 8118) a proxy server SOCKS (9050) do siete Tor.</string>
     <string name="pref_general_group">Všeobecné</string>
-    <string name="pref_start_boot_title">Spustiť Orbot pri štarte</string>
+    <string name="pref_start_boot_title">Spustiť AnyoneBot pri štarte</string>
     <string name="consider_enable_battery_optimizations">Nie sú spustené žiadne hostované služby, zvážte povolenie optimalizácie batérie</string>
     <string name="allow">Povoliť</string>
     <string name="deny">Odmietnuť</string>
@@ -143,7 +143,7 @@
     <string name="backup_restored">Obnovená záloha</string>
     <string name="restore_backup">Obnovenie zálohovania</string>
     <string name="start_tor_again_for_finish_the_process">Znovu spustite Tor na dokončenie procesu</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Reštartujte Orbot, aby sa zmeny povolili</string>
+    <string name="please_restart_to_enable_the_changes">Reštartujte AnyoneBot, aby sa zmeny povolili</string>
     <string name="share_as_qr">Zdieľať ako QR</string>
     <string name="disable">Zakázať</string>
     <string name="enable">Povoliť</string>
@@ -174,10 +174,10 @@
     <string name="snowflake_proxy_msg_title">Zobraziť oznámenie o pripojení</string>
     <string name="snowflake_proxy_msg_description">Zobrazenie správy, keď niekomu pomôžete obísť cenzúru</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ak vaša mobilná sieť aktívne blokuje Tor, môžete ako alternatívnu cestu použiť \"Bridge Server\". Vyberte jednu z možností konfigurácie a otestujte…</string>
-    <string name="pref_start_boot_summary">Automatické spustenie Orbotu a pripojenie Tor pri spustení zariadenia so systémom Android</string>
+    <string name="pref_start_boot_summary">Automatické spustenie AnyoneBotu a pripojenie Tor pri spustení zariadenia so systémom Android</string>
     <string name="pref_entrance_node_summary">Odtlačky prstov, zárezy, krajiny a adresy pre prvý skok</string>
     <string name="pref_proxy_type_summary">Protokol, ktorý sa má použiť pre proxy server: HTTP, HTTPS, SOCKS4, SOCKS5</string>
-    <string name="pref_allow_background_starts_summary">Nechajte ľubovoľnú aplikáciu povedať Orbotu, aby spustil Tor a súvisiace služby</string>
+    <string name="pref_allow_background_starts_summary">Nechajte ľubovoľnú aplikáciu povedať AnyoneBotu, aby spustil Tor a súvisiace služby</string>
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Odtlačky prstov, zárezy, krajiny a adresy na vylúčenie</string>
     <string name="relay_nickname">Štafetová prezývka</string>
     <string name="pref_proxy_title">Odchádzajúci sieťový proxy server (voliteľné)</string>
@@ -193,7 +193,7 @@
     <string name="pref_torrc_title">Vlastná konfigurácia Torrc</string>
     <string name="pref_torrc_summary">Len pre odborníkov: zadajte priame konfiguračné riadky torrc</string>
     <string name="pref_torrc_dialog">Vlastné Torrc</string>
-    <string name="restart_orbot_to_use_this_bridge_">Reštartujte Orbot, aby sa zmeny povolili</string>
+    <string name="restart_to_use_this_bridge_">Reštartujte AnyoneBot, aby sa zmeny povolili</string>
     <string name="vpn_default_world">Globálne (Automaticky)</string>
     <string name="hidden_services">Cibuľové služby</string>
     <string name="pref_reduced_connection_padding_summary">Uzatvára reléové spojenia skôr a posiela menej paketov s výplňou, aby sa znížila spotreba dát a batérie</string>
@@ -236,9 +236,9 @@
     <string name="apps_suggested_title">Navrhované aplikácie</string>
     <string name="not_sure">Nie ste si istí\?</string>
     <string name="no_internet_title">Pripojenie k internetu</string>
-    <string name="no_internet_subtitle">Na používanie služby Orbot potrebujete internetové pripojenie.</string>
+    <string name="no_internet_subtitle">Na používanie služby AnyoneBot potrebujete internetové pripojenie.</string>
     <string name="power_user_mode">Režim Power User</string>
-    <string name="power_user_description">Pre používateľov, ktorí poznajú Tor. Umožňuje spustiť Orbot bez nastavenia VPN a zobrazuje otvorené porty SOCKS a HTTP</string>
+    <string name="power_user_description">Pre používateľov, ktorí poznajú Tor. Umožňuje spustiť AnyoneBot bez nastavenia VPN a zobrazuje otvorené porty SOCKS a HTTP</string>
     <string name="setting_padding">Vypchávky</string>
     <string name="option_only_on_wifi">Iba v sieti Wifi</string>
     <string name="option_only_when_charging">Len pri nabíjaní</string>
@@ -260,7 +260,7 @@
     <string name="smart_connect">Smart Connect (predvolené)</string>
     <string name="volunteer_status_title">Dnes je lepšie
 \nvďaka tebe.</string>
-    <string name="app_suggested_subtitle">Orbot funguje najlepšie s aplikáciami na zasielanie správ a sociálnymi médiami.</string>
+    <string name="app_suggested_subtitle">AnyoneBot funguje najlepšie s aplikáciami na zasielanie správ a sociálnymi médiami.</string>
     <string name="apps_other_apps">Ostatné aplikácie</string>
     <string name="ask_tor">Spýtajte sa Tora</string>
     <string name="asking">PÝTAŤ SA…</string>
@@ -278,14 +278,14 @@
     <string name="log_copied">Záznam skopírovaný</string>
     <string name="connection_direct">Priamy</string>
     <string name="pref_flag_secure_title">Zabezpečenie obrazovky</string>
-    <string name="root_warning">Orbot zistil, že vaše zariadenie je rootnuté, čo môže spôsobiť bezpečnostné problémy.</string>
-    <string name="pref_flag_secure_summary">Zabránenie iným aplikáciám robiť snímky obrazovky Orbot</string>
+    <string name="root_warning">AnyoneBot zistil, že vaše zariadenie je rootnuté, čo môže spôsobiť bezpečnostné problémy.</string>
+    <string name="pref_flag_secure_summary">Zabránenie iným aplikáciám robiť snímky obrazovky AnyoneBot</string>
     <string name="proxy_ports">Proxy porty</string>
     <string name="ports_not_set">Porty nie sú nastavené</string>
     <string name="volunteer_mode_label">Režim láskavosti</string>
     <string name="volunteer_mode_weekly_label">Týždenný súčet</string>
     <string name="volunteer_mode_alltime_label">Celkovo za celý čas</string>
-    <string name="smart_connect_subtitle">Orbot sa pokúša pripojiť k sieti Tor akýmkoľvek dostupným spôsobom: Priamy, Snowflake, Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot sa pokúša pripojiť k sieti Tor akýmkoľvek dostupným spôsobom: Priamy, Snowflake, Bridge.</string>
     <string name="direct_connect">Priame pripojenie k sieti Tor</string>
     <string name="pref_detect_root_summary">Varovať pri spustení, ak sú na tomto zariadení zapnuté oprávnenia root</string>
     <string name="pref_detect_root_title">Rozpoznanie root</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot je besplatna proxy aplikacija koja omogućuje ostalim aplikacijama da koriste internet sigurnije. Orbot koristi Tor za enkripciju Vašeg Internet prometa, a zatim ga skriva šaljući ga kroz seriju računala diljem svijeta. Tor je besplatan software i otvorena mreža koja pomaže u borbi protiv nadzora mreže koji ugrožava osobne slobode i privatnost, povjerljive poslovne aktivnosti i odnose, te pomaže u borbi protiv analize prometa.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot je besplatna proxy aplikacija koja omogućuje ostalim aplikacijama da koriste internet sigurnije. AnyoneBot koristi Tor za enkripciju Vašeg Internet prometa, a zatim ga skriva šaljući ga kroz seriju računala diljem svijeta. Tor je besplatan software i otvorena mreža koja pomaže u borbi protiv nadzora mreže koji ugrožava osobne slobode i privatnost, povjerljive poslovne aktivnosti i odnose, te pomaže u borbi protiv analize prometa.</string>
     <string name="menu_settings">Postavke</string>
     <string name="menu_log">Dnevnik</string>
     <string name="menu_stop">Prekini</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Općenito</string>
-    <string name="pref_start_boot_title">Pokreni Orbot pri pokretanju</string>
-    <string name="pref_start_boot_summary">Automatski pokreni Orbot i poveži Tor kad se Android uređaj pokrene</string>
+    <string name="pref_start_boot_title">Pokreni AnyoneBot pri pokretanju</string>
+    <string name="pref_start_boot_summary">Automatski pokreni AnyoneBot i poveži Tor kad se Android uređaj pokrene</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Otisci prstiju, nadimci, države i adrese za prvi skok</string>
     <string name="pref_entrance_node_dialog">Unesi Ulazne Čvorove</string>
     <string name="pref_allow_background_starts_title">Dozvoli pokretanja u pozadini</string>
-    <string name="pref_allow_background_starts_summary">Dopusti bilo kojoj aplikaciji da kaže Orbot-u da pokrene Tor i povezane usluge</string>
+    <string name="pref_allow_background_starts_summary">Dopusti bilo kojoj aplikaciji da kaže AnyoneBot-u da pokrene Tor i povezane usluge</string>
     <string name="pref_proxy_title">Izlazni Mrežni Proxy (Opcionalno)</string>
     <string name="pref_proxy_type_title">Vrsta Izlaznog Proxy-a</string>
     <string name="pref_proxy_type_summary">Protokol koji se koristi za proxy server: HTTP, HTTPS, Socks4, Socks5</string>
@@ -92,12 +92,12 @@
     <string name="pref_torrc_summary">SAMO ZA STRUČNJAKE: unesite direktno torrc konfiguracijske linije</string>
     <string name="pref_torrc_dialog">Prilagođeni Torrc</string>
     <string name="bridges_updated">Mostova ažurirano</string>
-    <string name="restart_orbot_to_use_this_bridge_">Ponovno pokrenite Orbot da bi omogućili promjene</string>
+    <string name="restart_to_use_this_bridge_">Ponovno pokrenite AnyoneBot da bi omogućili promjene</string>
     <string name="get_bridges_email">Email</string>
     <string name="send_email">Pošalji email</string>
     <string name="save">Spremi</string>
     <string name="name">Ime</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Ponovno pokrenite Orbot da bi omogućili promjene</string>
+    <string name="please_restart_to_enable_the_changes">Ponovno pokrenite AnyoneBot da bi omogućili promjene</string>
     <string name="drawer_open">Otvori</string>
     <string name="drawer_close">Zatvori</string>
     <string name="hidden_services">Onion usluge</string>

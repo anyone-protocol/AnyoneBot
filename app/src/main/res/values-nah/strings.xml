@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Tepoztlatlatquitl proxy ahmotlazotli  Orbot, mitzmaca netlacaneconiliztli. Orbot tlamanitiliz Tor pampa nahuati ichtaca amatlacuiloli  nochi tepoztlapohualoni in tlalticpac. Tor ca tlanemacuatextli ihuan metlatl tlapouhqui inin quipalehui huicpa pihpiyaliztli, ihuan quicuitlauh tlacaxoxouhcayotl ihuan tlacaconemiliztli ica hueyi altepetl. </string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">Tepoztlatlatquitl proxy ahmotlazotli  AnyoneBot, mitzmaca netlacaneconiliztli. AnyoneBot tlamanitiliz Tor pampa nahuati ichtaca amatlacuiloli  nochi tepoztlapohualoni in tlalticpac. Tor ca tlanemacuatextli ihuan metlatl tlapouhqui inin quipalehui huicpa pihpiyaliztli, ihuan quicuitlauh tlacaxoxouhcayotl ihuan tlacaconemiliztli ica hueyi altepetl. </string>
     <string name="menu_settings">Yectlalia tlamantli</string>
     <string name="menu_log">Log</string>
     <string name="menu_stop">Stop</string>
@@ -12,17 +12,17 @@
     <string name="menu_exit">Exit</string>
     <string name="menu_scan">Scan BridgeQR</string>
     <string name="menu_share_bridge">Share BridgeQR</string>
-    <string name="wizard_details_msg">Aquinzazo cualli tequitl pan inin tepoztlatlatquitl Orbot quipia Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. Nanmechmaca ce VPN, ce proxy HTTP Connect local (HTTPS zan tzalantli 8118) ihuan ce proxy SOCKS (9050) ipan matlatl Tor.</string>
+    <string name="wizard_details_msg">Aquinzazo cualli tequitl pan inin tepoztlatlatquitl AnyoneBot quipia Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. Nanmechmaca ce VPN, ce proxy HTTP Connect local (HTTPS zan tzalantli 8118) ihuan ce proxy SOCKS (9050) ipan matlatl Tor.</string>
     <string name="pref_general_group">Ipanokayotl</string>
-    <string name="pref_start_boot_title">Xipehua Orbot ipan Boot</string>
-    <string name="pref_start_boot_summary">Xipehua Orbot ihuan xictencui Tor ihcuac motepoznonotza Android ye moachtohuiztica</string>
+    <string name="pref_start_boot_title">Xipehua AnyoneBot ipan Boot</string>
+    <string name="pref_start_boot_summary">Xipehua AnyoneBot ihuan xictencui Tor ihcuac motepoznonotza Android ye moachtohuiztica</string>
     <string name="pref_node_configuration">Mocentilia tencuitliltetl</string>
     <string name="pref_node_configuration_summary">Inin mocentilis ca acoquitzaliztli ihuan ihnintin huel chihuazqueh  tiquipoloz moichtatoca</string>
     <string name="pref_entrance_node">Calacoayan tencuitliltetl</string>
     <string name="pref_entrance_node_summary">Mapilmachiyotl, nicks, hueyi altepetl ihuan chantilia pampa achto tzicuiniliztli</string>
     <string name="pref_entrance_node_dialog">Xitlacuilo calaquitencuitliltetl</string>
     <string name="pref_allow_background_starts_title">Ximacahua motepotztlatlatquitl mochihuaz ayiliztli in oc ahmo tiquinmanili</string>
-    <string name="pref_allow_background_starts_summary">Xitlahuelcaquilia nochi motepoztlatlatquitl  quihtozqueh Orbot ma pehua Tor ihuan nochi itetlayecoltiliztli</string>
+    <string name="pref_allow_background_starts_summary">Xitlahuelcaquilia nochi motepoztlatlatquitl  quihtozqueh AnyoneBot ma pehua Tor ihuan nochi itetlayecoltiliztli</string>
     <string name="pref_proxy_title">Matlatlproxy quizaliztli (ahmo cocolli)</string>
     <string name="pref_proxy_type_title">Yuhcayotl proxy quizaliztli</string>
     <string name="pref_proxy_type_summary">Tlacemmachiyotiliztli pampa Proxytetlayecolti: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -98,8 +98,8 @@
     <string name="kibibyte">KiB</string>
     <string name="mebibyte">MiB</string>
     <string name="bridges_updated">Axcanyotl Cuauhpanco</string>
-    <string name="restart_orbot_to_use_this_bridge_">Nimitztlatlauhtia, occepa quipehuaz Orbot inic quixiptlayotilia in patlaliztli</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Intla cemtlalticpamatlatl tlein huel molini iciuhca quitzacua blocks Tor, huel ticchihua ce \"Bridge Server\" quemen intla ticpepena in calacaquiliztli. Xicmahpilhuia ce tlalmantli nochi inon inic tictlayocoya ihuan ticyeyeco...</string>
+    <string name="restart_to_use_this_bridge_">Nimitztlatlauhtia, occepa quipehuaz AnyoneBot inic quixiptlayotilia in patlaliztli</string>
+    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Intla cemtlalticpamatlatl tlein huel molini iciuhca quitzacua blocks Tor, huel ticchihua ce \"Bridge Server\" quemen intla ticpepena in calacaquiliztli. Xicmahpilhuia ce tlalmantli nochi inon inic tictlayocoya ihuan ticyeyeco…</string>
     <string name="get_bridges_email">Amatlacuilolli</string>
     <string name="get_bridges_email_request">Quitlanilili in Bridges inezazacaliz Email</string>
     <string name="apps_mode">Yuhcayotl VPN</string>
@@ -137,7 +137,7 @@ atl oquitlapatic</string>
     <string name="start_tor_again_for_finish_the_process">Yancuic xicpehua Tor yancuic inic quitlami in chihualiztli </string>
     <string name="confirm_service_deletion">Quineltia itlamiliz in tequitl</string>
     <string name="service_type">Itlayehyecol in tequitl</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Nimitztlatlauhtia, occepa quipehuaz Orbot inic quixiptlayotilia in patlaliztli</string>
+    <string name="please_restart_to_enable_the_changes">Nimitztlatlauhtia, occepa quipehuaz AnyoneBot inic quixiptlayotilia in patlaliztli</string>
     <string name="onion">.xonacatl</string>
     <string name="share_as_qr">Quimoxexelhuia quemen QR</string>
     <string name="disable">Ahmo quichihua</string>
@@ -159,7 +159,7 @@ atl oquitlapatic</string>
     <string name="pref_disable_ipv4">Ahmo xicpatla in centilili IPv4 </string>
     <string name="pref_disable_ipv4_summary">Quihtoa in calacaliztli tlein ahmo quicetilia ichanti IPv4</string>
     <string name="app_shortcuts">App opatlahqueh inic Tor</string>
-    <string name="testing_tor_direct">Quiyehyecoa icetil ipan Tor...</string>
+    <string name="testing_tor_direct">Quiyehyecoa icetil ipan Tor…</string>
     <string name="testing_tor_direct_success">Tepehualiztli. Tor ¡In cetilia cualli ca!</string>
     <string name="bridge_direct_connect">Quicetili melahua ipan Tor (Yectli)</string>
     <string name="bridge_community">Quicetili itechpa altepecayotl palehuianimeh </string>
@@ -199,7 +199,7 @@ atl oquitlapatic</string>
     <string name="btn_configure">Mocentilia</string>
     <string name="configure_header">Ximocentiliz moTortencuiliztli</string>
     <string name="volunteer_mode_subtitle">Xiquinpalehuiz pampa ma tencuican </string>
-    <string name="trying_to_connect_title">Tencuitica...</string>
+    <string name="trying_to_connect_title">Tencuitica…</string>
     <string name="btn_choose_apps">Xicpepena tepoztlatlatquitl</string>
     <string name="btn_change_exit">Xipatla quizayan</string>
     <string name="btn_refresh">Papatia</string>
@@ -225,7 +225,7 @@ atl oquitlapatic</string>
     <string name="volunteer_mode_alltime_label">Nochi cahuitl centamachihua</string>
     <string name="volunteer_mode_subtitle_desc">Cualyotl tequtitl quilhuiz motepoz cuauhpanco inic ocachi tlacatl yez. Quipalehui in tlacameh inic quichihua Tor ipan miecpan ocaltzacualo. /n/n- Ahmo tlami mobateria/n/n- Ahmo quimotlalo mointernet/n/n- Zan huel mochihua itechpa wifi/n/n- Quehma huel quicehui cequi cahuitl. </string>
     <string name="smart_connect">Maticentililoni (achtopa omochiuh) </string>
-    <string name="smart_connect_subtitle">Orbot quinequi mocetilili ipan Tor itechpa nepapan tlamantli melahuatic: Snowflake, Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot quinequi mocetilili ipan Tor itechpa nepapan tlamantli melahuatic: Snowflake, Bridge.</string>
     <string name="direct_connect">Tencuiliztli huicpa Tor</string>
     <string name="direct_connect_subtitle">In cualli tequitl mocentilili ipan Tor. Xicchihua Tor ahmo quitzacuiltia.</string>
     <string name="snowflake">cepayahuichichipictli</string>
@@ -238,7 +238,7 @@ atl oquitlapatic</string>
     <string name="next">Occe</string>
     <string name="solve_captcha">Quinanquilia Captcha</string>
     <string name="incorrect_solution">Ahcualli nanquiliztli</string>
-    <string name="bridges_obtained_connecting">¡Cuauhpanco tlein oquipix! Quicentilia ihtic Tor...</string>
+    <string name="bridges_obtained_connecting">¡Cuauhpanco tlein oquipix! Quicentilia ihtic Tor…</string>
     <string name="custom_bridge_description">Ac tlein ticmatiz quinmaca ce neuhyantica cuahpanco. Xictlatlanili ipan matlatl ihuan cahualli motlacanechicol inic moquitta intla ac quichantia cente. </string>
     <string name="having_trouble">Otipixtaya ihuihuicayotica</string>
     <string name="having_trouble_subtitle">Tiyahue timaniliz ce Tortzalantli, yehce timonequih mopalehuia</string>
@@ -247,7 +247,7 @@ atl oquitlapatic</string>
     <string name="action_activate">Xicyeltiz</string>
     <string name="volunteer_status_title">Axcan cenca cualli ipampa tehuatzin. Nimitztlazohcamati miec</string>
     <string name="title_choose_apps">Xipepena tepoztlatlatquitl</string>
-    <string name="app_suggested_subtitle">Orbot  tequipano cenca cualli ica amatlacuilotepoztlatlatquitl ihuan tlacanamimatlatl</string>
+    <string name="app_suggested_subtitle">AnyoneBot  tequipano cenca cualli ica amatlacuilotepoztlatlatquitl ihuan tlacanamimatlatl</string>
     <string name="apps_suggested_title">Yolitectia tepoztlatlatquitl</string>
     <string name="apps_other_apps">Occe tepoztlatlatquitl</string>
 </resources>

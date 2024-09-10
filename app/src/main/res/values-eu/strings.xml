@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot proxy aplikazio aske bat da beste aplikazioei Interneten erabilera seguruago bat egitea ahalbidetzen diena. Orbot-ek Tor erabiltzen du zure Internet trafikoa zifratzeko eta mundu osoan barrena hainbat konputagailuetatik pasatuz ezkutatzeko. Tor software askea eta sare irekia da, askatasun eta pribatutasun pertsonala, aktibitate eta erlazio komertzial konfidentzialak erasotzen dituen sare analisi moten kontra eginez babesten zaituena.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot proxy aplikazio aske bat da beste aplikazioei Interneten erabilera seguruago bat egitea ahalbidetzen diena. AnyoneBot-ek Tor erabiltzen du zure Internet trafikoa zifratzeko eta mundu osoan barrena hainbat konputagailuetatik pasatuz ezkutatzeko. Tor software askea eta sare irekia da, askatasun eta pribatutasun pertsonala, aktibitate eta erlazio komertzial konfidentzialak erasotzen dituen sare analisi moten kontra eginez babesten zaituena.</string>
     <string name="menu_settings">Ezarpenak</string>
     <string name="menu_log">Egunkaria</string>
     <string name="menu_stop">Gelditu</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Eskaneatu BridgeQR</string>
     <string name="menu_share_bridge">Partekatu BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, eta LibEvent dituen kode irekiko aplikazio bat da Orbot. Tor sarera sartzeko HTTP proxya (8118) eta SOCKS proxya (9050) eskaintzen ditu. Rooteatutako gailuetan Orbot-ek interneteko trafiko guztia Tor bidez bidali dezake baita ere.</string>
+    <string name="wizard_details_msg">Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, eta LibEvent dituen kode irekiko aplikazio bat da AnyoneBot. Tor sarera sartzeko HTTP proxya (8118) eta SOCKS proxya (9050) eskaintzen ditu. Rooteatutako gailuetan AnyoneBot-ek interneteko trafiko guztia Tor bidez bidali dezake baita ere.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Orokorra</string>
-    <string name="pref_start_boot_title">Hasi Orbot abioan</string>
-    <string name="pref_start_boot_summary">Hasi Orbot automatikoki  eta konektatu Tor zure Android gailua abiarazterakoan</string>
+    <string name="pref_start_boot_title">Hasi AnyoneBot abioan</string>
+    <string name="pref_start_boot_summary">Hasi AnyoneBot automatikoki  eta konektatu Tor zure Android gailua abiarazterakoan</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Lehen jauzirako hatzmarka, ezizen, herrialde eta helbideak</string>
     <string name="pref_entrance_node_dialog">Sartu sarrera-nodoak</string>
     <string name="pref_allow_background_starts_title">Baimendu bigarren planoko abioak</string>
-    <string name="pref_allow_background_starts_summary">Baimendu edozein aplikaziok Orbot-i Tor eta dagozkion zerbitzuak abiaraztea agintzea</string>
+    <string name="pref_allow_background_starts_summary">Baimendu edozein aplikaziok AnyoneBot-i Tor eta dagozkion zerbitzuak abiaraztea agintzea</string>
     <string name="pref_proxy_title">Irteera sareko proxya (Aukerazkoa)</string>
     <string name="pref_proxy_type_title">Ireteera-proxy mota</string>
     <string name="pref_proxy_type_summary">Proxy zerbitzariarentzako erabiltzeko protokoloak: HTTP, HTTPS, Socks4, Socks5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">ADITUAK BESTERIK EZ: sartu torrc konfigurazio lerroak</string>
     <string name="pref_torrc_dialog">Torrc pertsonalizatua</string>
     <string name="bridges_updated">Zubiak eguneratuta</string>
-    <string name="restart_orbot_to_use_this_bridge_">Berrabiarazi Orbot aldaketak aplikatzeko</string>
+    <string name="restart_to_use_this_bridge_">Berrabiarazi AnyoneBot aldaketak aplikatzeko</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Zure sare mugikorrak Tor nahita blokeatzen badu, \'Zubi zerbitzaria\' erabili dezakezu ordezko sarbide gisa. HAUTATU konfiguratzeko aukera bat eta probatu…</string>
     <string name="get_bridges_email">E-mail</string>
     <string name="apps_mode">VPN modua</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Hasi Tor berriro prozesua amaitzeko</string>
     <string name="confirm_service_deletion">Berretsi zerbitzua ezabatzea</string>
     <string name="service_type">Zerbitzu mota</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Mesedez berrabiarazi Orbot aldaketak aktibatzeko</string>
+    <string name="please_restart_to_enable_the_changes">Mesedez berrabiarazi AnyoneBot aldaketak aktibatzeko</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Partekatu QR gisa</string>
     <string name="disable">Desgaitu</string>

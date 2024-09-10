@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot — гэта свабодная праграма для проксі-злучэнняў, яна дазваляе іншым дадаткам больш бяспечна выкарыстоўваць інтэрнэт-злучэнне. Orbot ужывае Tor для шыфравання інтэрнэт-трафіка, які потым хаваецца падчас перасылання праз некалькі кампутараў у розных частках планеты. Tor з\'яўляецца свабодным праграмным дадаткам, а таксама адкрытай сеткай, якая дапамагае абараніцца ад сачэння ў сетках, якая пагражае асабістай волі і прыватным жыцці, прыватнасці бізнес-дзейнасці і кантактаў, а таксама дзяржаўнай праграме бяспекі, вядомай як аналіз трафіка.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot — гэта свабодная праграма для проксі-злучэнняў, яна дазваляе іншым дадаткам больш бяспечна выкарыстоўваць інтэрнэт-злучэнне. AnyoneBot ужывае Tor для шыфравання інтэрнэт-трафіка, які потым хаваецца падчас перасылання праз некалькі кампутараў у розных частках планеты. Tor з\'яўляецца свабодным праграмным дадаткам, а таксама адкрытай сеткай, якая дапамагае абараніцца ад сачэння ў сетках, якая пагражае асабістай волі і прыватным жыцці, прыватнасці бізнес-дзейнасці і кантактаў, а таксама дзяржаўнай праграме бяспекі, вядомай як аналіз трафіка.</string>
     <string name="menu_settings">Налады</string>
     <string name="menu_log">Журнал</string>
     <string name="menu_stop">Стоп</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Сканаваць QR-код моста</string>
     <string name="menu_share_bridge">Апублікаваць QR-код моста</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Orbot — гэта праграма з адкрытым зыходным кодам, якая ўтрымоўвае Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, і LibEvent. Яно прапануе лакальны HTTP- (8118) і SOCKS-проксі (9050) у сетку Tor. Orbot таксама дазваляе на прыладах з правамі root перасылаць увесь інтэрнэт-трафік праз Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot — гэта праграма з адкрытым зыходным кодам, якая ўтрымоўвае Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, і LibEvent. Яно прапануе лакальны HTTP- (8118) і SOCKS-проксі (9050) у сетку Tor. AnyoneBot таксама дазваляе на прыладах з правамі root перасылаць увесь інтэрнэт-трафік праз Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Агульныя</string>
-    <string name="pref_start_boot_title">Запускаць Orbot пры загрузцы</string>
-    <string name="pref_start_boot_summary">Аўтаматычна запускаць Orbot і падлучацца да сеткі Tor пры загрузцы вашай Android-прылады</string>
+    <string name="pref_start_boot_title">Запускаць AnyoneBot пры загрузцы</string>
+    <string name="pref_start_boot_summary">Аўтаматычна запускаць AnyoneBot і падлучацца да сеткі Tor пры загрузцы вашай Android-прылады</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Адбіткі, псеўданімы, краіны і адрасы для першага скоку</string>
     <string name="pref_entrance_node_dialog">Увядзіце ўваходныя вузлы</string>
     <string name="pref_allow_background_starts_title">Дазволіць фонавую загрузку</string>
-    <string name="pref_allow_background_starts_summary">Дазволіць кожнаму дадатку патрабаваць ад Orbot запускаць Tor і якія адносяцца да яго сэрвісы</string>
+    <string name="pref_allow_background_starts_summary">Дазволіць кожнаму дадатку патрабаваць ад AnyoneBot запускаць Tor і якія адносяцца да яго сэрвісы</string>
     <string name="pref_proxy_title">Выходны сеткавы проксі (неабавязкова)</string>
     <string name="pref_proxy_type_title">Тып проксі</string>
     <string name="pref_proxy_type_summary">Пратакол для выкарыстання проксі-серверам: HTTP, HTTPS, Socks4, Socks5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">ТОЛЬКІ ДЛЯ ЭКСПЕРТАЎ: унясіце налады наўпрост у радкі файла канфігурацыі torrc</string>
     <string name="pref_torrc_dialog">Карыстальніцкі Torrc</string>
     <string name="bridges_updated">Масты абноўлены</string>
-    <string name="restart_orbot_to_use_this_bridge_">Калі ласка, перазапусціце Orbot для ўступу змены ў сілу</string>
+    <string name="restart_to_use_this_bridge_">Калі ласка, перазапусціце AnyoneBot для ўступу змены ў сілу</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Калі ваша мабільная сетка актыўна блакуе Tor, вы можаце выкарыстоўваць масты Tor для доступу да сеткі. Абярыце адзін з варыянтаў для налады і тэставання…</string>
     <string name="get_bridges_email">Эл. пошта</string>
     <string name="apps_mode">VPN-рэжым</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Запусціце Tor ізноў для завяршэння працэсу</string>
     <string name="confirm_service_deletion">Пацверджанне выдалення службы</string>
     <string name="service_type">Тып службы</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Калі ласка, перазапусціце Orbot для ўступу змены ў сілу</string>
+    <string name="please_restart_to_enable_the_changes">Калі ласка, перазапусціце AnyoneBot для ўступу змены ў сілу</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Падзяліцца праз QR-код</string>
     <string name="disable">Адключыць</string>

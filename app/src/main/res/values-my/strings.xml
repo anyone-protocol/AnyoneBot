@@ -39,7 +39,7 @@
     <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">စိတ်ကြိုက်</string>
     <string name="confirm">အတည်ပြုရန်</string>
-    <string name="app_name">Orbot</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="bridges">တံတားများ</string>
     <string name="allow">ခွင့်ပြုပါ</string>
 </resources>

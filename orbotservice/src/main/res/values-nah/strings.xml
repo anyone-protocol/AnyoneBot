@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="orbot_vpn">Orbot VPN</string>
-    <string name="app_description">Tepoztlatlatquitl proxy ahmotlazotli  Orbot, mitzmaca netlacaneconiliztli. Orbot tlamanitiliz Tor pampa nahuati ichtaca amatlacuiloli  nochi tepoztlapohualoni in tlalticpac. Tor ca tlanemacuatextli ihuan metlatl tlapouhqui inin quipalehui huicpa pihpiyaliztli, ihuan quicuitlauh tlacaxoxouhcayotl ihuan tlacaconemiliztli ica hueyi altepetl. </string>
-    <string name="status_starting_up">Orbot pehualtica &#8230;</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="anyonebot_vpn">AnyoneBot VPN</string>
+    <string name="app_description">Tepoztlatlatquitl proxy ahmotlazotli  AnyoneBot, mitzmaca netlacaneconiliztli. AnyoneBot tlamanitiliz Tor pampa nahuati ichtaca amatlacuiloli  nochi tepoztlapohualoni in tlalticpac. Tor ca tlanemacuatextli ihuan metlatl tlapouhqui inin quipalehui huicpa pihpiyaliztli, ihuan quicuitlauh tlacaxoxouhcayotl ihuan tlacaconemiliztli ica hueyi altepetl. </string>
+    <string name="status_starting_up">AnyoneBot pehualtica &#8230;</string>
     <string name="status_activated">Tencuitica matlatl Tor Network</string>
-    <string name="status_disabled">Orbot ahmo tequitica</string>
-    <string name="open_orbot_to_connect_to_tor">Xictlapoz Orbot pampa xictencuiz Tor</string>
-    <string name="status_shutting_down">Orbot tlaltzacuatica</string>
+    <string name="status_disabled">AnyoneBot ahmo tequitica</string>
+    <string name="open_anyonebot_to_connect_to_tor">Xictlapoz AnyoneBot pampa xictencuiz Tor</string>
+    <string name="status_shutting_down">AnyoneBot tlaltzacuatica</string>
     <string name="connect_to_tor">Xictencuiz Tor</string>
-    <string name="orbot_config_invalid">Ahmo melahuac mocentilis Orbot</string>
+    <string name="config_invalid">Ahmo melahuac mocentilis AnyoneBot</string>
 
     <string name="couldn_t_start_tor_process_">Ahmo huel opehua Tor</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">¡Mocentiliz ReachableAddresses ye omochihua, yehce za iyopa!</string>

@@ -32,7 +32,7 @@
         android:id="@+id/tvVersion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Orbot vX.X.X"
+        android:text="AnyoneBot vX.X.X"
         android:layout_marginBottom="100dp"
         />
     </LinearLayout>

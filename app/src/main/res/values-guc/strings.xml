@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Orbot</string>
-  <string name="app_description">Orbot shia wane a\'yataaya maliasat, akaalinjia tü wane a\'yataayaakalüirua süpüla anainjainjatüin shia\'yataaya. Orbot a\'yataasü sulu\'u \"internet\" süka wane kanüliasü Tor je süchikijee sunujuluin sulu\'u wane kojuyasü \"computador\" sainküsü mmakat. Tor maliasat je taashisü süpüla sa\'inmajüin pia suulia eekai mojulaweein pümüin wanaa sümaa pi\'yataain sulu\'u \"internet\".</string>
+  <string name="app_name">AnyoneBot</string>
+  <string name="app_description">AnyoneBot shia wane a\'yataaya maliasat, akaalinjia tü wane a\'yataayaakalüirua süpüla anainjainjatüin shia\'yataaya. AnyoneBot a\'yataasü sulu\'u \"internet\" süka wane kanüliasü Tor je süchikijee sunujuluin sulu\'u wane kojuyasü \"computador\" sainküsü mmakat. Tor maliasat je taashisü süpüla sa\'inmajüin pia suulia eekai mojulaweein pümüin wanaa sümaa pi\'yataain sulu\'u \"internet\".</string>
   <string name="menu_settings">Anaata</string>
   <string name="menu_log">Sünüliamajatu</string>
   <string name="menu_stop">Püsha´walaa</string>
@@ -12,17 +12,17 @@
   <string name="menu_exit">Ajuitia</string>
   <string name="menu_scan">Ayakuajirrawua pata\'a     QR </string>
   <string name="menu_share_bridge">Ana\'apajirrawua pata\'a QR</string>
-  <string name="wizard_details_msg">Orbot jia wane ayataya  kalúús Tor,PtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. apus  wopúú VPN, un proxy HTTP Connect local (HTTPS jumuiwuaya\'a 8118) je wanee proxy SOCKS (9050) julúú atalaya Tor.</string>
+  <string name="wizard_details_msg">AnyoneBot jia wane ayataya  kalúús Tor,PtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. apus  wopúú VPN, un proxy HTTP Connect local (HTTPS jumuiwuaya\'a 8118) je wanee proxy SOCKS (9050) julúú atalaya Tor.</string>
   <string name="pref_general_group">Jupushu\'aa.</string>
-  <string name="pref_start_boot_title">Achüwuaja Orbot juttianain.</string>
-  <string name="pref_start_boot_summary">Puchuaja ORBOT juma Tor juttianainje jupula Android.</string>
+  <string name="pref_start_boot_title">Achüwuaja AnyoneBot juttianain.</string>
+  <string name="pref_start_boot_summary">Puchuaja AnyoneBot juma Tor juttianainje jupula Android.</string>
   <string name="pref_node_configuration">Anatiaa node </string>
   <string name="pref_node_configuration_summary">Shia anatia anaskal jupula erajunuin pia.</string>
   <string name="pref_entrance_node">Nodos jupula ekerolaa</string>
   <string name="pref_entrance_node_summary">Juchikana\'in ta japirra,  juma\'in paa, erre ein jipia jupula juwotnajüin palajaná</string>
   <string name="pref_entrance_node_dialog">Pikeroto jumana nodo.</string>
   <string name="pref_allow_background_starts_title">Pülatirru\'in juttianaín  piantualeya </string>
-  <string name="pref_allow_background_starts_summary">Kettirria jut´tirruín tu aplicaciónka jupula jumuin numuin Orbot nuchuajainjatú  jupushuaya  ainjüleka </string>
+  <string name="pref_allow_background_starts_summary">Kettirria jut´tirruín tu aplicaciónka jupula jumuin numuin AnyoneBot nuchuajainjatú  jupushuaya  ainjüleka </string>
   <string name="pref_proxy_title"> network Proxy  ajuitúsú(optional)</string>
   <string name="pref_proxy_type_title">Wanee proxy ajuitüsü</string>
   <string name="pref_proxy_type_summary">Muinjat jukuaipa  jupula proxy: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -98,7 +98,7 @@
   <string name="kibibyte">KiB</string>
   <string name="mebibyte">MiB</string>
   <string name="bridges_updated">sülatia akumajushi</string>
-  <string name="restart_orbot_to_use_this_bridge_">pülejera süchukua Orbot süpüla sujutalüin tü sülatiakat.</string>
+  <string name="restart_to_use_this_bridge_">pülejera süchukua AnyoneBot süpüla sujutalüin tü sülatiakat.</string>
   <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">müsia tü red móvil süsülajale Tor, esü süpula paapain wane  apajui sülatia maka wane sükuwaipa shikerotia. püneka wane tü ekat süpula sükumajia musia sülatia...</string>
   <string name="get_bridges_email">süpulajana pütchii electronico</string>
   <string name="get_bridges_email_request">Achuntia sülatia sülupüna tü süpulajanakat pütchii electronico</string>
@@ -134,7 +134,7 @@
   <string name="start_tor_again_for_finish_the_process">püttira Tor süchuküa süpüla ajattüin tü sükuaipakat.</string>
   <string name="confirm_service_deletion">apirüinjat sujütchajaya tü süpülajatükat</string>
   <string name="service_type">jetsü tü süpülajatka</string>
-  <string name="please_restart_Orbot_to_enable_the_changes">pülejera süchukua Orbot süpüla sujutalüin tü shiratiakat.</string>
+  <string name="please_restart_to_enable_the_changes">pülejera süchukua AnyoneBot süpüla sujutalüin tü shiratiakat.</string>
   <string name="onion">.cewollaka</string>
   <string name="share_as_qr">asülajiranuin maka sümuin QR</string>
   <string name="disable">pakatüin</string>
@@ -245,7 +245,7 @@ punjulaa apps, jupula  anaijatuin  pu kachuerrase</string>
   <string name="action_activate">Painjamata.</string>
   <string name="volunteer_status_title">Joluu anashatas wamuin ka pukalijaín waya</string>
   <string name="title_choose_apps">Apawúa  aplikación</string>
-  <string name="app_suggested_subtitle">Orbot anas jukaipa juma alwuatawüa je eerrajilawua  wapushua \'ya</string>
+  <string name="app_suggested_subtitle">AnyoneBot anas jukaipa juma alwuatawüa je eerrajilawua  wapushua \'ya</string>
   <string name="apps_suggested_title">Ain\'nes juka tu aplicación ka</string>
   <string name="apps_other_apps">Wanejet aplikación</string>
 </resources>

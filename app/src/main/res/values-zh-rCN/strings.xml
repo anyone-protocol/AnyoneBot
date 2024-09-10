@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot 是免费的代理应用，可让其他应用更安全地使用网络。Orbot 使用 Tor 加密网络流量，然后通过世界各地一系列计算机跳转来隐藏流量。Tor 是自由软件和开放网络，帮助用户抵御称为流量分析的网络监控，网络监控威胁到个人自由和隐私、机密商业活动和关系以及国家安全。</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot 是免费的代理应用，可让其他应用更安全地使用网络。AnyoneBot 使用 Tor 加密网络流量，然后通过世界各地一系列计算机跳转来隐藏流量。Tor 是自由软件和开放网络，帮助用户抵御称为流量分析的网络监控，网络监控威胁到个人自由和隐私、机密商业活动和关系以及国家安全。</string>
     <string name="menu_settings">设置</string>
     <string name="menu_log">日志</string>
     <string name="menu_stop">停止</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">常规</string>
-    <string name="pref_start_boot_title">开机时启动 Orbot</string>
-    <string name="pref_start_boot_summary">Android 设备开机时自动启动 Orbot 并连接 Tor 网络</string>
+    <string name="pref_start_boot_title">开机时启动 AnyoneBot</string>
+    <string name="pref_start_boot_summary">Android 设备开机时自动启动 AnyoneBot 并连接 Tor 网络</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">用于首次跳转的密钥指纹、昵称、国家与地址</string>
     <string name="pref_entrance_node_dialog">输入入口节点</string>
     <string name="pref_allow_background_starts_title">允许后台启动</string>
-    <string name="pref_allow_background_starts_summary">允许任何应用告知 Orbot 启动 Tor 及相关服务</string>
+    <string name="pref_allow_background_starts_summary">允许任何应用告知 AnyoneBot 启动 Tor 及相关服务</string>
     <string name="pref_proxy_title">出站网络代理（可选）</string>
     <string name="pref_proxy_type_title">出站代理类型</string>
     <string name="pref_proxy_type_summary">代理服务器使用的协议：HTTP、HTTPS、SOCKS4、SOCKS5</string>
@@ -92,14 +92,14 @@
     <string name="pref_torrc_summary">仅供专家：直接输入 torrc 配置行</string>
     <string name="pref_torrc_dialog">自定义 Torrc</string>
     <string name="bridges_updated">网桥已更新</string>
-    <string name="restart_orbot_to_use_this_bridge_">请重启 Orbot 以使变更生效</string>
+    <string name="restart_to_use_this_bridge_">请重启 AnyoneBot 以使变更生效</string>
     <string name="get_bridges_email">电子邮件</string>
     <string name="apps_mode">VPN 模式</string>
     <string name="send_email">发送电子邮件</string>
     <string name="save">保存</string>
     <string name="name">名称</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">请重启 Orbot 以使变更生效</string>
-    <string name="wizard_details_msg">Orbot 是一个开源应用程序，包含 Tor、IPtProxy（Obfs4Proxy、Meek、Snowflake）、Go-Tun2Socks 和 LibEvent。它提供了一个 VPN 隧道、一个本地 HTTP 连接代理（HTTPS 仅连接端口 8118）和一个 SOCKS 代理（9050）进入 Tor 网络。</string>
+    <string name="please_restart_to_enable_the_changes">请重启 AnyoneBot 以使变更生效</string>
+    <string name="wizard_details_msg">AnyoneBot 是一个开源应用程序，包含 Tor、IPtProxy（Obfs4Proxy、Meek、Snowflake）、Go-Tun2Socks 和 LibEvent。它提供了一个 VPN 隧道、一个本地 HTTP 连接代理（HTTPS 仅连接端口 8118）和一个 SOCKS 代理（9050）进入 Tor 网络。</string>
     <string name="pref_open_proxy_on_all_interfaces_title">在所有接口上打开代理</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">允许连接到同一Wi-Fi、局域网设备和任何其他可以连接到你的IP的人访问Tor</string>
     <string name="pref_http_title">Tor HTTP</string>
@@ -164,7 +164,7 @@
     <string name="refresh_captcha">刷新验证码</string>
     <string name="request_bridges">请求网桥</string>
     <string name="testing_tor_direct_success">成功。Tor 连接良好！</string>
-    <string name="testing_tor_direct">正在测试到 Tor 网络的连接 ...…</string>
+    <string name="testing_tor_direct">正在测试到 Tor 网络的连接 …</string>
     <string name="pref_reduced_circuit_padding_summary">使用低开销填充算法来减少数据和电池的使用</string>
     <string name="pref_reduced_circuit_padding">缩减的电路填充</string>
     <string name="pref_circuit_padding_summary">启用电路填充以防御一些形式的流量分析</string>
@@ -240,7 +240,7 @@
     <string name="snowflake">Snowflake</string>
     <string name="custom_bridge">定制网桥</string>
     <string name="smart_connect">智能连接（默认）</string>
-    <string name="smart_connect_subtitle">Orbot 尝试通过任何可用方式连接到 Tor：直连、Snowflake、网桥。</string>
+    <string name="smart_connect_subtitle">AnyoneBot 尝试通过任何可用方式连接到 Tor：直连、Snowflake、网桥。</string>
     <string name="direct_connect">直接连接到 Tor</string>
     <string name="direct_connect_subtitle">连接到 Tor 的最佳方式。 在 Tor 未被阻止时使用。</string>
     <string name="next">下一步</string>
@@ -253,9 +253,9 @@
     <string name="bridges_obtained_connecting">已获取网桥！正在连接到 Tor…</string>
     <string name="custom_bridge_description">自定义网桥是由你认识的人提供的。问问你所信任的人际网络和组织，看看是否有人托管网桥。</string>
     <string name="power_user_mode">高级用户模式</string>
-    <string name="power_user_description">适合熟悉 Tor 的用户。 允许在没有 VPN 设置的情况下启动 Orbot 并显示打开的 SOCKS 和 HTTP 端口</string>
+    <string name="power_user_description">适合熟悉 Tor 的用户。 允许在没有 VPN 设置的情况下启动 AnyoneBot 并显示打开的 SOCKS 和 HTTP 端口</string>
     <string name="title_choose_apps">选择应用</string>
-    <string name="app_suggested_subtitle">Orbot 最适合消息传递和社交媒体应用。</string>
+    <string name="app_suggested_subtitle">AnyoneBot 最适合消息传递和社交媒体应用。</string>
     <string name="apps_suggested_title">推荐的应用</string>
     <string name="apps_other_apps">其他应用</string>
     <string name="action_activate">激活</string>
@@ -283,13 +283,13 @@
     <string name="ask_tor">询问Tor</string>
     <string name="many_ways">有许多途径可以连接到Tor，其中一些可能对您来说更有效。</string>
     <string name="asking">正在询问…</string>
-    <string name="no_internet_subtitle">你需要连接网络来使用Orbot。</string>
+    <string name="no_internet_subtitle">你需要连接网络来使用AnyoneBot。</string>
     <string name="kindness_adjust_title">设置</string>
     <string name="option_only_on_wifi">仅打开Wi-Fi时</string>
     <string name="option_only_when_charging">仅在充电时</string>
-    <string name="pref_flag_secure_summary">阻止其他应用对 Orbot 进行截屏</string>
+    <string name="pref_flag_secure_summary">阻止其他应用对 AnyoneBot 进行截屏</string>
     <string name="pref_flag_secure_title">屏幕安全</string>
-    <string name="root_warning">Orbot 检测到您的设备已取得 Root 权限，这可能会导致安全问题。</string>
+    <string name="root_warning">AnyoneBot 检测到您的设备已取得 Root 权限，这可能会导致安全问题。</string>
     <string name="pref_detect_root_summary">如果此设备已启用 Root 权限，则启动时发出警告</string>
     <string name="pref_detect_root_title">Root 检测</string>
 </resources>

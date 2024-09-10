@@ -25,7 +25,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Orbot"
+rootProject.name = "AnyoneBot"
 include(
         ':app',
         ':appcore',

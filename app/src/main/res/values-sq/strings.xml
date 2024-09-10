@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot është një aplikacion i lirë ndërmjetësish që i bën aplikacionet e tjera ta përdorin internetin në mënyrë më të siguruar. Orbot-i përdor Tor-in për të fshehtëzuar trafikun tuaj Internet dhe mandej e fsheh duke e kaluar përmes një vargu kompjuterash nëpër botë. Tor-i është <em>software</em> i lirë dhe një rrjet i hapët që ju ndihmon të mbroheni nga një formë survejimi rrjetesh e cila kërcënon lirinë dhe privatësinë personale, veprimtarinë dhe marrëdhëniet rezervat në biznesi dhe sigurinë shtetërore, e njohur si analizim trafiku.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot është një aplikacion i lirë ndërmjetësish që i bën aplikacionet e tjera ta përdorin internetin në mënyrë më të siguruar. AnyoneBot-i përdor Tor-in për të fshehtëzuar trafikun tuaj Internet dhe mandej e fsheh duke e kaluar përmes një vargu kompjuterash nëpër botë. Tor-i është <em>software</em> i lirë dhe një rrjet i hapët që ju ndihmon të mbroheni nga një formë survejimi rrjetesh e cila kërcënon lirinë dhe privatësinë personale, veprimtarinë dhe marrëdhëniet rezervat në biznesi dhe sigurinë shtetërore, e njohur si analizim trafiku.</string>
     <string name="menu_settings">Rregullime</string>
     <string name="menu_stop">Ndale</string>
     <string name="menu_about">Mbi</string>
@@ -53,11 +53,11 @@
     <string name="volunteer_mode_weekly_label">Gjithsej Javore</string>
     <string name="volunteer_mode_alltime_label">Gjithsej Për Tërë Kohën</string>
     <string name="power_user_mode">Mënyra “Përdorues i Regjur”</string>
-    <string name="power_user_description">Për përdorues të familjarizuar me Tor-in. Ju lejon ta nisni Orbot-in pa rregullimin VPN dhe shfaqë porta SOCKS dhe HTTP të hapura</string>
+    <string name="power_user_description">Për përdorues të familjarizuar me Tor-in. Ju lejon ta nisni AnyoneBot-in pa rregullimin VPN dhe shfaqë porta SOCKS dhe HTTP të hapura</string>
     <string name="action_activate">Aktivizoje</string>
     <string name="apps_suggested_title">Aplikacione të Këshilluar</string>
     <string name="apps_other_apps">Aplikacione të Tjera</string>
-    <string name="pref_start_boot_title">Nise Orbot-in që gjatë Nisjes së Kompjuterit</string>
+    <string name="pref_start_boot_title">Nise AnyoneBot-in që gjatë Nisjes së Kompjuterit</string>
     <string name="exit_nodes">Nyja Daljesh</string>
     <string name="confirm">Ripohojeni</string>
     <string name="onion_port">Portë Onion</string>
@@ -103,7 +103,7 @@
     <string name="menu_log">Regjistër</string>
     <string name="main_layout_upload">Ngarkim</string>
     <string name="menu_scan">Skanoni BridgeQR</string>
-    <string name="wizard_details_msg">Orbot-i është një aplikacion me burim të hapët, që përmban Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks dhe LibEvent.AI furnizon një tunel VPN, një ndërmjetës vendor HTTP Connect (HTTPS vetëm në portën 8118) dhe një ndërmjetës SOCKS (9050) te rrjeti Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot-i është një aplikacion me burim të hapët, që përmban Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks dhe LibEvent.AI furnizon një tunel VPN, një ndërmjetës vendor HTTP Connect (HTTPS vetëm në portën 8118) dhe një ndërmjetës SOCKS (9050) te rrjeti Tor.</string>
     <string name="pref_node_configuration">Formësim Nyjesh</string>
     <string name="pref_node_configuration_summary">Këto janë rregullime të thelluara që mund të reduktojnë anonimitetin tuaj</string>
     <string name="pref_entrance_node">Nyja Hyrjesh</string>
@@ -139,7 +139,7 @@
     <string name="license">Licencë:</string>
     <string name="pref_dnsport_dialog">Formësim Porte DNS</string>
     <string name="create_a_backup_first">Krijo së pari një kopjeruajtje</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Që të hyjnë në fuqi ndryshimet, ju lutemi, rinisni Orbot-in</string>
+    <string name="please_restart_to_enable_the_changes">Që të hyjnë në fuqi ndryshimet, ju lutemi, rinisni AnyoneBot-in</string>
     <string name="share_as_qr">Jepeni si QR</string>
     <string name="pref_prefer_ipv6">Parapëlqe lidhje IPv6</string>
     <string name="app_shortcuts">Aplikacione të ujdisura për Tor</string>
@@ -162,7 +162,7 @@
     <string name="pref_torrc_title">Formësim Torrc Vetjake</string>
     <string name="mebibyte">MiB</string>
     <string name="bridges_updated">Urat u Përditësuan</string>
-    <string name="restart_orbot_to_use_this_bridge_">Që aktivizohen ndryshimet, ju lutemi, rinisni Orbot-in</string>
+    <string name="restart_to_use_this_bridge_">Që aktivizohen ndryshimet, ju lutemi, rinisni AnyoneBot-in</string>
     <string name="get_bridges_email_request">Kërkoni Ura përmes Email-i</string>
     <string name="apps_mode">Mënyra VPN</string>
     <string name="send_email">Dërgo Email</string>
@@ -195,9 +195,9 @@
     <string name="incorrect_solution">Zgjidhje e Pasaktë</string>
     <string name="bridges_obtained_connecting">Urat u morën! Po lidhet me Tor-in…</string>
     <string name="having_trouble">Keni probleme</string>
-    <string name="pref_start_boot_summary">Nise automatikisht Orbot-in dhe lidhu me Tor-in, kur niset pajisja Android</string>
+    <string name="pref_start_boot_summary">Nise automatikisht AnyoneBot-in dhe lidhu me Tor-in, kur niset pajisja Android</string>
     <string name="pref_entrance_node_summary">Shenja gishtash, nofka, vende dhe adresa për hopin e parë</string>
-    <string name="pref_allow_background_starts_summary">Lejoni çfarëdo aplikacioni t’i thotë Orbot-it të nisë Tor-in dhe shërbime të lidhura me të</string>
+    <string name="pref_allow_background_starts_summary">Lejoni çfarëdo aplikacioni t’i thotë AnyoneBot-it të nisë Tor-in dhe shërbime të lidhura me të</string>
     <string name="strict_nodes_description">Trajtojini rregullimet për Nyje Dalëse si një domosdoshmëri për ngritjen e krejt qarqeve. Kjo mund të dëmtojë funksione, nëse s’është e mundur të prodhohen qarqe me rregullimet tuaja për Nyje Dalëse.</string>
     <string name="pref_use_expanded_notifications">Shfaq te njoftimi vendin dhe adresën IP të nyjës tuaj dalëse Tor, kur dihet</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Lejoni të pranishëm në Wi-Fi-n tuaj, pajisje të lidhura dhe këdo tjetër që mund të lidhet te IP-ja juaj, të hyjnë në</string>
@@ -210,12 +210,12 @@
 \n• S’do të ngadalësojë internetin tuaj
 \n• Mund të punojë vetëm me wifi
 \n• Mund të çaktivizohet kurdo</string>
-    <string name="smart_connect_subtitle">Orbot-i provon të lidhet me Tor-in përmes çfarëdo rruge të mundshme: Drejtpërdrejt, Snowflake, Urë.</string>
+    <string name="smart_connect_subtitle">AnyoneBot-i provon të lidhet me Tor-in përmes çfarëdo rruge të mundshme: Drejtpërdrejt, Snowflake, Urë.</string>
     <string name="direct_connect_subtitle">Rruga më e mirë për t’u lidhur me Tor-in. Përdoreni nëse Tor-i s’është i bllokuar.</string>
     <string name="get_a_bridge_subtitle">Fsheh trafikun tuaj. Anashkalohet ca bllokim Tor-i.</string>
     <string name="custom_bridge_subtitle">Sipas shumicës së gjasave, për t’ju mbajtur të lidhur, nëse Tor-i është bllokuar keq. Lyp një adresë ure prek dikujt të cilit i zini besë.</string>
     <string name="custom_bridge_description">Një urë vetjake jepet nga dikush që e njihni. Pyetni mes rrjeteve dhe enteve tuaj të besuar, për të parë nëse dikush strehon të tillë.</string>
-    <string name="app_suggested_subtitle">Më mirë se me gjithçka tjetër, Orbot-i funksionon me aplikacione shkëmbimi mesazhesh dhe mediash shoqërore.</string>
+    <string name="app_suggested_subtitle">Më mirë se me gjithçka tjetër, AnyoneBot-i funksionon me aplikacione shkëmbimi mesazhesh dhe mediash shoqërore.</string>
     <string name="secure_your_connection_subtitle">Fshihini aplikacione mbikëqyrjes së rrjetit dhe përfitoni hyrje kur janë të bllokuar.</string>
     <string name="volunteer_mode">Mënyra Dashamirësi</string>
     <string name="volunteer_mode_label">Mënyra Dashamirësi</string>
@@ -253,7 +253,7 @@
     <string name="setting_debug">Diagnostiojeni</string>
     <string name="menu_more">Më tepër</string>
     <string name="hide_apps">Fshihni aplikacione nga mbikëqyrje rrjeti dhe përfitoni hyrje, kur janë të bllokuar.</string>
-    <string name="no_internet_subtitle">Që të përdorni Orbot-in, ju duhet një lidhje internet.</string>
+    <string name="no_internet_subtitle">Që të përdorni AnyoneBot-in, ju duhet një lidhje internet.</string>
     <string name="not_sure">Jo i sigurt\?</string>
     <string name="ask_tor">Pyetni Tor-in</string>
     <string name="option_only_when_charging">Vetëm kur ngarkohet bateria</string>
@@ -270,12 +270,12 @@
     <string name="asking">PO PYETET…</string>
     <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="pref_flag_secure_title">Siguri Ekrani</string>
-    <string name="root_warning">Orbot-i ka pikasur se është shtënë në dorë kontrolli i pajisjes tuaj, çka mund të shkaktojë probleme sigurie.</string>
+    <string name="root_warning">AnyoneBot-i ka pikasur se është shtënë në dorë kontrolli i pajisjes tuaj, çka mund të shkaktojë probleme sigurie.</string>
     <string name="kindess_config_detail">Formësoni si dhe kur pajisja juaj mund të veprojë si një ndërmjetës Snowflake për përdorues të tjerë të Tor-it.</string>
     <string name="menu_share_bridge">Ndani me të tjerët BridgeQR</string>
     <string name="pref_isolate_protocol_summary">Përdorni një qark të ndryshëm për çdo protokoll lidhjeje</string>
     <string name="pref_reduced_connection_padding_summary">I mbyll më herët lidhjet me relenë dhe dërgon më pak pakete “padding”, për të zvogëluar përdorim të dhënash dhe baterie</string>
-    <string name="pref_flag_secure_summary">Pengo aplikacione të tjerë të bëjnë foto ekrani të Orbot-it</string>
+    <string name="pref_flag_secure_summary">Pengo aplikacione të tjerë të bëjnë foto ekrani të AnyoneBot-it</string>
     <string name="many_ways">Ka mjaft mënyra për të mbërritur te Tor-i. Disa mund të funksionojnë më mirë se të tjerat për ju.</string>
     <string name="relaying">Përdorim Relesh</string>
     <string name="pref_circuit_padding">“Padding” qarku</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot là một ứng dụng proxy miễn phí làm cho các ứng dụng khác sử dụng internet một cách bảo mật hơn. Orbot sử dụng Tor để mã hóa lưu lượng Internet rồi ẩn nó bằng cách đưa qua một loạt máy tính trên khắp thế giới. Tor là phần mềm tự do và là một mạng lưới mở giúp bạn chống lại một dạng của sự giám sát trên mạng đe dọa quyền riêng tư và tự do cá nhân, những hoạt động và mối quan hệ bí mật trong kinh doanh, và an ninh tiểu bang được biết đến là phân tích lưu lượng mạng.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot là một ứng dụng proxy miễn phí làm cho các ứng dụng khác sử dụng internet một cách bảo mật hơn. AnyoneBot sử dụng Tor để mã hóa lưu lượng Internet rồi ẩn nó bằng cách đưa qua một loạt máy tính trên khắp thế giới. Tor là phần mềm tự do và là một mạng lưới mở giúp bạn chống lại một dạng của sự giám sát trên mạng đe dọa quyền riêng tư và tự do cá nhân, những hoạt động và mối quan hệ bí mật trong kinh doanh, và an ninh tiểu bang được biết đến là phân tích lưu lượng mạng.</string>
     <string name="menu_settings">Cài đặt</string>
     <string name="menu_log">Nhật ký Log</string>
     <string name="menu_stop">Dừng lại</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Tổng quan</string>
-    <string name="pref_start_boot_title">Khởi chạy Orbot khi khởi động hệ thống</string>
-    <string name="pref_start_boot_summary">Tự khởi động Orbot và kết nối vào mạng Tor sau khi thiết bị Android của bạn khởi động</string>
+    <string name="pref_start_boot_title">Khởi chạy AnyoneBot khi khởi động hệ thống</string>
+    <string name="pref_start_boot_summary">Tự khởi động AnyoneBot và kết nối vào mạng Tor sau khi thiết bị Android của bạn khởi động</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Dấu vân tay theo dõi (Fingerprint), biệt hiệu, quốc gia và địa chỉ cho nút giao mạng đầu tiên</string>
     <string name="pref_entrance_node_dialog">Nhập thông tin nút giao mạng đầu vào</string>
     <string name="pref_allow_background_starts_title">Cho phép khởi động ngầm</string>
-    <string name="pref_allow_background_starts_summary">Cho phép ứng dụng bất kỳ yêu cầu Orbot khởi động Tor và các dịch vụ liên quan</string>
+    <string name="pref_allow_background_starts_summary">Cho phép ứng dụng bất kỳ yêu cầu AnyoneBot khởi động Tor và các dịch vụ liên quan</string>
     <string name="pref_proxy_title">Proxy mạng ngõ ra (Outbound Network) (Tùy chọn)</string>
     <string name="pref_proxy_type_title">Kiểu Proxy ngõ ra</string>
     <string name="pref_proxy_type_summary">Giao thức dùng cho proxy: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -92,12 +92,12 @@
     <string name="pref_torrc_summary">CHỈ NGƯỜI DÙNG CHUYÊN MÔN: nhập các thiết lập trực tiếp cho torrc</string>
     <string name="pref_torrc_dialog">Torrc tùy chỉnh</string>
     <string name="bridges_updated">Cầu Bridge đã được cập nhật</string>
-    <string name="restart_orbot_to_use_this_bridge_">Vui lòng khởi động lại Orbot để áp dụng các thay đổi</string>
+    <string name="restart_to_use_this_bridge_">Vui lòng khởi động lại AnyoneBot để áp dụng các thay đổi</string>
     <string name="get_bridges_email">Email</string>
     <string name="send_email">Gửi email</string>
     <string name="save">Lưu</string>
     <string name="name">Tên</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Vui lòng khởi động lại Orbot để áp dụng thay đổi</string>
+    <string name="please_restart_to_enable_the_changes">Vui lòng khởi động lại AnyoneBot để áp dụng thay đổi</string>
     <string name="disable">Tắt</string>
     <string name="enable">Cho phép</string>
     <string name="pref_http_dialog">Thiết lập cổng HTTP</string>
@@ -107,7 +107,7 @@
     <string name="deny">Từ chối</string>
     <string name="allow">Cho phép</string>
     <string name="hidden_service_request">Một ứng dụng muốn mở máy chủ onion ở cổng %1$s vào mạng Tor. Việc này là an toàn nếu bạn tin tưởng ứng dụng đó.</string>
-    <string name="wizard_details_msg">Orbot là một ứng dụng mã nguồn mở chứa Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, LibEvent. Nó cung cấp một proxy HTTP cục bộ (8118) và một proxy SOCKS (9050) vào mạng Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot là một ứng dụng mã nguồn mở chứa Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, LibEvent. Nó cung cấp một proxy HTTP cục bộ (8118) và một proxy SOCKS (9050) vào mạng Tor.</string>
     <string name="bridge_snowflake">Kết nối thông qua những người sử dụng Tor khác bằng cách sử dụng Snowflake (Phương pháp 1 - Nhanh chóng)</string>
     <string name="use_qr_code">Sử dụng mã QR</string>
     <string name="paste_bridges">Dán các cầu nối</string>
@@ -242,12 +242,12 @@
     <string name="no_thx">Không cảm ơn</string>
     <string name="bridges_obtained_connecting">Đã kiếm được cầu Bridge rồi! Đang kết nối tới Tor…</string>
     <string name="custom_bridge_description">Một cầu Bridge tuỳ chỉnh được cung cấp bởi ai đó mà bạn quen biết. Hãy hỏi xung quanh các mạng lưới quan hệ và tổ chức đáng tin cậy của bạn để xem nếu có ai đó đang host một cái.</string>
-    <string name="power_user_description">Đối với những người dùng đã quen thuộc với Tor. Cho phép bạn khởi động Orbot mà không cần cài đặt VPN và hiển thị các cổng SOCKS và HTTP mở khả dụng</string>
+    <string name="power_user_description">Đối với những người dùng đã quen thuộc với Tor. Cho phép bạn khởi động AnyoneBot mà không cần cài đặt VPN và hiển thị các cổng SOCKS và HTTP mở khả dụng</string>
     <string name="volunteer_mode_label">Chế độ thân thiện</string>
     <string name="direct_connect_subtitle">Cách tốt nhất để kết nối tới Tor. Sử dụng nếu như Tor không bị chặn.</string>
     <string name="snowflake">Snowflake (Chính gốc nguyên bản)</string>
     <string name="snowflake_subtitle">Kết nối thông qua các tình nguyện viên Tor. Vượt qua một số những rào cản đối với Tor.</string>
-    <string name="smart_connect_subtitle">Orbot thực hiện việc kết nối đến Tor thông qua bất kỳ cách khả dụng nào: Trực tiếp, Snowflake, cầu nối Bridge.</string>
+    <string name="smart_connect_subtitle">AnyoneBot thực hiện việc kết nối đến Tor thông qua bất kỳ cách khả dụng nào: Trực tiếp, Snowflake, cầu nối Bridge.</string>
     <string name="direct_connect">Kết nối Trực tiếp đến Tor</string>
     <string name="get_a_bridge_subtitle">Che chắn, trùm khoác lưu lượng traffic của bạn lại. Vượt qua một số những sự kiểm duyệt hoặc chặn Tor.</string>
     <string name="custom_bridge">Cầu Bridge tuỳ chỉnh</string>
@@ -257,9 +257,9 @@
     <string name="snowflake_proxy_msg_description">Hiển thị một tin nhắn khi bạn giúp đỡ ai đó vượt qua kiểm duyệt</string>
     <string name="btn_copy_log">Sao chép nhật ký Log</string>
     <string name="log_copied">Nhật ký Log đã được sao chép</string>
-    <string name="pref_flag_secure_summary">Ngăn chặn các app ứng dụng khác khỏi việc chụp ảnh màn hình Orbot</string>
+    <string name="pref_flag_secure_summary">Ngăn chặn các app ứng dụng khác khỏi việc chụp ảnh màn hình AnyoneBot</string>
     <string name="pref_flag_secure_title">Bảo mật Màn hình</string>
-    <string name="root_warning">Orbot đã phát hiện được rằng thiết bị của bạn đã được root, điều này có thể gây ra các vấn đề an ninh bảo mật.</string>
+    <string name="root_warning">AnyoneBot đã phát hiện được rằng thiết bị của bạn đã được root, điều này có thể gây ra các vấn đề an ninh bảo mật.</string>
     <string name="pref_isolate_port">Cô lập các cổng đích đến (destination ports)</string>
     <string name="pref_isolate_port_summary">Sử dụng một mạch nối khác cho mỗi một cổng đích đến (destination port)</string>
     <string name="pref_isolate_protocol_summary">Sử dụng một mạch nối khác biệt cho mỗi một giao thức protocol kết nối</string>
@@ -276,7 +276,7 @@
     <string name="having_trouble">Gặp sự cố</string>
     <string name="having_trouble_subtitle">Chúng ta có thể thử một cầu Bridge Tor tiếp theo nhưng điều này sẽ cần sự trợ giúp của bạn</string>
     <string name="power_user_mode">Chế độ người dùng nâng cao Power User</string>
-    <string name="app_suggested_subtitle">Orbot hoạt động tốt nhất với các app ứng dụng nhắn tin và mạng xã hội.</string>
+    <string name="app_suggested_subtitle">AnyoneBot hoạt động tốt nhất với các app ứng dụng nhắn tin và mạng xã hội.</string>
     <string name="secure_your_connection_title">Sẵn sàng kết nối</string>
     <string name="apps_suggested_title">Các app ứng dụng được gợi ý</string>
     <string name="apps_other_apps">Các app ứng dụng khác</string>
@@ -284,7 +284,7 @@
     <string name="smart_connect">Smart Connect Kết nối Thông minh (mặc định)</string>
     <string name="asking">ĐANG HỎI…</string>
     <string name="no_internet_title">Kết nối tới Internet</string>
-    <string name="no_internet_subtitle">Bạn cần một kết nối internet để sử dụng Orbot.</string>
+    <string name="no_internet_subtitle">Bạn cần một kết nối internet để sử dụng AnyoneBot.</string>
     <string name="kindness_adjust_title">Cài đặt</string>
     <string name="setting_padding">Định khoảng cách Padding</string>
     <string name="pref_detect_root_summary">Cảnh báo khi khởi chạy rằng, liệu quyền hạn root đã được bật kích hoạt trên thiết bị này chưa</string>

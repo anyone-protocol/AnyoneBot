@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot adalah aplikasi proxy gratis yang membuat aplikasi-aplikasi lainnya dapat terkoneksi dengan internet secara aman. Orbot menggunakan Tor untuk mengenkripsi hubungan internet Anda dan menyalurkannya melewati berbagai komputer di seluruh dunia. Tor adalah software gratis dan layanan terbuka, yang membantu Anda menghindari pengawasan jaringan yang mengancam kebebasan pribadi dan privasi, aktivitas bisnis rahasia dan relasi, serta keamanan negara yang dikenal dengan analisis traffic.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot adalah aplikasi proxy gratis yang membuat aplikasi-aplikasi lainnya dapat terkoneksi dengan internet secara aman. AnyoneBot menggunakan Tor untuk mengenkripsi hubungan internet Anda dan menyalurkannya melewati berbagai komputer di seluruh dunia. Tor adalah software gratis dan layanan terbuka, yang membantu Anda menghindari pengawasan jaringan yang mengancam kebebasan pribadi dan privasi, aktivitas bisnis rahasia dan relasi, serta keamanan negara yang dikenal dengan analisis traffic.</string>
     <string name="menu_settings">Pengaturan</string>
     <string name="menu_log">Log</string>
     <string name="menu_stop">Berhenti</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Umum</string>
-    <string name="pref_start_boot_title">Mulai Orbot saat Boot</string>
-    <string name="pref_start_boot_summary">Secara otomatis memulai Orbot dan menghubungkan dengan Tor ketika perangkat Android anda boot</string>
+    <string name="pref_start_boot_title">Mulai AnyoneBot saat Boot</string>
+    <string name="pref_start_boot_summary">Secara otomatis memulai AnyoneBot dan menghubungkan dengan Tor ketika perangkat Android anda boot</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Sidik jari, alias, negara dan alamat untuk loncatan pertama</string>
     <string name="pref_entrance_node_dialog">Masukkan Simpul Masuk</string>
     <string name="pref_allow_background_starts_title">Izinkan Memulai di Latar Belakang</string>
-    <string name="pref_allow_background_starts_summary">Biarkan aplikasi lain memberitahu Orbot untuk memulai Tor dan layanan terkait</string>
+    <string name="pref_allow_background_starts_summary">Biarkan aplikasi lain memberitahu AnyoneBot untuk memulai Tor dan layanan terkait</string>
     <string name="pref_proxy_title">Outbound Proxy Jaringan (Opsional)</string>
     <string name="pref_proxy_type_title">Outbound Jenis Proxy</string>
     <string name="pref_proxy_type_summary">Protokol yang digunakan untuk server proxy: HTTP, HTTPS, Socks4, Socks5</string>
@@ -92,10 +92,10 @@
     <string name="pref_torrc_summary">HANYA UNTUK AHLI: masukkan baris konfigurasi direct Torrc</string>
     <string name="pref_torrc_dialog">Torrc Custom</string>
     <string name="bridges_updated">Bridge Telah Diperbarui</string>
-    <string name="restart_orbot_to_use_this_bridge_">Silakan start ulang Orbot untuk mengaktifkan perubahan</string>
+    <string name="restart_to_use_this_bridge_">Silakan start ulang AnyoneBot untuk mengaktifkan perubahan</string>
     <string name="get_bridges_email">Email</string>
     <string name="send_email">Kirim Email</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Silakan start ulang Orbot untuk mengaktifkan perubahan</string>
+    <string name="please_restart_to_enable_the_changes">Silakan start ulang AnyoneBot untuk mengaktifkan perubahan</string>
     <string name="captcha">Captcha</string>
     <string name="done">Beres!</string>
     <string name="name">Nama</string>
@@ -119,12 +119,12 @@
     <string name="use_qr_code">Gunakan Kode QR</string>
     <string name="secure_your_connection_subtitle">Sembunyikan aplikasi dari pemantauran jaringan dan dapatkan akses ketika mereka diblokir..</string>
     <string name="power_user_mode">Mode Pengguna Berdaya</string>
-    <string name="power_user_description">Untuk pengguna yang familier dengan Tor. Memungkinkan Anda untuk memulai Orbot tanpa pengaturan VPN dan menampilkan porta SOCKS dan HTTP yang terbuka</string>
+    <string name="power_user_description">Untuk pengguna yang familier dengan Tor. Memungkinkan Anda untuk memulai AnyoneBot tanpa pengaturan VPN dan menampilkan porta SOCKS dan HTTP yang terbuka</string>
     <string name="action_activate">Aktifkan</string>
     <string name="volunteer_status_title">Hari ini lebih baik
 \nkarena tindakan Anda.</string>
     <string name="title_choose_apps">Pilih Aplikasi</string>
-    <string name="app_suggested_subtitle">Orbot bekerja baik dengan aplikasi perpesanan dan media sosial.</string>
+    <string name="app_suggested_subtitle">AnyoneBot bekerja baik dengan aplikasi perpesanan dan media sosial.</string>
     <string name="apps_suggested_title">Aplikasi yang Disarankan</string>
     <string name="apps_other_apps">Aplikasi Lain</string>
     <string name="v3_delete_client_authorization">Hapus Kunci Otorisasi Klien</string>
@@ -154,7 +154,7 @@
     <string name="volunteer_mode_weekly_label">Jumlah Setiap Minggu</string>
     <string name="volunteer_mode_alltime_label">Jumlah Sepanjang Waktu</string>
     <string name="smart_connect">Penghubungan Pintar (bawaan)</string>
-    <string name="smart_connect_subtitle">Orbot mencoba menghubungkan ke Tor melalui cara apa pun yang tersedia: Langsung, Snowflake, Jembatan.</string>
+    <string name="smart_connect_subtitle">AnyoneBot mencoba menghubungkan ke Tor melalui cara apa pun yang tersedia: Langsung, Snowflake, Jembatan.</string>
     <string name="direct_connect">Koneksi Langsung ke Tor</string>
     <string name="direct_connect_subtitle">Cara yang terbaik untuk menghubungkan ke Tor. Gunakan jika Tor tidak diblokir.</string>
     <string name="snowflake">Snowflake (Asli)</string>
@@ -200,7 +200,7 @@
     <string name="custom_bridges">Jembatan Khusu</string>
     <string name="configure_custom_bridges">Konfigurasi Jembatan Khusu</string>
     <string name="use_custom_bridges">Gunakan Jembatan Khusu</string>
-    <string name="wizard_details_msg">Orbot adalah aplikasi sumber terbuka yang berisi Tor, IPtProxy (Obfs4proxy, Meek, Snowflake), Go-Tun2Socks dan LibEvent. Ini menyediakan terowongan VPN, proksi Koneksi HTTP (hanya HTTPS dan di porta 8118) dan sebuah proksi SOCKS (9050) ke jaringan Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot adalah aplikasi sumber terbuka yang berisi Tor, IPtProxy (Obfs4proxy, Meek, Snowflake), Go-Tun2Socks dan LibEvent. Ini menyediakan terowongan VPN, proksi Koneksi HTTP (hanya HTTPS dan di porta 8118) dan sebuah proksi SOCKS (9050) ke jaringan Tor.</string>
     <string name="hidden_service_request">Sebuah aplikasi ingin membuka server onion di porta %1$s ke jaringan Tor. Ini aman jika Anda mempercayai aplikasinya.</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Perbolehkan peer Wi-Fi, perangkat tertambat dan siapa pun yang dapat menghubungkan ke IP Anda, untuk mengakses Tor</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jika jaringan ponsel Anda secara aktif memblokir Tor, Anda dapat menggunakan \'Server Jembatan\' sebagai cara lain untuk masuk. Pilih salah satu opsi untuk diatur dan coba…</string>
@@ -268,7 +268,7 @@
     <string name="ask_tor">Tanyakan Tor</string>
     <string name="many_ways">Ada lebih banyak cara untuk mencapai Tor. Beberapa dapat bekerja dengan baik daripada yang lain untuk Anda.</string>
     <string name="no_internet_title">Hubungkan ke internet</string>
-    <string name="no_internet_subtitle">Anda membutuhkan koneksi internet untuk menggunakan Orbot.</string>
+    <string name="no_internet_subtitle">Anda membutuhkan koneksi internet untuk menggunakan AnyoneBot.</string>
     <string name="kindness_adjust_title">Pengaturan</string>
     <string name="kindess_config_detail">Atur bagaimana dan kapan perangkat Anda dapat menjadi sebagai proksi Snowflake untuk pengguna Tor lain.</string>
     <string name="asking">MENANYAKAN…</string>
@@ -287,8 +287,8 @@
     <string name="connection_direct">Direct</string>
     <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Kustom</string>
-    <string name="root_warning">Orbot telah mendeteksi bahwa perangkat Anda telah di‐root, yang dapat membuat masalah keamanan.</string>
-    <string name="pref_flag_secure_summary">Cegah aplikasi lain mengambil tangkapan layar Orbot</string>
+    <string name="root_warning">AnyoneBot telah mendeteksi bahwa perangkat Anda telah di‐root, yang dapat membuat masalah keamanan.</string>
+    <string name="pref_flag_secure_summary">Cegah aplikasi lain mengambil tangkapan layar AnyoneBot</string>
     <string name="pref_flag_secure_title">Keamanan Layar</string>
     <string name="pref_detect_root_summary">Peringatkan pada pemulaian jika perizinan root diaktifkan di perangkat ini</string>
     <string name="pref_detect_root_title">Deteksi Root</string>

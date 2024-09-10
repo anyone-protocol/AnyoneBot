@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">L\'Orbot és una aplicació de servidor intermediari gratuïta que capacita a les altres aplicacions per utilitzar internet de forma més segura. L\'Orbot utilitza Tor per xifrar les vostres comunicacions per Internet i ocultar-les fent-les saltar per una sèrie d\'ordinadors repartits per tot el món. Tor és un programari lliure i una xarxa oberta que us ajuda a defensar-vos d\'un tipus de vigilància a la xarxa que amenaça la llibertat personal i la privadesa, activitats empresarials i relacions confidencials i la seguretat en general, coneguda com a anàlisi de trànsit.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">L\'AnyoneBot és una aplicació de servidor intermediari gratuïta que capacita a les altres aplicacions per utilitzar internet de forma més segura. L\'AnyoneBot utilitza Tor per xifrar les vostres comunicacions per Internet i ocultar-les fent-les saltar per una sèrie d\'ordinadors repartits per tot el món. Tor és un programari lliure i una xarxa oberta que us ajuda a defensar-vos d\'un tipus de vigilància a la xarxa que amenaça la llibertat personal i la privadesa, activitats empresarials i relacions confidencials i la seguretat en general, coneguda com a anàlisi de trànsit.</string>
     <string name="menu_settings">Preferències</string>
     <string name="menu_log">Registre</string>
     <string name="menu_stop">Atura</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Escaneja el BridgeQR</string>
     <string name="menu_share_bridge">Comparteix el BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">L\'Orbot és una aplicació de codi obert que conté Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, i LibEvent. Proporciona un proxy HTTP local (8118) i un proxy SOCKS (9050) a la xarxa Tor. En dispositius root, l\'Orbot també té la capacitat d\'enviar tot el trànsit d\'Internet a través de Tor.</string>
+    <string name="wizard_details_msg">L\'AnyoneBot és una aplicació de codi obert que conté Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, i LibEvent. Proporciona un proxy HTTP local (8118) i un proxy SOCKS (9050) a la xarxa Tor. En dispositius root, l\'AnyoneBot també té la capacitat d\'enviar tot el trànsit d\'Internet a través de Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">General</string>
     <string name="pref_start_boot_title">Inicia l\'Obot amb el sistema</string>
-    <string name="pref_start_boot_summary">Inicia l\'Orbot i connecta a Tor automàticament quan s\'inicia el dispositiu Android</string>
+    <string name="pref_start_boot_summary">Inicia l\'AnyoneBot i connecta a Tor automàticament quan s\'inicia el dispositiu Android</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Empremtes, àlies, països i adreces per al primer salt</string>
     <string name="pref_entrance_node_dialog">Introduïu els nodes d\'entrada</string>
     <string name="pref_allow_background_starts_title">Permet l\'inici en rerefons</string>
-    <string name="pref_allow_background_starts_summary">Permet a qualsevol aplicació iniciar la xarxa Tor mitjançant l\'Orbot i els serveis relacionats</string>
+    <string name="pref_allow_background_starts_summary">Permet a qualsevol aplicació iniciar la xarxa Tor mitjançant l\'AnyoneBot i els serveis relacionats</string>
     <string name="pref_proxy_title">Servidor intermediari de sortida a la xarxa (opcional)</string>
     <string name="pref_proxy_type_title">Tipus de servidor intermediari de sortida</string>
     <string name="pref_proxy_type_summary">Protocol a utilitzar per al servidor intermediari: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">NOMÉS EXPERTS: Escriviu línies de configuració directes del Torrc</string>
     <string name="pref_torrc_dialog">Torrc personalitzat</string>
     <string name="bridges_updated">S\'han actualitzat els ponts</string>
-    <string name="restart_orbot_to_use_this_bridge_">Reinicieu l\'Orbot per a aplicar els canvis</string>
+    <string name="restart_to_use_this_bridge_">Reinicieu l\'AnyoneBot per a aplicar els canvis</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Si la vostra xarxa mòbil bloca activament el Tor, podeu utilitzar un «Servidor pont» com a via alternativa. Seleccioneu una de les opcions per a configurar i provar…</string>
     <string name="get_bridges_email">Adreça electrònica</string>
     <string name="apps_mode">Mode VPN</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Torneu a iniciar el Tor per a acabar el procés</string>
     <string name="confirm_service_deletion">Confirma la supressió del servei</string>
     <string name="service_type">Tipus de servei</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Reinicieu l\'Orbot per a aplicar els canvis</string>
+    <string name="please_restart_to_enable_the_changes">Reinicieu l\'AnyoneBot per a aplicar els canvis</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Comparteix com a QR</string>
     <string name="disable">Desactiva</string>
@@ -175,7 +175,7 @@
     <string name="custom_bridge_description">Un pont personalitzat és aportat per algú que coneixeu. Demaneu en les xarxes i organitzacions de confiança per a veure si algú n\'allotja cap.</string>
     <string name="proxy_ports">Ports proxy</string>
     <string name="pref_circuit_padding">Farciment del circuit</string>
-    <string name="no_internet_subtitle">Us cal una connexió a internet per a utilitzar l\'Orbot.</string>
+    <string name="no_internet_subtitle">Us cal una connexió a internet per a utilitzar l\'AnyoneBot.</string>
     <string name="v3_hosted_services">Serveis Onion hostatjats</string>
     <string name="msg_try_something_else">Proveu altra cosa</string>
     <string name="pref_disable_ipv4_summary">Indica a les sortides que no connectin a adreces IPv4</string>
@@ -235,7 +235,7 @@
     <string name="pref_isolate_port">Aïlla els ports de destinació</string>
     <string name="menu_tor_connection">Connexió Tor</string>
     <string name="asking">S\'ESTÀ PREGUNTANT…</string>
-    <string name="power_user_description">Per a usuaris familiaritzats amb el Tor. Us permet iniciar l\'Orbot sense l\'opció de la VPN i us mostra els ports SOCKS i HTTP oberts</string>
+    <string name="power_user_description">Per a usuaris familiaritzats amb el Tor. Us permet iniciar l\'AnyoneBot sense l\'opció de la VPN i us mostra els ports SOCKS i HTTP oberts</string>
     <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="get_bridges_email_request">Sol·licita ponts per correu electrònic</string>
     <string name="menu_kindness">Altruista</string>
@@ -249,7 +249,7 @@
     <string name="v3_client_auth_activity_title">Autorització del client</string>
     <string name="pref_flag_secure_title">Seguretat de pantalla</string>
     <string name="menu_app_settings">Configuració de l\'aplicació</string>
-    <string name="root_warning">L\'Orbot ha detectat que el vostre dispositiu té desblocats els permisos «root». Això pot causar problemes de seguretat.</string>
+    <string name="root_warning">L\'AnyoneBot ha detectat que el vostre dispositiu té desblocats els permisos «root». Això pot causar problemes de seguretat.</string>
     <string name="btn_change_exit">Canvia la sortida</string>
     <string name="snowflake">Snowflake (original)</string>
     <string name="backup_port_exist">Error: Ja hi ha un servei Onion utilitzant el port %s</string>
@@ -257,7 +257,7 @@
     <string name="get_a_bridge_subtitle">Emmascara el trànsit. Evita algun blocatge del Tor.</string>
     <string name="snowflake_proxy_msg_description">Mostra un missatge quan ajudeu altra persona a circumval·lar la censura</string>
     <string name="kindess_config_detail">Configureu com i quan el vostre dispositiu pot actuar com a un servidor Snowflake per a altres usuaris del Tor.</string>
-    <string name="smart_connect_subtitle">L\'Orbot prova de connectar al Tor mitjançant qualsevol mètode: Directe, Snowflake, Pont.</string>
+    <string name="smart_connect_subtitle">L\'AnyoneBot prova de connectar al Tor mitjançant qualsevol mètode: Directe, Snowflake, Pont.</string>
     <string name="v3_backup_key_warning">Atenció: Això podria exposar la clau a altres aplicacions</string>
     <string name="v3_delete_client_authorization">Suprimeix la clau d\'autorització del client</string>
     <string name="pref_isolate_protocol_summary">Utilitza un circuit diferent per a cada protocol de connexió</string>
@@ -268,7 +268,7 @@
     <string name="testing_tor_direct_success">Èxit. La connexió al Tor és bona!</string>
     <string name="btn_start_vpn">Inicia la VPN</string>
     <string name="strict_nodes_description">Tracta els paràmetres d\'exclusió de nodes com a requeriment per a construir tots els circuits. Podria trencar la funcionalitat si no es pot generar cap circuit amb aquests paràmetres.</string>
-    <string name="app_suggested_subtitle">L\'Orbot funciona millor amb aplicacions de missatgeria i xarxes socials.</string>
+    <string name="app_suggested_subtitle">L\'AnyoneBot funciona millor amb aplicacions de missatgeria i xarxes socials.</string>
     <string name="configure_custom_bridges">Configura els ponts personalitzats</string>
     <string name="get_a_bridge">Pont del Tor (Obfs4)</string>
     <string name="secure_your_connection_title">Preparat per a connectar</string>
@@ -278,7 +278,7 @@
     <string name="v3_delete_client_authorization_confirm">Suprimeix l\'autorització del client</string>
     <string name="pref_http_summary">Port al qual el Tor ofereix el seu servidor intermediari HTTP (per defecte: 8118, o 0 per a desactivar)</string>
     <string name="captcha">Captcha</string>
-    <string name="pref_flag_secure_summary">Impedeix que altres aplicacions facin captures de pantalla de l\'Orbot</string>
+    <string name="pref_flag_secure_summary">Impedeix que altres aplicacions facin captures de pantalla de l\'AnyoneBot</string>
     <string name="direct_connect_subtitle">La millor manera de connectar-se al Tor. Utilitzeu-la si el Tor no és blocat.</string>
     <string name="volunteer_status_title">L\'avui és millor
 \ngràcies a vós.</string>

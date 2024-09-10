@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot </string>
-    <string name="orbot_vpn">Orbot VPN </string>
-    <string name="app_description">ORBOTa’ teeçx PROXY’, çaamte spahtxçxa’ dewemee vxiswa’ja’; naayu’ vxite çaam wejxatxku ũukhmee kvxisu’ju’. ORBOTa’ TORa’sku kseelpi’ji’ mjĩitx jxpa’yahtx jxaawkaan. TORa’ vxite çaam wejxa’, txa’wẽyçxa dewewa’jme’, naa wejxa’ wala pu’çxhin kĩhsupa jiyuwẽte, txãa pa’ka kwe’sx mjĩitx nwe’wek peethegkameen; sa’ ũukhmee vxiswa’ja’.</string>
-    <string name="status_starting_up">Orbota’ takhna ũsa’&#8230;</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="anyonebot_vpn">AnyoneBot VPN </string>
+    <string name="app_description">AnyoneBota’ teeçx PROXY’, çaamte spahtxçxa’ dewemee vxiswa’ja’; naayu’ vxite çaam wejxatxku ũukhmee kvxisu’ju’. AnyoneBota’ TORa’sku kseelpi’ji’ mjĩitx jxpa’yahtx jxaawkaan. TORa’ vxite çaam wejxa’, txa’wẽyçxa dewewa’jme’, naa wejxa’ wala pu’çxhin kĩhsupa jiyuwẽte, txãa pa’ka kwe’sx mjĩitx nwe’wek peethegkameen; sa’ ũukhmee vxiswa’ja’.</string>
+    <string name="status_starting_up">AnyoneBota’ takhna ũsa’&#8230;</string>
     <string name="status_activated">Tor Networkte txitxanxi ũsa’</string>
-    <string name="status_disabled">Orbota’ fxĩçxhanxi ũsa’ </string>
-    <string name="open_orbot_to_connect_to_tor">Orbota’s phade Torte txitxaya’pacxa</string>
-    <string name="status_shutting_down">Orbota’ aphnxi ũsa’ </string>
+    <string name="status_disabled">AnyoneBota’ fxĩçxhanxi ũsa’ </string>
+    <string name="open_anyonebot_to_connect_to_tor">AnyoneBota’s phade Torte txitxaya’pacxa</string>
+    <string name="status_shutting_down">AnyoneBota’ aphnxi ũsa’ </string>
     <string name="connect_to_tor">Torte mtxiitxaa </string>
-    <string name="orbot_config_invalid">Orbot phewu’jnxi’ ewmee’</string>
+    <string name="config_invalid">AnyoneBot phewu’jnxi’ ewmee’</string>
 
     <string name="couldn_t_start_tor_process_">Tora’ takhya’ ewuume’</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">!Idx ReachableAddresses phewu’jnxi´ teeçx yuwek nvxiht!</string>

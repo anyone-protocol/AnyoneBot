@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">orbot</string>
-    <string name="orbot_vpn">0rbot VNP</string>
-    <string name="app_description">Orbot shia wane a\'yataaya maliasat, akaalinjia tü wane a\'yataayaakalüirua süpüla anainjatüin shia\'yataaya. Orbot a\'yataasü sulu\'u \"internet\" süka wane kanüliasü Tor je süchikijee sunujuluin sulu\'u wane kojuyasü \"computador\" sainküsü mmakat. Tor maliasat je taashisü süpüla sa\'inmajüin pia suulia eekai mojulaweein pümüin wanaa sümaa pi\'yataain sulu\'u \"internet\".</string>
-    <string name="status_starting_up">Eepeja\'asu Orbot&#8230;</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="anyonebot_vpn">0rbot VNP</string>
+    <string name="app_description">AnyoneBot shia wane a\'yataaya maliasat, akaalinjia tü wane a\'yataayaakalüirua süpüla anainjatüin shia\'yataaya. AnyoneBot a\'yataasü sulu\'u \"internet\" süka wane kanüliasü Tor je süchikijee sunujuluin sulu\'u wane kojuyasü \"computador\" sainküsü mmakat. Tor maliasat je taashisü süpüla sa\'inmajüin pia suulia eekai mojulaweein pümüin wanaa sümaa pi\'yataain sulu\'u \"internet\".</string>
+    <string name="status_starting_up">Eepeja\'asu AnyoneBot&#8230;</string>
     <string name="status_activated">Antirrawaas jumaa atalaya Tor</string>
-    <string name="status_disabled">Yokutusu\'u Orbot</string>
-    <string name="open_orbot_to_connect_to_tor">Pe\'erulaa  Orbot jupula  puyata ín juma Tor.</string>
+    <string name="status_disabled">Yokutusu\'u AnyoneBot</string>
+    <string name="open_anyonebot_to_connect_to_tor">Pe\'erulaa  AnyoneBot jupula  puyata ín juma Tor.</string>
     <string name="status_shutting_down">Yokuuter  Tor</string>
     <string name="connect_to_tor">Antirrawaa sunain Tor</string>
-    <string name="orbot_config_invalid">sükumajia Orbot maliaasat</string>
+    <string name="config_invalid">sükumajia AnyoneBot maliaasat</string>
 
     <string name="couldn_t_start_tor_process_">Nojotsü o\'ottuin sukuaipa shiatain Tor</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Tü anatiaaka   erree juntunuín  casaa, nojots jainrre\'in</string>

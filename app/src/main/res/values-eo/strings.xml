@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="menu_settings">Agordoj</string>
     <string name="menu_log">Protokolo</string>
     <string name="menu_stop">Halti</string>
@@ -12,8 +12,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Ĝenerala</string>
-    <string name="pref_start_boot_title">Ŝalti Orbot dum praŝargado</string>
-    <string name="pref_start_boot_summary">Aŭtomate startigi Orbot kaj konekti al Tor dum praŝargado de via Androida ilo</string>
+    <string name="pref_start_boot_title">Ŝalti AnyoneBot dum praŝargado</string>
+    <string name="pref_start_boot_summary">Aŭtomate startigi AnyoneBot kaj konekti al Tor dum praŝargado de via Androida ilo</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->

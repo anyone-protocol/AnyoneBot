@@ -9,7 +9,7 @@
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
     <string name="menu_settings">Nustatymai</string>
-    <string name="app_name">Orbot</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="enter_exclude_nodes">Įveskite neįtrauktinus mazgus</string>
     <string name="pref_disable_ipv4_summary">Nurodo išėjimams nesijungti prie IPv4 adresų</string>
     <string name="pref_prefer_ipv6_summary">Nurodo, kad pirmenybė teikiama IPv6 adresams</string>
@@ -52,7 +52,7 @@
     <string name="create_a_backup_first">Pirmiausia sukurkite atsarginę kopiją</string>
     <string name="copy_address_to_clipboard">Kopijuoti adresą į iškarpinę</string>
     <string name="pref_proxy_title">Išeinančio tinklo įgaliotasis serveris (pasirinktinai)</string>
-    <string name="pref_start_boot_title">Paleisti „Orbot“ paleidimo metu</string>
+    <string name="pref_start_boot_title">Paleisti „AnyoneBot“ paleidimo metu</string>
     <string name="v3_delete_client_authorization_confirm">Naikinti kliento autorizavimą</string>
     <string name="v3_client_auth_activity_title">Kliento autorizacija</string>
     <string name="v3_onion">.onion domenas</string>
@@ -141,17 +141,17 @@
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
     <string name="the_nickname_for_your_tor_relay">Jūsų „Tor“ relės slapyvardis</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Paleiskite „Orbot“ iš naujo, kad įgalintumėte pakeitimus</string>
+    <string name="please_restart_to_enable_the_changes">Paleiskite „AnyoneBot“ iš naujo, kad įgalintumėte pakeitimus</string>
     <string name="start_tor_again_for_finish_the_process">Norėdami užbaigti procesą, vėl paleiskite „Tor“</string>
-    <string name="restart_orbot_to_use_this_bridge_">Paleiskite „Orbot“ iš naujo, kad įgalintumėte pakeitimus</string>
+    <string name="restart_to_use_this_bridge_">Paleiskite „AnyoneBot“ iš naujo, kad įgalintumėte pakeitimus</string>
     <string name="pref_torrc_summary">TIK EKSPERTAMS: įveskite tiesiogines torrc konfigūracijos eilutes</string>
     <string name="newnym">Jūs perėjote prie naujos „Tor“ tapatybės!</string>
     <string name="v3_backup_key_warning">Įspėjimas: Tai gali atskleisti jūsų raktą kitoms programėlėms</string>
     <string name="pref_node_configuration_summary">Tai yra išplėstiniai nustatymai, kurie gali sumažinti jūsų anonimiškumą</string>
     <string name="pref_disable_network_summary">Užmigdyti „Tor“, kai nėra interneto</string>
     <string name="pref_proxy_type_summary">Protokolas, kurį reikia naudoti įgaliotajam serveriui: HTTP, HTTPS, SOCKS4, SOCKS5</string>
-    <string name="pref_allow_background_starts_summary">Leiskite bet kuriai programėlei nurodyti „Orbot“ paleisti „Tor“ ir susijusias paslaugas</string>
-    <string name="pref_start_boot_summary">Automatiškai paleisti „Orbot“ ir prijunkti „Tor“, kai įsijungs „Android“ įrenginys</string>
+    <string name="pref_allow_background_starts_summary">Leiskite bet kuriai programėlei nurodyti „AnyoneBot“ paleisti „Tor“ ir susijusias paslaugas</string>
+    <string name="pref_start_boot_summary">Automatiškai paleisti „AnyoneBot“ ir prijunkti „Tor“, kai įsijungs „Android“ įrenginys</string>
     <string name="backup_service">Atsarginio kopijavimo paslauga <i>(Įspėjimas: tai gali atskleisti jūsų paslaugos konfigūraciją kitoms programoms)</i></string>
     <string name="enable_debug_log_to_output_must_use_adb_or_alogcat_to_view_">Įgalinti derinimo žurnalo išvestį (norėdami peržiūrėti turite naudoti adb arba aLogcat)</string>
     <string name="pref_dnsport_summary">Prievadas, kuriuo „Tor“ siūlo savo DNS (numatytoji reikšmė: 5400 arba 0, jei norite išjungti)</string>
@@ -164,7 +164,7 @@
     <string name="pref_open_proxy_on_all_interfaces_summary">Leisti „Wi-Fi“ poroms, pririštiems įrenginiams ir visiems kitiems, kurie gali prisijungti prie jūsų IP, pasiekti „Tor“</string>
     <string name="hidden_service_request">Programėlė nori atidaryti „Tor“ tinklo prievado %1$s onion serverį. Tai saugu, jei pasitikite programėle.</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jei jūsų mobiliojo ryšio tinklas aktyviai blokuoja „Tor“, galite naudoti „tilto serverį“ kaip alternatyvų prisijungimo būdą. Pasirinkite vieną iš parinkčių, kad galėtumėte konfigūruoti ir išbandyti…</string>
-    <string name="wizard_details_msg">„Orbot“ yra atvirojo kodo programa, kurią sudaro „Tor“, „Obfs4Proxy“, „Go-Tun2Socks“ ir „LibEvent“. Ji suteikia vietinį HTTP įgaliotąjį (proxy) serverį (8118) ir SOCKS įgaliotąjį serverį (9050) į „Tor“ tinklą.</string>
+    <string name="wizard_details_msg">„AnyoneBot“ yra atvirojo kodo programa, kurią sudaro „Tor“, „Obfs4Proxy“, „Go-Tun2Socks“ ir „LibEvent“. Ji suteikia vietinį HTTP įgaliotąjį (proxy) serverį (8118) ir SOCKS įgaliotąjį serverį (9050) į „Tor“ tinklą.</string>
     <string name="relaying">Perdavimas</string>
     <string name="pref_general_group">Bendrieji</string>
     <string name="menu_log">Žurnalas</string>
@@ -185,7 +185,7 @@
     <string name="main_layout_download">Atsisiųsti</string>
     <string name="menu_about">Apie</string>
     <string name="menu_stop">Sustabdyti</string>
-    <string name="app_description">„Orbot“ yra nemokama įgaliotojo serverio programa, kuri leidžia kitoms programoms saugiau naudotis internetu. „Orbot“ naudoja „Tor“, kad užšifruotų jūsų interneto srautą ir paslėptų jį per kelis kompiuterius visame pasaulyje. „Tor“ yra nemokama programinė įranga ir atviras tinklas, padedantis apsisaugoti nuo tinklo stebėjimo, keliančio grėsmę asmens laisvei ir privatumui, konfidencialiai verslo veiklai ir santykiams bei valstybės saugumui, vadinamo srauto analize.</string>
+    <string name="app_description">„AnyoneBot“ yra nemokama įgaliotojo serverio programa, kuri leidžia kitoms programoms saugiau naudotis internetu. „AnyoneBot“ naudoja „Tor“, kad užšifruotų jūsų interneto srautą ir paslėptų jį per kelis kompiuterius visame pasaulyje. „Tor“ yra nemokama programinė įranga ir atviras tinklas, padedantis apsisaugoti nuo tinklo stebėjimo, keliančio grėsmę asmens laisvei ir privatumui, konfidencialiai verslo veiklai ir santykiams bei valstybės saugumui, vadinamo srauto analize.</string>
     <string name="version">Versija:</string>
     <string name="license">Licencija:</string>
     <string name="secure_your_connection_title">Paruošta prisijungti</string>
@@ -230,7 +230,7 @@
     <string name="volunteer_status_title">Šiandiena yra geresnė
 \ndėka jūsų.</string>
     <string name="apps_other_apps">Kitos programėlės</string>
-    <string name="power_user_description">Vartotojams, susipažinusiems su . Leidžia paleisti „Orbot“ be VPN nustatymo ir rodo atvirus SOCKS ir HTTP prievadus</string>
+    <string name="power_user_description">Vartotojams, susipažinusiems su . Leidžia paleisti „AnyoneBot“ be VPN nustatymo ir rodo atvirus SOCKS ir HTTP prievadus</string>
     <string name="volunteer_mode_subtitle_desc">Gerumo režimas leidžia jūsų įrenginiui būti tiltu kitiems. Tai padeda žmonėms naudoti „Tor“ vietose, kur jis užblokuotas.
 \n
 \n• Tai neišsekins jūsų baterijos
@@ -247,15 +247,15 @@
     <string name="custom_bridge_subtitle">Labiausiai tikėtina, kad palaikysite ryšį, jei „Tor“ yra labai užblokuotas. Reikalingas tilto adresas iš asmens, kuriuo pasitikite.</string>
     <string name="incorrect_solution">Neteisingas sprendimas</string>
     <string name="custom_bridge">Pasirinktinis tiltas</string>
-    <string name="app_suggested_subtitle">„Orbot“ geriausiai veikia su pranešimų ir socialinių tinklų programėlėmis.</string>
-    <string name="bridges_obtained_connecting">Gauti tiltai! Jungiamasi prie „Tor“...</string>
+    <string name="app_suggested_subtitle">„AnyoneBot“ geriausiai veikia su pranešimų ir socialinių tinklų programėlėmis.</string>
+    <string name="bridges_obtained_connecting">Gauti tiltai! Jungiamasi prie „Tor“…</string>
     <string name="having_trouble">Turi problemų</string>
     <string name="having_trouble_subtitle">Galime išbandyti „Tor“ tiltą, bet mums reikės jūsų pagalbos</string>
     <string name="get_a_bridge_subtitle">Uždengia jūsų srautą. Apeina tam tikrą „Tor“ blokavimą.</string>
     <string name="title_choose_apps">Pasirinkti programėles</string>
     <string name="apps_suggested_title">Siūlomos programėlės</string>
     <string name="direct_connect_subtitle">Geriausias būdas prisijungti prie „Tor“. Naudokite, jei „Tor“ neužblokuotas.</string>
-    <string name="smart_connect_subtitle">„Orbot“ bando prisijungti prie „Tor“ bet kokiu būdu: tiesioginiu, „Snowflake“, tiltu.</string>
+    <string name="smart_connect_subtitle">„AnyoneBot“ bando prisijungti prie „Tor“ bet kokiu būdu: tiesioginiu, „Snowflake“, tiltu.</string>
     <string name="direct_connect">Tiesioginis ryšys su „Tor“</string>
     <string name="custom_bridge_description">Pasirinktinį tiltą pateikia pažįstamas asmuo. Paklauskite savo patikimų tinklų ir organizacijų, kad sužinotumėte, ar kas nors jį palaiko.</string>
     <string name="hide_apps">Paslėpkite programėles nuo tinklo stebėjimo ir gaukite prieigą, kai jos blokuojamos.</string>
@@ -265,7 +265,7 @@
     <string name="setting_debug">Derinimas</string>
     <string name="action_use">Naudoti</string>
     <string name="no_internet_title">Prisijunkite prie interneto</string>
-    <string name="no_internet_subtitle">Norint naudotis \"Orbot\", reikia interneto ryšio.</string>
+    <string name="no_internet_subtitle">Norint naudotis \"AnyoneBot\", reikia interneto ryšio.</string>
     <string name="not_sure">Nesate tikri\?</string>
     <string name="ask_tor">Paklauskite Tor</string>
     <string name="option_only_when_charging">Tik įkraunant</string>
@@ -278,13 +278,13 @@
     <string name="option_only_on_wifi">Tik per Wifi</string>
     <string name="connection_direct">Tiesioginis</string>
     <string name="pref_isolate_port">Išskirti paskirties prievadai</string>
-    <string name="asking">KLAUSIMAS...</string>
+    <string name="asking">KLAUSIMAS…</string>
     <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="menu_kindness">Gerumas</string>
     <string name="pref_flag_secure_title">Ekrano apsauga</string>
-    <string name="root_warning">\"Orbot\" nustatė, kad jūsų įrenginys yra įsišaknijęs, o tai gali sukelti saugumo problemų.</string>
+    <string name="root_warning">\"AnyoneBot\" nustatė, kad jūsų įrenginys yra įsišaknijęs, o tai gali sukelti saugumo problemų.</string>
     <string name="kindess_config_detail">Konfigūruokite, kaip ir kada jūsų įrenginys gali veikti kaip \"Snowflake\" tarpinis serveris kitiems \"Tor\" naudotojams.</string>
     <string name="pref_isolate_protocol_summary">Kiekvienam jungiamajam protokolui naudokite skirtingą grandinę</string>
-    <string name="pref_flag_secure_summary">Neleiskite kitoms programoms daryti \"Orbot\" ekrano nuotraukų</string>
+    <string name="pref_flag_secure_summary">Neleiskite kitoms programoms daryti \"AnyoneBot\" ekrano nuotraukų</string>
     <string name="many_ways">Yra daugybė būdų pasiekti Tor. Vieni iš jų jums gali tikti labiau nei kiti.</string>
 </resources>

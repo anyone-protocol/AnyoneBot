@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">اوربوت</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="app_description">اوربوت هو تطبيق الوكيل-البروكسي الحر الذي يمكّن تطبيقات أخرى لاستخدام الإنترنت بأمان أكثر . يُستخدم اوربوت تور لتشفير تحركات مرورك على الإنترنت ، ثم يخفيك ويجعلك وهمي من خلال سلسلة من أجهزة الكمبيوتر في جميع أنحاء العالم . تور هو تطبيق حر وشبكة مفتوحة والتي تساعدك على حماية نفسك من مراقبة الشبكات التي تهدد الحرية الشخصية والخصوصية ، والأنشطة التجارية السرية والعلاقات ، وأمن الدولة والحكومات القمعيّة والتي تستخدم مايعرف باسم تحليل حركة مرور البيانات .</string>
     <string name="menu_settings">إعدادات</string>
     <string name="menu_log">السجل</string>
     <string name="menu_stop">توقف</string>
-    <string name="menu_about">حول Orbot</string>
+    <string name="menu_about">حول AnyoneBot</string>
     <string name="main_layout_download">تحميل</string>
     <string name="main_layout_upload">رفع</string>
     <string name="button_about">حول</string>
@@ -92,7 +92,7 @@
     <string name="pref_torrc_summary">للخبراء فقط : أدخل أسطر ملف torrc مباشرةً</string>
     <string name="pref_torrc_dialog">torrc خاص</string>
     <string name="bridges_updated">تم تحديث الجسور</string>
-    <string name="restart_orbot_to_use_this_bridge_">الرجاء إعادة تشغيل أوربوت لتفعيل التعديلات</string>
+    <string name="restart_to_use_this_bridge_">الرجاء إعادة تشغيل أوربوت لتفعيل التعديلات</string>
     <string name="get_bridges_email">البريد الإلكتروني</string>
     <string name="apps_mode">وضع الـ VPN</string>
     <string name="send_email">أرسل بريد الكتروني</string>
@@ -114,7 +114,7 @@
     <string name="start_tor_again_for_finish_the_process">قم بتشغيل تور ثانيةً لإنهاء العملية</string>
     <string name="confirm_service_deletion">تأكيد حذف الخدمة</string>
     <string name="service_type">نوع الخدمة</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">الرجاء إعادة تشغيل أوربوت لتفعيل التعديلات</string>
+    <string name="please_restart_to_enable_the_changes">الرجاء إعادة تشغيل أوربوت لتفعيل التعديلات</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">شارك كرمز كيو آر</string>
     <string name="disable">إلغاء</string>
@@ -159,7 +159,7 @@
     <string name="action_use">استخدام</string>
     <string name="license">الرخصة:</string>
     <string name="mebibyte">م.بايت</string>
-    <string name="wizard_details_msg">Orbot هو تطبيق مفتوح المصدر يحتوي على تور و IPtProxy (Obfs4Proxy و Meek و Snowflake) و Go-Tun2Socks و LibEvent. يوفر نفق VPN ووكيل HTTP محلي (HTTPS فقط على المنفذ 8118) ووكيل SOCKS (9050) في شبكة تور.</string>
+    <string name="wizard_details_msg">AnyoneBot هو تطبيق مفتوح المصدر يحتوي على تور و IPtProxy (Obfs4Proxy و Meek و Snowflake) و Go-Tun2Socks و LibEvent. يوفر نفق VPN ووكيل HTTP محلي (HTTPS فقط على المنفذ 8118) ووكيل SOCKS (9050) في شبكة تور.</string>
     <string name="strict_nodes_description">تعامل مع إعدادات استبعاد العقد كشرط لبناء جميع المسار. قد يؤدي هذا إلى تعطيل الوظيفة إذا لم يكن بالإمكان إنشاء مسار باستخدام إعدادات استبعاد العقد.</string>
     <string name="testing_tor_direct_success">نجاح. اتصال تور جيد!</string>
     <string name="app_services">خدمات التطبيق</string>
@@ -176,7 +176,7 @@
     <string name="volunteer_mode_label">وضع اللطف</string>
     <string name="custom_bridge">جسر مخصص</string>
     <string name="no_internet_title">اتصل بالإنترنت</string>
-    <string name="no_internet_subtitle">تحتاج إلى اتصال بالإنترنت لاستخدام Orbot.</string>
+    <string name="no_internet_subtitle">تحتاج إلى اتصال بالإنترنت لاستخدام AnyoneBot.</string>
     <string name="kindness_adjust_title">إعدادات</string>
     <string name="pref_http_dialog">تكوين منفذ HTTP</string>
     <string name="testing_tor_direct">جارٍ اختبار الاتصال بـتور…</string>
@@ -225,11 +225,11 @@
     <string name="msg_taking_too_long">يبدو أن هذا يستغرق وقتًا طويلاً</string>
     <string name="msg_try_something_else">جرب شيئًا آخر</string>
     <string name="proxy_ports">منافذ البروكسي</string>
-    <string name="app_suggested_subtitle">يعمل Orbot بشكل أفضل مع تطبيقات المراسلة والتواصل الاجتماعي.</string>
+    <string name="app_suggested_subtitle">يعمل AnyoneBot بشكل أفضل مع تطبيقات المراسلة والتواصل الاجتماعي.</string>
     <string name="hide_apps">إخفاء التطبيقات من مراقبة الشبكة والوصول إليها عندما يتم حظرها.</string>
     <string name="log_copied">نسخت السجل</string>
     <string name="option_only_when_charging">فقط عند الشحن</string>
-    <string name="pref_flag_secure_summary">منع التطبيقات الأخرى من التقاط لقطات شاشة من Orbot</string>
+    <string name="pref_flag_secure_summary">منع التطبيقات الأخرى من التقاط لقطات شاشة من AnyoneBot</string>
     <string name="pref_flag_secure_title">أمان الشاشة</string>
     <string name="btn_copy_log">نسخ السجل</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">إذا كانت شبكة الهاتف المحمول لديك تحجب تور بشكل نشط، فيمكنك استخدام \"خادم جسر\" كطريقة بديلة. حدد أحد الخيارات للتهيئة والاختبار…</string>
@@ -251,7 +251,7 @@
 \n• يمكن تشغيله عبر wifi فقط
 \n• يمكن إيقاف تشغيله في أي وقت</string>
     <string name="smart_connect">الاتصال الذكي (افتراضي)</string>
-    <string name="smart_connect_subtitle">يحاول Orbot الاتصال بتور بأي طريقة متاحة: مباشرةً، جسر، Snowflake.</string>
+    <string name="smart_connect_subtitle">يحاول AnyoneBot الاتصال بتور بأي طريقة متاحة: مباشرةً، جسر، Snowflake.</string>
     <string name="direct_connect">اتصال مباشر بتور</string>
     <string name="direct_connect_subtitle">أفضل طريقة للاتصال بتور. استخدم إذا لم يٌحظر تور.</string>
     <string name="snowflake">Snowflake (الأصل)</string>
@@ -267,7 +267,7 @@
     <string name="kindess_config_detail">تضبيط كيف ومتى يمكن لجهازك العمل كوكيل Snowflake لمستخدمي تور الآخرين.</string>
     <string name="having_trouble_subtitle">يمكننا تجربة جسر تور بعد ذلك ولكننا سنحتاج إلى مساعدتك</string>
     <string name="power_user_mode">وضع المستخدم القوي</string>
-    <string name="power_user_description">للمستخدمين المطلعين على تور. يسمح لك ببدء تشغيل Orbot بدون إعداد VPN ويعرض منافذ SOCKS و HTTP المفتوحة</string>
+    <string name="power_user_description">للمستخدمين المطلعين على تور. يسمح لك ببدء تشغيل AnyoneBot بدون إعداد VPN ويعرض منافذ SOCKS و HTTP المفتوحة</string>
     <string name="volunteer_status_title">اليوم أفضل
 \nبسببك.</string>
     <string name="option_only_on_wifi">فقط على شبكة Wifi</string>
@@ -286,7 +286,7 @@
     <string name="v3_backup_name_hint">نسخ احتياطي لاسم ملف…</string>
     <string name="v3_import_auth_private">استيراد .auth_private</string>
     <string name="setting_padding">الحشوة</string>
-    <string name="root_warning">اكتشف Orbot أن جهازك مزوّد بحق الوصول إلى الجذر (rooted)، مما قد يتسبب في حدوث مشكلات أمنية.</string>
+    <string name="root_warning">اكتشف AnyoneBot أن جهازك مزوّد بحق الوصول إلى الجذر (rooted)، مما قد يتسبب في حدوث مشكلات أمنية.</string>
     <string name="pref_detect_root_summary">تحذير عند بدء التشغيل إذا فعّلت أذونات الجذر على هذا الجهاز</string>
     <string name="pref_detect_root_title">كشف الجذر</string>
 </resources>

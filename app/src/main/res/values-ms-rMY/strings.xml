@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="menu_settings">Tetapan</string>
     <string name="menu_log">Log</string>
     <string name="menu_stop">Henti</string>
@@ -12,8 +12,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Umum</string>
-    <string name="pref_start_boot_title">Mulakan Orbot semasa Boot</string>
-    <string name="pref_start_boot_summary">Mula Orbot secara automatik dan sambung Tor ketika peranti Android boot</string>
+    <string name="pref_start_boot_title">Mulakan AnyoneBot semasa Boot</string>
+    <string name="pref_start_boot_summary">Mula AnyoneBot secara automatik dan sambung Tor ketika peranti Android boot</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->

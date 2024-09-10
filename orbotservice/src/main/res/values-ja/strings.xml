@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Orbot</string>
-  <string name="app_description">Orbotは他のアプリがインターネットをより安全に使うことを可能にするフリーのプロキシアプリです。Orbotでは、Torを用いてあなたの端末のトラフィックを暗号化し、世界中のコンピューターを中継することで、そのトラフィックを隠します。Torはフリーのソフトウェアとオープンなネットワークであり、ユーザーの自由とプライバシーを脅かす監視活動や、機密のビジネス活動、国家によるトラフィック分析から身を守ることを助けてくれます。</string>
-    <string name="status_starting_up">Orbotが開始されています...</string>
+  <string name="app_name">AnyoneBot</string>
+  <string name="app_description">AnyoneBotは他のアプリがインターネットをより安全に使うことを可能にするフリーのプロキシアプリです。AnyoneBotでは、Torを用いてあなたの端末のトラフィックを暗号化し、世界中のコンピューターを中継することで、そのトラフィックを隠します。Torはフリーのソフトウェアとオープンなネットワークであり、ユーザーの自由とプライバシーを脅かす監視活動や、機密のビジネス活動、国家によるトラフィック分析から身を守ることを助けてくれます。</string>
+    <string name="status_starting_up">AnyoneBotが開始されています…</string>
   <string name="status_activated">Torネットワークに接続しています</string>
-  <string name="status_disabled">\"Orbotが解除されました</string>
+  <string name="status_disabled">\"AnyoneBotが解除されました</string>
   <string name="status_shutting_down">TorServiceが終了しています</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->

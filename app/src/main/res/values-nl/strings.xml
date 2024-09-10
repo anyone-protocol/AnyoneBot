@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot is een vrije proxy-app die het andere apps mogelijk maakt het internet veiliger te gebruiken. Orbot gebruikt Tor om je internetverkeer te versleutelen en het vervolgens te verhullen het door het door een serie computers over de hele wereld te routeren. Tor is vrije software en een open netwerk dat je helpt te verdedigen tegen een vorm van netwerktoezicht, genaamd \'verkeersanalyse\', die persoonlijke vrijheid en privacy, vertrouwelijke bedrijfsactiviteiten en relaties en staatsveiligheid bedreigt.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot is een vrije proxy-app die het andere apps mogelijk maakt het internet veiliger te gebruiken. AnyoneBot gebruikt Tor om je internetverkeer te versleutelen en het vervolgens te verhullen het door het door een serie computers over de hele wereld te routeren. Tor is vrije software en een open netwerk dat je helpt te verdedigen tegen een vorm van netwerktoezicht, genaamd \'verkeersanalyse\', die persoonlijke vrijheid en privacy, vertrouwelijke bedrijfsactiviteiten en relaties en staatsveiligheid bedreigt.</string>
     <string name="menu_settings">Instellingen</string>
     <string name="menu_log">Logboek</string>
     <string name="menu_stop">Stop</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">BridgeQR scannen</string>
     <string name="menu_share_bridge">BridgeQR delen</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Orbot is een openbronapplicatie die Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, en LibEvent bevat. Het creëert een lokale HTTP-proxy (8118) en een SOCKS-proxy (9050) naar het Tor-netwerk. Orbot heeft ook de mogelijkheid om al het internetverkeer over het Tor-netwerk te sturen.</string>
+    <string name="wizard_details_msg">AnyoneBot is een openbronapplicatie die Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, en LibEvent bevat. Het creëert een lokale HTTP-proxy (8118) en een SOCKS-proxy (9050) naar het Tor-netwerk. AnyoneBot heeft ook de mogelijkheid om al het internetverkeer over het Tor-netwerk te sturen.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Algemeen</string>
-    <string name="pref_start_boot_title">Start Orbot bij opstarten</string>
-    <string name="pref_start_boot_summary">Start Orbot en verbind automatisch met Tor wanneer je Android-toestel opstart</string>
+    <string name="pref_start_boot_title">Start AnyoneBot bij opstarten</string>
+    <string name="pref_start_boot_summary">Start AnyoneBot en verbind automatisch met Tor wanneer je Android-toestel opstart</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Vingerafdrukken, nicks, landen en adressen voor de eerste hop</string>
     <string name="pref_entrance_node_dialog">Voer toegangsnodes in</string>
     <string name="pref_allow_background_starts_title">Sta starten op de achtergrond toe</string>
-    <string name="pref_allow_background_starts_summary">Sta elke applicatie toe om Orbot de Torverbinding en -diensten te laten starten </string>
+    <string name="pref_allow_background_starts_summary">Sta elke applicatie toe om AnyoneBot de Torverbinding en -diensten te laten starten </string>
     <string name="pref_proxy_title">Uitgaande netwerk-proxy (facultatief)</string>
     <string name="pref_proxy_type_title">Proxy-type</string>
     <string name="pref_proxy_type_summary">Protocol om te gebruiken voor proxyserver: HTTP, HTTPS, SOCKS4, SOCKS5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">ENKEL VOOR GEVORDERDEN: voer rechtstreeks torrc-configuratieregels in</string>
     <string name="pref_torrc_dialog">Aangepaste Torrc</string>
     <string name="bridges_updated">Bridges bijgewerkt</string>
-    <string name="restart_orbot_to_use_this_bridge_">Herstart Orbot om de wijzigingen in te schakelen</string>
+    <string name="restart_to_use_this_bridge_">Herstart AnyoneBot om de wijzigingen in te schakelen</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Als je mobiele netwerk Tor actief blokkeert, kan je een \'bridge-server\' gebruiken als alternatieve toegang. SELECTEER een van de opties om te configureren en te testen…</string>
     <string name="get_bridges_email">E-mail</string>
     <string name="apps_mode">VPN-modus</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Start Tor opnieuw om het proces te voltooien</string>
     <string name="confirm_service_deletion">Bevestig verwijderen van dienst</string>
     <string name="service_type">Diensttype</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Herstart Orbot om de wijzigingen in te schakelen</string>
+    <string name="please_restart_to_enable_the_changes">Herstart AnyoneBot om de wijzigingen in te schakelen</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Delen als QR-code</string>
     <string name="disable">Uitschakelen</string>

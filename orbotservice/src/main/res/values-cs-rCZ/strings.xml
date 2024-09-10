@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Orbot</string>
-    <string name="status_starting_up">Orbot se spouští...</string>
+  <string name="app_name">AnyoneBot</string>
+    <string name="status_starting_up">AnyoneBot se spouští…</string>
   <string name="status_activated">Připojen k síti Tor</string>
-  <string name="status_disabled">Orbot je deaktivován</string>
+  <string name="status_disabled">AnyoneBot je deaktivován</string>
   <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <!--New Wizard Strings-->

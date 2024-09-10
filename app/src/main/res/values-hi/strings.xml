@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ऑरबॉट</string>
+    <string name="app_name">AnyoneBot</string>
     <string name="app_description">ऑरबॉट एक मुफ्त प्रॉक्सी ऐप है जो दूसरे ऐपों को इंटरनेट बेहतर सुरक्षा के साथ इस्तेमाल करने देता है। ऑरबॉट आपके इंटरनेट टैफिक को एन्क्रिप्ट करने और छुपाने के लिए टॉर इस्तेमाल करता है। टॉर एक मुफ्त सॉफ्टवेयर और एक खुला नेटवर्क है जो आपको नेटवर्क निगरानी के एक टाइप (जिससे निजी आज़ादी और गोपनियता, निजी कारोबारी काम और रिश्ते में नुकसान हो सकता है) और ट्रैफिक विश्लेषण से बचाता है।</string>
     <string name="menu_settings">सेटिंग</string>
     <string name="menu_log">लॉग</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">सिर्फ एक्सपर्ट के लिए: डायरेक्ट टॉर्रक सेटिंग लाइनें डालें</string>
     <string name="pref_torrc_dialog">कस्टम टॉर्रक</string>
     <string name="bridges_updated">ब्रिज अपडेट किया गया</string>
-    <string name="restart_orbot_to_use_this_bridge_">बदलाव लगाने के लिए ऑरबॉट वापस शुरू करें</string>
+    <string name="restart_to_use_this_bridge_">बदलाव लगाने के लिए ऑरबॉट वापस शुरू करें</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">अगर आपका मोबाइल नेटवर्क टॉर ज़ोर से ब्लॉक कर रहा है, तो आप बायपास करने के लिए एक \'ब्रिज सर्वर\' इस्तेमाल कर सकते है। सेट और टेस्ट करने के लिए एक ऑप्शन चुनें…</string>
     <string name="get_bridges_email">ईमेल</string>
     <string name="apps_mode">वीपीएन मोड</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">काम खत्म करने के लिए टॉर वापस शुरू करें</string>
     <string name="confirm_service_deletion">सेवा पक्का मिटाएं</string>
     <string name="service_type">सेवा टाइप</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">बदलाव लगाने के लिए ऑरबॉट वापस शुरू करें</string>
+    <string name="please_restart_to_enable_the_changes">बदलाव लगाने के लिए ऑरबॉट वापस शुरू करें</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">क्यूआर के तरह शेयर करें</string>
     <string name="disable">बंद</string>

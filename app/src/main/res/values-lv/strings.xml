@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot ir starpniekserveru bezmaksas lietotne, kas sniedz iespēju citām lietotnēm drošāk lietot internetu. Orbot izmanto Tor, lai šifrētu Jūsu interneta datplūsmu, tad to paslēpj, pārsūtot to caur daudziem datoriem visā pasaulē. Tor ir bezmaksas programmatūra un atvērts tīkls, kas palīdz Jums aizsargāties pret tīkla uzraudzības veidu - datplūsmas analīzi -, ar kuras palīdzību tiek apdraudēta personiskā brīvība un privātums, konfidenciālas lietišķas darbības un attiecības, kā arī valsts drošība.  </string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot ir starpniekserveru bezmaksas lietotne, kas sniedz iespēju citām lietotnēm drošāk lietot internetu. AnyoneBot izmanto Tor, lai šifrētu Jūsu interneta datplūsmu, tad to paslēpj, pārsūtot to caur daudziem datoriem visā pasaulē. Tor ir bezmaksas programmatūra un atvērts tīkls, kas palīdz Jums aizsargāties pret tīkla uzraudzības veidu - datplūsmas analīzi -, ar kuras palīdzību tiek apdraudēta personiskā brīvība un privātums, konfidenciālas lietišķas darbības un attiecības, kā arī valsts drošība.  </string>
     <string name="menu_settings">Iestatījumi</string>
     <string name="menu_log">Žurnāls</string>
     <string name="menu_stop">Apturēt</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Vispārīgi</string>
-    <string name="pref_start_boot_title">Startēt Orbot, kad ielādējas</string>
-    <string name="pref_start_boot_summary">Automātiski startēt Orbot, un veidot savienojumu ar Tor, kad Jūsu Android ierīce ielādējas</string>
+    <string name="pref_start_boot_title">Startēt AnyoneBot, kad ielādējas</string>
+    <string name="pref_start_boot_summary">Automātiski startēt AnyoneBot, un veidot savienojumu ar Tor, kad Jūsu Android ierīce ielādējas</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -29,7 +29,7 @@
     <string name="pref_entrance_node_summary">Ciparvirknes, segvārdi, valstis un adreses pirmajam lēkumam</string>
     <string name="pref_entrance_node_dialog">Ievadiet ieejas mezglus</string>
     <string name="pref_allow_background_starts_title">Ļaut sākšanos fonā</string>
-    <string name="pref_allow_background_starts_summary">Norādīt visām lietotnēm uzdot Orbot palaist Tor un saistītos pakalpojumus.</string>
+    <string name="pref_allow_background_starts_summary">Norādīt visām lietotnēm uzdot AnyoneBot palaist Tor un saistītos pakalpojumus.</string>
     <string name="pref_proxy_title">Tīkla ārejošais starpnieks (neobligāts)</string>
     <string name="pref_proxy_type_title">Ārvērstā starpnieka tips</string>
     <string name="pref_proxy_type_summary">Starpnieka serverim izmantojamais protokols: HTTP, HTTPS, Socks4, Socks5</string>
@@ -92,14 +92,14 @@
     <string name="pref_torrc_summary">VIENĪGI EKSPERTIEM: tieši ievadīt torrc konfigurēšanas rindas</string>
     <string name="pref_torrc_dialog">Pielāgot Torrc</string>
     <string name="bridges_updated">Tilti ir atjaunināti</string>
-    <string name="restart_orbot_to_use_this_bridge_">Lūdzu pārstartējiet Orbot, lai iespējotu izmaiņas</string>
+    <string name="restart_to_use_this_bridge_">Lūdzu pārstartējiet AnyoneBot, lai iespējotu izmaiņas</string>
     <string name="get_bridges_email">E-pasts</string>
     <string name="send_email">Nosūtīt e-pastu</string>
     <string name="hidden_services">Slēptie pakalpojumi</string>
     <string name="menu_hidden_services">Slēptie pakalpojumi</string>
     <string name="save">Saglabāt</string>
     <string name="name">Vārds</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Lūdzu pārstartējiet Orbot, lai iespējotu izmaiņas</string>
+    <string name="please_restart_to_enable_the_changes">Lūdzu pārstartējiet AnyoneBot, lai iespējotu izmaiņas</string>
     <string name="disable">Atspējot</string>
     <string name="get_bridges_email_request">Pieprasīt tiltus pa e-pastu</string>
     <string name="confirm">Apstipriniet</string>
@@ -113,7 +113,7 @@
     <string name="menu_new_identity">Jauna identitāte</string>
     <string name="use_custom_bridges">Pielāgotu tiltu izmantošana</string>
     <string name="use_qr_code">QR koda izmantošana</string>
-    <string name="wizard_details_msg">Orbot ir atvērtā koda lietojumprogramma, kas satur Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks un LibEvent. Tā nodrošina VPN tuneli, vietējo HTTP Connect proxy (tikai HTTPS portā 8118) un SOCKS proxy (9050) uz Tor tīklu.</string>
+    <string name="wizard_details_msg">AnyoneBot ir atvērtā koda lietojumprogramma, kas satur Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks un LibEvent. Tā nodrošina VPN tuneli, vietējo HTTP Connect proxy (tikai HTTPS portā 8118) un SOCKS proxy (9050) uz Tor tīklu.</string>
     <string name="secure_your_connection_subtitle">Paslēpiet lietotnes no tīkla uzraudzības un iegūstiet piekļuvi, ja tās ir bloķētas.</string>
     <string name="connected_title">Savienots</string>
     <string name="btn_start_vpn">VPN sākšana</string>
@@ -228,7 +228,7 @@
     <string name="volunteer_mode_alltime_label">Visu laiku Kopā</string>
     <string name="custom_bridge_description">Pielāgotu tiltu nodrošina kāds jūsu paziņa. Apjautājieties uzticamos tīklos un organizācijās, lai uzzinātu, vai kāds no tiem šādu tiltu neuztur.</string>
     <string name="proxy_ports">Proxy porti</string>
-    <string name="no_internet_subtitle">Lai izmantotu Orbot, ir nepieciešams interneta savienojums.</string>
+    <string name="no_internet_subtitle">Lai izmantotu AnyoneBot, ir nepieciešams interneta savienojums.</string>
     <string name="not_sure">Neesat pārliecināts\?</string>
     <string name="snowflake_subtitle">Savieno ar Tor brīvprātīgo starpniecību. Apiet dažas Tor bloķēšanas iespējas.</string>
     <string name="volunteer_mode_label">Labestības režīms</string>
@@ -265,23 +265,23 @@
     <string name="connection_direct">Tiešsaistes</string>
     <string name="pref_isolate_port">Izolēt galamērķa ostas</string>
     <string name="asking">ASKING...</string>
-    <string name="power_user_description">Lietotājiem, kas pārzina Tor. Ļauj palaist Orbot bez VPN iestatījuma un parāda atvērtos SOCKS un HTTP portus</string>
+    <string name="power_user_description">Lietotājiem, kas pārzina Tor. Ļauj palaist AnyoneBot bez VPN iestatījuma un parāda atvērtos SOCKS un HTTP portus</string>
     <string name="snowflake_amp">Sniegpārsliņa (AMP)</string>
     <string name="menu_kindness">Labestība</string>
     <string name="pref_flag_secure_title">Ekrāna drošība</string>
-    <string name="root_warning">Orbot ir konstatējis, ka jūsu ierīcei ir saknes, kas var radīt drošības problēmas.</string>
+    <string name="root_warning">AnyoneBot ir konstatējis, ka jūsu ierīcei ir saknes, kas var radīt drošības problēmas.</string>
     <string name="snowflake">Sniegpārsliņa (oriģināls)</string>
     <string name="get_a_bridge_subtitle">Slēpj datplūsmu. Apiet dažas Tor bloķēšanas iespējas.</string>
     <string name="kindess_config_detail">Konfigurējiet, kā un kad jūsu ierīce var darboties kā Snowflake starpniekserveris citiem Tor lietotājiem.</string>
-    <string name="smart_connect_subtitle">Orbot mēģina izveidot savienojumu ar Tor, izmantojot jebkuru pieejamo veidu: Tiešais, sniega pārsla, tilts.</string>
+    <string name="smart_connect_subtitle">AnyoneBot mēģina izveidot savienojumu ar Tor, izmantojot jebkuru pieejamo veidu: Tiešais, sniega pārsla, tilts.</string>
     <string name="pref_isolate_protocol_summary">Katram savienojuma protokolam izmantojiet atšķirīgu ķēdi</string>
     <string name="incorrect_solution">Nepareizs risinājums</string>
     <string name="bridges_obtained_connecting">Iegūti tilti! Savienojums ar tor...</string>
-    <string name="app_suggested_subtitle">Orbot vislabāk darbojas ar ziņapmaiņas un sociālo mediju lietotnēm.</string>
+    <string name="app_suggested_subtitle">AnyoneBot vislabāk darbojas ar ziņapmaiņas un sociālo mediju lietotnēm.</string>
     <string name="get_a_bridge">Tilts no Tor (Obfs4)</string>
     <string name="volunteer_mode_title">Palīdzēt citiem
 \nizveidot savienojumu ar Tor</string>
-    <string name="pref_flag_secure_summary">Neļaujiet citām programmām uzņemt Orbot ekrānšāviņus</string>
+    <string name="pref_flag_secure_summary">Neļaujiet citām programmām uzņemt AnyoneBot ekrānšāviņus</string>
     <string name="direct_connect_subtitle">Labākais veids, kā izveidot savienojumu ar Tor. Izmantojiet, ja Tor nav bloķēts.</string>
     <string name="volunteer_status_title">Šodien ir labāk
 \npateicoties tev.</string>

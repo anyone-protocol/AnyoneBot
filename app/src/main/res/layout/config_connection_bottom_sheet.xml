@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_shape_round"
-            android:backgroundTint="@color/orbot_btn_disable_grey"
+            android:backgroundTint="@color/btn_disable_grey"
             android:paddingLeft="@dimen/button_horizontal_med_margin"
             android:paddingRight="@dimen/button_horizontal_med_margin"
             android:text="@string/ask_tor"
@@ -285,7 +285,7 @@
         android:paddingLeft="@dimen/button_horizontal_large_margin"
         android:paddingRight="@dimen/button_horizontal_large_margin"
         android:background="@drawable/btn_shape_round"
-        android:backgroundTint="@color/orbot_btn_enabled_purple"
+        android:backgroundTint="@color/btn_enabled_purple"
 
         app:layout_constraintEnd_toEndOf="@id/tvCancel"
         app:layout_constraintStart_toEndOf="parent"

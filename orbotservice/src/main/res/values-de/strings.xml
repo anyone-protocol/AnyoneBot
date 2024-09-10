@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Orbot</string>
-  <string name="app_description">Orbot ist eine kostenlose Proxy-Anwendung, mit deren Hilfe andere Anwendungen das Internet sicherer nutzen können. Orbot verwendet Tor, um Ihren Internetverkehr zu verschlüsseln und ihn dann zu verbergen, indem er über eine Reihe weltweit verteilter Computer geleitet wird. Tor ist ein freies Programm und ein offenes Netzwerk, das Ihnen hilft, sich gegen Angriffe auf die persönliche Freiheit und die Privatsphäre oder auf vertrauliche Geschäftsbeziehungen sowie gegen die Datenüberwachung aus Staatssicherheitsgründen zu wehren.</string>
-    <string name="status_starting_up">Orbot startet …</string>
+  <string name="app_name">AnyoneBot</string>
+  <string name="app_description">AnyoneBot ist eine kostenlose Proxy-Anwendung, mit deren Hilfe andere Anwendungen das Internet sicherer nutzen können. AnyoneBot verwendet Tor, um Ihren Internetverkehr zu verschlüsseln und ihn dann zu verbergen, indem er über eine Reihe weltweit verteilter Computer geleitet wird. Tor ist ein freies Programm und ein offenes Netzwerk, das Ihnen hilft, sich gegen Angriffe auf die persönliche Freiheit und die Privatsphäre oder auf vertrauliche Geschäftsbeziehungen sowie gegen die Datenüberwachung aus Staatssicherheitsgründen zu wehren.</string>
+    <string name="status_starting_up">AnyoneBot startet …</string>
   <string name="status_activated">Verbunden mit dem Tor-Netzwerk</string>
-  <string name="status_disabled">Orbot ist deaktiviert</string>
+  <string name="status_disabled">AnyoneBot ist deaktiviert</string>
   <string name="status_shutting_down">TorService wird heruntergefahren</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->

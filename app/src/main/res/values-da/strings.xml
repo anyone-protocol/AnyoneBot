@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Orbot</string>
-    <string name="app_description">Orbot er en gratis og åben proxy-applikation, der gør det muligt at anvende internettet mere sikkert fra andre programmer. Orbot bruger Tor til at kryptere internettrafikken, og skjuler den ved at sende den gennem serverere, lokaliseret i hele verden. Tor er gratis og åben software, der kan hjælpe dig mod netværksovervågning kaldet trafikanalyse, der kan true din personlige frihed, dit privatliv, handelsaktivitet og forhold.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot er en gratis og åben proxy-applikation, der gør det muligt at anvende internettet mere sikkert fra andre programmer. AnyoneBot bruger Tor til at kryptere internettrafikken, og skjuler den ved at sende den gennem serverere, lokaliseret i hele verden. Tor er gratis og åben software, der kan hjælpe dig mod netværksovervågning kaldet trafikanalyse, der kan true din personlige frihed, dit privatliv, handelsaktivitet og forhold.</string>
     <string name="menu_settings">Indstillinger</string>
     <string name="menu_log">Log</string>
     <string name="menu_stop">Stop</string>
@@ -15,8 +15,8 @@
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Generelt</string>
-    <string name="pref_start_boot_title">Start Orbot ved opstart</string>
-    <string name="pref_start_boot_summary">Start automatisk Orbot og forbind til Tor når din android enhed starter</string>
+    <string name="pref_start_boot_title">Start AnyoneBot ved opstart</string>
+    <string name="pref_start_boot_summary">Start automatisk AnyoneBot og forbind til Tor når din android enhed starter</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -102,9 +102,9 @@
     <string name="enter_characters_from_image">Indtast tegn fra billedet</string>
     <string name="bridge_snowflake">Opret forbindelse via andre Tor-brugere ved hjælp af Snowflake (metode 1)</string>
     <string name="bridge_snowflake_amp">Opret forbindelse via andre Tor-brugere ved hjælp af Snowflake (metode 2)</string>
-    <string name="wizard_details_msg">Orbot er et program med åben kildekode, der indeholder Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks og LibEvent. Det giver en VPN-tunnel, en lokal HTTP Connect-proxy (kun HTTPS på port 8118) og en SOCKS-proxy (9050) ind i Tor-netværket.</string>
+    <string name="wizard_details_msg">AnyoneBot er et program med åben kildekode, der indeholder Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks og LibEvent. Det giver en VPN-tunnel, en lokal HTTP Connect-proxy (kun HTTPS på port 8118) og en SOCKS-proxy (9050) ind i Tor-netværket.</string>
     <string name="secure_your_connection_title">Sikre din forbindelse med Tor</string>
-    <string name="secure_your_connection_subtitle">Orbot giver dig en sikker, uafbrudt forbindelse til dine apps.</string>
+    <string name="secure_your_connection_subtitle">AnyoneBot giver dig en sikker, uafbrudt forbindelse til dine apps.</string>
     <string name="connected_title">Du er forbundet!</string>
     <string name="btn_start_vpn">Start VPN</string>
     <string name="btn_configure">Konfigurer</string>
@@ -126,7 +126,7 @@
     <string name="msg_try_something_else">Prøv noget andet</string>
     <string name="btn_use_custom_bridge">Brug brugerdefineret bro</string>
     <string name="msg_taking_too_long">Det ser ud til at tage lang tid</string>
-    <string name="pref_allow_background_starts_summary">Lad en hvilken som helst app fortælle Orbot, at Tor og relaterede tjenester skal startes</string>
+    <string name="pref_allow_background_starts_summary">Lad en hvilken som helst app fortælle AnyoneBot, at Tor og relaterede tjenester skal startes</string>
     <string name="version">Version:</string>
     <string name="license">Licens:</string>
     <string name="hidden_service_request">En app ønsker at åbne en løgserver på port %1$s til Tor-netværket. Dette er sikkert, hvis du stoler på appen.</string>
@@ -175,7 +175,7 @@
     <string name="start_tor_again_for_finish_the_process">Start Tor igen for at afslutte processen</string>
     <string name="confirm_service_deletion">Bekræft sletning af tjeneste</string>
     <string name="service_type">Type af tjeneste</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Genstart venligst Orbot for at aktivere ændringerne</string>
+    <string name="please_restart_to_enable_the_changes">Genstart venligst AnyoneBot for at aktivere ændringerne</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Del som QR</string>
     <string name="pref_isolate_dest">Isolere destinationsadresser</string>
@@ -210,7 +210,7 @@
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_transport_title">Tor TransProxy-port</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Hvis dit mobilnetværk aktivt blokerer Tor, kan du bruge en \"Bridge Server\" som en alternativ vej ind. Vælg en af mulighederne for at konfigurere og teste…</string>
-    <string name="restart_orbot_to_use_this_bridge_">Genstart venligst Orbot for at aktivere ændringerne</string>
+    <string name="restart_to_use_this_bridge_">Genstart venligst AnyoneBot for at aktivere ændringerne</string>
     <string name="pref_connection_padding_summary">Aktiverer altid forbindelsespolstring for at beskytte mod visse former for trafikanalyse. Standard: auto</string>
     <string name="pref_connection_padding">Polstring af forbindelsen</string>
     <string name="trouble_connecting">Har du problemer med at oprette forbindelse\?</string>

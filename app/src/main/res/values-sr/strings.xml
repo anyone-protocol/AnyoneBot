@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Орбот</string>
-    <string name="app_description">Орбот је бесплатна прокси апликација која даје моћ другим апликацијама да безбедније користе интернет. Орбот користи Тор за шифровање вашег интернет саобраћаја и онда га скрива слањем кроз низ рачунара широм света. Тор је слободан софтвер и отворена мрежа која помаже да се одбраните од разних облика надзора мрежа који угрожавају личну слободу и приватност, поверљиве пословне активности и личне односе и државне безбедности познате као анализа саобраћаја.</string>
+    <string name="app_name">AnyoneBot</string>
+    <string name="app_description">AnyoneBot је бесплатна прокси апликација која даје моћ другим апликацијама да безбедније користе интернет. AnyoneBot користи Тор за шифровање вашег интернет саобраћаја и онда га скрива слањем кроз низ рачунара широм света. Тор је слободан софтвер и отворена мрежа која помаже да се одбраните од разних облика надзора мрежа који угрожавају личну слободу и приватност, поверљиве пословне активности и личне односе и државне безбедности познате као анализа саобраћаја.</string>
     <string name="menu_settings">Подешавања</string>
     <string name="menu_log">Логови</string>
     <string name="menu_stop">Заустави</string>
@@ -13,11 +13,11 @@
     <string name="menu_scan">Скенирај BridgeQR</string>
     <string name="menu_share_bridge">Подели BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Орбот је апликација отвореног кода која садржи Тор, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks и LibEvent. Омогућава локални HTTP proxy (8118) и SOCKS proxy (9050) у Тор мрежу. Орбот такође има могућност да на рутованом уређају шаље сав интернет саобраћај преко Тор-а.</string>
+    <string name="wizard_details_msg">AnyoneBot је апликација отвореног кода која садржи Тор, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks и LibEvent. Омогућава локални HTTP proxy (8118) и SOCKS proxy (9050) у Тор мрежу. AnyoneBot такође има могућност да на рутованом уређају шаље сав интернет саобраћај преко Тор-а.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Опште</string>
-    <string name="pref_start_boot_title">Покрени Орбот при покретању уређаја</string>
-    <string name="pref_start_boot_summary">Аутоматски покрените Орбот и конектујте се са Тор мрежом када се упали Ваш Андроид уређај.</string>
+    <string name="pref_start_boot_title">Покрени AnyoneBot при покретању уређаја</string>
+    <string name="pref_start_boot_summary">Аутоматски покрените AnyoneBot и конектујте се са Тор мрежом када се упали Ваш Андроид уређај.</string>
     <!--New Wizard Strings-->
     <!--Title Screen-->
     <!--Warning screen-->
@@ -30,7 +30,7 @@
     <string name="pref_entrance_node_summary">Отисци прстију, надимци, државе и адресе првог скока</string>
     <string name="pref_entrance_node_dialog">Унесите почетне чворове</string>
     <string name="pref_allow_background_starts_title">Дозволи Покретање у позадини</string>
-    <string name="pref_allow_background_starts_summary">Дозволи било којој апликацији да нареди Орботу да покрене Тор и његове сервисе</string>
+    <string name="pref_allow_background_starts_summary">Дозволи било којој апликацији да нареди AnyoneBotу да покрене Тор и његове сервисе</string>
     <string name="pref_proxy_title">Мрежни прокси за одлазећи промет (Необавезно)</string>
     <string name="pref_proxy_type_title">Тип проксија за одлазећи промет</string>
     <string name="pref_proxy_type_summary">Протокол који ће се користити за прокси сервер: HTTP, HTTPS, Socks4, Socks5</string>
@@ -94,7 +94,7 @@
     <string name="pref_torrc_summary">САМО ЗА ЕКСПЕРТЕ: унети директно torrc линије подешавања</string>
     <string name="pref_torrc_dialog">Подеси Torrc</string>
     <string name="bridges_updated">Bridges Ажурирање</string>
-    <string name="restart_orbot_to_use_this_bridge_">Молимо покрените поново Орбот ради примењивања промена</string>
+    <string name="restart_to_use_this_bridge_">Молимо покрените поново AnyoneBot ради примењивања промена</string>
     <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ако ваша мобилна мрежа активно блокира Тор, можете премошћивати сервером као алтернативни начин уласка.ОДАБЕРИ једну од опција за конфигурацију и тестирање….</string>
     <string name="get_bridges_email">Е-пошта</string>
     <string name="apps_mode">VPN Мод</string>
@@ -117,7 +117,7 @@
     <string name="start_tor_again_for_finish_the_process">Поново покрените Тор да бисте довршили процес</string>
     <string name="confirm_service_deletion">Потрврди брисанје услуге</string>
     <string name="service_type">Тип Услуге</string>
-    <string name="please_restart_Orbot_to_enable_the_changes">Молимо покрените поново Орбот ради примењивања промена</string>
+    <string name="please_restart_to_enable_the_changes">Молимо покрените поново AnyoneBot ради примењивања промена</string>
     <string name="onion">.onion</string>
     <string name="share_as_qr">Дели као QR код</string>
     <string name="disable">Онемогући</string>
