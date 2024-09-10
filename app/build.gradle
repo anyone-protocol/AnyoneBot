@@ -76,7 +76,7 @@ android {
         implementation(
                 project(':appcore'),
                 project(':intentintegrator'),
-                project(':orbotservice'),
+                project(':anyonebotservice'),
                 libs.android_material,
                 libs.android_volley,
                 libs.androidx_localbroadcast,

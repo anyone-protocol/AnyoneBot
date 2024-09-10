@@ -10,7 +10,7 @@ import android.view.inputmethod.EditorInfo
 import androidx.annotation.XmlRes
 import androidx.preference.*
 import io.anyone.anyonebot.core.Languages
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Prefs
 import io.anyone.anyonebot.core.R
 
 class SettingsPreferencesFragment : PreferenceFragmentCompat() {

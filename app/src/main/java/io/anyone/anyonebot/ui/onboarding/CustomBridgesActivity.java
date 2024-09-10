@@ -28,8 +28,8 @@ import net.freehaven.tor.control.TorControlCommands;
 
 import org.json.JSONArray;
 import io.anyone.anyonebot.core.ClipboardUtils;
-import org.torproject.anyonebot.service.AnyoneBotService;
-import org.torproject.anyonebot.service.util.Prefs;
+import io.anyone.anyonebot.service.AnyoneBotService;
+import io.anyone.anyonebot.service.util.Prefs;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

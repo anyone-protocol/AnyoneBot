@@ -3,7 +3,7 @@ package io.anyone.anyonebot.core
 import android.annotation.TargetApi
 import android.content.Context
 import android.os.Build
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Prefs
 import java.util.*
 
 /**

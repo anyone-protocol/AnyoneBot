@@ -32,9 +32,9 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.util.Prefs
-import org.torproject.anyonebot.service.vpn.TorifiedApp
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.vpn.TorifiedApp
 
 import java.util.Arrays
 import java.util.StringTokenizer

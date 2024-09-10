@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.torproject.anyonebot.service.vpn;
+package io.anyone.anyonebot.service.vpn;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -29,16 +29,18 @@ import android.system.OsConstants;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import org.pcap4j.packet.IllegalRawDataException;
 import org.pcap4j.packet.IpPacket;
 import org.pcap4j.packet.IpSelector;
 import org.pcap4j.packet.UdpPacket;
 import org.pcap4j.packet.namednumber.IpNumber;
 import org.pcap4j.packet.namednumber.UdpPort;
-import org.torproject.anyonebot.service.AnyoneBotConstants;
-import org.torproject.anyonebot.service.AnyoneBotService;
+import io.anyone.anyonebot.service.AnyoneBotConstants;
+import io.anyone.anyonebot.service.AnyoneBotService;
 import io.anyone.anyonebot.service.R;
-import org.torproject.anyonebot.service.util.Prefs;
+import io.anyone.anyonebot.service.util.Prefs;
 
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -97,7 +99,7 @@ public class AnyoneBotVpnManager implements Handler.Callback, AnyoneBotConstants
                     case AnyoneBotConstants.LOCAL_ACTION_PORTS -> {
                         Log.d(TAG, "setting VPN ports");
                         int torSocks = intent.getIntExtra(AnyoneBotService.EXTRA_SOCKS_PROXY_PORT, -1);
-//                    int torHttp = intent.getIntExtra(OrbotService.EXTRA_HTTP_PROXY_PORT,-1);
+//                    int torHttp = intent.getIntExtra(AnyoneBotService.EXTRA_HTTP_PROXY_PORT,-1);
                         int torDns = intent.getIntExtra(AnyoneBotService.EXTRA_DNS_PORT, -1);
 
                         //if running, we need to restart
@@ -149,10 +151,8 @@ public class AnyoneBotVpnManager implements Handler.Callback, AnyoneBotConstants
     }
 
     @Override
-    public boolean handleMessage(Message message) {
-        if (message != null) {
-            Toast.makeText(mService, message.what, Toast.LENGTH_SHORT).show();
-        }
+    public boolean handleMessage(@NonNull Message message) {
+        Toast.makeText(mService, message.what, Toast.LENGTH_SHORT).show();
         return true;
     }
 

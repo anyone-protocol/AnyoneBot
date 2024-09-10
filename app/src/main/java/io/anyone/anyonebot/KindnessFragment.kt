@@ -11,9 +11,9 @@ import android.widget.TextView
 import androidx.appcompat.widget.SwitchCompat
 import androidx.core.content.ContextCompat
 import io.anyone.anyonebot.core.putNotSystem
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.AnyoneBotService
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.util.Prefs
 
 class KindnessFragment : Fragment() {
 

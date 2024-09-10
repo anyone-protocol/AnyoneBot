@@ -1,7 +1,7 @@
 /* Copyright (c) 2009-2011, Nathan Freitas, Orbot / The Guardian Project - https://guardianproject.info/apps/orbot */
 /* See LICENSE for licensing information */
 
-package org.torproject.anyonebot.service;
+package io.anyone.anyonebot.service;
 
 import static org.torproject.jni.TorService.ACTION_ERROR;
 
@@ -39,11 +39,11 @@ import android.widget.Toast;
 import net.freehaven.tor.control.TorControlCommands;
 import net.freehaven.tor.control.TorControlConnection;
 
-import org.torproject.anyonebot.service.util.CustomTorResourceInstaller;
-import org.torproject.anyonebot.service.util.PowerConnectionReceiver;
-import org.torproject.anyonebot.service.util.Prefs;
-import org.torproject.anyonebot.service.util.Utils;
-import org.torproject.anyonebot.service.vpn.AnyoneBotVpnManager;
+import io.anyone.anyonebot.service.util.CustomTorResourceInstaller;
+import io.anyone.anyonebot.service.util.PowerConnectionReceiver;
+import io.anyone.anyonebot.service.util.Prefs;
+import io.anyone.anyonebot.service.util.Utils;
+import io.anyone.anyonebot.service.vpn.AnyoneBotVpnManager;
 import org.torproject.jni.TorService;
 
 import java.io.BufferedReader;
@@ -70,7 +70,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import IPtProxy.IPtProxy;
-import io.anyone.anyonebot.service.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;

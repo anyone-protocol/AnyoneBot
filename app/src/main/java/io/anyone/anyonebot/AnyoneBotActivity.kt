@@ -21,10 +21,10 @@ import com.scottyab.rootbeer.RootBeer
 import io.anyone.anyonebot.core.LocaleHelper
 import io.anyone.anyonebot.core.putNotSystem
 import io.anyone.anyonebot.core.ui.BaseActivity
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.util.Prefs
 import io.anyone.anyonebot.ui.LogBottomSheet
-import org.torproject.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.AnyoneBotService
 
 class AnyoneBotActivity : BaseActivity() {
 
@@ -217,7 +217,8 @@ class AnyoneBotActivity : BaseActivity() {
                                     allCircumventionAttemptsFailed = false
                                     return
                                 }
-                                if (!Prefs.getConnectionPathway().equals(Prefs.PATHWAY_SMART) && fragConnect.isAdded && fragConnect.context != null) {
+                                if (!Prefs.getConnectionPathway().equals(
+                                        Prefs.PATHWAY_SMART) && fragConnect.isAdded && fragConnect.context != null) {
                                     fragConnect.doLayoutOff()
                                 }
                             } else if (fragConnect.isAdded && fragConnect.context != null) {

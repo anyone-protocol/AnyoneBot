@@ -5,9 +5,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.AnyoneBotService
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.util.Prefs
 
 class OnBootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

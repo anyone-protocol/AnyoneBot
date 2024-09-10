@@ -17,8 +17,8 @@ import io.anyone.anyonebot.circumvention.Bridges
 import io.anyone.anyonebot.circumvention.CircumventionApiManager
 import io.anyone.anyonebot.circumvention.SettingsRequest
 import io.anyone.anyonebot.ui.BottomSheetDialogFragment
-import org.torproject.anyonebot.service.AnyoneBotService
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.util.Prefs
 import java.io.File
 import java.net.Authenticator
 import java.net.PasswordAuthentication
@@ -136,17 +136,20 @@ class ConfigConnectionBottomSheet() :
             if (rbRequestBridge.isChecked) {
                 MoatBottomSheet(object : ConnectionHelperCallbacks {
                     override fun tryConnecting() {
-                        Prefs.putConnectionPathway(Prefs.PATHWAY_CUSTOM)
+                        Prefs.putConnectionPathway(
+                            Prefs.PATHWAY_CUSTOM)
                         rbCustom.isChecked = true
                         dismiss()
                         callbacks?.tryConnecting()
                     }
                 }).show(requireActivity().supportFragmentManager, MoatBottomSheet.TAG)
             } else if (rbDirect.isChecked) {
-                Prefs.putConnectionPathway(Prefs.PATHWAY_DIRECT)
+                Prefs.putConnectionPathway(
+                    Prefs.PATHWAY_DIRECT)
                 closeAndConnect()
             } else if (rbSnowflake.isChecked) {
-                Prefs.putConnectionPathway(Prefs.PATHWAY_SNOWFLAKE)
+                Prefs.putConnectionPathway(
+                    Prefs.PATHWAY_SNOWFLAKE)
                 closeAndConnect()
             }
             /**else if (rbSnowflakeAmp.isChecked) {
@@ -156,7 +159,8 @@ class ConfigConnectionBottomSheet() :
             else if (rbCustom.isChecked) {
                 CustomBridgeBottomSheet(object : ConnectionHelperCallbacks {
                     override fun tryConnecting() {
-                        Prefs.putConnectionPathway(Prefs.PATHWAY_CUSTOM)
+                        Prefs.putConnectionPathway(
+                            Prefs.PATHWAY_CUSTOM)
                         callbacks?.tryConnecting()
                     }
                 }).show(requireActivity().supportFragmentManager, CustomBridgeBottomSheet.TAG)
@@ -283,7 +287,8 @@ class ConfigConnectionBottomSheet() :
             val b = it[circumventionApiIndex]!!.bridges
             when (b.type) {
                 CircumventionApiManager.BRIDGE_TYPE_SNOWFLAKE -> {
-                    Prefs.putConnectionPathway(Prefs.PATHWAY_SNOWFLAKE)
+                    Prefs.putConnectionPathway(
+                        Prefs.PATHWAY_SNOWFLAKE)
                     rbSnowflake.isChecked = true
                     btnAskTor.text = getString(R.string.connection_snowflake)
                 }
@@ -297,7 +302,8 @@ class ConfigConnectionBottomSheet() :
                         bridgeStrings += "$bridgeString\n"
                     }
                     Prefs.setBridgesList(bridgeStrings)
-                    Prefs.putConnectionPathway(Prefs.PATHWAY_CUSTOM)
+                    Prefs.putConnectionPathway(
+                        Prefs.PATHWAY_CUSTOM)
                 }
 
                 else -> {

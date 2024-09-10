@@ -1,4 +1,4 @@
-package org.torproject.anyonebot.service.vpn;
+package io.anyone.anyonebot.service.vpn;
 
 import android.Manifest;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 
-import org.torproject.anyonebot.service.AnyoneBotConstants;
+import io.anyone.anyonebot.service.AnyoneBotConstants;
 
 import java.text.Normalizer;
 import java.util.ArrayList;

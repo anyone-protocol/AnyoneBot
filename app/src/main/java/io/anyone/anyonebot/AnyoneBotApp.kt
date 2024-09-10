@@ -4,11 +4,12 @@ import android.app.Application
 import android.content.res.Configuration
 import io.anyone.anyonebot.core.Languages
 import io.anyone.anyonebot.core.LocaleHelper
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.util.Prefs
 import java.util.Locale
 
-class AnyoneBotApp : Application(), AnyoneBotConstants {
+class AnyoneBotApp : Application(),
+    AnyoneBotConstants {
 
 
     override fun onCreate() {
@@ -36,7 +37,7 @@ class AnyoneBotApp : Application(), AnyoneBotConstants {
             Prefs.setCurrentVersionForUpdate(BuildConfig.VERSION_CODE)
             // don't do anything resource intensive here, instead set a flag to do the task later
 
-            // tell OrbotService it needs to reinstall geoip
+            // tell AnyoneBotService it needs to reinstall geoip
             Prefs.setIsGeoIpReinstallNeeded(true)
         }
     }

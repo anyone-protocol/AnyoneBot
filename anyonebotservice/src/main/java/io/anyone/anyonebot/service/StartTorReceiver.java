@@ -1,4 +1,4 @@
-package org.torproject.anyonebot.service;
+package io.anyone.anyonebot.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.text.TextUtils;
 
 import androidx.core.content.ContextCompat;
 
-import org.torproject.anyonebot.service.util.Prefs;
+import io.anyone.anyonebot.service.util.Prefs;
 
 
 public class StartTorReceiver extends BroadcastReceiver implements AnyoneBotConstants {
@@ -16,7 +16,7 @@ public class StartTorReceiver extends BroadcastReceiver implements AnyoneBotCons
     public void onReceive(Context context, Intent intent) {
 
         try {
-            /* sanitize the Intent before forwarding it to OrbotService */
+            /* sanitize the Intent before forwarding it to AnyoneBotService */
             Prefs.setContext(context);
             String action = intent.getAction();
             if (TextUtils.equals(action, ACTION_START)) {

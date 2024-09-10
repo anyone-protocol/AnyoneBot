@@ -10,7 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 
 import io.anyone.anyonebot.core.DiskUtils
-import org.torproject.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.AnyoneBotService
 
 import java.io.IOException
 

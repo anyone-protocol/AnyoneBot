@@ -4,8 +4,8 @@ import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
-import org.torproject.anyonebot.service.util.Prefs
-import org.torproject.anyonebot.service.util.Utils
+import io.anyone.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Utils
 import java.text.Collator
 import java.util.*
 

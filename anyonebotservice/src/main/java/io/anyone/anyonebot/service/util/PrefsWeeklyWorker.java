@@ -1,4 +1,4 @@
-package org.torproject.anyonebot.service.util;
+package io.anyone.anyonebot.service.util;
 
 import android.content.Context;
 

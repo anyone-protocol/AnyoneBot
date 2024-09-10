@@ -1,10 +1,10 @@
-package org.torproject.anyonebot.service;
+package io.anyone.anyonebot.service;
 
 import net.freehaven.tor.control.RawEventListener;
 import net.freehaven.tor.control.TorControlCommands;
 
-import org.torproject.anyonebot.service.util.Prefs;
-import org.torproject.anyonebot.service.util.Utils;
+import io.anyone.anyonebot.service.util.Prefs;
+import io.anyone.anyonebot.service.util.Utils;
 import org.torproject.jni.TorService;
 
 import java.util.HashMap;

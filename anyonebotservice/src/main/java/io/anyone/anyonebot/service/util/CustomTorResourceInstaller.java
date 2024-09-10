@@ -1,8 +1,8 @@
-package org.torproject.anyonebot.service.util;
+package io.anyone.anyonebot.service.util;
 
 import android.content.Context;
 
-import org.torproject.anyonebot.service.AnyoneBotConstants;
+import io.anyone.anyonebot.service.AnyoneBotConstants;
 
 import java.io.File;
 import java.io.FileOutputStream;

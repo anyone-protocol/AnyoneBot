@@ -3,7 +3,7 @@ package io.anyone.anyonebot.core.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Prefs
 
 open class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.torproject.anyonebot.service.AnyoneBotConstants;
-import org.torproject.anyonebot.service.AnyoneBotService;
+import io.anyone.anyonebot.service.AnyoneBotConstants;
+import io.anyone.anyonebot.service.AnyoneBotService;
 import io.anyone.anyonebot.ui.v3onionservice.clientauth.ClientAuthContentProvider;
 
 import java.io.File;

@@ -19,8 +19,8 @@ import io.anyone.anyonebot.AnyoneBotActivity.Companion.REQUEST_CODE_SETTINGS
 import io.anyone.anyonebot.AnyoneBotActivity.Companion.REQUEST_VPN_APP_SELECT
 import io.anyone.anyonebot.core.putNotSystem
 import io.anyone.anyonebot.core.ui.SettingsActivity
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.AnyoneBotService
 import io.anyone.anyonebot.ui.v3onionservice.OnionServiceActivity
 import io.anyone.anyonebot.ui.v3onionservice.clientauth.ClientAuthActivity
 

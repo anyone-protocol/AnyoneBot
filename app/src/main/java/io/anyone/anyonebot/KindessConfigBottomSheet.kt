@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.widget.SwitchCompat
 import io.anyone.anyonebot.ui.BottomSheetDialogFragment
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Prefs
 
 class KindessConfigBottomSheet : BottomSheetDialogFragment() {
 

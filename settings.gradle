@@ -31,5 +31,5 @@ include(
         ':appcore',
         ':intentintegrator',
         ':OrbotLib',
-        ':orbotservice'
+        ':anyonebotservice'
 )

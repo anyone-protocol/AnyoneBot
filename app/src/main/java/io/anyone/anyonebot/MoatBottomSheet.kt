@@ -23,8 +23,8 @@ import com.android.volley.toolbox.Volley
 import io.anyone.anyonebot.ui.BottomSheetDialogFragment
 import org.json.JSONException
 import org.json.JSONObject
-import org.torproject.anyonebot.service.AnyoneBotService
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.util.Prefs
 import io.anyone.anyonebot.ui.onboarding.ProxiedHurlStack
 import java.io.File
 
@@ -191,7 +191,8 @@ class MoatBottomSheet(private val callbacks: ConnectionHelperCallbacks) :
     }
 
     private fun onBridgeRequestSuccess(bridges: String) {
-        Prefs.putConnectionPathway(Prefs.PATHWAY_CUSTOM)
+        Prefs.putConnectionPathway(
+            Prefs.PATHWAY_CUSTOM)
         Prefs.setBridgesList(bridges)
         Prefs.putBridgesEnabled(true)
         // Toast.makeText(requireContext(), R.string.bridges_obtained_connecting, Toast.LENGTH_LONG).show()

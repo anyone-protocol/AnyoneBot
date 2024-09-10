@@ -29,8 +29,7 @@ android {
 }
 
 dependencies {
-    implementation(
-            project(':orbotservice'),
+    implementation(project(':anyonebotservice',),
             "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
             libs.androidx_appcompat,
             "androidx.preference:preference:1.2.1"

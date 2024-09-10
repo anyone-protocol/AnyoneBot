@@ -1,4 +1,4 @@
-package org.torproject.anyonebot.service.vpn;
+package io.anyone.anyonebot.service.vpn;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

@@ -2,7 +2,7 @@
 /* See LICENSE for licensing information */
 
 
-package org.torproject.anyonebot.service.util;
+package io.anyone.anyonebot.service.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

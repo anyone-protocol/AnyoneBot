@@ -11,9 +11,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import io.anyone.anyonebot.R
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.util.Prefs
-import org.torproject.anyonebot.service.util.Utils
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.util.Utils
 import java.util.*
 
 

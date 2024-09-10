@@ -1,10 +1,10 @@
-package org.torproject.anyonebot.service.util;
+package io.anyone.anyonebot.service.util;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.torproject.anyonebot.service.AnyoneBotService;
+import io.anyone.anyonebot.service.AnyoneBotService;
 
 import java.util.Objects;
 

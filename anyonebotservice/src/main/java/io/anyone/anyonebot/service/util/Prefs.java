@@ -1,4 +1,4 @@
-package org.torproject.anyonebot.service.util;
+package io.anyone.anyonebot.service.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,7 +7,7 @@ import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
 
-import org.torproject.anyonebot.service.AnyoneBotConstants;
+import io.anyone.anyonebot.service.AnyoneBotConstants;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

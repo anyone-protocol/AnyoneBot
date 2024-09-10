@@ -25,9 +25,9 @@ import net.freehaven.tor.control.TorControlCommands
 
 import io.anyone.anyonebot.core.NetworkUtils.isNetworkAvailable
 import io.anyone.anyonebot.core.putNotSystem
-import org.torproject.anyonebot.service.AnyoneBotConstants
-import org.torproject.anyonebot.service.AnyoneBotService
-import org.torproject.anyonebot.service.util.Prefs
+import io.anyone.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.AnyoneBotService
+import io.anyone.anyonebot.service.util.Prefs
 import io.anyone.anyonebot.ui.AppManagerActivity
 import io.anyone.anyonebot.ui.MenuAction
 import io.anyone.anyonebot.ui.MenuActionAdapter
@@ -233,13 +233,17 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
             visibility = View.VISIBLE
 
             var connectStr = ""
-            if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_DIRECT)) connectStr =
+            if (Prefs.getConnectionPathway().equals(
+                    Prefs.PATHWAY_DIRECT)) connectStr =
                 context.getString(R.string.action_use) + ' ' + getString(R.string.direct_connect)
-            else if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_SNOWFLAKE)) connectStr =
+            else if (Prefs.getConnectionPathway().equals(
+                    Prefs.PATHWAY_SNOWFLAKE)) connectStr =
                 context.getString(R.string.action_use) + ' ' + getString(R.string.snowflake)
-            else if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_SNOWFLAKE_AMP)) connectStr =
+            else if (Prefs.getConnectionPathway().equals(
+                    Prefs.PATHWAY_SNOWFLAKE_AMP)) connectStr =
                 context.getString(R.string.action_use) + ' ' + getString(R.string.snowflake_amp)
-            else if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_CUSTOM)) connectStr =
+            else if (Prefs.getConnectionPathway().equals(
+                    Prefs.PATHWAY_CUSTOM)) connectStr =
                 context.getString(R.string.action_use) + ' ' + getString(R.string.custom_bridge)
 
             text = if (Prefs.isPowerUserMode()) getString(R.string.connect)

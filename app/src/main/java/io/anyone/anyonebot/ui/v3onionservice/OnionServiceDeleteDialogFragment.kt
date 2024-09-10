@@ -10,7 +10,7 @@ import androidx.fragment.app.DialogFragment
 import io.anyone.anyonebot.R
 
 import io.anyone.anyonebot.core.DiskUtils.recursivelyDeleteDirectory
-import org.torproject.anyonebot.service.AnyoneBotConstants
+import io.anyone.anyonebot.service.AnyoneBotConstants
 
 import java.io.File
 
