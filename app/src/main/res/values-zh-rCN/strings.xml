@@ -10,8 +10,6 @@
     <string name="main_layout_upload">上传</string>
     <string name="button_about">关于</string>
     <string name="menu_exit">退出</string>
-    <string name="menu_scan">扫描网桥二维码</string>
-    <string name="menu_share_bridge">分享网桥二维码</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">常规</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">排除的密钥指纹、昵称、国家与地址</string>
     <string name="enter_exclude_nodes">输入排除节点</string>
     <string name="strict_nodes">限制节点</string>
-    <string name="bridges">网桥</string>
-    <string name="use_bridges">使用网桥</string>
     <string name="relays">中继</string>
     <string name="relaying">中继转发</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">使您的设备成为非出口中继</string>
@@ -91,21 +87,17 @@
     <string name="pref_torrc_title">Torrc 自定义配置</string>
     <string name="pref_torrc_summary">仅供专家：直接输入 torrc 配置行</string>
     <string name="pref_torrc_dialog">自定义 Torrc</string>
-    <string name="bridges_updated">网桥已更新</string>
-    <string name="restart_to_use_this_bridge_">请重启 AnyoneBot 以使变更生效</string>
-    <string name="get_bridges_email">电子邮件</string>
     <string name="apps_mode">VPN 模式</string>
     <string name="send_email">发送电子邮件</string>
     <string name="save">保存</string>
     <string name="name">名称</string>
     <string name="please_restart_to_enable_the_changes">请重启 AnyoneBot 以使变更生效</string>
-    <string name="wizard_details_msg">AnyoneBot 是一个开源应用程序，包含 Tor、IPtProxy（Obfs4Proxy、Meek、Snowflake）、Go-Tun2Socks 和 LibEvent。它提供了一个 VPN 隧道、一个本地 HTTP 连接代理（HTTPS 仅连接端口 8118）和一个 SOCKS 代理（9050）进入 Tor 网络。</string>
+    <string name="wizard_details_msg">AnyoneBot 是一个开源应用程序，包含 Tor、Go-Tun2Socks 和 LibEvent。它提供了一个 VPN 隧道、一个本地 HTTP 连接代理（HTTPS 仅连接端口 8118）和一个 SOCKS 代理（9050）进入 Tor 网络。</string>
     <string name="pref_open_proxy_on_all_interfaces_title">在所有接口上打开代理</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">允许连接到同一Wi-Fi、局域网设备和任何其他可以连接到你的IP的人访问Tor</string>
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_http_summary">Tor通过哪个端口提供HTTP代理 (默认:8118, 0表示禁用)</string>
     <string name="pref_http_dialog">HTTP 端口配置</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">如果你的移动网络主动阻塞Tor，你可以使用一个“桥接服务器”作为一种替代方式。选择其中一个选项来配置和测试…</string>
     <string name="vpn_default_world">全局 (自动)</string>
     <string name="local_port">本地端口</string>
     <string name="done">完成！</string>
@@ -125,9 +117,6 @@
     <string name="consider_enable_battery_optimizations">没有托管服务正在运行，考虑启用电池优化</string>
     <string name="pref_disable_ipv4">禁用 IPv4 连接</string>
     <string name="app_shortcuts">启用 Tor 的应用</string>
-    <string name="bridge_direct_connect">直接连接到 Tor（最佳）</string>
-    <string name="bridge_community">通过社区服务器进行连接</string>
-    <string name="bridge_cloud">通过云服务器进行连接</string>
     <string name="trouble_connecting">连接时遇到问题？</string>
     <string name="full_device_vpn">全设备 VPN</string>
     <string name="vpn_disabled">VPN 已禁用</string>
@@ -150,26 +139,12 @@
     <string name="hidden_service_request">一个应用程序想要在端口 %1$s上打开到 Tor 网络的洋葱服务器。如果你信任这个应用程序，这是安全的。</string>
     <string name="pref_connection_padding">连接填充</string>
     <string name="onion">.onion 地址</string>
-    <string name="bridge_snowflake">使用 Snowflake 通过其他 Tor 用户连接（方法 1 - Fastly）</string>
-    <string name="use_qr_code">使用二维码</string>
-    <string name="paste_bridges">粘贴网桥</string>
-    <string name="in_a_browser">在浏览器中访问 %s并点击 Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="use_custom_bridges">使用自定义网桥</string>
-    <string name="configure_custom_bridges">配置自定义网桥</string>
-    <string name="custom_bridges">自定义网桥</string>
-    <string name="request_bridges_from_torproject">从 torproject.org 请求网桥</string>
-    <string name="enter_characters_from_image">输入上方文本</string>
-    <string name="captcha">验证码</string>
-    <string name="solve_captcha_instruction">解决验证码来请求网桥。</string>
-    <string name="refresh_captcha">刷新验证码</string>
-    <string name="request_bridges">请求网桥</string>
     <string name="testing_tor_direct_success">成功。Tor 连接良好！</string>
     <string name="testing_tor_direct">正在测试到 Tor 网络的连接 …</string>
     <string name="pref_reduced_circuit_padding_summary">使用低开销填充算法来减少数据和电池的使用</string>
     <string name="pref_reduced_circuit_padding">缩减的电路填充</string>
     <string name="pref_circuit_padding_summary">启用电路填充以防御一些形式的流量分析</string>
     <string name="pref_circuit_padding">电路填充</string>
-    <string name="get_bridges_email_request">通过电子邮件请求网桥</string>
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
     <string name="confirm">确认</string>
@@ -188,24 +163,18 @@
     <string name="backup_port_exist">错误：一个 Onion 服务已经在使用端口 %s</string>
     <string name="license">许可证：</string>
     <string name="version">版本：</string>
-    <string name="bridge_snowflake_amp">使用 Snowflake 通过其他 Tor 用户连接（方法 2 - AMP）</string>
-    <string name="snowflake_proxy_msg_title">显示连接通知</string>
-    <string name="snowflake_proxy_msg_description">当您的 Snowflake 帮助某人规避审查时显示一条消息</string>
     <string name="secure_your_connection_title">准备好连接</string>
     <string name="connected_title">已连接</string>
     <string name="strict_nodes_description">将“排除节点”设置视为构建所有线路的要求。如果“排除节点”设置无法生成线路，可能会破坏功能。</string>
-    <string name="volunteer_mode">善举模式</string>
     <string name="trying_to_connect_title">连接中…</string>
     <string name="volunteer_mode_subtitle">帮助其他人连接</string>
     <string name="btn_tor_off">关闭 Tor</string>
     <string name="menu_header_features">功能</string>
     <string name="menu_app_settings">应用程序设置</string>
     <string name="menu_header_learn">了解更多</string>
-    <string name="btn_use_custom_bridge">使用自定义网桥</string>
     <string name="msg_try_something_else">试试别的</string>
     <string name="secure_your_connection_subtitle">从网络监控中隐藏应用，并在它们被阻止时获得访问权限。</string>
     <string name="btn_start_vpn">启动 VPN</string>
-    <string name="btn_configure">配置连接方式</string>
     <string name="no_thx">不，谢谢</string>
     <string name="menu_help_others">帮助其他人</string>
     <string name="btn_choose_apps">选择应用</string>
@@ -215,43 +184,14 @@
     <string name="msg_taking_too_long">似乎花了太久</string>
     <string name="btn_refresh">刷新</string>
     <string name="captcha_title">让我们知道你是真人</string>
-    <string name="custom_bridge_subtitle">在 Tor 被严重屏蔽情况下，最可能让你保持连接的方式。 需要你信任的人提供的网桥地址。</string>
     <string name="connect">连接</string>
-    <string name="solve_captcha">解决验证码</string>
     <string name="configure_header">配置你的 Tor 连接</string>
     <string name="drawer_close">关闭</string>
     <string name="proxy_ports">代理端口</string>
     <string name="drawer_open">打开</string>
-    <string name="volunteer_mode_label">善举模式</string>
-    <string name="volunteer_mode_weekly_label">一周总计</string>
-    <string name="volunteer_mode_title">帮助他人
-\n连接到 Tor</string>
-    <string name="volunteer_mode_alltime_label">所有时间总计</string>
-    <string name="get_a_bridge_subtitle">伪装流量。 绕过一些 Tor 屏蔽。</string>
-    <string name="volunteer_mode_subtitle_desc">善举模式让你的设备成为他人的网桥。 它帮助人们在 Tor 被阻止的地方使用 Tor。
-\n
-\n- 它不会耗尽你的电量
-\n
-\n - 它不会拖慢网速
-\n
-\n - 它只能通过 wifi 运行
-\n
-\n - 你可以随时关闭它</string>
-    <string name="snowflake">Snowflake</string>
-    <string name="custom_bridge">定制网桥</string>
-    <string name="smart_connect">智能连接（默认）</string>
-    <string name="smart_connect_subtitle">AnyoneBot 尝试通过任何可用方式连接到 Tor：直连、Snowflake、网桥。</string>
-    <string name="direct_connect">直接连接到 Tor</string>
-    <string name="direct_connect_subtitle">连接到 Tor 的最佳方式。 在 Tor 未被阻止时使用。</string>
     <string name="next">下一步</string>
-    <string name="get_a_bridge">从 Tor 获取网桥 (Obfs4)</string>
-    <string name="snowflake_subtitle">通过 Tor 志愿者连接。 绕过一些 Tor 屏蔽。</string>
     <string name="ports_not_set">未设置端口</string>
     <string name="incorrect_solution">不正确的解答</string>
-    <string name="having_trouble">出问题了</string>
-    <string name="having_trouble_subtitle">我们接下来可以尝试 Tor 网桥，但需要你的帮助</string>
-    <string name="bridges_obtained_connecting">已获取网桥！正在连接到 Tor…</string>
-    <string name="custom_bridge_description">自定义网桥是由你认识的人提供的。问问你所信任的人际网络和组织，看看是否有人托管网桥。</string>
     <string name="power_user_mode">高级用户模式</string>
     <string name="power_user_description">适合熟悉 Tor 的用户。 允许在没有 VPN 设置的情况下启动 AnyoneBot 并显示打开的 SOCKS 和 HTTP 端口</string>
     <string name="title_choose_apps">选择应用</string>
@@ -265,11 +205,9 @@
     <string name="no_internet_title">连接到互联网</string>
     <string name="menu_more">更多</string>
     <string name="connection_direct">直接连接</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">自定义</string>
     <string name="setting_padding">间距</string>
     <string name="setting_debug">调试</string>
-    <string name="menu_kindness">友好</string>
     <string name="hide_apps">从网络监控中隐藏应用，并在它们被阻止时获得访问权限。</string>
     <string name="pref_isolate_port">隔离目标端口</string>
     <string name="pref_isolate_protocol">隔离客户端协议</string>
@@ -277,10 +215,7 @@
     <string name="pref_isolate_port_summary">对每个目标端口使用不同的回路</string>
     <string name="btn_copy_log">复制日志</string>
     <string name="log_copied">日志已复制</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
-    <string name="kindess_config_detail">配置您的设备如何以及何时作为Snowflake代理为其他Tor用户提供服务。</string>
     <string name="not_sure">不确定吗？</string>
-    <string name="ask_tor">询问Tor</string>
     <string name="many_ways">有许多途径可以连接到Tor，其中一些可能对您来说更有效。</string>
     <string name="asking">正在询问…</string>
     <string name="no_internet_subtitle">你需要连接网络来使用AnyoneBot。</string>

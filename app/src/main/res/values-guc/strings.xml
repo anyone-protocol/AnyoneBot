@@ -10,9 +10,7 @@
   <string name="main_layout_upload">Alika\'a </string>
   <string name="button_about">Jautoupuna</string>
   <string name="menu_exit">Ajuitia</string>
-  <string name="menu_scan">Ayakuajirrawua pata\'a     QR </string>
-  <string name="menu_share_bridge">Ana\'apajirrawua pata\'a QR</string>
-  <string name="wizard_details_msg">AnyoneBot jia wane ayataya  kalúús Tor,PtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks y LibEvent. apus  wopúú VPN, un proxy HTTP Connect local (HTTPS jumuiwuaya\'a 8118) je wanee proxy SOCKS (9050) julúú atalaya Tor.</string>
+  <string name="wizard_details_msg">AnyoneBot jia wane ayataya  kalúús Tor, Go-Tun2Socks y LibEvent. apus  wopúú VPN, un proxy HTTP Connect local (HTTPS jumuiwuaya\'a 8118) je wanee proxy SOCKS (9050) julúú atalaya Tor.</string>
   <string name="pref_general_group">Jupushu\'aa.</string>
   <string name="pref_start_boot_title">Achüwuaja AnyoneBot juttianain.</string>
   <string name="pref_start_boot_summary">Puchuaja AnyoneBot juma Tor juttianainje jupula Android.</string>
@@ -48,8 +46,6 @@
   <string name="enter_exclude_nodes">Mekerotuinjachi Nodo</string>
   <string name="strict_nodes">Nodos erúl wayumuín</string>
   <string name="strict_nodes_description">Nojoluinjat apaa nuín  Nodo jupula achuwuajanuín </string>
-  <string name="bridges">Pa\' taa</string>
-  <string name="use_bridges">Pülata jau pa\' taá</string>
   <string name="relays">Papajer juchikumuín. </string>
   <string name="relaying">Achuwuajajer ju chiku\'aya </string>
   <string name="enable_your_device_to_be_a_non_exit_relay">Punata  pukachuerrase jupula   nojoluinjat ajuituin</string>
@@ -97,11 +93,6 @@
   <string name="pref_torrc_dialog">Pupülajat  Torrc</string>
   <string name="kibibyte">KiB</string>
   <string name="mebibyte">MiB</string>
-  <string name="bridges_updated">sülatia akumajushi</string>
-  <string name="restart_to_use_this_bridge_">pülejera süchukua AnyoneBot süpüla sujutalüin tü sülatiakat.</string>
-  <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">müsia tü red móvil süsülajale Tor, esü süpula paapain wane  apajui sülatia maka wane sükuwaipa shikerotia. püneka wane tü ekat süpula sükumajia musia sülatia...</string>
-  <string name="get_bridges_email">süpulajana pütchii electronico</string>
-  <string name="get_bridges_email_request">Achuntia sülatia sülupüna tü süpulajanakat pütchii electronico</string>
   <string name="apps_mode"> süküaipa VPN</string>
   <string name="send_email">alüwatainjat pütchi sülupüna alüwatayakat eletronico</string>
   <string name="vpn_default_world">global(Auto)</string>
@@ -156,11 +147,8 @@
   <string name="pref_disable_ipv4">akatünusü sapajiraya IPv4</string>
   <string name="pref_disable_ipv4_summary">masümuin wana süma süjuitüin nojoluinjatü apajirain sünainje shiyawasee IPv4</string>
   <string name="app_shortcuts">apliaciones jutatüsü süpüla Tor</string>
-  <string name="testing_tor_direct">o&gt;ulaküsü tü suntireria sünain Tor...</string>
+  <string name="testing_tor_direct">o&gt;ulaküsü tü suntireria sünain Tor…</string>
   <string name="testing_tor_direct_success">anayawatsü ¡ tü sünteria sümüin Tor anasü !</string>
-  <string name="bridge_direct_connect">püntirelale watüwoshi sünain Tor ( anashanüsü )</string>
-  <string name="bridge_community">püntirerale sünainje süpülajatkat outkajalekaluirüa</string>
-  <string name="bridge_cloud">püntirelale sünainje tü süpülajatkat sünain sirüma</string>
   <string name="trouble_connecting">Kapúles A\'pansajrrawua?</string>
   <string name="full_device_vpn">VPN sünaije dispositivo kottüsü</string>
   <string name="vpn_disabled">VPN mayatainsat</string>
@@ -169,33 +157,15 @@
   <string name="app_services">süpülajatü tü aplicaciones</string>
   <string name="refresh_apps">akumajia süchukua tü aplicacionekat</string>
   <!--MoatActivity-->
-  <string name="request_bridges">achuntia sülatia</string>
-  <string name="refresh_captcha">anoütia CAPTCHA</string>
-  <string name="solve_captcha_instruction">painja tü CAPTCHA süpüla achuntia sülatia.</string>
-  <string name="captcha">Captcha</string>
-  <string name="enter_characters_from_image">pikerota sünain shajia ipünaa</string>
   <!--BridgeWizardActivity-->
-  <string name="request_bridges_from_torproject">püchunta sülatia sünainje torproject.org</string>
-  <string name="custom_bridges">sülatia wanewaii</string>
-  <string name="configure_custom_bridges">sükümajia sülatia wanewaii</string>
   <!--CustomBridgesActivity-->
-  <string name="use_custom_bridges">paapa tü sülatiakat wanewai</string>
-  <string name="in_a_browser">sünain wane navegador , pünala%sy toque \"einjatüin sülatia\"&gt;\"¡shiyane papüinjatka sülatia!\"</string>
-  <string name="paste_bridges">pü´ntirera sülatia</string>
-  <string name="use_qr_code">puyataya código QR</string>
-  <string name="bridge_snowflake">paapajira sünainje wanerüwa sümajatü Tor nayatayain Snowflake (Método 1_Fastly)</string>
-  <string name="bridge_snowflake_amp">paapajira sünainje wanerüa sümajat Tor ayatashi süka Snowflake ( Metodo 2 _ AMP)</string>
-  <string name="snowflake_proxy_msg_title">piiyater tamuin   erre ana´\'in  jukaipa  configuración</string>
-  <string name="snowflake_proxy_msg_description">Jii\'yater epa wuanee  wayuu ain´jein casa mojus</string>
   <!--new UX-->
-  <string name="volunteer_mode"> akuai´paa anamia </string>
   <string name="secure_your_connection_title">Kettas jupula apansajirrawua </string>
   <string name="secure_your_connection_subtitle">Oculte aplicaciones del monitoreo de red y obtenga acceso cuando estén bloqueadas.
 punjulaa apps, jupula  anaijatuin  pu kachuerrase</string>
   <string name="connected_title">Apai\'injirrawua.</string>
   <string name="btn_start_vpn"> Ottirra\'a VPN</string>
-  <string name="btn_configure">Anata\'aa</string>
-  <string name="configure_header">Punata juchuajia Tor</string>
+    <string name="configure_header">Punata juchuajia Tor</string>
   <string name="volunteer_mode_subtitle">pukalijaa waneirrüa junain apainjirrawua</string>
   <string name="trying_to_connect_title">Apai\'injirrawua.</string>
   <string name="btn_choose_apps">Apawua app</string>
@@ -210,36 +180,15 @@ punjulaa apps, jupula  anaijatuin  pu kachuerrase</string>
   <string name="menu_app_settings">Anataa app.</string>
   <string name="menu_faq">Tu asakitnaka  maín</string>
   <string name="menu_header_learn"> pütúja ja\'amuin</string>
-  <string name="btn_use_custom_bridge">Pata\'a  püpülajat</string>
   <string name="msg_taking_too_long">Kamashanas</string>
   <string name="msg_try_something_else">puúlaka jamúin</string>
   <string name="drawer_open">Jutats</string>
   <string name="drawer_close">kulala - jüütpaa</string>
   <string name="proxy_ports">Jüntiale Proxy</string>
   <string name="ports_not_set">Antule nojots ketta\'in</string>
-  <string name="volunteer_mode_title">pukalijaa  waneirrüa  junain apainjirrawua numa Tor</string>
-  <string name="volunteer_mode_label"> akuai´paa anamia </string>
-  <string name="volunteer_mode_weekly_label">Jupushua  semanaka.</string>
-  <string name="volunteer_mode_alltime_label">Jupushua  akalia\'a</string>
-  <string name="volunteer_mode_subtitle_desc">Tor akalijúsh erre\'e suttuin , nojots ajattuín tu bateriaka, kawuatirras tu internetka,pulatiruín juma WIFI, es jupüla puyokujain</string>
-  <string name="smart_connect"> Atujashi Apainjirrrawua. (default)</string>
-  <string name="smart_connect_subtitle">ORBO apainjirrawageshi numa Tor  merr juma pata\'a numuiwuayaa   oulaka  Snowflake,</string>
-  <string name="direct_connect">Apainjirrawua numa Tor.</string>
-  <string name="direct_connect_subtitle">Pansajeer   numa Tor,  paa´pa   maka numojulee. </string>
-  <string name="snowflake">Snowflake</string>
-  <string name="snowflake_subtitle">Apanjirrawuas numa Tor, jaliaa sútterr nutuma Tor </string>
-  <string name="get_a_bridge">Puntanai\'in  nu pata\'a sé Tor.(Obfs4)</string>
-  <string name="get_a_bridge_subtitle">Onjulawua júlatiaa, jaliaa sútterr nutuma Tor </string>
-  <string name="custom_bridge">Pata\'a pupulajat</string>
-  <string name="custom_bridge_subtitle">Apai\'injirrawuas  numa Tor, maka mojule  puchenter pata\'a jumuin pirrajüi\'in.  </string>
   <string name="connect">Apai\'injirrawua.</string>
   <string name="next">Tu wuanee.</string>
-  <string name="solve_captcha">Painja   tü numaka Captcha</string>
-  <string name="incorrect_solution">Mojus junatia</string>
-  <string name="bridges_obtained_connecting">Apunus pata\'a  jupula apajirrawua numaa Tor</string>
-  <string name="custom_bridge_description">Pirrajuín   chi apukai pata\'a , pusakirraa maka erre numana\'a</string>
-  <string name="having_trouble">Es kazachiki</string>
-  <string name="having_trouble_subtitle">Es jupula walatirru\'ín pataa Tor katsa pukalijanuijana wayaa.</string>
+    <string name="incorrect_solution">Mojus junatia</string>
   <string name="power_user_mode">Kawatirras.</string>
   <string name="power_user_description">Pirrajule Tor es jupula  painjüin  jumuywaya\'a, pirreer  SOCKS and HTTP  errulaín</string>
   <string name="action_activate">Painjamata.</string>

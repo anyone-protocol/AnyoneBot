@@ -10,8 +10,6 @@
     <string name="main_layout_upload">업로드</string>
     <string name="button_about">정보</string>
     <string name="menu_exit">종료</string>
-    <string name="menu_scan">브릿지 QR코드 스캔하기</string>
-    <string name="menu_share_bridge">브릿지 QR코드 공유하기</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">일반</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">차단할 핑거프린트, 별칭, 나라와 주소</string>
     <string name="enter_exclude_nodes">차단할 노드 입력</string>
     <string name="strict_nodes">노드 선택</string>
-    <string name="bridges">중계서버</string>
-    <string name="use_bridges">중계서버 사용</string>
     <string name="relays">중계서버</string>
     <string name="relaying">중계</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">귀하의 장치를 출구가 아닌 중계서버로 활성화</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">사용자 지정 Torrc 구성</string>
     <string name="pref_torrc_summary">전문가 전용: torrc 구성 줄을 직접 입력합니다</string>
     <string name="pref_torrc_dialog">나만의 Torrc</string>
-    <string name="bridges_updated">브릿지가 업데이트되었습니다</string>
-    <string name="restart_to_use_this_bridge_">변경을 완료하려면 AnyoneBot을 재시작하세요</string>
-    <string name="get_bridges_email">이메일</string>
     <string name="send_email">이메일 보내기</string>
     <string name="save">저장</string>
     <string name="name">Name</string>
@@ -107,7 +100,6 @@
     <string name="menu_hidden_services">Onion 서비스</string>
     <string name="done">완료!</string>
     <string name="menu_new_identity">새 ID</string>
-    <string name="captcha">캡챠</string>
     <string name="trying_to_connect_title">접속중…</string>
     <string name="menu_header_features">기능</string>
     <string name="menu_tor_connection">Tor 연결</string>
@@ -120,7 +112,6 @@
     <string name="menu_more">더 보기</string>
     <string name="setting_padding">패딩</string>
     <string name="connection_direct">다이렉트</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">사용자 정의</string>
     <string name="action_activate">활성화</string>
     <string name="kibibyte">KiB</string>
@@ -132,6 +123,5 @@
     <string name="hidden_services">Onion 서비스</string>
     <string name="allow">허용</string>
     <string name="no_internet_title">인터넷에 연결하기</string>
-    <string name="menu_kindness">상냥함</string>
     <string name="btn_refresh">새로고침</string>
 </resources>

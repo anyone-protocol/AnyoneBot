@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Αποστολή</string>
     <string name="button_about">Σχετικά</string>
     <string name="menu_exit">Έξοδος</string>
-    <string name="menu_scan">Σάρωση BridgeQR</string>
-    <string name="menu_share_bridge">Κοινή χρήση BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Το AnyoneBot είναι μια εφαρμογή ανοιχτού κώδικα που περιέχει τα Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks και LibEvent. Παρέχει ένα δίαυλο VPN, έναν τοπικό διακομιστή μεσολάβησης HTTP Connect (HTTPS μόνο στη θύρα 8118) και έναν διακομιστή μεσολάβησης SOCKS (9050) στο δίκτυο Tor.</string>
+    <string name="wizard_details_msg">Το AnyoneBot είναι μια εφαρμογή ανοιχτού κώδικα που περιέχει τα Tor, Go-Tun2Socks και LibEvent. Παρέχει ένα δίαυλο VPN, έναν τοπικό διακομιστή μεσολάβησης HTTP Connect (HTTPS μόνο στη θύρα 8118) και έναν διακομιστή μεσολάβησης SOCKS (9050) στο δίκτυο Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Γενικά</string>
     <string name="pref_start_boot_title">Έναρξη του AnyoneBot κατά την εκκίνηση</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Αποτυπώματα, ψευδώνυμα, χώρες και διευθύνσεις προς εξαίρεση</string>
     <string name="enter_exclude_nodes">Εισάγετε Εξαιρετέους κόμβους</string>
     <string name="strict_nodes">Αποκλειστικοί κόμβοι</string>
-    <string name="bridges">Γέφυρες</string>
-    <string name="use_bridges">Χρήση γεφυρών</string>
     <string name="relays">Αναμεταδότες</string>
     <string name="relaying">Γίνεται αναμετάδοση</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Μετατρέψτε την συσκευή σας σε ένα αναμεταδότη μη-εξόδου</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Προσαρμοσμένη διαμόρφωση Torrc</string>
     <string name="pref_torrc_summary">ΜΟΝΟ ΓΙΑ ΕΙΔΙΚΟΥΣ: πληκτρολογήστε απευθείας torrc config γραμμές</string>
     <string name="pref_torrc_dialog">Προσαρμογή Torrc</string>
-    <string name="bridges_updated">Οι γέφυρες ενημερώθηκαν</string>
-    <string name="restart_to_use_this_bridge_">Παρακαλούμε επανεκκινήστε το AnyoneBot για να ενεργοποιήσετε τις αλλαγές</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Αν το δίκτυο κινητής τηλεφωνίας σας μπλοκάρει ενεργά το Tor, μπορείτε να χρησιμοποιήσετε έναν \'Bridge Server\' ως εναλλακτική είσοδο. Επιλέξτε μία από τις επιλογές για να διαμορφώσετε και να δοκιμάσετε…</string>
-    <string name="get_bridges_email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="apps_mode">Λειτουργία VPN</string>
     <string name="send_email">Στείλτε Email</string>
     <string name="vpn_default_world">Παγκόσμια (Auto)</string>
@@ -131,14 +123,10 @@
     <string name="pref_reduced_connection_padding">Σύνδεση αναπλήρωσης</string>
     <string name="pref_reduced_connection_padding_summary">Κλείνει τον ηλεκτρονόμο συνδέσεων αργά και αποστολή λιγότερο να γεμίσει τα πακέτα για να μειώσει δεδομένων και τη χρήση της μπαταρίας</string>
     <string name="app_shortcuts">Ενεργοποιημένες εφαρμογές με το Τοr</string>
-    <string name="bridge_direct_connect">Απευθείας σύνδεση με το δίκτυο Tor (προεπιλογή)</string>
-    <string name="bridge_community">Σύνδεση μέσω κοινοτικών διακομιστών</string>
-    <string name="bridge_cloud">Σύνδεση μέσω cloud server</string>
     <string name="trouble_connecting">Πρόβλημα σύνδεσης;</string>
     <string name="full_device_vpn">Πλήρης Συσκευή VPN</string>
     <string name="vpn_disabled">Το VPN απενεργοποιήθηκε</string>
     <string name="allow">Επιτρέψτε το</string>
-    <string name="refresh_captcha">Ανανέωση CAPTCHA</string>
     <string name="kibibyte">KiB</string>
     <string name="mebibyte">MiB</string>
     <string name="version">Έκδοση:</string>
@@ -146,13 +134,10 @@
     <string name="v3_client_auth_activity_title">Εξουσιοδότηση πελάτη</string>
     <string name="v3_key_hash">x25519 Ιδιωτικό κλειδί σε Base32</string>
     <string name="v3_onion">.onion Τομέας</string>
-    <string name="bridge_snowflake">Συνδεθείτε μέσω άλλων χρηστών Tor χρησιμοποιώντας το Snowflake (Μέθοδος 1)</string>
     <string name="secure_your_connection_title">Ετοιμοι για σύνδεση</string>
     <string name="secure_your_connection_subtitle">Απόκρυψη εφαρμογών από την παρακολούθηση του δικτύου και πρόσβαση σε αυτές όταν είναι μπλοκαρισμένες.</string>
     <string name="connected_title">Συνδεδεμένο</string>
     <string name="btn_start_vpn">Έναρξη VPN</string>
-    <string name="btn_configure">Επιλέξτε τον τρόπο σύνδεσης</string>
-    <string name="volunteer_mode">Λειτουργία Kindness</string>
     <string name="volunteer_mode_subtitle">Βοηθήστε άλλους να συνδεθούν</string>
     <string name="trying_to_connect_title">Σύνδεση…</string>
     <string name="btn_choose_apps">Επιλέξτε εφαρμογές</string>
@@ -166,7 +151,6 @@
     <string name="menu_help_others">Βοηθήστε άλλους</string>
     <string name="menu_faq">FAQ</string>
     <string name="menu_header_learn">Μάθετε περισσότερα</string>
-    <string name="btn_use_custom_bridge">Χρήση προσαρμοσμένης γέφυρας</string>
     <string name="msg_try_something_else">Δοκιμάστε κάτι άλλο</string>
     <string name="deny">Άρνηση</string>
     <string name="v3_hosted_services">Υπηρεσίες Onion</string>
@@ -177,21 +161,8 @@
     <string name="pref_reduced_circuit_padding">Μειωμένο μαξιλάρι κυκλώματος</string>
     <string name="pref_disable_ipv4">Απενεργοποίηση συνδέσεων IPv4</string>
     <string name="testing_tor_direct_success">Επιτυχία. Η σύνδεση Tor είναι καλή!</string>
-    <string name="request_bridges">Αίτημα Γέφυρες</string>
-    <string name="enter_characters_from_image">Πληκτρολογήστε το παραπάνω κείμενο</string>
-    <string name="request_bridges_from_torproject">Αίτημα Γέφυρες από torproject.org</string>
-    <string name="custom_bridges">Προσαρμοσμένες γέφυρες</string>
-    <string name="configure_custom_bridges">Διαμόρφωση προσαρμοσμένων γεφυρών</string>
-    <string name="use_custom_bridges">Χρήση προσαρμοσμένων γεφυρών</string>
-    <string name="in_a_browser">Σε ένα πρόγραμμα περιήγησης, επισκεφθείτε το %s και πατήστε Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="bridge_snowflake_amp">Συνδεθείτε μέσω άλλων χρηστών Tor χρησιμοποιώντας το Snowflake (Μέθοδος 2)</string>
-    <string name="snowflake_proxy_msg_title">Εμφάνιση ειδοποίησης σύνδεσης</string>
-    <string name="paste_bridges">Επικόλληση γεφυρών</string>
-    <string name="use_qr_code">Χρήση κώδικα QR</string>
-    <string name="snowflake_proxy_msg_description">Εμφανίζει ένα μήνυμα όταν βοηθάτε κάποιον να παρακάμψει τη λογοκρισία</string>
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_http_dialog">Διαμόρφωση θύρας HTTP</string>
-    <string name="get_bridges_email_request">Αίτημα Bridges μέσω Email</string>
     <string name="v3_backup_key">Κλειδί εξουσιοδότησης πελάτη αντιγράφων ασφαλείας</string>
     <string name="v3_backup_name_hint">Δημιουργία αντιγράφου ασφαλείας…</string>
     <string name="v3_import_auth_private">Εισαγωγή .auth_private</string>
@@ -202,8 +173,6 @@
     <string name="pref_disable_ipv4_summary">Λέει στις εξόδους να μην συνδέονται σε διευθύνσεις IPv4</string>
     <string name="app_services">Υπηρεσίες εφαρμογών</string>
     <string name="refresh_apps">Ανανέωση εφαρμογών</string>
-    <string name="solve_captcha_instruction">Λύστε το CAPTCHA για να ζητήσετε γέφυρες.</string>
-    <string name="captcha">Captcha</string>
     <string name="strict_nodes_description">Αντιμετωπίστε τις ρυθμίσεις Exclude Nodes ως απαίτηση για την κατασκευή όλων των κυκλωμάτων. Αυτό μπορεί να διαταράξει τη λειτουργικότητα εάν δεν είναι δυνατή η δημιουργία κυκλωμάτων με τις ρυθμίσεις σας Exclude Nodes.</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Άνοιγμα διακομιστή μεσολάβησης σε όλες τις διασυνδέσεις</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Επιτρέψτε σε ομότιμους χρήστες Wi-Fi, συνδεδεμένες συσκευές και οποιονδήποτε άλλον μπορεί να συνδεθεί στην IP σας, να έχει πρόσβαση στο Tor</string>
@@ -224,22 +193,13 @@
     <string name="pref_isolate_protocol">Απομόνωση πρωτοκόλλων πελάτη</string>
     <string name="drawer_open">Ανοίξτε το</string>
     <string name="drawer_close">Κλείσιμο</string>
-    <string name="volunteer_mode_title">Βοηθήστε τους άλλους
-\nσυνδεθείτε στο Tor</string>
-    <string name="volunteer_mode_label">Λειτουργία καλοσύνης</string>
-    <string name="volunteer_mode_weekly_label">Εβδομαδιαίο σύνολο</string>
-    <string name="volunteer_mode_alltime_label">Όλος ο χρόνος Σύνολο</string>
-    <string name="smart_connect">Smart Connect (προεπιλογή)</string>
     <string name="connect">Συνδέστε το</string>
     <string name="next">Επόμενο</string>
-    <string name="solve_captcha">Επίλυση Captcha</string>
     <string name="incorrect_solution">Λανθασμένη λύση</string>
-    <string name="bridges_obtained_connecting">Έγινε λήψη των γεφυρών! Σύνδεση στο tor…</string>
     <string name="title_choose_apps">Επιλέξτε εφαρμογές</string>
     <string name="hide_apps">Απόκρυψη εφαρμογών από την παρακολούθηση του δικτύου και πρόσβαση σε αυτές όταν είναι μπλοκαρισμένες.</string>
     <string name="log_copied">Ημερολόγιο Αντιγραφή</string>
     <string name="not_sure">Δεν είστε σίγουροι\?</string>
-    <string name="ask_tor">Ρωτήστε τον Tor</string>
     <string name="many_ways">Υπάρχουν πολλοί τρόποι για να φτάσετε στην Tor. Μερικοί μπορεί να λειτουργούν καλύτερα από άλλους για εσάς.</string>
     <string name="action_use">Χρήση</string>
     <string name="asking">ΕΡΩΤΗΣΗ…</string>
@@ -252,37 +212,15 @@
     <string name="apps_other_apps">Άλλες εφαρμογές</string>
     <string name="app_suggested_subtitle">Το AnyoneBot λειτουργεί καλύτερα με εφαρμογές ανταλλαγής μηνυμάτων και μέσων κοινωνικής δικτύωσης.</string>
     <string name="apps_suggested_title">Προτεινόμενες εφαρμογές</string>
-    <string name="custom_bridge">Προσαρμοσμένη γέφυρα</string>
-    <string name="snowflake_subtitle">Συνδέεται μέσω εθελοντών του Tor. Παρακάμπτει κάποιο μπλοκάρισμα του Tor.</string>
-    <string name="get_a_bridge">Γέφυρα από Tor (Obfs4)</string>
-    <string name="get_a_bridge_subtitle">Αποκρύπτει την κυκλοφορία σας. Παρακάμπτει κάποιο μπλοκάρισμα του Tor.</string>
-    <string name="smart_connect_subtitle">Το AnyoneBot προσπαθεί να συνδεθεί στο Tor με οποιονδήποτε διαθέσιμο τρόπο: Snowflake, Bridge.</string>
-    <string name="custom_bridge_description">Μια προσαρμοσμένη γέφυρα παρέχεται από κάποιον γνωστό σας. Ρωτήστε μέσα στα δίκτυα και τους οργανισμούς που εμπιστεύεστε για να δείτε αν κάποιος φιλοξενεί μια τέτοια γέφυρα.</string>
-    <string name="volunteer_mode_subtitle_desc">Η λειτουργία \"Ευγένεια\" επιτρέπει στη συσκευή σας να γίνει γέφυρα για τους άλλους. Βοηθάει τους ανθρώπους να χρησιμοποιούν το Tor σε μέρη όπου είναι μπλοκαρισμένο.
-\n
-\n- Δεν θα αδειάσει την μπαταρία σας
-\n- Δεν θα επιβραδύνει το διαδίκτυο σας
-\n- Μπορεί να λειτουργήσει μόνο μέσω wifi
-\n- Μπορεί να απενεργοποιηθεί ανά πάσα στιγμή</string>
-    <string name="direct_connect">Άμεση σύνδεση στο Tor</string>
-    <string name="snowflake_amp">Χιονονιφάδα (AMP)</string>
-    <string name="custom_bridge_subtitle">Το πιο πιθανό είναι να σας κρατήσει συνδεδεμένους αν το Tor είναι σοβαρά μπλοκαρισμένο. Απαιτεί μια διεύθυνση γέφυρας από κάποιον που εμπιστεύεστε.</string>
     <string name="power_user_description">Για χρήστες που είναι εξοικειωμένοι με το Tor. Σας επιτρέπει να ξεκινήσετε το AnyoneBot χωρίς τη ρύθμιση VPN και εμφανίζει τις ανοιχτές θύρες SOCKS και HTTP</string>
     <string name="kindness_adjust_title">Ρυθμίσεις</string>
-    <string name="kindess_config_detail">Ρυθμίστε πώς και πότε η συσκευή σας μπορεί να ενεργεί ως διακομιστής μεσολάβησης Snowflake για άλλους χρήστες Tor.</string>
-    <string name="having_trouble">Έχοντας πρόβλημα</string>
-    <string name="having_trouble_subtitle">Μπορούμε να δοκιμάσουμε μια γέφυρα Tor στη συνέχεια, αλλά θα χρειαστούμε τη βοήθειά σας</string>
-    <string name="direct_connect_subtitle">Ο καλύτερος τρόπος για να συνδεθείτε στο Tor. Χρησιμοποιήστε το αν το Tor δεν είναι μπλοκαρισμένο.</string>
-    <string name="snowflake">Χιονονιφάδα (πρωτότυπο)</string>
     <string name="setting_padding">Συμπλήρωση</string>
     <string name="setting_debug">Αποσφαλμάτωση</string>
-    <string name="menu_kindness">Ευγένεια</string>
     <string name="menu_more">Περισσότερα</string>
     <string name="option_only_on_wifi">Μόνο στο Wifi</string>
     <string name="option_only_when_charging">Μόνο κατά τη φόρτιση</string>
     <string name="btn_copy_log">Αντιγραφή αρχείου καταγραφής</string>
     <string name="connection_direct">Απευθείας</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Προσαρμοσμένο</string>
     <string name="pref_flag_secure_title">Ασφάλεια οθόνης</string>
     <string name="root_warning">Το AnyoneBot εντόπισε ότι η συσκευή σας είναι ξεκλειδωμένη, γεγονός που μπορεί να προκαλέσει προβλήματα ασφαλείας.</string>

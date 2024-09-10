@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Augšupielāde</string>
     <string name="button_about">Par</string>
     <string name="menu_exit">Iziet</string>
-    <string name="menu_scan">Skenēt BridgeQR</string>
-    <string name="menu_share_bridge">Koplietot BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Vispārīgi</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Izslēdzamās ciparvirknes, segvārdi, valstis un adreses</string>
     <string name="enter_exclude_nodes">Ievadīt Neiekļaujamos mezglus</string>
     <string name="strict_nodes">Precīzie mezgli</string>
-    <string name="bridges">Tilti</string>
-    <string name="use_bridges">Lietot tiltus</string>
     <string name="relays">Retranslatori</string>
     <string name="relaying">Retranslēšana</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Iespējot Jūsu iekārtu par bezapstājas retranslatoru</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">Torrc pielāgota konfigurēšana</string>
     <string name="pref_torrc_summary">VIENĪGI EKSPERTIEM: tieši ievadīt torrc konfigurēšanas rindas</string>
     <string name="pref_torrc_dialog">Pielāgot Torrc</string>
-    <string name="bridges_updated">Tilti ir atjaunināti</string>
-    <string name="restart_to_use_this_bridge_">Lūdzu pārstartējiet AnyoneBot, lai iespējotu izmaiņas</string>
-    <string name="get_bridges_email">E-pasts</string>
     <string name="send_email">Nosūtīt e-pastu</string>
     <string name="hidden_services">Slēptie pakalpojumi</string>
     <string name="menu_hidden_services">Slēptie pakalpojumi</string>
@@ -101,7 +94,6 @@
     <string name="name">Vārds</string>
     <string name="please_restart_to_enable_the_changes">Lūdzu pārstartējiet AnyoneBot, lai iespējotu izmaiņas</string>
     <string name="disable">Atspējot</string>
-    <string name="get_bridges_email_request">Pieprasīt tiltus pa e-pastu</string>
     <string name="confirm">Apstipriniet</string>
     <string name="version">Versija:</string>
     <string name="license">Licence:</string>
@@ -111,14 +103,10 @@
     <string name="pref_disable_ipv4_summary">Norāda, ka izejas nedrīkst izveidot savienojumu ar IPv4 adresēm</string>
     <string name="testing_tor_direct">Savienojuma testēšana ar Tor…</string>
     <string name="menu_new_identity">Jauna identitāte</string>
-    <string name="use_custom_bridges">Pielāgotu tiltu izmantošana</string>
-    <string name="use_qr_code">QR koda izmantošana</string>
-    <string name="wizard_details_msg">AnyoneBot ir atvērtā koda lietojumprogramma, kas satur Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks un LibEvent. Tā nodrošina VPN tuneli, vietējo HTTP Connect proxy (tikai HTTPS portā 8118) un SOCKS proxy (9050) uz Tor tīklu.</string>
+    <string name="wizard_details_msg">AnyoneBot ir atvērtā koda lietojumprogramma, kas satur Tor, Go-Tun2Socks un LibEvent. Tā nodrošina VPN tuneli, vietējo HTTP Connect proxy (tikai HTTPS portā 8118) un SOCKS proxy (9050) uz Tor tīklu.</string>
     <string name="secure_your_connection_subtitle">Paslēpiet lietotnes no tīkla uzraudzības un iegūstiet piekļuvi, ja tās ir bloķētas.</string>
     <string name="connected_title">Savienots</string>
     <string name="btn_start_vpn">VPN sākšana</string>
-    <string name="btn_configure">Izvēlieties, kā pieslēgties</string>
-    <string name="volunteer_mode">Labestības režīms</string>
     <string name="volunteer_mode_subtitle">Palīdziet citiem izveidot savienojumu</string>
     <string name="btn_choose_apps">Izvēlieties lietotnes</string>
     <string name="btn_change_exit">Mainīt izeju</string>
@@ -130,7 +118,6 @@
     <string name="menu_tor_connection">Tor savienojums</string>
     <string name="menu_help_others">Palīdzēt citiem</string>
     <string name="menu_app_settings">Lietotņu iestatījumi</string>
-    <string name="btn_use_custom_bridge">Pielāgotā tilta izmantošana</string>
     <string name="msg_taking_too_long">Šķiet, ka tas aizņem pārāk daudz laika</string>
     <string name="msg_try_something_else">Izmēģiniet ko citu</string>
     <string name="allow">Atļaut</string>
@@ -143,15 +130,6 @@
     <string name="pref_disable_ipv4">IPv4 savienojumu atspējošana</string>
     <string name="pref_circuit_padding_summary">Iespēja izmantot ķēžu polsterēšanu, lai aizsargātos pret dažiem datplūsmas analīzes veidiem</string>
     <string name="pref_prefer_ipv6">Priekšroka IPv6 savienojumiem</string>
-    <string name="captcha">Captcha</string>
-    <string name="enter_characters_from_image">Ievadiet tekstu iepriekš</string>
-    <string name="request_bridges_from_torproject">Pieprasīt tiltus no torproject.org</string>
-    <string name="custom_bridges">Pielāgotie tilti</string>
-    <string name="configure_custom_bridges">Pielāgotu tiltu konfigurēšana</string>
-    <string name="paste_bridges">Ielīmējiet tiltus</string>
-    <string name="bridge_snowflake_amp">Savienošanās ar citiem Tor lietotājiem, izmantojot Snowflake (2 metode)</string>
-    <string name="snowflake_proxy_msg_title">Rādīt savienojuma paziņojumu</string>
-    <string name="snowflake_proxy_msg_description">Parādiet ziņojumu, kad palīdzat kādam apiet cenzūru</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Atvērt starpniekserveri visās saskarnēs</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Ļaujiet Wi-Fi vienaudžiem, pieslēgtām ierīcēm un jebkurai citai ierīcei, kas var izveidot savienojumu ar jūsu IP, piekļūt Tor</string>
     <string name="pref_http_title">Tor HTTP</string>
@@ -188,20 +166,13 @@
     <string name="pref_reduced_connection_padding">Samazināts savienojuma polsterējums</string>
     <string name="app_shortcuts">Ar Tor iespējotas lietotnes</string>
     <string name="testing_tor_direct_success">Panākumi. Tor savienojums ir labs!</string>
-    <string name="bridge_direct_connect">Tiešais savienojums ar Tor (labākais)</string>
-    <string name="bridge_community">Savienojums, izmantojot kopienas serverus</string>
-    <string name="bridge_cloud">Savienojums, izmantojot mākoņa serverus</string>
     <string name="trouble_connecting">Problēmas ar savienojumu\?</string>
     <string name="full_device_vpn">Pilns ierīces VPN</string>
     <string name="vpn_disabled">VPN atspējots</string>
     <string name="user_services">Lietotāju pakalpojumi</string>
     <string name="app_services">Lietotņu pakalpojumi</string>
     <string name="refresh_apps">Atsvaidzināšanas programmas</string>
-    <string name="request_bridges">Pieprasīt tiltus</string>
-    <string name="refresh_captcha">Atsvaidzināt CAPTCHA</string>
-    <string name="solve_captcha_instruction">Atrisiniet CAPTCHA, lai pieprasītu tiltus.</string>
     <string name="pref_reduced_connection_padding_summary">ātrāk slēdz retranslatoru savienojumus un nosūta mazāk pakešu ar pildījumu, lai samazinātu datu un akumulatora patēriņu</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ja jūsu mobilais tīkls aktīvi bloķē Tor, varat izmantot \"tilta serveri\" kā alternatīvu piekļuves iespēju. Izvēlieties vienu no iespējām, lai konfigurētu un pārbaudītu…</string>
     <string name="backup_service">Rezerves kopēšanas pakalpojums <i>(Brīdinājums: tas var atklāt jūsu pakalpojuma konfigurāciju citām lietojumprogrammām)</i></string>
     <string name="backup_saved_at_external_storage">Rezerves kopija, kas saglabāta ārējā krātuvē</string>
     <string name="strict_nodes_description">Izslēgt mezglus iestatījumus uzskatiet par prasību visu ķēžu izveidei. Tas var pārtraukt funkcionalitāti, ja ar jūsu iestatījumiem Exclude Nodes (Izslēgt mezglus) nav iespējams ģenerēt nevienu ķēdi.</string>
@@ -209,14 +180,11 @@
     <string name="delete_service">Pakalpojuma dzēšana</string>
     <string name="pref_connection_padding_summary">Vienmēr iespējota savienojuma pildīšana, lai aizsargātos pret dažāda veida datplūsmas analīzi. Noklusējuma iestatījums: automātiskais</string>
     <string name="copy_address_to_clipboard">Kopēt adresi uz starpliktuvi</string>
-    <string name="in_a_browser">Pārlūkprogrammā apmeklējiet %s un pieskarieties vienumam Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="bridge_snowflake">Savienošanās ar citiem Tor lietotājiem, izmantojot Snowflake (1 metode)</string>
     <string name="secure_your_connection_title">Gatavs savienošanai</string>
     <string name="trying_to_connect_title">Savienošana…</string>
     <string name="menu_faq">FAQ</string>
     <string name="menu_header_learn">Uzzināt vairāk</string>
     <string name="drawer_open">Atvērt</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Pielāgots</string>
     <string name="action_activate">Atjaunot</string>
     <string name="title_choose_apps">Izvēlēties lietotnes</string>
@@ -225,33 +193,17 @@
     <string name="drawer_close">Aizvērt</string>
     <string name="connect">Veidot savienojumu</string>
     <string name="next">Nākamais</string>
-    <string name="volunteer_mode_alltime_label">Visu laiku Kopā</string>
-    <string name="custom_bridge_description">Pielāgotu tiltu nodrošina kāds jūsu paziņa. Apjautājieties uzticamos tīklos un organizācijās, lai uzzinātu, vai kāds no tiem šādu tiltu neuztur.</string>
     <string name="proxy_ports">Proxy porti</string>
     <string name="no_internet_subtitle">Lai izmantotu AnyoneBot, ir nepieciešams interneta savienojums.</string>
     <string name="not_sure">Neesat pārliecināts\?</string>
-    <string name="snowflake_subtitle">Savieno ar Tor brīvprātīgo starpniecību. Apiet dažas Tor bloķēšanas iespējas.</string>
-    <string name="volunteer_mode_label">Labestības režīms</string>
-    <string name="volunteer_mode_subtitle_desc">Labestības režīms ļauj jūsu ierīcei kļūt par tiltu citiem. Tas palīdz cilvēkiem izmantot Tor tur, kur tas ir bloķēts.
-\n
-\n- Tas neizlādē akumulatoru
-\n- Tas nepalēninās jūsu interneta darbību
-\n- To var darbināt tikai wifi tīklā
-\n- To var izslēgt jebkurā laikā</string>
     <string name="ports_not_set">Nav iestatīti porti</string>
-    <string name="ask_tor">Jautājiet Toram</string>
-    <string name="solve_captcha">Atrisināt Captcha</string>
-    <string name="custom_bridge">Pielāgotais tilts</string>
     <string name="power_user_mode">Jaudas lietotāja režīms</string>
-    <string name="smart_connect">Smart Connect (noklusējuma iestatījums)</string>
     <string name="apps_other_apps">Citas lietotnes</string>
     <string name="option_only_when_charging">Tikai uzlādes laikā</string>
     <string name="hide_apps">Paslēpiet lietotnes no tīkla uzraudzības un iegūstiet piekļuvi, ja tās ir bloķētas.</string>
     <string name="pref_isolate_port_summary">Katrai galamērķa ostai izmantojiet atšķirīgu ķēdi</string>
     <string name="no_internet_title">Savienojums ar internetu</string>
     <string name="pref_isolate_protocol">Izolēt klienta protokolus</string>
-    <string name="custom_bridge_subtitle">Visdrīzāk, lai saglabātu savienojumu, ja Tor ir nopietni bloķēts. Nepieciešama uzticamas personas tilta adrese.</string>
-    <string name="volunteer_mode_weekly_label">Nedēļas kopsumma</string>
     <string name="kindness_adjust_title">Noregulējiet, kad tas darbojas…</string>
     <string name="apps_suggested_title">Ieteicamās lietotnes</string>
     <string name="log_copied">Nokopēts žurnāls</string>
@@ -259,30 +211,16 @@
     <string name="setting_padding">Polsterējums</string>
     <string name="action_use">Izmantojiet</string>
     <string name="option_only_on_wifi">Tikai izmantojot Wifi</string>
-    <string name="having_trouble_subtitle">Mēs varam izmēģināt Tor tiltu nākamo, bet mums būs nepieciešama jūsu palīdzība</string>
-    <string name="having_trouble">Grūtības</string>
-    <string name="direct_connect">Tiešais savienojums ar Tor</string>
     <string name="connection_direct">Tiešsaistes</string>
     <string name="pref_isolate_port">Izolēt galamērķa ostas</string>
-    <string name="asking">ASKING...</string>
+    <string name="asking">ASKING…</string>
     <string name="power_user_description">Lietotājiem, kas pārzina Tor. Ļauj palaist AnyoneBot bez VPN iestatījuma un parāda atvērtos SOCKS un HTTP portus</string>
-    <string name="snowflake_amp">Sniegpārsliņa (AMP)</string>
-    <string name="menu_kindness">Labestība</string>
     <string name="pref_flag_secure_title">Ekrāna drošība</string>
     <string name="root_warning">AnyoneBot ir konstatējis, ka jūsu ierīcei ir saknes, kas var radīt drošības problēmas.</string>
-    <string name="snowflake">Sniegpārsliņa (oriģināls)</string>
-    <string name="get_a_bridge_subtitle">Slēpj datplūsmu. Apiet dažas Tor bloķēšanas iespējas.</string>
-    <string name="kindess_config_detail">Konfigurējiet, kā un kad jūsu ierīce var darboties kā Snowflake starpniekserveris citiem Tor lietotājiem.</string>
-    <string name="smart_connect_subtitle">AnyoneBot mēģina izveidot savienojumu ar Tor, izmantojot jebkuru pieejamo veidu: Tiešais, sniega pārsla, tilts.</string>
     <string name="pref_isolate_protocol_summary">Katram savienojuma protokolam izmantojiet atšķirīgu ķēdi</string>
     <string name="incorrect_solution">Nepareizs risinājums</string>
-    <string name="bridges_obtained_connecting">Iegūti tilti! Savienojums ar tor...</string>
     <string name="app_suggested_subtitle">AnyoneBot vislabāk darbojas ar ziņapmaiņas un sociālo mediju lietotnēm.</string>
-    <string name="get_a_bridge">Tilts no Tor (Obfs4)</string>
-    <string name="volunteer_mode_title">Palīdzēt citiem
-\nizveidot savienojumu ar Tor</string>
     <string name="pref_flag_secure_summary">Neļaujiet citām programmām uzņemt AnyoneBot ekrānšāviņus</string>
-    <string name="direct_connect_subtitle">Labākais veids, kā izveidot savienojumu ar Tor. Izmantojiet, ja Tor nav bloķēts.</string>
     <string name="volunteer_status_title">Šodien ir labāk
 \npateicoties tev.</string>
     <string name="many_ways">Ir vairāki veidi, kā sasniegt Tor. Daži no tiem jums var darboties labāk nekā citi.</string>

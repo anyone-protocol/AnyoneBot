@@ -49,8 +49,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Cap jari, nama samaran, negara dan alamat untuk dikeluarkan</string>
     <string name="enter_exclude_nodes">Masukkan Nod Keluar</string>
     <string name="strict_nodes">Nod Ketat</string>
-    <string name="bridges">Jambatan</string>
-    <string name="use_bridges">Guna Jambatan</string>
     <string name="relays">Relays</string>
     <string name="relaying">Relaying</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Membolehkan peranti anda untuk menjadi geganti bukan keluar</string>
@@ -82,7 +80,6 @@
     <string name="menu_header_learn">Ketahui Lebih Lanjut</string>
     <string name="drawer_close">Tutup</string>
     <string name="next">Seterusnya</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Suai</string>
     <string name="btn_refresh">Segarkan</string>
     <string name="menu_header_features">Fitur</string>
@@ -93,7 +90,6 @@
     <string name="menu_faq">FAQ</string>
     <string name="disable">Lumpuhkan</string>
     <string name="mebibyte">MiB</string>
-    <string name="get_bridges_email">Email</string>
     <string name="deny">Nafi</string>
     <string name="connect">Sambung</string>
 </resources>

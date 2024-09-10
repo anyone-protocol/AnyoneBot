@@ -6,17 +6,12 @@ import android.os.Bundle
 import android.text.Html
 import android.view.View
 import android.widget.TextView
-
 import androidx.fragment.app.DialogFragment
-
-import io.anyone.anyonebot.core.DiskUtils
-import io.anyone.anyonebot.service.AnyoneBotService
-
-import java.io.IOException
-
-import IPtProxy.IPtProxy
 import io.anyone.anyonebot.BuildConfig
 import io.anyone.anyonebot.R
+import io.anyone.anyonebot.core.DiskUtils
+import io.anyone.anyonebot.service.AnyoneBotService
+import java.io.IOException
 
 class AboutDialogFragment : DialogFragment() {
 
@@ -37,12 +32,6 @@ class AboutDialogFragment : DialogFragment() {
         versionName?.text = VERSION
 
         tvAbout = view?.findViewById(R.id.aboutother) as TextView
-
-        val tvObfs4 = view.findViewById<TextView>(R.id.tvObfs4)
-        tvObfs4.text = getString(R.string.obfs4_url, IPtProxy.lyrebirdVersion())
-
-        val tvSnowflake = view.findViewById<TextView>(R.id.tvSnowflake)
-        tvSnowflake.text = getString(R.string.snowflake_url, IPtProxy.snowflakeVersion())
 
         var buildAboutText = true
 

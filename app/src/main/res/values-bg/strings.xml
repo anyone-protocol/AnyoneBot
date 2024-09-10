@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Изпратено</string>
     <string name="button_about">Относно</string>
     <string name="menu_exit">Изход</string>
-    <string name="menu_scan">Сканиране на QR на мост</string>
-    <string name="menu_share_bridge">Споделяне на QR на мост</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Общи</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Отпечатъци, псевдоними, държави и адреси, които да не бъдат ползвани</string>
     <string name="enter_exclude_nodes">Въведете изключените възли</string>
     <string name="strict_nodes">Задължителни възли</string>
-    <string name="bridges">Мостове</string>
-    <string name="use_bridges">Използване на мостове</string>
     <string name="relays">Препращане</string>
     <string name="relaying">Препращане</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Устройството да бъде неизходен препращач</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">Потребителски настройки на Torrc</string>
     <string name="pref_torrc_summary">ЗА ЕКСПЕРТИ: въведете редовете с настройки за torrc</string>
     <string name="pref_torrc_dialog">Потребителски Torrc</string>
-    <string name="bridges_updated">Мостовете са обновени</string>
-    <string name="restart_to_use_this_bridge_">За да влязат в сила промените рестартирайте AnyoneBot</string>
-    <string name="get_bridges_email">Адрес на електронна поща</string>
     <string name="send_email">Изпращане на писмо</string>
     <string name="hidden_services">Услуги на Onion</string>
     <string name="menu_hidden_services">Услуги на Onion</string>
@@ -130,7 +123,6 @@
     <string name="v3_delete_client_authorization_confirm">Премахване на удостоверяването на клиента</string>
     <string name="v3_backup_name_hint">Име на файла за резервно копие…</string>
     <string name="onion_port">Порт на Onion</string>
-    <string name="bridge_community">Свързване чрез сървъри на общността</string>
     <string name="full_device_vpn">Услуга за ВЧМ за цялото устройство</string>
     <string name="app_shortcuts">Приложения, поддържащи Тор</string>
     <string name="testing_tor_direct">Проверка на връзката с Тор…</string>
@@ -138,26 +130,17 @@
     <string name="vpn_disabled">ВЧМ е изключена</string>
     <string name="user_services">Услуги на потребителя</string>
     <string name="app_services">Услуги на приложения</string>
-    <string name="request_bridges">Заявяване на мостове</string>
-    <string name="request_bridges_from_torproject">Заявка за мостове от torproject.org</string>
-    <string name="use_qr_code">Използване на код за QR</string>
-    <string name="get_bridges_email_request">Поискайте мостове по електронна поща</string>
     <string name="v3_backup_key_warning">Внимание: По този начин ключът може да бъде разкрит пред други приложения</string>
     <string name="pref_prefer_ipv6">Предпочитане на връзка по IPv6</string>
     <string name="pref_disable_ipv4">Изключване на връзка по IPv4</string>
     <string name="testing_tor_direct_success">Успех. Връзката с Тор е добра!</string>
-    <string name="bridge_direct_connect">Директно свързване с Тор (най-добре)</string>
-    <string name="bridge_cloud">Свързване чрез сървъри в облака</string>
     <string name="pref_disable_ipv4_summary">Указва на изходните възли да не използват адреси от IPv4</string>
-    <string name="enter_characters_from_image">Въведете горния текст</string>
     <string name="restore_backup">Възстановяване от резервно копие</string>
     <string name="create_a_backup_first">Първо създайте резервно копие</string>
     <string name="kibibyte">КБ</string>
     <string name="mebibyte">МБ</string>
-    <string name="bridge_snowflake">Свързване чрез други потребители на Тор с помощта на Снежинка (Метод 1 - Fastly)</string>
-    <string name="snowflake_proxy_msg_description">Показва известие, когато помагате на някого да заобиколи цензурата</string>
     <string name="backup_service">Услуга за архивиране <i>(Внимание: така могат да бъдат разкрити настройките на услугата от други приложения)</i></string>
-    <string name="wizard_details_msg">AnyoneBot е приложение с отворен код, което съдържа Тор, IPtProxy (Obfs4Proxy, Meek, Снежинка), Go-Tun2Socks и LibEvent. Предоставя тунел на ВЧМ, местен мрежов посредник на HTTP (HTTPS само на порт 8118) и посредник на SOCKS (9050) към мрежата на Тор.</string>
+    <string name="wizard_details_msg">AnyoneBot е приложение с отворен код, което съдържа Тор, Go-Tun2Socks и LibEvent. Предоставя тунел на ВЧМ, местен мрежов посредник на HTTP (HTTPS само на порт 8118) и посредник на SOCKS (9050) към мрежата на Тор.</string>
     <string name="pref_circuit_padding">Уплътняване на обходите</string>
     <string name="backup_saved_at_external_storage">Резервното копие е запазено във външното хранилище</string>
     <string name="backup_restored">Резервното копие е възстановено</string>
@@ -165,7 +148,6 @@
     <string name="confirm_service_deletion">Потвърждаване премахване на услуга</string>
     <string name="pref_http_title">Тор по HTTP</string>
     <string name="pref_http_summary">Порт, на който Тор предлага HTTP прокси (подразбиран: 8118 или 0 за изключване)</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ако мобилната мрежа актовно спира Тор като алтернатива можете да използвате „BridgeServer“. Изберете от вариантите за настройка и проба…</string>
     <string name="onion">.onion</string>
     <string name="backup_port_exist">Грешка: Услуга на Onion вече използва порт %s</string>
     <string name="pref_isolate_dest_summary">Използване на различен обход за всеки целеви адрес</string>
@@ -177,16 +159,6 @@
     <string name="pref_reduced_circuit_padding">Намалено уплътняване на обходите</string>
     <string name="pref_reduced_circuit_padding_summary">За да се намали разхода на трафик и батерия се използват по-леки алгоритми</string>
     <string name="refresh_apps">Обновяване на приложения</string>
-    <string name="captcha">CAPTCHA</string>
-    <string name="refresh_captcha">Презареждане на CAPTCHA</string>
-    <string name="solve_captcha_instruction">За да заявите мостове решете тази CAPTCHA.</string>
-    <string name="use_custom_bridges">Използване на потребителски мостове</string>
-    <string name="configure_custom_bridges">Настройка на потребителски мостове</string>
-    <string name="custom_bridges">Потребителски мостове</string>
-    <string name="paste_bridges">Поставяне на мостове</string>
-    <string name="snowflake_proxy_msg_title">Известие за връзка</string>
-    <string name="bridge_snowflake_amp">Свързване чрез други потребители на Тор с помощта на Снежинка (Метод 2 - AMP)</string>
-    <string name="in_a_browser">Посетете %s и докоснете Get Bridges &gt; Just Give Me Bridges!</string>
     <string name="v3_hosted_services">Собствени услуги на Onion</string>
     <string name="consider_enable_battery_optimizations">Собствените услуги не работят, помислете дали да не включите оптимизацията на батерията</string>
     <string name="strict_nodes_description">Настройката „Изключени възли“ да се смята за необходимост при съставяне на обходите. Това може да бъде повод за нарушаване на функционалността, ако е невъзможно да бъдат създадени обходи с тези настройки.</string>
@@ -206,49 +178,20 @@
     <string name="msg_taking_too_long">Изглежда, че ще отнеме време</string>
     <string name="msg_try_something_else">Опитайте нещо друго</string>
     <string name="secure_your_connection_subtitle">Скрийте приложенията от наблюдение на мрежата и получете достъп, когато са блокирани.</string>
-    <string name="volunteer_mode">Режим на доброта</string>
     <string name="secure_your_connection_title">Готови за свързване</string>
     <string name="volunteer_mode_subtitle">Помогнете на други да бъдат свързани</string>
     <string name="btn_start_vpn">Пускане на VPN</string>
     <string name="connected_title">Свързани</string>
-    <string name="btn_configure">Настройки на връзката</string>
     <string name="btn_tor_off">Изключване на Тор</string>
     <string name="btn_refresh">Презареждане</string>
-    <string name="btn_use_custom_bridge">Използване на потребителски мост</string>
     <string name="drawer_open">Отваряне</string>
-    <string name="volunteer_mode_title">Помогнете на другите
-\nда се свържат с Тор</string>
-    <string name="volunteer_mode_label">Режим на доброта</string>
-    <string name="volunteer_mode_weekly_label">Общо седмично</string>
-    <string name="volunteer_mode_alltime_label">Общо за цялото време</string>
-    <string name="smart_connect">Интелигентна връзка (подразбирано)</string>
-    <string name="snowflake">Снежинка (оригинална)</string>
-    <string name="snowflake_subtitle">Връзката се осъществява през доброволци на Тор. Заобикаля някои забрани на Тор.</string>
-    <string name="custom_bridge">Потребителски мост</string>
     <string name="connect">Свързване</string>
     <string name="next">Напред</string>
-    <string name="solve_captcha">Решаване на Captcha</string>
     <string name="configure_header">Настройка на връзката с Тор</string>
     <string name="proxy_ports">Портове на прокси</string>
     <string name="drawer_close">Затваряне</string>
     <string name="ports_not_set">Няма зададени портове</string>
-    <string name="volunteer_mode_subtitle_desc">Режимът на доброта дава възможност устройството ви да бъде използвано като мост. Така други потребители могат да ползват Тор, на места където е забранен.
-\n
-\n• не изразходва батерията
-\n• не забавя връзката с интернет
-\n• работи само през безжична мрежа
-\n• може да бъде спрян по всяко време</string>
-    <string name="smart_connect_subtitle">AnyoneBot се опитва да осъществи връзка по всички възможни начини: директен, Снежинка, мост.</string>
-    <string name="direct_connect">Директна връзка с Тор</string>
-    <string name="direct_connect_subtitle">Най-добрия начин за свързване с Тор. Използвайте ако Тор не е забранен.</string>
-    <string name="get_a_bridge">Мост от Тор (Obfs4)</string>
-    <string name="custom_bridge_subtitle">Най-голяма вероятност да поддържа непрекъсната връзка с Тор при сериозни забрани на Тор. Изисква адрес на мост от човек, на когото имате доверие.</string>
-    <string name="get_a_bridge_subtitle">Прикрива трафика ви. Заобикаля някои забрани на Тор.</string>
-    <string name="having_trouble">Има проблем</string>
     <string name="incorrect_solution">Неправилно решение</string>
-    <string name="bridges_obtained_connecting">Мостовете са получени! Свързване с Тор…</string>
-    <string name="custom_bridge_description">Потребителски мост се предоставя от ваш познат. Попитайте във вашите доверени среди дали някой не предлага такъв.</string>
-    <string name="having_trouble_subtitle">След това можем да опитаме с мост на Тор, но ще се нуждаем от вашата помощ</string>
     <string name="power_user_mode">Режим за напреднали</string>
     <string name="power_user_description">За потребители, запознати с Тор. Дава възможност AnyoneBot да бъде пуснат без настройки на ВЧМ, показва отворените портове на SOCKS и HTTP</string>
     <string name="action_activate">Включване</string>
@@ -260,30 +203,25 @@
     <string name="title_choose_apps">Избор на приложения</string>
     <string name="hide_apps">Скрийте приложенията от наблюдение на мрежата и получете достъп, когато са блокирани.</string>
     <string name="log_copied">Дневникът е копиран</string>
-    <string name="snowflake_amp">Снежинка (AMP)</string>
     <string name="action_use">Използване</string>
     <string name="asking">ЗАПИТВАНЕ…</string>
     <string name="no_internet_title">Свържете се с интернет</string>
     <string name="kindness_adjust_title">Настройки</string>
     <string name="no_internet_subtitle">За да използвате AnyoneBot е необходим достъп до интернет.</string>
     <string name="not_sure">Не сте сигурни\?</string>
-    <string name="ask_tor">Попитайте Тор</string>
     <string name="many_ways">Има много начини за достъп до Тор. Някои може да работят по-добре от други.</string>
-    <string name="kindess_config_detail">Настройте как и кога устройството ви да бъде използвано като посредник на Снежинка за другите потребители на мрежата на Тор.</string>
     <string name="pref_isolate_port_summary">Използване на различен обход за всеки порт</string>
     <string name="pref_isolate_protocol">Изолиране на клиентските протоколи</string>
     <string name="pref_isolate_port">Изолиране на целевите портове</string>
     <string name="pref_isolate_protocol_summary">Използване на различен обход за всеки протокол за свързване</string>
     <string name="btn_copy_log">Копиране на дневника</string>
     <string name="menu_more">Повече</string>
-    <string name="connection_snowflake">Снежинка</string>
     <string name="connection_custom">По избор</string>
     <string name="setting_debug">Отстраняване на грешки</string>
     <string name="pref_flag_secure_title">Сигурност на екрана</string>
     <string name="setting_padding">Уплътняване</string>
     <string name="option_only_on_wifi">Само на безжична мрежа</string>
     <string name="option_only_when_charging">Само при зареждане</string>
-    <string name="menu_kindness">Доброта</string>
     <string name="connection_direct">Директно</string>
     <string name="pref_flag_secure_summary">Предотвратяване на други приложения да заснемат екрана на AnyoneBot</string>
     <string name="root_warning">AnyoneBot е установил, достъп до суперпотребителя, което снижава сигурността на устройството.</string>

@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Адпраўленне</string>
     <string name="button_about">Пра праграму</string>
     <string name="menu_exit">Выйсце</string>
-    <string name="menu_scan">Сканаваць QR-код моста</string>
-    <string name="menu_share_bridge">Апублікаваць QR-код моста</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot — гэта праграма з адкрытым зыходным кодам, якая ўтрымоўвае Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, і LibEvent. Яно прапануе лакальны HTTP- (8118) і SOCKS-проксі (9050) у сетку Tor. AnyoneBot таксама дазваляе на прыладах з правамі root перасылаць увесь інтэрнэт-трафік праз Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot — гэта праграма з адкрытым зыходным кодам, якая ўтрымоўвае Tor, Go-Tun2Socks, і LibEvent. Яно прапануе лакальны HTTP- (8118) і SOCKS-проксі (9050) у сетку Tor. AnyoneBot таксама дазваляе на прыладах з правамі root перасылаць увесь інтэрнэт-трафік праз Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Агульныя</string>
     <string name="pref_start_boot_title">Запускаць AnyoneBot пры загрузцы</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Адбіткі, псеўданімы, краіны і адрасы для вынятку</string>
     <string name="enter_exclude_nodes">Увядзіце вынятыя вузлы</string>
     <string name="strict_nodes">Дакладныя вузлы</string>
-    <string name="bridges">Масты</string>
-    <string name="use_bridges">Выкарыстоўваць масты</string>
     <string name="relays">Рэтранслятары</string>
     <string name="relaying">Рэтрансляцыя</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Дазволіць вашай прыладзе быць невыходным рэтранслятарам</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Карыстальніцкія налады Torrc</string>
     <string name="pref_torrc_summary">ТОЛЬКІ ДЛЯ ЭКСПЕРТАЎ: унясіце налады наўпрост у радкі файла канфігурацыі torrc</string>
     <string name="pref_torrc_dialog">Карыстальніцкі Torrc</string>
-    <string name="bridges_updated">Масты абноўлены</string>
-    <string name="restart_to_use_this_bridge_">Калі ласка, перазапусціце AnyoneBot для ўступу змены ў сілу</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Калі ваша мабільная сетка актыўна блакуе Tor, вы можаце выкарыстоўваць масты Tor для доступу да сеткі. Абярыце адзін з варыянтаў для налады і тэставання…</string>
-    <string name="get_bridges_email">Эл. пошта</string>
     <string name="apps_mode">VPN-рэжым</string>
     <string name="send_email">Адправіць ліст</string>
     <string name="vpn_default_world">Свет (аўта)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">Сокращённая прокладка соединения</string>
     <string name="pref_reduced_connection_padding_summary">Раней зачыняе рэтрансляваныя злучэнні і адпраўляе менш пакетаў запаўнення для змяншэння аб\'ёму перадатных дадзеных і выкарыстання батарэі</string>
     <string name="app_shortcuts">Дадаткі з падтрымкай Tor</string>
-    <string name="bridge_direct_connect">Падключэнне непасрэдна да Tor (найлепей)</string>
-    <string name="bridge_community">Падключэнне праз серверы супольнасці</string>
-    <string name="bridge_cloud">Падключэнне праз воблачныя серверы</string>
     <string name="trouble_connecting">Праблема з падключэннем?</string>
     <string name="full_device_vpn">VPN для ўсёй прылады</string>
     <string name="vpn_disabled">VPN адключаны</string>
@@ -148,8 +137,6 @@
     <string name="kibibyte">КіБ</string>
     <string name="mebibyte">МіБ</string>
     <string name="confirm">Пацвердзіць</string>
-    <string name="captcha">Капча</string>
-    <string name="custom_bridges">Карыстальніцкія масты</string>
     <string name="menu_header_features">Магчымасці</string>
     <string name="menu_faq">ПіА</string>
     <string name="menu_header_learn">Даведацца больш</string>
@@ -157,7 +144,6 @@
     <string name="drawer_close">Закрыць</string>
     <string name="connect">Злучэнне</string>
     <string name="next">Наступны</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="trying_to_connect_title">Ідзе злучэнне…</string>
     <string name="action_activate">Актываваць</string>
     <string name="setting_debug">Адладка</string>
@@ -173,7 +159,6 @@
     <string name="pref_http_dialog">Канфігурацыя порта HTTP</string>
     <string name="v3_backup_key">Ключ аўтарызацыі рэзервовага кліента</string>
     <string name="v3_backup_name_hint">Імя файла рэзервовай копіі…</string>
-    <string name="get_bridges_email_request">Запыт Bridges па электроннай пошце</string>
     <string name="v3_client_auth_activity_title">Аўтарызацыя кліента</string>
     <string name="v3_backup_key_warning">Папярэджанне: гэта можа паставіць ваш ключ у іншыя праграмы</string>
     <string name="v3_delete_client_authorization">Выдаліць ключ аўтарызацыі кліента</string>

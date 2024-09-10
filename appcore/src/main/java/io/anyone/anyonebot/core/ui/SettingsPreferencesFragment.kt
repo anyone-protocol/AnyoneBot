@@ -2,12 +2,10 @@
 package io.anyone.anyonebot.core.ui
 
 import android.app.Activity.RESULT_OK
-import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.inputmethod.EditorInfo
-import androidx.annotation.XmlRes
 import androidx.preference.*
 import io.anyone.anyonebot.core.Languages
 import io.anyone.anyonebot.service.util.Prefs
@@ -33,11 +31,6 @@ class SettingsPreferencesFragment : PreferenceFragmentCompat() {
                 requireActivity().finish()
                 false
             }
-
-        val bridgesEnabled = Prefs.bridgesEnabled()
-        findPreference<Preference>("pref_be_a_snowflake")?.isEnabled = !bridgesEnabled
-        findPreference<Preference>("pref_be_a_snowflake_limit")?.isEnabled = !bridgesEnabled
-      //  findPreference<Preference>("pref_show_snowflake_proxy_msg")?.isEnabled = !bridgesEnabled
 
         // kludge for #992
         val categoryNodeConfig = findPreference<Preference>("category_node_config")
@@ -88,15 +81,5 @@ class SettingsPreferencesFragment : PreferenceFragmentCompat() {
                 }
             }
         }
-    }
-
-    companion object {
-        private const val BUNDLE_KEY_PREFERENCES_XML = "prefxml"
-
-        @JvmStatic
-        fun createIntent(context: Context?, @XmlRes xmlPrefId: Int): Intent =
-                Intent(context, SettingsPreferencesFragment::class.java).apply {
-                    putExtra(BUNDLE_KEY_PREFERENCES_XML, xmlPrefId)
-                }
     }
 }

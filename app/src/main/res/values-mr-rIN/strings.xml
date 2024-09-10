@@ -15,7 +15,6 @@
     <string name="main_layout_upload">Upload</string>
     <string name="button_about">आमच्या बद्दल</string>
     <string name="menu_exit">बाहेर पडा</string>
-    <string name="get_bridges_email">ईमेल</string>
     <string name="hidden_services">ओनियॉन सेवा</string>
     <string name="confirm">पुष्टी करा</string>
     <string name="menu_hidden_services">ओनियॉन सेवा</string>
@@ -24,9 +23,7 @@
     <string name="enable">लागू</string>
     <string name="menu_faq">FAQ</string>
     <string name="connect">जोडा</string>
-    <string name="connection_snowflake">स्नोफ्लेक</string>
     <string name="connection_custom">कस्टम</string>
-    <string name="bridges">पूल</string>
     <string name="menu_new_identity">New Identity</string>
     <string name="connected_title">जुळले</string>
     <string name="next">पुढे</string>

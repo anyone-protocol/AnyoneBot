@@ -10,10 +10,8 @@
     <string name="main_layout_upload">上傳</string>
     <string name="button_about">關於</string>
     <string name="menu_exit">離開</string>
-    <string name="menu_scan">掃描網橋 QR 碼</string>
-    <string name="menu_share_bridge">分享網橋 QR 碼</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot 是一個開源應用程式，包含 Tor、IPtProxy（Obfs4Proxy、Meek、Snowflake）、Go-Tun2Socks 和 LibEvent。它提供了一個 VPN 隧道、一個本地 HTTP 連接代理（HTTPS 僅在連接埠 8118 上）和一個 SOCKS 代理（9050）進入 Tor 網路。</string>
+    <string name="wizard_details_msg">AnyoneBot 是一個開源應用程式，包含 Tor、Go-Tun2Socks 和 LibEvent。它提供了一個 VPN 隧道、一個本地 HTTP 連接代理（HTTPS 僅在連接埠 8118 上）和一個 SOCKS 代理（9050）進入 Tor 網路。</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">一般</string>
     <string name="pref_start_boot_title">開機時自動啟動 AnyoneBot</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">排除節點的指紋、暱稱、國家或位址</string>
     <string name="enter_exclude_nodes">排除節點的條件</string>
     <string name="strict_nodes">嚴格限制節點</string>
-    <string name="bridges">網橋（Bridges）</string>
-    <string name="use_bridges">使用網橋</string>
     <string name="relays">中繼（Relays）</string>
     <string name="relaying">中繼設定</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">啟用您的裝置成為 Tor 網路的中繼節點（非出口節點）</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Torrc 自訂設置</string>
     <string name="pref_torrc_summary">僅限專家：輸入 torrc 設定指令</string>
     <string name="pref_torrc_dialog">自訂 Torrc</string>
-    <string name="bridges_updated">網橋已更新</string>
-    <string name="restart_to_use_this_bridge_">請重新啟動 AnyoneBot 以套用變更</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">如果你的行動網絡主動阻止 Tor，你可以使用「橋接器伺服器」作為替代方式。選擇其中一個選項以配置和測試…</string>
-    <string name="get_bridges_email">Email</string>
     <string name="apps_mode">VPN 模式</string>
     <string name="send_email">寄送電子信件</string>
     <string name="vpn_default_world">全域(自動)</string>
@@ -132,9 +124,6 @@
     <string name="pref_reduced_connection_padding">減少連接保護</string>
     <string name="pref_reduced_connection_padding_summary">關閉中繼連接並傳送少數保護封包來減少資料和電池的用量</string>
     <string name="app_shortcuts">Tor 支持的應用</string>
-    <string name="bridge_direct_connect">直接連上洋蔥路由網路(最佳)</string>
-    <string name="bridge_community">透過社區伺服器連接</string>
-    <string name="bridge_cloud">透過雲端伺服器連接</string>
     <string name="trouble_connecting">連線遇上問題?</string>
     <string name="full_device_vpn">全設備 VPN</string>
     <string name="vpn_disabled">VPN 關閉</string>
@@ -147,9 +136,7 @@
     <string name="menu_faq">常見問題</string>
     <string name="next">下一個</string>
     <string name="title_choose_apps">選擇應用程式</string>
-    <string name="menu_kindness">友善</string>
     <string name="connection_direct">直接</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">自訂</string>
     <string name="menu_header_learn">深入瞭解</string>
     <string name="action_use">使用</string>
@@ -163,18 +150,13 @@
     <string name="menu_new_identity">新的識別身分</string>
     <string name="drawer_open">開啟</string>
     <string name="drawer_close">關閉</string>
-    <string name="captcha">Captcha</string>
     <string name="v3_client_auth_activity_title">客戶端驗證</string>
-    <string name="custom_bridges">自定橋接器</string>
     <string name="connected_title">已連線</string>
     <string name="btn_refresh">重新整理</string>
     <string name="connect">連接</string>
     <string name="menu_more">展開</string>
     <string name="pref_http_title">Tor HTTP</string>
-    <string name="get_bridges_email_request">透過電子郵件請求橋接</string>
     <string name="pref_prefer_ipv6">首選 IPv6 連接</string>
-    <string name="request_bridges">請求橋接</string>
-    <string name="use_qr_code">使用 QR 圖碼</string>
     <string name="pref_open_proxy_on_all_interfaces_title">在所有接口上開啟代理</string>
     <string name="v3_import_auth_private">匯入 .auth_private</string>
     <string name="v3_onion">.onion 域名</string>
@@ -182,13 +164,8 @@
     <string name="pref_circuit_padding">迴路填充</string>
     <string name="v3_backup_key_warning">警告：這可能會將你的金鑰暴露給其他應用程式</string>
     <string name="v3_key_hash">Base32 編碼的 x25519 私鑰</string>
-    <string name="in_a_browser">在瀏覽器中，訪問 %s 並點擊 Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="paste_bridges">貼上橋接</string>
-    <string name="snowflake_proxy_msg_description">當你幫助某人規避審查時顯示訊息</string>
     <string name="strict_nodes_description">將「排除節點」設定視為建構所有迴路的要求。如果因為你的「排除節點」設定而無法產生任何迴路，這可能會破壞功能。</string>
     <string name="app_services">應用程式服務</string>
-    <string name="solve_captcha_instruction">解決 CAPTCHA 以請求橋接。</string>
-    <string name="enter_characters_from_image">輸入上方的文字</string>
     <string name="pref_http_dialog">HTTP 連接埠配置</string>
     <string name="v3_delete_client_authorization_confirm">刪除用戶軟體驗證</string>
     <string name="v3_backup_name_hint">備份檔案名稱…</string>
@@ -204,14 +181,6 @@
     <string name="testing_tor_direct">測試與 Tor 的連接…</string>
     <string name="user_services">使用者服務</string>
     <string name="refresh_apps">重新整理應用程式</string>
-    <string name="refresh_captcha">重新整理 CAPTCHA</string>
-    <string name="request_bridges_from_torproject">從 torproject.org 請求橋接</string>
-    <string name="configure_custom_bridges">配置自訂橋接</string>
-    <string name="use_custom_bridges">使用自訂橋接</string>
-    <string name="bridge_snowflake">使用 Snowflake 透過其他 Tor 使用者進行連接（方法 1 - Fastly）</string>
-    <string name="bridge_snowflake_amp">使用 Snowflake 透過其他 Tor 使用者進行連接（方法 2 - AMP）</string>
-    <string name="snowflake_proxy_msg_title">顯示連接通知</string>
-    <string name="volunteer_mode">善良模式</string>
     <string name="secure_your_connection_title">準備連接</string>
     <string name="secure_your_connection_subtitle">將應用程式隱藏在網路監控之外，並在它們被阻止時取得存取權限。</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">允許連接到相同 Wi-Fi、區域網路裝置和任何可以連接到你的 IP 的其他人存取 Tor</string>
@@ -221,39 +190,21 @@
     <string name="pref_reduced_circuit_padding_summary">使用較低開銷的填充演算法來減少資料和電池的使用</string>
     <string name="testing_tor_direct_success">成功。Tor 連接良好！</string>
     <string name="btn_start_vpn">啟動 VPN</string>
-    <string name="ask_tor">詢問 Tor</string>
     <string name="asking">正在詢問…</string>
     <string name="option_only_when_charging">僅在充電時</string>
     <string name="configure_header">配置你的 Tor 連接</string>
-    <string name="smart_connect">智慧連接（預設）</string>
-    <string name="snowflake">Snowflake（原始）</string>
     <string name="btn_change_exit">變更出口</string>
-    <string name="custom_bridge_subtitle">如果 Tor 被嚴重封鎖，最有可能讓你保持連接。需要你信任的人提供橋接器位址。</string>
     <string name="hide_apps">將應用程式隱藏在網路監控之外，並在它們被阻止時取得存取權限。</string>
     <string name="pref_http_summary">Tor 提供 HTTP 代理的連接埠（預設值：8118 ，0 以停用）</string>
-    <string name="custom_bridge_description">自訂橋接器是由你認識的人所提供。詢問你所信任的網絡和組織中是否有人託管橋接。</string>
-    <string name="having_trouble_subtitle">接下來我們可以嘗試 Tor 橋接器，但需要你的幫助</string>
     <string name="btn_copy_log">複製記錄</string>
     <string name="not_sure">不確定？</string>
-    <string name="btn_configure">選擇連接方式</string>
     <string name="btn_choose_apps">選擇應用程式</string>
     <string name="volunteer_mode_subtitle">幫助其他人連接</string>
     <string name="btn_tor_off">關閉 Tor</string>
     <string name="no_thx">不，謝謝</string>
     <string name="menu_app_settings">應用程式設定</string>
-    <string name="btn_use_custom_bridge">使用自訂橋接器</string>
     <string name="msg_try_something_else">嘗試別的</string>
     <string name="ports_not_set">連接埠未設定</string>
-    <string name="volunteer_mode_title">幫助其他人
-\n連接到 Tor</string>
-    <string name="volunteer_mode_label">善良模式</string>
-    <string name="volunteer_mode_weekly_label">每週總計</string>
-    <string name="smart_connect_subtitle">AnyoneBot 嘗試以任何可用的方式連接到 Tor：直接、Snowflake、橋接器。</string>
-    <string name="direct_connect">直接連接到 Tor</string>
-    <string name="direct_connect_subtitle">連接 Tor 的最佳方式。如果 Tor 未被阻止，請使用。</string>
-    <string name="get_a_bridge_subtitle">隱藏你的流量。繞過一些 Tor 封鎖。</string>
-    <string name="custom_bridge">自訂橋接器</string>
-    <string name="solve_captcha">解決 Captcha</string>
     <string name="power_user_description">給熟悉 Tor 的使用者。允許你在沒有 VPN 設定的情況下啟動 AnyoneBot 並顯示開放的 SOCKS 和 HTTP 連接埠</string>
     <string name="apps_suggested_title">推薦的應用程式</string>
     <string name="option_only_on_wifi">僅在 Wi-Fi 上</string>
@@ -263,12 +214,7 @@
     <string name="captcha_title">讓我們知道你是人類</string>
     <string name="menu_help_others">幫助其他人</string>
     <string name="proxy_ports">代理連接埠</string>
-    <string name="volunteer_mode_alltime_label">所有時間總計</string>
-    <string name="snowflake_amp">Snowflake（AMP）</string>
-    <string name="snowflake_subtitle">透過 Tor 志願者進行連接。繞過一些 Tor 封鎖。</string>
     <string name="incorrect_solution">不正確的解答</string>
-    <string name="bridges_obtained_connecting">已獲得橋接器！正在連接到 Tor…</string>
-    <string name="having_trouble">出問題了</string>
     <string name="power_user_mode">進階使用者模式</string>
     <string name="volunteer_status_title">今天更好了
 \n因為有你。</string>
@@ -276,18 +222,10 @@
     <string name="apps_other_apps">其他應用程式</string>
     <string name="many_ways">有很多方法可以連接到 Tor。有些可能比其他的更適合你。</string>
     <string name="no_internet_subtitle">你需要網絡連線才能使用 AnyoneBot。</string>
-    <string name="kindess_config_detail">配置你的裝置如何以及何時充當其他 Tor 使用者的 Snowflake 代理。</string>
     <string name="root_warning">AnyoneBot 偵測到你的裝置已取得 root 權限，這可能會導致安全問題。</string>
     <string name="no_internet_title">連接到網絡</string>
     <string name="pref_detect_root_summary">如果此裝置上啟用了 root 權限，則啟動時發出警告</string>
     <string name="pref_detect_root_title">Root 檢測</string>
     <string name="msg_taking_too_long">這似乎花了太長時間</string>
     <string name="kindness_adjust_title">設定</string>
-    <string name="get_a_bridge">Tor 橋接器（Obfs4）</string>
-    <string name="volunteer_mode_subtitle_desc">善良模式讓您的設備成為他人的橋接器。這有助於人們在被封鎖的地方使用 Tor。
-\n
-\n• 它不會消耗您的電池
-\n• 它不會減慢您的網速
-\n• 它只能在 wifi 上運行
-\n• 它可以隨時關閉</string>
 </resources>

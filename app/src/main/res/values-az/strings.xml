@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Yüklə</string>
     <string name="button_about">Haqqında</string>
     <string name="menu_exit">Çıx</string>
-    <string name="menu_scan">KörpüQR kodu skan edin</string>
-    <string name="menu_share_bridge">KörpüQR kodu paylaşın</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Əsas</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">İxrac üçün barmaq izləri, nişanlar, ölkələr və ünvanlar</string>
     <string name="enter_exclude_nodes">İxrac Kəsişmələrini Daxil Et</string>
     <string name="strict_nodes">Kəskin Kəsişmələr</string>
-    <string name="bridges">Körpülər</string>
-    <string name="use_bridges">Körpü İstifadə Et</string>
     <string name="relays">Keçidlər</string>
     <string name="relaying">Keçidləmə</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Cihazının son-keçid funksiyasını aktivləşdir</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">Torrc Xüsusi Konfiqurasiya</string>
     <string name="pref_torrc_summary">YALNIZ EKSPERTLƏR: birbaşa torrc config xətlərini daxil edin</string>
     <string name="pref_torrc_dialog">Xüsusi Torrc</string>
-    <string name="bridges_updated">Körpülər yeniləndi</string>
-    <string name="restart_to_use_this_bridge_">Dəyişiklikləri aktivləşdirmək üçün AnyoneBot-u yenidən başladın</string>
-    <string name="get_bridges_email">Emeyl</string>
     <string name="send_email">Emeyl göndərin</string>
     <string name="save">Saxla</string>
     <string name="name">Ad</string>
@@ -117,51 +110,41 @@
     <string name="menu_new_identity">Yeni Kimlik</string>
     <string name="connected_title">Qoşuldu</string>
     <string name="connection_custom">Fərdi</string>
-    <string name="bridge_community">İcma serverləri vasitəsilə qoşulun</string>
-    <string name="bridge_cloud">Bulud serverləri vasitəsilə qoşulun</string>
     <string name="pref_circuit_padding">Dövrə doldurma</string>
     <string name="pref_isolate_dest_summary">Hər təyinat ünvanı üçün fərqli sxemdən istifadə edin</string>
     <string name="v3_hosted_services">Soğan Xidmətlərinə ev sahibliyi edir</string>
     <string name="pref_disable_ipv4_summary">Çıxışlara IPv4 ünvanlarına qoşulmamağı bildirir</string>
     <string name="kibibyte">KiB</string>
-    <string name="custom_bridges">Xüsusi körpülər</string>
     <string name="pref_http_dialog">HTTP Port Konfiqurasiyası</string>
     <string name="vpn_disabled">VPN Deaktivdir</string>
     <string name="consider_disable_battery_optimizations">Hosted xidmətlər işləyir, batareyanın optimallaşdırılmasını deaktiv etməyi düşünün</string>
     <string name="onion_port">Soğan limanı</string>
     <string name="restore_backup">Ehtiyyatda olanı bərpa etmə</string>
     <string name="v3_backup_key">Yedək Müştəri Avtorizasiya Açarı</string>
-    <string name="wizard_details_msg">AnyoneBot Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks və LibEvent ehtiva edən açıq mənbəli proqramdır. Tor şəbəkəsinə VPN tuneli, yerli HTTP Connect proksisi (yalnız 8118 portunda HTTPS) və SOCKS proksisi (9050) təmin edir.</string>
+    <string name="wizard_details_msg">AnyoneBot Tor, Go-Tun2Socks və LibEvent ehtiva edən açıq mənbəli proqramdır. Tor şəbəkəsinə VPN tuneli, yerli HTTP Connect proksisi (yalnız 8118 portunda HTTPS) və SOCKS proksisi (9050) təmin edir.</string>
     <string name="pref_reduced_circuit_padding_summary">Data və batareyanın istifadəsini azaltmaq üçün aşağı yerüstü doldurma alqoritmlərindən istifadə edin</string>
     <string name="copy_address_to_clipboard">Ünvanı panoya kopyalayın</string>
     <string name="hidden_service_request">Tətbiq %1$s portunda soğan serverini Tor şəbəkəsinə açmaq istəyir. Tətbiqə etibar edirsinizsə, bu təhlükəsizdir.</string>
     <string name="vpn_default_world">Qlobal (Avtomatik)</string>
     <string name="pref_isolate_port_summary">Hər təyinat portu üçün fərqli dövrədən istifadə edin</string>
     <string name="pref_isolate_dest">Təyinat ünvanlarını təcrid edin</string>
-    <string name="bridge_direct_connect">Birbaşa Tor-a qoşulun (Ən yaxşı)</string>
     <string name="pref_isolate_protocol">Müştəri protokollarını təcrid edin</string>
-    <string name="enter_characters_from_image">Yuxarıda mətn daxil edin</string>
-    <string name="request_bridges">Körpülər tələb edin</string>
     <string name="pref_circuit_padding_summary">Trafik təhlilinin bəzi formalarından müdafiə etmək üçün dövrə doldurmanı aktiv edin</string>
     <string name="full_device_vpn">Tam Cihaz VPN</string>
     <string name="pref_prefer_ipv6">IPv6 bağlantılarına üstünlük verin</string>
-    <string name="request_bridges_from_torproject">torproject.org saytından körpülər tələb edin</string>
     <string name="consider_enable_battery_optimizations">Heç bir hosting xidməti işləmir, batareyanın optimallaşdırılmasını aktivləşdirin</string>
     <string name="trouble_connecting">Qoşulmaqda problem var\?</string>
     <string name="menu_hidden_services">Soğan xidmətləri</string>
-    <string name="refresh_captcha">CAPTCHA-nı yeniləyin</string>
     <string name="testing_tor_direct">Tor ilə əlaqə yoxlanılır…</string>
     <string name="delete_service">Xidməti Sil</string>
     <string name="v3_backup_name_hint">Fayl adının ehtiyat nüsxəsi…</string>
     <string name="pref_disable_ipv4">IPv4 bağlantılarını söndürün</string>
     <string name="pref_isolate_port">Təyinat limanlarını təcrid edin</string>
     <string name="app_services">Proqram xidmətləri</string>
-    <string name="get_bridges_email_request">E-poçt vasitəsilə körpülər tələb edin</string>
     <string name="backup_saved_at_external_storage">Yedəkləmə xarici yaddaşda saxlanıldı</string>
     <string name="pref_connection_padding_summary">Trafik təhlilinin bəzi formalarından müdafiə etmək üçün həmişə əlaqə paddinginə imkan verir. Defolt: avtomatik</string>
     <string name="license">Lisenziya:</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Bütün İnterfeyslərdə Proksi açın</string>
-    <string name="solve_captcha_instruction">Körpü tələb etmək üçün CAPTCHA-nı həll edin.</string>
     <string name="v3_import_auth_private">.auth_private faylını idxal edin</string>
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_prefer_ipv6_summary">Çıxışlara IPv6 ünvanlarına üstünlük verildiyini bildirir</string>
@@ -175,7 +158,6 @@
     <string name="service_type">Xidmət növü</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Wi-Fi həmyaşıdlarına, bağlı cihazlara və IP-yə qoşula bilən hər kəsə Tor-a daxil olmağa icazə verin</string>
     <string name="create_a_backup_first">Əvvəlcə ehtiyat nüsxəsini yaradın</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Əgər mobil şəbəkəniz Tor-u aktiv şəkildə bloklayırsa, siz alternativ yol kimi \"Körpü Server\" istifadə edə bilərsiniz. Konfiqurasiya etmək və sınaqdan keçirmək üçün seçimlərdən birini seçin…</string>
     <string name="pref_connection_padding">Qoşulma örtüyü</string>
     <string name="share_as_qr">QR kimi paylaşın</string>
     <string name="user_services">İstifadəçi xidmətləri</string>
@@ -191,7 +173,6 @@
     <string name="hidden_services">Soğan xidmətləri</string>
     <string name="v3_delete_client_authorization_confirm">Müştəri Avtorizasiyasını silin</string>
     <string name="pref_http_summary">Torun HTTP proxy-ni təklif etdiyi port (defolt: 8118 və ya 0 söndürmək üçün)</string>
-    <string name="captcha">Captcha</string>
     <string name="pref_reduced_connection_padding_summary">Rele bağlantılarını daha tez bağlayır və data və batareya istifadəsini azaltmaq üçün daha az doldurma paketləri göndərir</string>
     <string name="apps_mode">VPN rejimi</string>
     <string name="local_port">Yerli liman</string>
@@ -200,79 +181,38 @@
     <string name="v3_onion">.onion Domen</string>
     <string name="done">Bitdi!</string>
     <string name="v3_key_hash">Base32-də x25519 Şəxsi Açar</string>
-    <string name="use_custom_bridges">Xüsusi körpülərdən istifadə edin</string>
-    <string name="configure_custom_bridges">Xüsusi körpüləri konfiqurasiya edin</string>
-    <string name="in_a_browser">Brauzerdə %s-ə daxil olun və Körpüləri Al &gt; Sadəcə Mənə Körpüləri verin!</string>
     <string name="no_thx">Xeyr, təşəkkürlər</string>
     <string name="btn_choose_apps">Proqramları seçin</string>
     <string name="volunteer_mode_subtitle">Başqalarına qoşulmağa kömək edin</string>
-    <string name="snowflake_proxy_msg_title">Bağlantı bildirişini göstərin</string>
     <string name="secure_your_connection_subtitle">Tətbiqləri şəbəkə monitorinqindən gizlədin və bloklandıqda giriş əldə edin.</string>
-    <string name="paste_bridges">Körpüləri yapışdırın</string>
     <string name="btn_tor_off">Tor-u söndürün</string>
-    <string name="btn_configure">Necə Qoşulacağını seçin</string>
-    <string name="bridge_snowflake">Snowflake istifadə edərək digər Tor istifadəçiləri ilə əlaqə saxlayın (Metod 1 - Sürətlə)</string>
-    <string name="use_qr_code">QR kodundan istifadə edin</string>
     <string name="btn_change_exit">Çıxışı dəyişdirin</string>
-    <string name="snowflake_proxy_msg_description">Kiməsə senzuradan yayınmağa kömək etdiyiniz zaman mesaj göstərin</string>
-    <string name="bridge_snowflake_amp">Snowflake istifadə edərək digər Tor istifadəçiləri ilə əlaqə saxlayın (Metod 2 - AMP)</string>
-    <string name="volunteer_mode">Xeyirxahlıq rejimi</string>
     <string name="btn_start_vpn">VPN işə salın</string>
     <string name="secure_your_connection_title">Qoşulmağa hazırdır</string>
     <string name="configure_header">Tor bağlantınızı konfiqurasiya edin</string>
-    <string name="volunteer_mode_label">Xeyirxahlıq rejimi</string>
     <string name="hide_apps">Tətbiqləri şəbəkə monitorinqindən gizlədin və bloklandıqda giriş əldə edin.</string>
-    <string name="volunteer_mode_alltime_label">Bütün Zamanların Cəmi</string>
-    <string name="custom_bridge_description">Xüsusi körpü tanıdığınız biri tərəfindən təmin edilir. Etibarlı şəbəkələrinizdə və təşkilatlarınızdan kiminsə birinə ev sahibliyi edib-etmədiyini öyrənmək üçün soruşun.</string>
     <string name="proxy_ports">Proksi Portlar</string>
     <string name="msg_try_something_else">Başqa bir şey cəhd edin</string>
     <string name="not_sure">Əmin deyilsiniz?</string>
-    <string name="snowflake_subtitle">Tor könüllüləri vasitəsilə bağlanır. Bəzi Tor bloklamalarının ətrafında olur.</string>
     <string name="captcha_title">İnsan olduğunuzu bizə bildirin</string>
-    <string name="volunteer_mode_subtitle_desc">Xeyirxahlıq rejimi cihazınızın başqaları üçün körpü olmasına imkan verir. Bu, insanlara Torun bloklandığı yerlərdə istifadə etməyə kömək edir.
-\n
-\n• Bu, batareyanızı boşaltmayacaq
-\n• İnternetinizi yavaşlatmayacaq
-\n• Yalnız wifi üzərində işləyə bilər
-\n• İstənilən vaxt söndürülə bilər</string>
     <string name="ports_not_set">Portlar Ayarlanmayıb</string>
-    <string name="solve_captcha">Captcha həll edin</string>
-    <string name="custom_bridge">Xüsusi körpü</string>
     <string name="menu_help_others">Başqalarına kömək edin</string>
     <string name="power_user_mode">Güc istifadəçi rejimi</string>
-    <string name="smart_connect">Smart Connect (defolt)</string>
     <string name="apps_other_apps">Digər Proqramlar</string>
-    <string name="custom_bridge_subtitle">Tor ciddi şəkildə bloklanırsa, çox güman ki, sizi əlaqə saxlayacaq. Etibar etdiyiniz şəxsdən körpü ünvanı tələb edir.</string>
-    <string name="volunteer_mode_weekly_label">Həftəlik Cəmi</string>
     <string name="apps_suggested_title">Təklif olunan proqramlar</string>
     <string name="log_copied">Qeyd kopyalandı</string>
     <string name="btn_copy_log">Qeydi Kopyala</string>
     <string name="menu_header_learn">Daha ətraflı</string>
-    <string name="having_trouble_subtitle">Tor körpüsünü sınaya bilərik, lakin sizin köməyinizə ehtiyac duyacağıq</string>
-    <string name="having_trouble">Çətinlik yaşamaq</string>
-    <string name="direct_connect">Tor ilə birbaşa əlaqə</string>
     <string name="menu_tor_connection">Tor bağlantısı</string>
     <string name="power_user_description">Tor ilə tanış olan istifadəçilər üçün. VPN ayarı olmadan AnyoneBot-u işə salmağa imkan verir və açıq SOCKS və HTTP portlarını göstərir</string>
-    <string name="snowflake_amp">Qar dənəciyi (AMP)</string>
-    <string name="btn_use_custom_bridge">Xüsusi körpüdən istifadə edin</string>
     <string name="menu_app_settings">Tətbiq Parametrləri</string>
-    <string name="snowflake">Snowflake (Orijinal)</string>
-    <string name="get_a_bridge_subtitle">Trafikinizi gizlədir. Bəzi Tor bloklamalarının ətrafında olur.</string>
-    <string name="smart_connect_subtitle">AnyoneBot Tor-a istənilən yolla qoşulmağa çalışır: Direct, Snowflake, Bridge.</string>
     <string name="incorrect_solution">Yanlış Həll</string>
-    <string name="bridges_obtained_connecting">Körpülər alındı! tor-a qoşulur...</string>
     <string name="app_suggested_subtitle">AnyoneBot mesajlaşma və sosial media proqramları ilə ən yaxşı şəkildə işləyir.</string>
     <string name="title_choose_apps">Proqramları seçin</string>
-    <string name="get_a_bridge">Tordan körpü (Obfs4)</string>
     <string name="msg_taking_too_long">Görünür, bu çox uzun çəkir</string>
-    <string name="volunteer_mode_title">Başqalarına kömək edin
-\nTor-a qoşulun</string>
-    <string name="direct_connect_subtitle">Tor-a qoşulmağın ən yaxşı yolu. Tor bloklanmadıqda istifadə edin.</string>
     <string name="volunteer_status_title">Bu gün daha yaxşıdır
 \nsənə görə.</string>
     <string name="no_internet_subtitle">AnyoneBotdan istifadə etmək üçün internet bağlantısı lazımdır.</string>
-    <string name="connection_snowflake">Qar dənəciyi</string>
-    <string name="ask_tor">Tordan soruşun</string>
     <string name="option_only_when_charging">Yalnız şarj edərkən</string>
     <string name="no_internet_title">İnternetə qoşulun</string>
     <string name="kindness_adjust_title">Parametrlər</string>
@@ -281,10 +221,8 @@
     <string name="option_only_on_wifi">Yalnız Wi-Fi-da</string>
     <string name="connection_direct">Birbaşa</string>
     <string name="asking">SORUŞMAQ…</string>
-    <string name="menu_kindness">Xeyirxahlıq</string>
     <string name="pref_flag_secure_title">Ekran Təhlükəsizliyi</string>
     <string name="root_warning">AnyoneBot cihazınızın köklü olduğunu aşkar etdi və bu, təhlükəsizlik problemlərinə səbəb ola bilər.</string>
-    <string name="kindess_config_detail">Cihazınızın digər Tor istifadəçiləri üçün Snowflake proksisi kimi necə və nə vaxt çıxış edə biləcəyini konfiqurasiya edin.</string>
     <string name="pref_flag_secure_summary">Digər proqramların AnyoneBotun skrinşotlarını çəkməsinə mane olun</string>
     <string name="many_ways">Tor-a çatmağın bir çox yolu var. Bəziləri sizin üçün digərlərindən daha yaxşı işləyə bilər.</string>
 </resources>

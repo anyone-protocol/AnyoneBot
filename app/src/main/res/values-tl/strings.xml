@@ -9,7 +9,6 @@
     <string name="main_layout_upload">Upload</string>
     <string name="button_about">Tungkol</string>
     <string name="menu_exit">Labasan</string>
-    <string name="menu_share_bridge">Ipamahagi ang BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Pangkalahatan</string>
@@ -52,8 +51,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Fingerprints, nicks, mga bansa at mga address na hindi isasama</string>
     <string name="enter_exclude_nodes">Enter Exclude Nodes</string>
     <string name="strict_nodes">Strict Nodes</string>
-    <string name="bridges">Bridges</string>
-    <string name="use_bridges">Gumamit ng Bridges</string>
     <string name="relays">Relays</string>
     <string name="relaying">Relaying</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">I-enable ang iyong device na non-exit relay</string>
@@ -77,7 +74,6 @@
     <string name="pref_disable_network_title">Walang Auto-Sleep sa Network</string>
     <string name="pref_disable_network_summary">Ilagay ang Tor sa sleep kapag walang internet na pwede</string>
     <string name="newnym">Ikaw ay nagpalit ng bagong pagkakakilanlan sa Tor!</string>
-    <string name="get_bridges_email">Email</string>
     <string name="send_email">Send Email</string>
     <string name="save">I-save</string>
     <string name="name">Name</string>

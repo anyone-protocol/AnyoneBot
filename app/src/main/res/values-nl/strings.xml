@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Upload</string>
     <string name="button_about">Over</string>
     <string name="menu_exit">Sluiten</string>
-    <string name="menu_scan">BridgeQR scannen</string>
-    <string name="menu_share_bridge">BridgeQR delen</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot is een openbronapplicatie die Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, en LibEvent bevat. Het creëert een lokale HTTP-proxy (8118) en een SOCKS-proxy (9050) naar het Tor-netwerk. AnyoneBot heeft ook de mogelijkheid om al het internetverkeer over het Tor-netwerk te sturen.</string>
+    <string name="wizard_details_msg">AnyoneBot is een openbronapplicatie die Tor, Go-Tun2Socks, en LibEvent bevat. Het creëert een lokale HTTP-proxy (8118) en een SOCKS-proxy (9050) naar het Tor-netwerk. AnyoneBot heeft ook de mogelijkheid om al het internetverkeer over het Tor-netwerk te sturen.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Algemeen</string>
     <string name="pref_start_boot_title">Start AnyoneBot bij opstarten</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Vingerafdrukken, nicks, landen en adressen om uit te sluiten</string>
     <string name="enter_exclude_nodes">Voer uitgesloten nodes in</string>
     <string name="strict_nodes">Strikte nodes</string>
-    <string name="bridges">Bridges</string>
-    <string name="use_bridges">Gebruik bridges</string>
     <string name="relays">Relays</string>
     <string name="relaying">Relayen</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Stel je toestel in staat om een non-exit relay te zijn</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Torrc aangepaste configuratie</string>
     <string name="pref_torrc_summary">ENKEL VOOR GEVORDERDEN: voer rechtstreeks torrc-configuratieregels in</string>
     <string name="pref_torrc_dialog">Aangepaste Torrc</string>
-    <string name="bridges_updated">Bridges bijgewerkt</string>
-    <string name="restart_to_use_this_bridge_">Herstart AnyoneBot om de wijzigingen in te schakelen</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Als je mobiele netwerk Tor actief blokkeert, kan je een \'bridge-server\' gebruiken als alternatieve toegang. SELECTEER een van de opties om te configureren en te testen…</string>
-    <string name="get_bridges_email">E-mail</string>
     <string name="apps_mode">VPN-modus</string>
     <string name="send_email">E-mail versturen</string>
     <string name="vpn_default_world">Algemeen (automatisch)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">Beperkte verbindingsopvulling</string>
     <string name="pref_reduced_connection_padding_summary">Sluit relayverbindingen sneller en stuurt minder opvullingspakketten om gegevens- en accuverbruik te verminderen</string>
     <string name="app_shortcuts">Tor-gebruikende apps</string>
-    <string name="bridge_direct_connect">Rechtstreeks verbinden met Tor (best)</string>
-    <string name="bridge_community">Verbinden via gemeenschapsservers</string>
-    <string name="bridge_cloud">Verbinden via cloudservers</string>
     <string name="trouble_connecting">Problemen met verbinden?</string>
     <string name="full_device_vpn">Volledigapparaats-VPN</string>
     <string name="vpn_disabled">VPN uitgeschakeld</string>
@@ -153,10 +142,7 @@
     <string name="action_use">Gebruik</string>
     <string name="menu_more">Meer</string>
     <string name="connection_direct">Direct</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Aangepast</string>
-    <string name="custom_bridges">Aangepaste Bruggen</string>
-    <string name="captcha">Captcha</string>
     <string name="user_services">Diensten van de gebruiker</string>
     <string name="no_thx">Nee, bedankt</string>
     <string name="menu_faq">FAQ</string>

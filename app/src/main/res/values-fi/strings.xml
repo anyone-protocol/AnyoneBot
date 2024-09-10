@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Lähetys</string>
     <string name="button_about">Tietoja</string>
     <string name="menu_exit">Sulje</string>
-    <string name="menu_scan">Lue sillan QR-koodi</string>
-    <string name="menu_share_bridge">Jaa sillan QR-koodi</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Yleiset</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Ohitettavat leimat, nimimerkit, maat ja osoitteet.</string>
     <string name="enter_exclude_nodes">Syötä ohitettavat solmut</string>
     <string name="strict_nodes">Tiukat solmut</string>
-    <string name="bridges">Sillat</string>
-    <string name="use_bridges">Käytä siltoja</string>
     <string name="relays">Reitittimet</string>
     <string name="relaying">Reititys</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Käytä laitettasi muuna kuin päätösreitittimenä.</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">Omat Torrc-määritykset</string>
     <string name="pref_torrc_summary">VAIN KOKENEILLE KÄYTTÄJILLE: Syötä Torrc-määritysrivejä suoraan.</string>
     <string name="pref_torrc_dialog">Omat Torrc-määritykset</string>
-    <string name="bridges_updated">Sillat päivitetty</string>
-    <string name="restart_to_use_this_bridge_">Käynnistä AnyoneBot uudelleen muutosten käyttöönottamiseksi.</string>
-    <string name="get_bridges_email">Sähköposti</string>
     <string name="send_email">Lähetä sähköpostia</string>
     <string name="hidden_services">Onion-palvelut</string>
     <string name="menu_hidden_services">Onion-palvelut</string>
@@ -103,12 +96,11 @@
     <string name="please_restart_to_enable_the_changes">Käynnistä AnyoneBot uudelleen muutosten käyttöönottamiseksi.</string>
     <string name="disable">Poista käytöstä</string>
     <string name="enable">Ota käyttöön</string>
-    <string name="wizard_details_msg">AnyoneBot-sovellus on avointa lähdekoodia ja se sisältää seuraavat: Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ja LibEvent. Se tarjoaa VPN-tunnelin, paikallisen HTTP Connect -välityspalvelimen (HTTPS vain portissa 8118) ja SOCKS-välityspalvelimen (9050) Tor-verkkoon.</string>
+    <string name="wizard_details_msg">AnyoneBot-sovellus on avointa lähdekoodia ja se sisältää seuraavat: Tor, Go-Tun2Socks ja LibEvent. Se tarjoaa VPN-tunnelin, paikallisen HTTP Connect -välityspalvelimen (HTTPS vain portissa 8118) ja SOCKS-välityspalvelimen (9050) Tor-verkkoon.</string>
     <string name="hidden_service_request">Sovellus haluaa avata Tor-verkkoon Onion-palvelimen portissa %1$s. Tämä on turvallista, jos luotat sovellukseen.</string>
     <string name="pref_http_title">Tori HTTP</string>
     <string name="pref_http_summary">Portti, jonka kautta Torin HTTP-välityspalvelin on tavoitettavissa (oletus on 8118 tai pois käytöstä arvolla 0).</string>
     <string name="pref_http_dialog">Syötä HTTP-porttimääritys</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jos mobiiliverkkosi pyrkii aktiivisesti estämään Tor-yhteydet, voit käyttää siltapalvelinta vaihtoehtoisena reittinä. Valitse yksi, määritä se ja kokeile…</string>
     <string name="apps_mode">VPN-tila</string>
     <string name="vpn_default_world">Globaali (automaattinen)</string>
     <string name="local_port">Paikallinen portti</string>
@@ -123,13 +115,11 @@
     <string name="confirm_service_deletion">Vahvista palvelun poisto</string>
     <string name="service_type">Palvelun tyyppi</string>
     <string name="onion">.onion</string>
-    <string name="use_qr_code">Käytä QR-koodia</string>
     <string name="confirm">Vahvista</string>
     <string name="deny">Kiellä</string>
     <string name="allow">Salli</string>
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
-    <string name="in_a_browser">Avaa osoite %s selaimessasi ja paina Get Bridges &gt; Just Give Me Bridges!</string>
     <string name="pref_reduced_circuit_padding_summary">Käytä kevyempiä pehmustusalgoritmeja vähentääksesi tiedonsiirtoa ja virrankulutusta.</string>
     <string name="pref_reduced_circuit_padding">Kevennetty ketjupehmustus</string>
     <string name="pref_circuit_padding_summary">Pehmusta ketjuja suojautuaksesi eräiltä tietoliikenteen analysointitavoilta.</string>
@@ -141,17 +131,6 @@
     <string name="v3_backup_name_hint">Varmuuskopioi tiedostonimi…</string>
     <string name="v3_backup_key">Varmuuskopioi päätteen todennusavain</string>
     <string name="v3_key_hash">Yksityinen Base32 x25519 -avain</string>
-    <string name="bridge_snowflake">Yhdistä muiden Tor-käyttäjien välityksellä käyttäen Snowflakea (menetelmä 1 - Nopeasti)</string>
-    <string name="paste_bridges">Liitä sillat</string>
-    <string name="use_custom_bridges">Käytä omia siltoja</string>
-    <string name="configure_custom_bridges">Määritä omat sillat</string>
-    <string name="custom_bridges">Omat sillat</string>
-    <string name="request_bridges_from_torproject">Pyydä siltoja torproject.org-sivustolta</string>
-    <string name="enter_characters_from_image">Syötä yllä oleva teksti</string>
-    <string name="captcha">Captcha</string>
-    <string name="solve_captcha_instruction">Ratkaise CAPTCHA pyytääksesi siltoja.</string>
-    <string name="refresh_captcha">Päivitä CAPTCHA</string>
-    <string name="request_bridges">Pyydä siltoja</string>
     <string name="refresh_apps">Päivitä sovellukset</string>
     <string name="app_services">Sovelluspalvelut</string>
     <string name="user_services">Käyttäjäpalvelut</string>
@@ -159,9 +138,6 @@
     <string name="vpn_disabled">VPN ei ole käytössä</string>
     <string name="full_device_vpn">Koko laitteen kattava VPN</string>
     <string name="trouble_connecting">Yhteysongelmia\?</string>
-    <string name="bridge_cloud">Yhdistä pilvipalvelinten välityksellä</string>
-    <string name="bridge_community">Yhdistä yhteisöpalvelinten välityksellä</string>
-    <string name="bridge_direct_connect">Muodosta Tor-yhteys suoraan (paras)</string>
     <string name="testing_tor_direct_success">Onnistui. Tor-yhteys on kunnossa!</string>
     <string name="testing_tor_direct">Kokeillaan yhteyttä Toriin…</string>
     <string name="app_shortcuts">Tor-yhteyttä käyttävät sovellukset</string>
@@ -183,15 +159,12 @@
     <string name="v3_onion">.onion-verkkotunnus</string>
     <string name="v3_client_auth_activity_title">Päätteen todennus</string>
     <string name="v3_hosted_services">Isännöidyt Onion-palvelut</string>
-    <string name="get_bridges_email_request">Pyydä siltoja sähköpostitse</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Salli Tor-yhteydet suoran Wi-Fi-yhteyden ja hotspot-yhteyden välityksellä yhdistetyille laitteille sekä muille tahoille, jotka voivat yhdistää IP-osoitteeseesi.</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Välityspalvelin kaikilla sovittimilla</string>
     <string name="version">Versio:</string>
     <string name="license">Lisenssi:</string>
     <string name="connected_title">Yhdistetty</string>
     <string name="btn_start_vpn">Käynnistä VPN</string>
-    <string name="btn_configure">Valitse yhteyden muodostustapa</string>
-    <string name="volunteer_mode">Ystävällisyystila</string>
     <string name="volunteer_mode_subtitle">Auta muita yhdistymään</string>
     <string name="btn_choose_apps">Valitse sovelluksia</string>
     <string name="btn_change_exit">Vaihda päätössolmu</string>
@@ -208,18 +181,10 @@
     <string name="msg_taking_too_long">Tämä näyttää kestävän liian kauan</string>
     <string name="msg_try_something_else">Kokeile jotain muuta</string>
     <string name="strict_nodes_description">Käsittele Ohitettavat solmut -määrityksiä kaikkien ketjujen rakennusehtona. Tämä saattaa rikkoa toiminnan, jos ohitusmäärityksillä ei kyetä luomaan ketjuja.</string>
-    <string name="bridge_snowflake_amp">Yhdistä muiden Tor-käyttäjien välityksellä käyttäen Snowflakea (menetelmä 2 - AMP)</string>
-    <string name="snowflake_proxy_msg_title">Näytä yhteysilmoitus</string>
-    <string name="snowflake_proxy_msg_description">Näytä viesti, kun autat jotakuta kiertämään sensuurin.</string>
     <string name="secure_your_connection_title">Valmis yhdistämään</string>
     <string name="trying_to_connect_title">Yhdistetään…</string>
     <string name="secure_your_connection_subtitle">Piilota sovelluksia verkkoseurannalta ja käytä estettyjä palveluita.</string>
-    <string name="btn_use_custom_bridge">Käytä omaa siltaa</string>
-    <string name="custom_bridge_description">Itse määritettäviä siltoja saat lähteistä, joihin luotat. Tiedustele niitä tuntemistasi verkostoista ja organisaatioista.</string>
     <string name="proxy_ports">Välityspalvelimen portit</string>
-    <string name="custom_bridge_subtitle">Todennäköisin säilyttämään yhteytesi, mikäli Tor on vahvasti estetty. Tarvitset sillan osoitteen luotettavasta lähteestä.</string>
-    <string name="get_a_bridge_subtitle">Piilottaa tietoliikenteesi. Kiertää jotkin Tor-estot.</string>
-    <string name="custom_bridge">Oma silta</string>
     <string name="power_user_description">Kokeneille Tor-käyttäjille. Mahdollistaa AnyoneBotin käynnistyksen ilman VPN-asetusta ja näyttää avoimet SOCKS- ja HTTP-portit.</string>
     <string name="power_user_mode">Tehokäyttäjätila</string>
     <string name="action_activate">Aktivoi</string>
@@ -231,40 +196,16 @@
     <string name="configure_header">Määritä Tor-yhteytesi</string>
     <string name="drawer_open">Avaa</string>
     <string name="drawer_close">Sulje</string>
-    <string name="volunteer_mode_label">Ystävällisyystila</string>
-    <string name="volunteer_mode_weekly_label">Viikottainen kokonaismäärä</string>
-    <string name="volunteer_mode_alltime_label">Kaikkien aikojen kokonaismäärä</string>
-    <string name="volunteer_mode_title">Auta muita yhdistämään Tor-verkkoon</string>
-    <string name="smart_connect">Älykäs yhdistäminen (oletus)</string>
-    <string name="smart_connect_subtitle">AnyoneBot pyrkii muodostamaan Tor-yhteyden jollakin käytettävissä olevalla tavalla: Suora, Snowflake, Silta.</string>
-    <string name="direct_connect">Suora Tor-yhteys</string>
-    <string name="direct_connect_subtitle">Paras Tor-yhteyden muodostustapa. Käytä, jos Tor-verkkoa ei ole estetty.</string>
-    <string name="snowflake">Snowflake (alkuperäinen)</string>
-    <string name="snowflake_subtitle">Muodostaa Tor-yhteyden vapaaehtoisten välityksellä. Kiertää joitakin Tor-estoja.</string>
-    <string name="get_a_bridge">Silta Torilta (obfs4)</string>
     <string name="connect">Yhdistä</string>
     <string name="next">Seuraava</string>
-    <string name="solve_captcha">Ratkaise CAPTCHA</string>
     <string name="ports_not_set">Portteja ei ole määritetty</string>
-    <string name="volunteer_mode_subtitle_desc">Ystävällisyystila tekee laitteestasi sillan muille. Se auttaa muita käyttämään Toria paikoissa, joissa se on estetty.
-\n
-\n• Se ei kuluta akkuasi
-\n• Se ei hidasta Internet-yhteyttäsi
-\n• Se voi toimia vain Wi-Fi-yhteydellä
-\n• Se voidaan poistaa käytöstä koska tahansa</string>
     <string name="hide_apps">Piilota sovelluksia verkkoseurannalta ja käytä estettyjä palveluita.</string>
     <string name="incorrect_solution">Virheellinen ratkaisu</string>
-    <string name="bridges_obtained_connecting">Sillat vastaanotettu! Yhdistetään Tor-verkkoon…</string>
-    <string name="having_trouble_subtitle">Seuraavaksi voidaan kokeilla Tor-siltaa, mutta se edellyttää apuasi.</string>
-    <string name="having_trouble">Kohdataan ongelmia</string>
     <string name="log_copied">Lokitiedot kopioitu</string>
     <string name="kindness_adjust_title">Asetukset</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
-    <string name="ask_tor">Kysy Torilta</string>
     <string name="action_use">Tapa:</string>
     <string name="asking">KYSYTÄÄN…</string>
     <string name="no_internet_subtitle">Tarvitset Internet-yhteyden AnyoneBotin käyttöön.</string>
-    <string name="kindess_config_detail">Määritä miten ja milloin laitteesi voi toimia Snowflake-välityspalvelimena muille Tor-käyttäjille.</string>
     <string name="not_sure">Etkö osaa valita\?</string>
     <string name="many_ways">Tor voidaan tavoittaa monilla tavoilla. Jotkin saattavat sopia sinulle muita paremmin.</string>
     <string name="no_internet_title">Yhdistä Internetiin</string>
@@ -273,7 +214,6 @@
     <string name="pref_isolate_port_summary">Käytä jokaiselle kohdeportille eri ketjua.</string>
     <string name="pref_isolate_protocol_summary">Käytä jokaiselle yhteysprotokollalle eri ketjua.</string>
     <string name="connection_direct">Suora</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Mukautettu</string>
     <string name="setting_padding">Pehmustus</string>
     <string name="setting_debug">Vianselvitys</string>
@@ -281,7 +221,6 @@
     <string name="pref_flag_secure_title">Näytön suojaus</string>
     <string name="option_only_on_wifi">Vain Wi-Fi-verkossa</string>
     <string name="option_only_when_charging">Vain ladattaessa</string>
-    <string name="menu_kindness">Ystävällisyys</string>
     <string name="btn_copy_log">Kopioi loki</string>
     <string name="pref_flag_secure_summary">Estä muita sovelluksia ottamasta kuvankaappauksia AnyoneBotista.</string>
     <string name="root_warning">AnyoneBot on havainnut laitteesi olevan rootattu ja tästä voi aiheutua tietoturvaongelmia.</string>

@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Slanje</string>
     <string name="button_about">Informacije</string>
     <string name="menu_exit">Izlaz</string>
-    <string name="menu_scan">Skeniraj BridgeQR</string>
-    <string name="menu_share_bridge">Podijeli BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Općenito</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Otisci prstiju, nadimci, države i adrese koje ne treba uključiti</string>
     <string name="enter_exclude_nodes">Unesi Čvorove koje treba isključiti</string>
     <string name="strict_nodes">Striktni Čvorovi</string>
-    <string name="bridges">Mostovi</string>
-    <string name="use_bridges">Koristi Mostove</string>
     <string name="relays">Releji</string>
     <string name="relaying">Prenošenje</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Omogućite svom uređaju da bude ne-izlazni relej</string>
@@ -91,9 +87,6 @@
     <string name="pref_torrc_title">Torrc prilagođena konfiguracija</string>
     <string name="pref_torrc_summary">SAMO ZA STRUČNJAKE: unesite direktno torrc konfiguracijske linije</string>
     <string name="pref_torrc_dialog">Prilagođeni Torrc</string>
-    <string name="bridges_updated">Mostova ažurirano</string>
-    <string name="restart_to_use_this_bridge_">Ponovno pokrenite AnyoneBot da bi omogućili promjene</string>
-    <string name="get_bridges_email">Email</string>
     <string name="send_email">Pošalji email</string>
     <string name="save">Spremi</string>
     <string name="name">Ime</string>
@@ -108,7 +101,6 @@
     <string name="action_activate">Aktiviraj</string>
     <string name="action_use">Koristi</string>
     <string name="setting_debug">Otkloni grešku</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Prilagođeno</string>
     <string name="menu_new_identity">Novi identitet</string>
     <string name="connect">Poveži se</string>
@@ -128,18 +120,7 @@
     <string name="menu_tor_connection">Tor veza</string>
     <string name="menu_faq">FAQ</string>
     <string name="confirm">Potvrdi</string>
-    <string name="custom_bridges">Prilagođeni mostovi</string>
     <string name="kindness_adjust_title">Postavke</string>
     <string name="v3_client_auth_activity_title">Autorizacija klijenta</string>
     <string name="btn_start_vpn">Pokreni VPN</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
-    <string name="volunteer_mode_alltime_label">Ukupno (svo vrijeme)</string>
-    <string name="direct_connect">Izravna veza s Torom</string>
-    <string name="direct_connect_subtitle">Najbolji način povezivanja s Torom. Koristi ga ako Tor nije blokiran.</string>
-    <string name="smart_connect">Pametno povezivanje (standardno)</string>
-    <string name="volunteer_mode_title">Pomogni drugima
-\nda se povežu na Tor</string>
-    <string name="snowflake">Snowflake (Original)</string>
-    <string name="snowflake_subtitle">Povezuje se preko Tor volontera. Zaobilazi neka blokiranja Tor-a.</string>
-    <string name="volunteer_mode_weekly_label">Ukupno (tjedno)</string>
 </resources>

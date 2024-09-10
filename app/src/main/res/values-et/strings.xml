@@ -50,8 +50,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Sõrmejäljed, hüüdnimed, riigid ja aadressid mida välistada</string>
     <string name="enter_exclude_nodes">Sisestage välistatavad sõlmed</string>
     <string name="strict_nodes">Kindlad sõlmed</string>
-    <string name="bridges">Sillad</string>
-    <string name="use_bridges">Kasuta sildu</string>
     <string name="relays">Edastajad</string>
     <string name="relaying">Edastamine</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Luba oma seadmel hakata mitte-väljund edastajaks</string>
@@ -82,7 +80,6 @@
     <string name="pref_transport_dialog">TransProxy portide konfiguratsioon</string>
     <string name="pref_torrc_summary">EXPERTS ONLY: sisestage otsene torrc config read</string>
     <string name="pref_torrc_dialog">Kohandatud Torrc</string>
-    <string name="get_bridges_email_request">Bridge\'i taotlemine e-posti teel</string>
     <string name="vpn_default_world">Ülemaailmne (Auto)</string>
     <string name="apps_mode">VPN-režiim</string>
     <string name="v3_hosted_services">Majutatud sibulateenused</string>
@@ -91,8 +88,6 @@
     <string name="backup_service">Varundusteenus <i>(hoiatus: see võib teie teenuse konfiguratsiooni teistele rakendustele paljastada)</i></string>
     <string name="pref_isolate_dest">Eraldada sihtkoha aadressid</string>
     <string name="pref_prefer_ipv6">Eelistab IPv6 ühendusi</string>
-    <string name="menu_scan">Skaneeri BridgeQR</string>
-    <string name="menu_share_bridge">Jaga BridgeQR</string>
     <string name="share_as_qr">Jaga kui QR</string>
     <string name="app_shortcuts">Tor-toega rakendused</string>
     <string name="pref_allow_background_starts_title">Lubage taustakäivitusi</string>
@@ -100,7 +95,6 @@
     <string name="version">Versioon:</string>
     <string name="license">litsents:</string>
     <string name="v3_delete_client_authorization">Kliendi autoriseerimisvõtme kustutamine</string>
-    <string name="bridge_cloud">Ühendage pilveserverite kaudu</string>
     <string name="trouble_connecting">Probleemid ühendamisega\?</string>
     <string name="full_device_vpn">Täielik seade VPN</string>
     <string name="vpn_disabled">VPN välja lülitatud</string>
@@ -108,8 +102,6 @@
     <string name="secure_your_connection_subtitle">Peida rakendused võrgu jälgimise eest ja saada juurdepääs, kui need on blokeeritud.</string>
     <string name="connected_title">Ühendatud</string>
     <string name="btn_start_vpn">VPN-i käivitamine</string>
-    <string name="btn_configure">Valige, kuidas ühendada</string>
-    <string name="volunteer_mode">Sõbralikkuse režiim</string>
     <string name="volunteer_mode_subtitle">Aidake teisi ühendada</string>
     <string name="trying_to_connect_title">Ühendamine…</string>
     <string name="btn_choose_apps">Vali rakendused</string>
@@ -123,10 +115,9 @@
     <string name="menu_help_others">Aidata teisi</string>
     <string name="menu_faq">FAQ</string>
     <string name="menu_header_learn">Lisateave</string>
-    <string name="btn_use_custom_bridge">Kasutage kohandatud silda</string>
     <string name="msg_taking_too_long">See tundub liiga kaua aega võtvat</string>
     <string name="msg_try_something_else">Proovi midagi muud</string>
-    <string name="wizard_details_msg">AnyoneBot on avatud lähtekoodiga rakendus, mis sisaldab Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks ja LibEvent. See pakub VPN-tunnelit, lokaalset HTTP Connect proksi (HTTPS ainult port 8118) ja SOCKS-proksi (9050) Tor-võrku.</string>
+    <string name="wizard_details_msg">AnyoneBot on avatud lähtekoodiga rakendus, mis sisaldab Tor, Go-Tun2Socks ja LibEvent. See pakub VPN-tunnelit, lokaalset HTTP Connect proksi (HTTPS ainult port 8118) ja SOCKS-proksi (9050) Tor-võrku.</string>
     <string name="hidden_service_request">Rakendus soovib avada Tor-võrku sibulaserveri sadamas %1$s. See on turvaline, kui te rakendust usaldate.</string>
     <string name="allow">Luba</string>
     <string name="pref_use_expanded_notifications_title">Laiendatud teated</string>
@@ -141,8 +132,6 @@
     <string name="pref_circuit_padding">Ringi polsterdamine</string>
     <string name="pref_reduced_circuit_padding">Vähendatud vooluahela polsterdamine</string>
     <string name="pref_disable_ipv4">IPv4-ühenduste keelamine</string>
-    <string name="use_custom_bridges">Kasutage kohandatud sildu</string>
-    <string name="paste_bridges">Pasta sillad</string>
     <string name="strict_nodes_description">Käsitlege Exclude Nodes seadistusi kui kõigi vooluahelate ehitamise nõuet. See võib rikkuda funktsionaalsuse, kui teie Exclude Nodes seadetega ei ole võimalik luua ühtegi ahelat.</string>
     <string name="set_locale_title">Keel</string>
     <string name="pref_socks_title">Tor SOCKS proxy</string>
@@ -152,9 +141,6 @@
     <string name="pref_dnsport_summary">Port, millel Tor pakub oma DNS-i (vaikimisi: 5400 või 0, et keelata)</string>
     <string name="pref_torrc_title">Torrc kohandatud konfiguratsioon</string>
     <string name="mebibyte">MiB</string>
-    <string name="bridges_updated">Ajakohastatud sillad</string>
-    <string name="restart_to_use_this_bridge_">Palun taaskäivitage AnyoneBot muudatuste lubamiseks</string>
-    <string name="get_bridges_email">E-post</string>
     <string name="send_email">Saada e-kiri</string>
     <string name="hidden_services">Sibulateenused</string>
     <string name="v3_client_auth_activity_title">Kliendi autoriseerimine</string>
@@ -184,94 +170,48 @@
     <string name="pref_prefer_ipv6_summary">Ütleb väljumistele, et IPv6-aadressid on eelistatud</string>
     <string name="testing_tor_direct">Toriga ühenduse testimine…</string>
     <string name="testing_tor_direct_success">Edu. Tor ühendus on hea!</string>
-    <string name="bridge_direct_connect">Otsene ühendus Toriga (parim)</string>
-    <string name="bridge_community">Ühendage ühenduse serverite kaudu</string>
     <string name="menu_new_identity">Uus identiteet</string>
     <string name="user_services">Kasutajate teenused</string>
     <string name="app_services">Rakendusteenused</string>
     <string name="refresh_apps">Värskenda rakendusi</string>
-    <string name="refresh_captcha">Värskenda CAPTCHA</string>
-    <string name="solve_captcha_instruction">Sildade taotlemiseks lahendage CAPTCHA.</string>
-    <string name="captcha">Captcha</string>
-    <string name="enter_characters_from_image">Sisestage ülaltoodud tekst</string>
-    <string name="custom_bridges">Kohandatud sillad</string>
-    <string name="configure_custom_bridges">Kohandatud sildade konfigureerimine</string>
-    <string name="in_a_browser">Külastage brauseris %s ja koputage nuppu Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="use_qr_code">Kasutage QR-koodi</string>
-    <string name="bridge_snowflake">Ühenduse loomine teiste Tori kasutajate kaudu Snowflake\'i abil (meetod 1)</string>
-    <string name="bridge_snowflake_amp">Ühenduse loomine teiste Tori kasutajate kaudu Snowflake\'i abil (meetod 2)</string>
-    <string name="snowflake_proxy_msg_title">Näita ühenduse teadet</string>
-    <string name="snowflake_proxy_msg_description">Näita sõnumit, kui aitad kedagi tsensuurist kõrvale hoida</string>
     <string name="pref_disable_ipv4_summary">Ütleb väljumistele, et nad ei ühenduksid IPv4-aadressidega</string>
-    <string name="request_bridges">Taotlus Sillad</string>
-    <string name="request_bridges_from_torproject">Taotlus Bridges alates torproject.org</string>
     <string name="menu_app_settings">Rakenduse seaded</string>
     <string name="pref_socks_summary">Port, millel Tor pakub oma SOCKS proxy\'d (vaikimisi: 9050 või 0, et keelata)</string>
     <string name="pref_use_expanded_notifications">Kuvage teates riik ja IP-aadress, kui see on saadaval, teie tor väljumissõlme kohta</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Lubage Wi-Fi-võrgupartneritele, seotud seadmetele ja kõigile teistele, kes saavad teie IP-ga ühenduda, juurdepääs Torile</string>
     <string name="pref_socks_dialog">SOCKS-porti konfiguratsioon</string>
     <string name="pref_dnsport_dialog">DNS portide konfigureerimine</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Kui teie mobiilivõrk blokeerib aktiivselt Tor\'i, võite kasutada alternatiivse sisenemisviisina \"Bridge Server\'i\". Valige üks võimalustest, et konfigureerida ja testida…</string>
     <string name="consider_enable_battery_optimizations">Hostitud teenused töötavad, kaaluge aku optimeerimise väljalülitamist</string>
     <string name="pref_reduced_connection_padding_summary">Sulgeb releeühendused varem ja saadab vähem täitepakette, et vähendada andmete ja aku kasutamist</string>
     <string name="pref_reduced_circuit_padding_summary">Kasutage andmete ja aku kasutamise vähendamiseks väiksema koormusega polsterdamisalgoritme</string>
-    <string name="custom_bridge">Kohandatud sild</string>
     <string name="incorrect_solution">Vale lahendus</string>
-    <string name="having_trouble">Probleeme on</string>
     <string name="power_user_mode">Elektrikasutajarežiim</string>
     <string name="title_choose_apps">Vali rakendused</string>
     <string name="apps_other_apps">Muud rakendused</string>
-    <string name="asking">KÜSIMINE...</string>
+    <string name="asking">KÜSIMINE…</string>
     <string name="kindness_adjust_title">Reguleerige, kui see jookseb…</string>
-    <string name="volunteer_mode_title">Aidata teisi
-\nühendada Toriga</string>
-    <string name="volunteer_mode_label">Sõbralikkuse režiim</string>
-    <string name="volunteer_mode_alltime_label">Kogu aeg Kokku</string>
-    <string name="smart_connect_subtitle">AnyoneBot üritab luua ühendust Toriga igal võimalikul viisil: Direct, Snowflake, Bridge.</string>
-    <string name="snowflake_subtitle">Ühendab Tori vabatahtlike kaudu. Saab ümber mõnest Tor\'i blokeeringust.</string>
-    <string name="get_a_bridge_subtitle">Varjab teie liiklust. Saab ümber mõnest Tor\'i blokeeringust.</string>
-    <string name="direct_connect">Otsene ühendus Toriga</string>
     <string name="connect">Ühendage</string>
     <string name="next">Järgmine</string>
-    <string name="solve_captcha">Lahendage Captcha</string>
     <string name="apps_suggested_title">Soovitatavad rakendused</string>
     <string name="pref_isolate_port">Eraldada sihtkoha sadamad</string>
     <string name="pref_isolate_port_summary">Kasutage iga sihtkoha jaoks erinevat vooluahelat</string>
     <string name="pref_isolate_protocol_summary">Kasutage iga ühendusprotokolli jaoks erinevat vooluahelat</string>
     <string name="ports_not_set">Sadamad ei ole määratud</string>
     <string name="pref_isolate_protocol">Isoleerida kliendiprotokollid</string>
-    <string name="volunteer_mode_weekly_label">Nädalane kogusumma</string>
     <string name="hide_apps">Peida rakendused võrgu jälgimise eest ja saada juurdepääs, kui need on blokeeritud.</string>
-    <string name="custom_bridge_subtitle">Tõenäoliselt hoiab teid ühenduses, kui Tor on tõsiselt blokeeritud. Nõuab silla aadressi kellegi, keda te usaldate.</string>
     <string name="action_activate">Aktiveeri</string>
     <string name="many_ways">Torini jõudmiseks on mitmeid viise. Mõni neist võib teie jaoks toimida paremini kui teised.</string>
-    <string name="bridges_obtained_connecting">Sillad saadud! Ühendamine tor...</string>
-    <string name="having_trouble_subtitle">Järgmisena võime proovida Tori silda, kuid vajame teie abi</string>
-    <string name="custom_bridge_description">Kohandatud silda pakub keegi, keda te tunnete. Küsige oma usaldusväärsetes võrgustikes ja organisatsioonides, et näha, kas keegi võõrustab sellist silda.</string>
     <string name="power_user_description">Toriga tuttavatele kasutajatele. Võimaldab käivitada AnyoneBot ilma VPN-seadistusteta ja näitab avatud SOCKS- ja HTTP-porti</string>
     <string name="volunteer_status_title">Täna on parem
 \ntänu sinule.</string>
     <string name="app_suggested_subtitle">AnyoneBot töötab kõige paremini koos sõnumite ja sotsiaalmeedia rakendustega.</string>
     <string name="no_internet_title">Ühendage internetiga</string>
     <string name="no_internet_subtitle">AnyoneBot\'i kasutamiseks on vaja internetiühendust.</string>
-    <string name="kindess_config_detail">Konfigureerige, kuidas ja millal teie seade saab tegutseda Snowflake\'i proxy\'ina teiste Tor\'i kasutajate jaoks.</string>
     <string name="log_copied">Logi kopeeritud</string>
     <string name="configure_header">Tor-ühenduse konfigureerimine</string>
-    <string name="smart_connect">Smart Connect (vaikimisi)</string>
-    <string name="direct_connect_subtitle">Parim viis Toriga ühendumiseks. Kasutage, kui Tor ei ole blokeeritud.</string>
     <string name="drawer_open">Avatud</string>
     <string name="drawer_close">Sulge</string>
     <string name="proxy_ports">Proxy pordid</string>
-    <string name="volunteer_mode_subtitle_desc">Sõbralikkuse režiim võimaldab teie seadmel olla teistele sillaks. See aitab inimestel kasutada Tor\'i kohtades, kus see on blokeeritud.
-\n
-\n- See ei tühjenda teie akut
-\n- See ei aeglusta teie internetti
-\n- Seda saab kasutada ainult üle wifi
-\n- Seda saab igal ajal välja lülitada</string>
-    <string name="ask_tor">Küsi Torilt</string>
-    <string name="snowflake">Lumehelbeke (originaal)</string>
-    <string name="snowflake_amp">Lumehelbeke (AMP)</string>
-    <string name="get_a_bridge">Tori sild (Obfs4)</string>
     <string name="not_sure">Ei ole kindel\?</string>
     <string name="action_use">Kasutage</string>
     <string name="connection_direct">Otse</string>
@@ -281,10 +221,8 @@
     <string name="setting_padding">Pehmendus</string>
     <string name="option_only_on_wifi">Ainult Wifi</string>
     <string name="option_only_when_charging">Ainult laadimisel</string>
-    <string name="menu_kindness">Headus</string>
     <string name="pref_flag_secure_summary">Vältige, et teised rakendused ei saaks AnyoneBotist ekraanipilte teha</string>
     <string name="pref_flag_secure_title">Ekraani turvalisus</string>
     <string name="root_warning">AnyoneBot on tuvastanud, et teie seade on juurdunud, mis võib põhjustada turvaprobleeme.</string>
     <string name="btn_copy_log">Logi kopeerimine</string>
-    <string name="connection_snowflake">Snowflake</string>
 </resources>

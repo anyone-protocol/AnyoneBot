@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Отпремање</string>
     <string name="button_about">О нама</string>
     <string name="menu_exit">Излаз</string>
-    <string name="menu_scan">Скенирај BridgeQR</string>
-    <string name="menu_share_bridge">Подели BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot је апликација отвореног кода која садржи Тор, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks и LibEvent. Омогућава локални HTTP proxy (8118) и SOCKS proxy (9050) у Тор мрежу. AnyoneBot такође има могућност да на рутованом уређају шаље сав интернет саобраћај преко Тор-а.</string>
+    <string name="wizard_details_msg">AnyoneBot је апликација отвореног кода која садржи Тор, Go-Tun2Socks и LibEvent. Омогућава локални HTTP proxy (8118) и SOCKS proxy (9050) у Тор мрежу. AnyoneBot такође има могућност да на рутованом уређају шаље сав интернет саобраћај преко Тор-а.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Опште</string>
     <string name="pref_start_boot_title">Покрени AnyoneBot при покретању уређаја</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Отисци, надимци, државе и адресе за одстрањење</string>
     <string name="enter_exclude_nodes">Унесите чворове за одстрањење</string>
     <string name="strict_nodes">Стриктни чворови</string>
-    <string name="bridges">Мостови</string>
-    <string name="use_bridges">Користи bridge</string>
     <string name="relays">Релеји</string>
     <string name="relaying">Релејирање</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Омогућите вашем уређају да буде релеј без излаза</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Torrc Прерађена Подешавања</string>
     <string name="pref_torrc_summary">САМО ЗА ЕКСПЕРТЕ: унети директно torrc линије подешавања</string>
     <string name="pref_torrc_dialog">Подеси Torrc</string>
-    <string name="bridges_updated">Bridges Ажурирање</string>
-    <string name="restart_to_use_this_bridge_">Молимо покрените поново AnyoneBot ради примењивања промена</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ако ваша мобилна мрежа активно блокира Тор, можете премошћивати сервером као алтернативни начин уласка.ОДАБЕРИ једну од опција за конфигурацију и тестирање….</string>
-    <string name="get_bridges_email">Е-пошта</string>
     <string name="apps_mode">VPN Мод</string>
     <string name="send_email">Пошаљи Е-пошту</string>
     <string name="vpn_default_world">Глобално (Аутоматски)</string>

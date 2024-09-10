@@ -100,8 +100,6 @@ class AnyoneBotActivity : BaseActivity() {
 
         requestNotificationPermission()
 
-        Prefs.initWeeklyWorker()
-
         if (Prefs.detectRoot()) {
             val rootBeer = RootBeer(this)
             if (rootBeer.isRooted) {
@@ -175,13 +173,15 @@ class AnyoneBotActivity : BaseActivity() {
     private fun sendIntentToService(intent: Intent) =
         ContextCompat.startForegroundService(this, intent.putNotSystem())
 
-    private fun sendIntentToService(action: String) = sendIntentToService(android.content.Intent(
+    private fun sendIntentToService(action: String) = sendIntentToService(
+        Intent(
         this,
         AnyoneBotService::class.java
     ).apply {
         this.action = action
     })
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQUEST_CODE_VPN && resultCode == RESULT_OK) {
@@ -216,10 +216,6 @@ class AnyoneBotActivity : BaseActivity() {
                                 if (allCircumventionAttemptsFailed) {
                                     allCircumventionAttemptsFailed = false
                                     return
-                                }
-                                if (!Prefs.getConnectionPathway().equals(
-                                        Prefs.PATHWAY_SMART) && fragConnect.isAdded && fragConnect.context != null) {
-                                    fragConnect.doLayoutOff()
                                 }
                             } else if (fragConnect.isAdded && fragConnect.context != null) {
                                 fragConnect.doLayoutOff()

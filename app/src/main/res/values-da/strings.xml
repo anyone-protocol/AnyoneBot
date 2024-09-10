@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Sender</string>
     <string name="button_about">Om</string>
     <string name="menu_exit">Afslut</string>
-    <string name="menu_scan">Skan BridgeQR</string>
-    <string name="menu_share_bridge">Del BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Generelt</string>
@@ -53,8 +51,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Fingeraftryk, servernavne, lande og adresser der skal ekskluderes</string>
     <string name="enter_exclude_nodes">Indtast noder at ekskludere</string>
     <string name="strict_nodes">Strikte punkter</string>
-    <string name="bridges">Broer</string>
-    <string name="use_bridges">Brug broer</string>
     <string name="relays">Relæer</string>
     <string name="relaying">Relæfunktion</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Lad denne enhed være et ikke-udgangs relæ</string>
@@ -73,7 +69,6 @@
     <string name="project_home">Projekt hjem:</string>
     <string name="third_party_software">Tredjeparts-software:</string>
     <string name="set_locale_title">Sprog</string>
-    <string name="get_bridges_email">Mail</string>
     <string name="hidden_services">Skjulte tjenester</string>
     <string name="menu_hidden_services">Skjulte tjenester</string>
     <string name="save">Gem</string>
@@ -95,20 +90,11 @@
     <string name="pref_prefer_ipv6">Foretrækker IPv6-forbindelser</string>
     <string name="pref_reduced_connection_padding_summary">Lukker relæforbindelser tidligere og sender færre padding-pakker for at reducere data- og batteriforbruget</string>
     <string name="pref_prefer_ipv6_summary">Fortæller exits, at IPv6-adresser er at foretrække</string>
-    <string name="request_bridges">Anmodning om broer</string>
-    <string name="refresh_captcha">Opdater CAPTCHA</string>
-    <string name="solve_captcha_instruction">Løs CAPTCHA\'en for at anmode om broer.</string>
-    <string name="captcha">Captcha</string>
-    <string name="enter_characters_from_image">Indtast tegn fra billedet</string>
-    <string name="bridge_snowflake">Opret forbindelse via andre Tor-brugere ved hjælp af Snowflake (metode 1)</string>
-    <string name="bridge_snowflake_amp">Opret forbindelse via andre Tor-brugere ved hjælp af Snowflake (metode 2)</string>
-    <string name="wizard_details_msg">AnyoneBot er et program med åben kildekode, der indeholder Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks og LibEvent. Det giver en VPN-tunnel, en lokal HTTP Connect-proxy (kun HTTPS på port 8118) og en SOCKS-proxy (9050) ind i Tor-netværket.</string>
+    <string name="wizard_details_msg">AnyoneBot er et program med åben kildekode, der indeholder Tor, Go-Tun2Socks og LibEvent. Det giver en VPN-tunnel, en lokal HTTP Connect-proxy (kun HTTPS på port 8118) og en SOCKS-proxy (9050) ind i Tor-netværket.</string>
     <string name="secure_your_connection_title">Sikre din forbindelse med Tor</string>
     <string name="secure_your_connection_subtitle">AnyoneBot giver dig en sikker, uafbrudt forbindelse til dine apps.</string>
     <string name="connected_title">Du er forbundet!</string>
     <string name="btn_start_vpn">Start VPN</string>
-    <string name="btn_configure">Konfigurer</string>
-    <string name="volunteer_mode">Patreon-tilstand</string>
     <string name="volunteer_mode_subtitle">Hjælp andre med at få forbindelse</string>
     <string name="trying_to_connect_title">Forsøger at oprette forbindelse til Tor…</string>
     <string name="btn_choose_apps">Vælg apps</string>
@@ -124,7 +110,6 @@
     <string name="menu_faq">FAQ</string>
     <string name="menu_header_learn">Få mere at vide</string>
     <string name="msg_try_something_else">Prøv noget andet</string>
-    <string name="btn_use_custom_bridge">Brug brugerdefineret bro</string>
     <string name="msg_taking_too_long">Det ser ud til at tage lang tid</string>
     <string name="pref_allow_background_starts_summary">Lad en hvilken som helst app fortælle AnyoneBot, at Tor og relaterede tjenester skal startes</string>
     <string name="version">Version:</string>
@@ -132,7 +117,6 @@
     <string name="hidden_service_request">En app ønsker at åbne en løgserver på port %1$s til Tor-netværket. Dette er sikkert, hvis du stoler på appen.</string>
     <string name="deny">Afvis</string>
     <string name="menu_new_identity">Ny identitet</string>
-    <string name="bridge_community">Forbind via fællesskabsservere</string>
     <string name="strict_nodes_description">Behandl indstillingerne for udelukkelse af knuder som et krav for at opbygge alle kredsløb. Dette kan ødelægge funktionaliteten, hvis der ikke kan genereres kredsløb med dine indstillinger for udelukkede knuder.</string>
     <string name="pref_disable_network_title">Ingen automatisk netværkssøvn</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Åbn proxy på alle grænseflader</string>
@@ -149,8 +133,6 @@
     <string name="pref_torrc_summary">KUN EXPERTER: indtast direkte torrc-konfigurationslinjer</string>
     <string name="pref_torrc_dialog">Brugerdefineret Torrc</string>
     <string name="mebibyte">MiB</string>
-    <string name="bridges_updated">Broer opdateret</string>
-    <string name="get_bridges_email_request">Anmodning om broer via e-mail</string>
     <string name="apps_mode">VPN-tilstand</string>
     <string name="send_email">Send e-mail</string>
     <string name="vpn_default_world">Global (automatisk)</string>
@@ -186,21 +168,11 @@
     <string name="pref_disable_ipv4_summary">Angiver, at exits ikke skal oprette forbindelse til IPv4-adresser</string>
     <string name="app_shortcuts">Tor-aktiverede apps</string>
     <string name="testing_tor_direct">Test af forbindelse til Tor…</string>
-    <string name="bridge_direct_connect">Opret direkte forbindelse til Tor (bedst)</string>
-    <string name="bridge_cloud">Forbind via cloud-servere</string>
     <string name="full_device_vpn">Fuld VPN til enheden</string>
     <string name="vpn_disabled">VPN deaktiveret</string>
     <string name="user_services">Brugertjenester</string>
     <string name="app_services">App-tjenester</string>
     <string name="refresh_apps">Opdater apps</string>
-    <string name="custom_bridges">Brugerdefinerede broer</string>
-    <string name="configure_custom_bridges">Konfigurere brugerdefinerede broer</string>
-    <string name="use_custom_bridges">Brug tilpassede broer</string>
-    <string name="in_a_browser">Besøg %s i en browser, og tryk på Få broer &gt; Bare giv mig broer!</string>
-    <string name="paste_bridges">Broer med pasta</string>
-    <string name="use_qr_code">Brug QR-kode</string>
-    <string name="snowflake_proxy_msg_title">Vis meddelelse om forbindelse</string>
-    <string name="snowflake_proxy_msg_description">Vis en besked, når din snefnug hjælper nogen med at omgå censuren</string>
     <string name="pref_http_dialog">Konfiguration af HTTP-port</string>
     <string name="allow">Tillad</string>
     <string name="pref_use_expanded_notifications">Vis land og IP-adresse for din tor-exit node i meddelelsen, hvis den er tilgængelig</string>
@@ -209,16 +181,12 @@
     <string name="pref_http_summary">Port, som Tor tilbyder sin HTTP-proxy på (standard: 8118 eller 0 for at deaktivere)</string>
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_transport_title">Tor TransProxy-port</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Hvis dit mobilnetværk aktivt blokerer Tor, kan du bruge en \"Bridge Server\" som en alternativ vej ind. Vælg en af mulighederne for at konfigurere og teste…</string>
-    <string name="restart_to_use_this_bridge_">Genstart venligst AnyoneBot for at aktivere ændringerne</string>
     <string name="pref_connection_padding_summary">Aktiverer altid forbindelsespolstring for at beskytte mod visse former for trafikanalyse. Standard: auto</string>
     <string name="pref_connection_padding">Polstring af forbindelsen</string>
     <string name="trouble_connecting">Har du problemer med at oprette forbindelse\?</string>
-    <string name="request_bridges_from_torproject">Anmodning om broer fra torproject.org</string>
     <string name="action_use">Brug</string>
     <string name="menu_more">Mere</string>
     <string name="connection_direct">Direkte</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Brugerdefinerede</string>
     <string name="title_choose_apps">Vælg Apps</string>
     <string name="no_internet_title">Forbind til internettet</string>

@@ -21,16 +21,11 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.res.Configuration;
-import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkCapabilities;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.net.VpnService;
 import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
-import android.os.Looper;
 import android.provider.BaseColumns;
 import android.text.TextUtils;
 import android.util.Log;
@@ -40,7 +35,6 @@ import net.freehaven.tor.control.TorControlCommands;
 import net.freehaven.tor.control.TorControlConnection;
 
 import io.anyone.anyonebot.service.util.CustomTorResourceInstaller;
-import io.anyone.anyonebot.service.util.PowerConnectionReceiver;
 import io.anyone.anyonebot.service.util.Prefs;
 import io.anyone.anyonebot.service.util.Utils;
 import io.anyone.anyonebot.service.vpn.AnyoneBotVpnManager;
@@ -56,12 +50,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.PrintWriter;
-import java.security.SecureRandom;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.StringTokenizer;
@@ -69,9 +61,6 @@ import java.util.UUID;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import IPtProxy.IPtProxy;
-
-import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
@@ -110,21 +99,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
     private NotificationManager mNotificationManager = null;
     private NotificationCompat.Builder mNotifyBuilder;
     private File mV3OnionBasePath, mV3AuthBasePath;
-
-    private PowerConnectionReceiver mPowerReceiver;
-
-    private boolean mHasPower = false;
-    private boolean mHasWifi = false;
-
-    /**
-     * @param bridgeList bridges that were manually entered into Orbot settings
-     * @return Array with each bridge as an element, no whitespace entries see issue #289...
-     */
-    private static String[] parseBridgesFromSettings(String bridgeList) {
-        // this regex replaces lines that only contain whitespace with an empty String
-        bridgeList = bridgeList.trim().replaceAll("(?m)^[ \t]*\r?\n", "");
-        return bridgeList.split("\\n");
-    }
 
     public void debug(String msg) {
         Log.d(TAG, msg);
@@ -260,9 +234,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
     public void onDestroy() {
         try {
             unregisterReceiver(mActionBroadcastReceiver);
-
-            unregisterReceiver(mPowerReceiver);
-
         } catch (IllegalArgumentException iae) {
             //not registered yet
         }
@@ -273,15 +244,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
         debug("stopTor");
 
         if (showNotification) sendCallbackLogMessage(getString(R.string.status_shutting_down));
-
-        var connectionPathway = Prefs.getConnectionPathway();
-        // todo this needs to handle a lot of different cases that haven't been defined yet
-        // todo particularly this is true for the smart connection case...
-        if (connectionPathway.startsWith(Prefs.PATHWAY_SNOWFLAKE) || Prefs.getPrefSmartTrySnowflake()) {
-            IPtProxy.stopSnowflake();
-        } else if (connectionPathway.equals(Prefs.PATHWAY_CUSTOM) || Prefs.getPrefSmartTryObfs4() != null) {
-            IPtProxy.stopLyrebird();
-        }
 
         stopTor();
 
@@ -307,20 +269,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
     }
 
     private static HashMap<String, String> mFronts;
-    private static List<String> mSnowflakeBridges;
-
-    public static void loadSnowflakeBridges(Context context) {
-        if (mSnowflakeBridges != null) return;
-        mSnowflakeBridges = new ArrayList<>();
-        try {
-            var reader = new BufferedReader(new InputStreamReader(context.getAssets().open("snowflake-brokers")));
-            String line;
-            while ((line =reader.readLine()) != null) mSnowflakeBridges.add(line);
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public static void loadCdnFronts(Context context) {
         if (mFronts == null) {
@@ -339,151 +287,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
-    }
-
-    public static String getCdnFront(String service) {
-        return mFronts.get(service);
-    }
-
-
-    private void startSnowflakeClientDomainFronting() {
-        //this is using the current, default Tor snowflake infrastructure
-        var target = getCdnFront("snowflake-target");
-        var front = getCdnFront("snowflake-front");
-        var stunServer = getCdnFront("snowflake-stun");
-
-        /*
-        // @param ice Comma-separated list of ICE servers.
-        // @param url URL of signaling broker.
-        // @param fronts Comma-separated list of front domains.
-        // @param ampCache OPTIONAL. URL of AMP cache to use as a proxy for signaling.
-        //	Only needed when you want to do the rendezvous over AMP instead of a domain fronted server.
-        // @param sqsQueueURL OPTIONAL. URL of SQS Queue to use as a proxy for signaling.
-        // @param sqsCredsStr OPTIONAL. Credentials to access SQS Queue.
-        // @param logFile Name of log file. OPTIONAL. Defaults to no log.
-        // @param logToStateDir Resolve the log file relative to Tor's PT state dir.
-        // @param keepLocalAddresses Keep local LAN address ICE candidates.
-        // @param unsafeLogging Prevent logs from being scrubbed.
-        // @param maxPeers Capacity for number of multiplexed WebRTC peers. DEFAULTs to 1 if less than that.
-        // @return Port number where Snowflake will listen on, if no error happens during start up.
-         */
-        IPtProxy.startSnowflake(stunServer, target, front, null, null, null, null,true, false, false, 1);
-
-    }
-
-    private void startSnowflakeClientAmpRendezvous() {
-        var stunServers = getCdnFront("snowflake-stun");
-        var target = getCdnFront("snowflake-target-direct");
-        var front = getCdnFront("snowflake-amp-front");
-        var ampCache = getCdnFront("snowflake-amp-cache");
-        IPtProxy.startSnowflake(stunServers, target, front, ampCache, null, null, null, true, false, false, 1);
-    }
-
-    private final SecureRandom mSecureRandGen = new SecureRandom(); //used to randomly select STUN servers for snowflake
-
-    public synchronized void enableSnowflakeProxy() { // This is to host a snowflake entrance node / bridge
-        if (!IPtProxy.isSnowflakeProxyRunning()) {
-
-            if (Prefs.limitSnowflakeProxyingWifi() && (!mHasWifi))
-                return;
-
-            if (Prefs.limitSnowflakeProxyingCharging() && (!mHasPower))
-                return;
-
-            var capacity = 1;
-            var keepLocalAddresses = false;
-            var unsafeLogging = false;
-            var stunServers = getCdnFront("snowflake-stun").split(",");
-
-            int randomIndex = mSecureRandGen.nextInt(stunServers.length);
-            var stunUrl = stunServers[randomIndex];
-            var relayUrl = getCdnFront("snowflake-relay-url");
-            var natProbeUrl = getCdnFront("snowflake-nat-probe");
-            var brokerUrl = getCdnFront("snowflake-target-direct");
-            IPtProxy.startSnowflakeProxy(capacity, brokerUrl, relayUrl, stunUrl, natProbeUrl, null, keepLocalAddresses, unsafeLogging, () -> {
-                Prefs.addSnowflakeServed();
-                if (!Prefs.showSnowflakeProxyMessage()) return;
-                var message = String.format(getString(R.string.snowflake_proxy_client_connected_msg), ONION_EMOJI, ONION_EMOJI);
-                new Handler(getMainLooper()).post(() -> Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show());
-            });
-            logNotice(getString(R.string.log_notice_snowflake_proxy_enabled));
-
-            if (Prefs.showSnowflakeProxyMessage()) {
-                var message = getString(R.string.log_notice_snowflake_proxy_enabled);
-                new Handler(getMainLooper()).post(() -> Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show());
-            }
-
-        }
-
-    }
-
-    private void enableSnowflakeProxyNetworkListener () {
-        if (Prefs.limitSnowflakeProxyingWifi()) {
-            //check if on wifi
-            ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                connMgr.registerDefaultNetworkCallback(new ConnectivityManager.NetworkCallback() {
-                    @Override
-                    public void onAvailable(@NonNull Network network) {
-                        super.onAvailable(network);
-                        checkNetworkForSnowflakeProxy ();
-                    }
-
-                    @Override
-                    public void onLost(@NonNull Network network) {
-                        super.onLost(network);
-                        checkNetworkForSnowflakeProxy ();
-                    }
-                });
-            }
-        }
-    }
-
-    public void setHasPower (boolean hasPower) {
-        mHasPower = hasPower;
-        if (Prefs.beSnowflakeProxy()) {
-            if (Prefs.limitSnowflakeProxyingCharging()) {
-                if (mHasPower) enableSnowflakeProxy();
-                else disableSnowflakeProxy();
-            }
-        }
-    }
-    private void checkNetworkForSnowflakeProxy () {
-        ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            NetworkCapabilities netCap = connMgr.getNetworkCapabilities(connMgr.getActiveNetwork());
-            if (netCap != null)
-                mHasWifi = netCap.hasTransport(NetworkCapabilities.TRANSPORT_WIFI);
-            else
-                mHasWifi = false;
-        }
-        else {
-            NetworkInfo netInfo = connMgr.getActiveNetworkInfo();
-            if (netInfo != null)
-                mHasWifi = netInfo.getType() == ConnectivityManager.TYPE_WIFI;
-        }
-
-        if (Prefs.beSnowflakeProxy()) {
-            if (Prefs.limitSnowflakeProxyingWifi()) {
-                if (mHasWifi) enableSnowflakeProxy();
-                else disableSnowflakeProxy();
-            }
-        }
-    }
-
-    public synchronized void disableSnowflakeProxy() {
-        if (IPtProxy.isSnowflakeProxyRunning()) {
-            IPtProxy.stopSnowflakeProxy();
-            logNotice(getString(R.string.log_notice_snowflake_proxy_disabled));
-
-            if (Prefs.showSnowflakeProxyMessage()) {
-                var message = getString(R.string.log_notice_snowflake_proxy_disabled);
-                new Handler(getMainLooper()).post(() -> Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show());
-            }
-
         }
     }
 
@@ -509,7 +312,7 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
     }
 
     protected void logNotice(String msg) {
-        if (msg != null && msg.trim().length() > 0) {
+        if (msg != null && !msg.trim().isEmpty()) {
             if (Prefs.useDebugLogging()) Log.d(TAG, msg);
             sendCallbackLogMessage(msg);
         }
@@ -574,31 +377,14 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
                     }
                 }
 
-
-                pluggableTransportInstall();
-
                 mVpnManager = new AnyoneBotVpnManager(this);
-                loadSnowflakeBridges(this);
                 loadCdnFronts(this);
             } catch (Exception e) {
                 Log.e(TAG, "Error setting up AnyoneBot", e);
                 logNotice(getString(R.string.couldn_t_start_tor_process_) + " " + e.getClass().getSimpleName());
             }
-
-            mPowerReceiver = new PowerConnectionReceiver(this);
-
-            IntentFilter ifilter = new IntentFilter();
-            ifilter.addAction(Intent.ACTION_POWER_CONNECTED);
-            ifilter.addAction(Intent.ACTION_POWER_DISCONNECTED);
-            registerReceiver(mPowerReceiver, ifilter);
-
-            enableSnowflakeProxyNetworkListener();
-
-            if (Prefs.beSnowflakeProxy()
-                    && !(Prefs.limitSnowflakeProxyingCharging() || Prefs.limitSnowflakeProxyingWifi()))
-                enableSnowflakeProxy();
-
-        } catch (RuntimeException re) {
+        }
+        catch (RuntimeException re) {
             //catch this to avoid malicious launches as document Cure53 Audit: ORB-01-009 WP1/2: Orbot DoS via exported activity (High)
         }
     }
@@ -613,21 +399,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
 
     protected String getCurrentStatus() {
         return mCurrentStatus;
-    }
-
-    private void pluggableTransportInstall() {
-        var fileCacheDir = new File(getCacheDir(), "pt");
-        if (!fileCacheDir.exists())
-            //noinspection ResultOfMethodCallIgnored
-            fileCacheDir.mkdir();
-
-        try {
-            IPtProxy.setStateLocation(fileCacheDir.getAbsolutePath());
-            debug("IPtProxy state: " + IPtProxy.getStateLocation());
-        } catch (Error e) {
-            debug("IPtProxy state: not installed; " + e.getLocalizedMessage());
-
-        }
     }
 
     private File updateTorrcCustomFile() throws IOException {
@@ -792,8 +563,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
 
     private boolean showTorServiceErrorMsg = false;
 
-    private static final int TIMEOUT_MS = 15000;
-
     /**
      * The entire process for starting tor and related services is run from this method.
      */
@@ -808,9 +577,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
             mNotifyBuilder.setProgress(100, 0, false);
             showToolbarNotification("", NOTIFY_ID, R.drawable.ic_stat_tor);
 
-            if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_SMART)) {
-                smartConnectionPathwayStartTor();
-            }
             startTorService();
             showTorServiceErrorMsg = true;
 
@@ -826,53 +592,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
             stopTorOnError(e.getLocalizedMessage());
         }
     }
-
-    static int TRIES_DELETE = 0;
-
-    private void smartConnectionPathwayStartTor() {
-        Log.d(TAG, "timing out in " + TIMEOUT_MS + "ms");
-        new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            Log.d(TAG, "timed out mCurrentStatus=" + mCurrentStatus);
-            if (!mCurrentStatus.equals(STATUS_ON)) {
-                Log.d(TAG, "stopping tor...");
-                if (Prefs.getPrefSmartTrySnowflake()) {
-                    Log.d(TAG, "trying snowflake didnt work");
-                    clearEphemeralSmartConnectionSettings();
-                    sendSmartStatusToActivity(SMART_STATUS_CIRCUMVENTION_ATTEMPT_FAILED);
-                } else if (Prefs.getPrefSmartTryObfs4() != null) {
-                    Log.d(TAG, "trying obfs4 didnt work");
-                    clearEphemeralSmartConnectionSettings();
-                    sendSmartStatusToActivity(SMART_STATUS_CIRCUMVENTION_ATTEMPT_FAILED);
-                } else {
-                    sendSmartStatusToActivity(SMART_STATUS_NO_DIRECT);
-                }
-                stopTorAsync(true);
-            } else {
-                // tor was connected in the allotted time
-                var obfs4 = Prefs.getPrefSmartTryObfs4();
-                if (obfs4 != null) {
-                    // set these obfs4 bridges
-                    Prefs.setBridgesList(obfs4);
-                    Prefs.putConnectionPathway(Prefs.PATHWAY_CUSTOM);
-                } else if (Prefs.getPrefSmartTrySnowflake()) {
-                    // set snowflake
-                    Prefs.putConnectionPathway(Prefs.PATHWAY_SNOWFLAKE);
-                }
-                clearEphemeralSmartConnectionSettings();
-            }
-        }, ((TRIES_DELETE++) != 2) ? TIMEOUT_MS : 10000);
-    }
-
-    private void clearEphemeralSmartConnectionSettings() {
-        Prefs.putPrefSmartTryObfs4(null);
-        Prefs.putPrefSmartTrySnowflake(false);
-    }
-
-    private void sendSmartStatusToActivity(String status) {
-        var intent = new Intent(LOCAL_ACTION_SMART_CONNECT_EVENT).putExtra(LOCAL_EXTRA_SMART_STATUS, status);
-        LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
-    }
-
 
     private void updateV3OnionNames() throws SecurityException {
         var contentResolver = getApplicationContext().getContentResolver();
@@ -1134,20 +853,8 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
         var exitNodes = prefs.getString("pref_exit_nodes", "");
         var excludeNodes = prefs.getString("pref_exclude_nodes", "");
 
-        String pathway = Prefs.getConnectionPathway();
-        if (pathway.equals(Prefs.PATHWAY_SMART)) {
-            // todo for now ...
-        } else if (pathway.equals(Prefs.PATHWAY_DIRECT)) {
-            extraLines = processSettingsImplDirectPathway(extraLines);
-        } else {
-            // snowflake or obfs4
-            extraLines.append("UseBridges 1").append('\n');
-            if (pathway.startsWith(Prefs.PATHWAY_SNOWFLAKE) || Prefs.getPrefSmartTrySnowflake()) {
-                extraLines = processSettingsImplSnowflake(extraLines);
-            } else if (pathway.equals(Prefs.PATHWAY_CUSTOM) || Prefs.getPrefSmartTryObfs4() != null) {
-                extraLines = processSettingsImplObfs4(extraLines);
-            }
-        }
+        extraLines = processSettingsImplDirectPathway(extraLines);
+
         var fileGeoIP = new File(appBinHome, GEOIP_ASSET_KEY);
         var fileGeoIP6 = new File(appBinHome, GEOIP6_ASSET_KEY);
 
@@ -1181,7 +888,7 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
         }
 
         try {
-            if (becomeRelay && (!Prefs.bridgesEnabled()) && (!ReachableAddresses)) {
+            if (becomeRelay && (!ReachableAddresses)) {
                 var ORPort = Integer.parseInt(Objects.requireNonNull(prefs.getString(PREF_OR_PORT, "9001")));
                 var nickname = prefs.getString(PREF_OR_NICKNAME, "AnyoneBot");
                 var dnsFile = writeDNSFile();
@@ -1206,40 +913,18 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
         return extraLines;
     }
 
-    private StringBuffer processSettingsImplSnowflake(StringBuffer extraLines) {
-        Log.d(TAG, "in snowflake torrc config");
-        extraLines.append("ClientTransportPlugin snowflake socks5 127.0.0.1:" + IPtProxy.snowflakePort()).append('\n');
-        for (String bridge : mSnowflakeBridges) {
-            extraLines.append("Bridge ").append(bridge).append("\n");
-        }
-        return extraLines;
-    }
-
-    private StringBuffer processSettingsImplObfs4(StringBuffer extraLines) {
-        Log.d(TAG, "in obfs4 torrc config");
-        extraLines.append("ClientTransportPlugin obfs4 socks5 127.0.0.1:" + IPtProxy.obfs4Port()).append('\n');
-        var bridgeList = "";
-        if (Prefs.getConnectionPathway().equals(Prefs.PATHWAY_CUSTOM)) {
-            bridgeList = Prefs.getBridgesList();
-        } else bridgeList = Prefs.getPrefSmartTryObfs4();
-        var customBridges = parseBridgesFromSettings(bridgeList);
-        for (var b : customBridges)
-            extraLines.append("Bridge ").append(b).append("\n");
-        return extraLines;
-    }
-
     private StringBuffer processSettingsImplDirectPathway(StringBuffer extraLines) {
         var prefs = Prefs.getSharedPrefs(getApplicationContext());
         extraLines.append("UseBridges 0").append('\n');
         if (!Prefs.useVpn()) { //set the proxy here if we aren't using a bridge
             var proxyType = prefs.getString("pref_proxy_type", null);
-            if (proxyType != null && proxyType.length() > 0) {
+            if (proxyType != null && !proxyType.isEmpty()) {
                 var proxyHost = prefs.getString("pref_proxy_host", null);
                 var proxyPort = prefs.getString("pref_proxy_port", null);
                 var proxyUser = prefs.getString("pref_proxy_username", null);
                 var proxyPass = prefs.getString("pref_proxy_password", null);
 
-                if ((proxyHost != null && proxyHost.length() > 0) && (proxyPort != null && proxyPort.length() > 0)) {
+                if ((proxyHost != null && !proxyHost.isEmpty()) && (proxyPort != null && !proxyPort.isEmpty())) {
                     extraLines.append(proxyType).append("Proxy").append(' ').append(proxyHost).append(':').append(proxyPort).append('\n');
 
                     if (proxyUser != null && proxyPass != null) {
@@ -1462,14 +1147,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
             if (TextUtils.isEmpty(action)) return;
             switch (action) {
                 case ACTION_START -> {
-                    var connectionPathway = Prefs.getConnectionPathway();
-                    if (connectionPathway.equals(Prefs.PATHWAY_SNOWFLAKE) || Prefs.getPrefSmartTrySnowflake()) {
-                        startSnowflakeClientDomainFronting();
-                    } else if (connectionPathway.equals(Prefs.PATHWAY_SNOWFLAKE_AMP)) {
-                        startSnowflakeClientAmpRendezvous();
-                    } else if (connectionPathway.equals(Prefs.PATHWAY_CUSTOM) || Prefs.getPrefSmartTryObfs4() != null) {
-                        IPtProxy.startLyrebird("DEBUG", false, false, null);
-                    }
                     startTor();
                     replyWithStatus(mIntent);
                     if (Prefs.useVpn()) {
@@ -1520,11 +1197,6 @@ public class AnyoneBotService extends VpnService implements AnyoneBotConstants {
                 }
                 case CMD_SET_EXIT -> setExitNode(mIntent.getStringExtra("exit"));
                 case ACTION_LOCAL_LOCALE_SET -> configLanguage();
-                case CMD_SNOWFLAKE_PROXY -> {
-                    if (Prefs.beSnowflakeProxy()) {
-                        enableSnowflakeProxy();
-                    } else disableSnowflakeProxy();
-                }
                 default -> Log.w(TAG, "unhandled AnyoneBotService Intent: " + action);
             }
         }

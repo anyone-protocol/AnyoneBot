@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
-import android.graphics.Paint
 import android.net.VpnService
 import android.os.Bundle
 import android.os.Handler
@@ -39,7 +38,6 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
     // main screen UI
     private lateinit var tvTitle: TextView
     private lateinit var tvSubtitle: TextView
-    private lateinit var tvConfigure: TextView
     private lateinit var btnStartVpn: Button
     private lateinit var ivOnion: ImageView
     private lateinit var ivOnionShadow: ImageView
@@ -48,6 +46,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
 
     private var lastStatus: String? = ""
 
+    @Deprecated("Deprecated in Java")
     override fun onAttach(activity: Activity) {
         super.onAttach(activity)
 
@@ -65,7 +64,6 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
 
             tvTitle = it.findViewById(R.id.tvTitle)
             tvSubtitle = it.findViewById(R.id.tvSubtitle)
-            tvConfigure = it.findViewById(R.id.tvConfigure)
             btnStartVpn = it.findViewById(R.id.btnStart)
             ivOnion = it.findViewById(R.id.ivStatus)
             ivOnionShadow = it.findViewById(R.id.ivShadow)
@@ -77,7 +75,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
             }
 
             if (!isNetworkAvailable(requireContext())) {
-                doLayoutNoInternet(requireContext())
+                doLayoutNoInternet()
             } else {
                 when (lastStatus) {
                     AnyoneBotConstants.STATUS_OFF -> doLayoutOff()
@@ -150,6 +148,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         lvConnectedActions.adapter = MenuActionAdapter(context, listItems)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == AnyoneBotActivity.REQUEST_CODE_VPN && resultCode == AppCompatActivity.RESULT_OK) {
@@ -162,27 +161,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         }
     }
 
-    private fun doLayoutForCircumventionApi() {
-        // TODO prompt user to request bridge over MOAT
-        progressBar.progress = 0
-        tvTitle.text = getString(R.string.having_trouble)
-        tvSubtitle.text = getString(R.string.having_trouble_subtitle)
-        tvSubtitle.visibility = View.VISIBLE
-        btnStartVpn.text = getString(R.string.solve_captcha)
-        btnStartVpn.setOnClickListener {
-            MoatBottomSheet(this).show(
-                requireActivity().supportFragmentManager, "CircumventionFailed"
-            )
-        }
-        tvConfigure.text = getString(android.R.string.cancel)
-        tvConfigure.setOnClickListener {
-            doLayoutOff()
-        }
-    }
-
-
-    private fun doLayoutNoInternet(context: Context) {
-
+    private fun doLayoutNoInternet() {
         ivOnion.setImageResource(R.drawable.nointernet)
 
         stopAnimations()
@@ -195,9 +174,6 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
 
         btnStartVpn.visibility = View.GONE
         lvConnectedActions.visibility = View.GONE
-        tvConfigure.visibility = View.GONE
-        //refreshMenuList(context)
-
     }
 
     fun doLayoutOn(context: Context) {
@@ -209,7 +185,6 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         tvTitle.text = context.getString(R.string.connected_title)
         btnStartVpn.visibility = View.GONE
         lvConnectedActions.visibility = View.VISIBLE
-        tvConfigure.visibility = View.GONE
 
         refreshMenuList(context)
 
@@ -225,31 +200,13 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         lvConnectedActions.visibility = View.GONE
         tvTitle.text = getString(R.string.secure_your_connection_title)
         tvSubtitle.text = getString(R.string.secure_your_connection_subtitle)
-        tvConfigure.visibility = View.VISIBLE
-        tvConfigure.text = getString(R.string.btn_configure)
-        tvConfigure.paintFlags = Paint.UNDERLINE_TEXT_FLAG
-        tvConfigure.setOnClickListener { openConfigureTorConnection() }
+
         with(btnStartVpn) {
             visibility = View.VISIBLE
 
-            var connectStr = ""
-            if (Prefs.getConnectionPathway().equals(
-                    Prefs.PATHWAY_DIRECT)) connectStr =
-                context.getString(R.string.action_use) + ' ' + getString(R.string.direct_connect)
-            else if (Prefs.getConnectionPathway().equals(
-                    Prefs.PATHWAY_SNOWFLAKE)) connectStr =
-                context.getString(R.string.action_use) + ' ' + getString(R.string.snowflake)
-            else if (Prefs.getConnectionPathway().equals(
-                    Prefs.PATHWAY_SNOWFLAKE_AMP)) connectStr =
-                context.getString(R.string.action_use) + ' ' + getString(R.string.snowflake_amp)
-            else if (Prefs.getConnectionPathway().equals(
-                    Prefs.PATHWAY_CUSTOM)) connectStr =
-                context.getString(R.string.action_use) + ' ' + getString(R.string.custom_bridge)
+            val connectStr = context.getString(R.string.action_use)
 
             text = if (Prefs.isPowerUserMode()) getString(R.string.connect)
-            else if (connectStr.isEmpty()) Html.fromHtml(
-                "<big>${getString(R.string.btn_start_vpn)}</big>", Html.FROM_HTML_MODE_LEGACY
-            )
             else Html.fromHtml(
                 "<big>${getString(R.string.btn_start_vpn)}</big><br/><small>${connectStr}</small>",
                 Html.FROM_HTML_MODE_LEGACY
@@ -263,7 +220,6 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
                 )
             )
             setOnClickListener { startTorAndVpn() }
-            //logBottomSheet.resetLog()
         }
 
         ivOnion.setOnClickListener {
@@ -307,28 +263,20 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         }
     }
 
-
-    private fun openConfigureTorConnection() =
-        ConfigConnectionBottomSheet.newInstance(this)
-            .show(
-                requireActivity().supportFragmentManager, AnyoneBotActivity::class.java.simpleName
-            )
-
-
     override fun tryConnecting() {
         startTorAndVpn() // TODO for now just start tor and VPN, we need to decouple this down the line
     }
 
-    override fun onExitNodeSelected(exitNode: String, countryDisplayName: String) {
+    override fun onExitNodeSelected(countryCode: String, displayCountryName: String) {
 
         //tor format expects "{" for country code
-        Prefs.setExitNodes("{$exitNode}")
+        Prefs.setExitNodes("{$countryCode}")
 
         sendIntentToService(
             Intent(
                 requireActivity(),
                 AnyoneBotService::class.java
-            ).setAction(AnyoneBotConstants.CMD_SET_EXIT).putExtra("exit", exitNode)
+            ).setAction(AnyoneBotConstants.CMD_SET_EXIT).putExtra("exit", countryCode)
         )
 
         refreshMenuList(requireContext())

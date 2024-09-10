@@ -363,18 +363,5 @@
             />
 
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/volunteer_mode"
-        app:iconSpaceReserved="false"
-        >
-
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="pref_show_snowflake_proxy_msg"
-            android:title="@string/snowflake_proxy_msg_title"
-            android:summary="@string/snowflake_proxy_msg_description"
-            app:iconSpaceReserved="false"
-            />
-
-    </PreferenceCategory>
 
 </PreferenceScreen>

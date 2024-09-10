@@ -10,10 +10,8 @@
     <string name="main_layout_upload">อัปโหลด</string>
     <string name="button_about">เกี่ยวกับ</string>
     <string name="menu_exit">ออก</string>
-    <string name="menu_scan">สแกน BridgeQR</string>
-    <string name="menu_share_bridge">แชร์ BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot เป็นแอปพลิเคชันโอเพ่นซอร์สที่ประกอบด้วย Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, และ LibEvent โดย AnyoneBot จะสร้างพร็อกซี (8118) และพร็อกซี SOCKS (9050) ในเครื่อง ภายในเครือข่าย Tor AnyoneBot ยังสามารถทำการรับส่งข้อมูลทั้งหมดส่งผ่าน Tor ได้บนอุปกรณ์ที่ได้ทำการ root แล้ว</string>
+    <string name="wizard_details_msg">AnyoneBot เป็นแอปพลิเคชันโอเพ่นซอร์สที่ประกอบด้วย Tor, Go-Tun2Socks, และ LibEvent โดย AnyoneBot จะสร้างพร็อกซี (8118) และพร็อกซี SOCKS (9050) ในเครื่อง ภายในเครือข่าย Tor AnyoneBot ยังสามารถทำการรับส่งข้อมูลทั้งหมดส่งผ่าน Tor ได้บนอุปกรณ์ที่ได้ทำการ root แล้ว</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">ทั่วไป</string>
     <string name="pref_start_boot_title">เริ่ม AnyoneBot เมื่อเปิดระบบ</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">ลายนิ้วมือ ชื่อเล่น ประเทศ และที่อยู่ที่ละเว้น</string>
     <string name="enter_exclude_nodes">ระบุโหนดยกเว้น</string>
     <string name="strict_nodes">โหนดเข้มงวด</string>
-    <string name="bridges">Bridges</string>
-    <string name="use_bridges">ใช้งาน Bridges</string>
     <string name="relays">รีเลย์</string>
     <string name="relaying">การรีเลย์</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">ทำให้อุปกรณ์ของคุณทำงานเป็นรีเลย์แบบไม่ใช่ทางออก</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">กำหนดค่า Torrc เอง</string>
     <string name="pref_torrc_summary">สำหรับผู้เชี่ยวชาญเท่านั้น: ระบุบรรทัดที่กำหนดค่า torcc โดยตรง</string>
     <string name="pref_torrc_dialog">Torrc ที่กำหนดเอง</string>
-    <string name="bridges_updated">Bridges อัพเดตแล้ว</string>
-    <string name="restart_to_use_this_bridge_">กรุณาเริ่ม AnyoneBot ใหม่เพื่อให้การเปลี่ยนแปลงใช้งานได้</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">หากเครือข่ายโทรศัพท์ของคุณปิดกั้น Tor คุณสามารถใช้ \'เซิร์ฟเวอร์ Bridge\' เป็นตัวเลือกในการเข้าถึงได้ เลือกตัวเลือกหนึ่งเพื่อกำหนดค่าและทดสอบ…</string>
-    <string name="get_bridges_email">อีเมล</string>
     <string name="apps_mode">โหมด VPN</string>
     <string name="send_email">ส่งอีเมล</string>
     <string name="vpn_default_world">ทั่วโลก (อัตโนมัติ)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">ลดช่องว่างภายในเครือข่าย</string>
     <string name="pref_reduced_connection_padding_summary">เลือกการเชื่อมต่อรีเลย์ให้เร็วขึ้นและส่งช่องว่างภายในแพคเก็ตให้น้อยลงเพื่อลดการใช้งานข้อมูลและแบตเตอรี่</string>
     <string name="app_shortcuts">แอปที่ใช้ได้กับ Tor</string>
-    <string name="bridge_direct_connect">เชื่อมต่อกับ Tor โดยตรง (ดีที่สุด)</string>
-    <string name="bridge_community">เชื่อมต่อผ่านเซิร์ฟเวอร์ของชุมชน</string>
-    <string name="bridge_cloud">เชื่อมต่อผ่านเซิร์ฟเวอร์คลาวด์</string>
     <string name="trouble_connecting">มีปัญหากับการเชื่อมต่อหรือไม่\?</string>
     <string name="full_device_vpn">VPN ทั้งอุปกรณ์</string>
     <string name="vpn_disabled">ปิดใช้งาน VPN</string>
@@ -165,10 +154,8 @@
     <string name="action_use">ใช้</string>
     <string name="action_activate">เปิดใช้งาน</string>
     <string name="setting_debug">ดีบั๊ก</string>
-    <string name="menu_kindness">อ่อนโยน</string>
     <string name="menu_more">เพิ่มเติม</string>
     <string name="confirm">ยืนยัน</string>
     <string name="connect">เชื่อมต่อ</string>
     <string name="next">ต่อไป</string>
-    <string name="connection_snowflake">เกล็ดหิมะ</string>
 </resources>

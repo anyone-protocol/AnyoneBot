@@ -10,10 +10,8 @@
     <string name="main_layout_upload">بارگذاری</string>
     <string name="button_about">درباره</string>
     <string name="menu_exit">خروج</string>
-    <string name="menu_scan">پویش پاس پل</string>
-    <string name="menu_share_bridge">هم‌رسانی پاس پل</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">روبوت پیازی نرم‌افزاری آزاد است که شامل تور، IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks و LibEvent می‌شود. این نرم‌افزار یک تونل وی‌پی‌ان، یک پیشکار HTTP محلّی (فقط HTTPS روی ۸۱۱۸) و یک پیشکار ساکس (۹۰۵۰) به شبکهٔ تور فراهم می‌کند.</string>
+    <string name="wizard_details_msg">روبوت پیازی نرم‌افزاری آزاد است که شامل تور، Go-Tun2Socks و LibEvent می‌شود. این نرم‌افزار یک تونل وی‌پی‌ان، یک پیشکار HTTP محلّی (فقط HTTPS روی ۸۱۱۸) و یک پیشکار ساکس (۹۰۵۰) به شبکهٔ تور فراهم می‌کند.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">عمومی</string>
     <string name="pref_start_boot_title">اجرای روبوت پیازی هنگام راه‌اندازی</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">اثرانگشت‌ها، اسامی مستعار، کشورها و نشانی‌هایی که نباید استفاده شوند</string>
     <string name="enter_exclude_nodes">گره‌های مستثنی را وارد نمایید</string>
     <string name="strict_nodes">سخت‌گیری در گره‌ها</string>
-    <string name="bridges">پل‌ها</string>
-    <string name="use_bridges">استفاده از پل‌ها</string>
     <string name="relays">بازپخش کننده‌ها</string>
     <string name="relaying">درحال بازپخش</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">افزارهٔ خود را برای یک بازپخش کننده غیرخروجی به‌کار بیندازید</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">پیکربندی سفارشی Torrc</string>
     <string name="pref_torrc_summary">فقط متخصصان: خط‌های پیکربندی torrc را به صورت مستقیم وارد کنید</string>
     <string name="pref_torrc_dialog">سفارشی Torrc</string>
-    <string name="bridges_updated">پُل‌ها به‌روز شدند</string>
-    <string name="restart_to_use_this_bridge_">برای به‌کار انداختن تغییرات، روبوت پیازی را دوباره آغاز کنید</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">اگر شبکه همراهتان فعّالانه تور را مسدود می‌کند، می‌توانید از یک «کارساز پل» به عنوان راهی جایگزین برای ورود استفاده کنید. برای پیکربندی و آزمودن، یکی از گزینه‌ها را برگزینید…</string>
-    <string name="get_bridges_email">رایانامه</string>
     <string name="apps_mode">حالت وی‌پی‌ان</string>
     <string name="send_email">فرستادن رایانامه</string>
     <string name="vpn_default_world">جهانی (خودکار)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">کاهش لایه‌گذاری اتّصال</string>
     <string name="pref_reduced_connection_padding_summary">اتّصال بازپخش‌کننده‌ها را زودتر قطع می‌کند و بسته‌های لایه‌گذاری کمتری ارسال می‌کند تا استفاده از داده و باتری را کاهش دهد</string>
     <string name="app_shortcuts">کاره‌ها با تور به کار افتاده</string>
-    <string name="bridge_direct_connect">اتّصال مستقیم به تور (بهترین عملکرد)</string>
-    <string name="bridge_community">اتّصال از طریق کارسازهای جامعه</string>
-    <string name="bridge_cloud">اتّصال از طریق کارسازهای ابری</string>
     <string name="trouble_connecting">در اتّصال مشکل دارید؟</string>
     <string name="full_device_vpn">وی‌پی‌ان برای تمام افزاره</string>
     <string name="vpn_disabled">وی‌پی‌ان از کار انداخته شد</string>
@@ -142,7 +131,6 @@
     <string name="deny">رد</string>
     <string name="pref_http_summary">درگاهی که تور پیشکار اچ‌تی‌تی‌پی را رویش ارائه می‌دهد (پیش‌گزیده: ۸۱۱۸ یا برای از کار انداختن: ۰)</string>
     <string name="mebibyte">می‌ب</string>
-    <string name="get_bridges_email_request">درخواست پُل‌ها با رایانامه</string>
     <string name="v3_backup_key">پشتیبان کلید تأیید هویت کارخواه</string>
     <string name="v3_key_hash">کلید خصوصی x25519 در Base32</string>
     <string name="v3_onion">دامنهٔ ‎.onion</string>
@@ -168,33 +156,15 @@
     <string name="pref_disable_ipv4">از کار انداختن اتّصال‌های IPv4</string>
     <string name="pref_http_dialog">پیکربندی درگاه اچ‌تی‌تی‌پی</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">اجازه به همتایان وای‌فای، افزاره‌های وصل شده و هرکس دیگری که می‌تواند به آی‌پیتان وصل شود، برای دسترسی به تور</string>
-    <string name="request_bridges_from_torproject">درخواست پل از torproject.org</string>
-    <string name="in_a_browser">در مرورگر، به %s رفته و روی Get Bridges &gt; Just Give Me Bridges بزنید!</string>
-    <string name="use_custom_bridges">استفاده از پل‌های سفارشی</string>
-    <string name="bridge_snowflake">وصل شدن از طریق دیگر کاربران تور با استفاده از اسنوفلیک (روش ۱ -فستلی)</string>
     <string name="testing_tor_direct_success">پیروزی. اتّصال تور خوب است!</string>
     <string name="testing_tor_direct">آزمودن اتّصال به تور…</string>
     <string name="pref_disable_ipv4_summary">اعلام وصل نشدن به نشانی‌های IPv4 به خروجی‌ها</string>
     <string name="pref_reduced_circuit_padding">کاهش لایه‌گذاری مدار</string>
     <string name="pref_reduced_circuit_padding_summary">استفاده از الگوریتم‌های لایه‌گذاری با سربار پایین‌تر برای کاهش مصرف باتری و داده</string>
-    <string name="custom_bridges">پل‌های سفارشی</string>
-    <string name="enter_characters_from_image">ورود متن بالا</string>
-    <string name="use_qr_code">استفاده از رمز QR</string>
-    <string name="paste_bridges">چسباندن پل‌ها</string>
-    <string name="configure_custom_bridges">پیکربندی پل‌های سفارشی</string>
     <string name="pref_prefer_ipv6_summary">اعلام ترجیح نشانی‌های IPv6 به خروجی‌ها</string>
-    <string name="refresh_captcha">نوسازی کپچا</string>
-    <string name="request_bridges">درخواست پل</string>
     <string name="refresh_apps">تازه‌سازی کاره‌ها</string>
-    <string name="captcha">کپچا</string>
-    <string name="bridge_snowflake_amp">وصل شدن از طریق دیگر کاربران تور با استفاده از اسنوفلیک (روش ۲ -AMP)</string>
-    <string name="snowflake_proxy_msg_description">نمایش یک پیام هنگامی که شما به کسی در عبور از سانسور کمک می‌کنید</string>
-    <string name="snowflake_proxy_msg_title">نمایش آگاهی اتّصال</string>
-    <string name="solve_captcha_instruction">برای درخواست پل، کپچا را حل کنید.</string>
     <string name="secure_your_connection_title">آمادهٔ وصل شدن</string>
     <string name="btn_start_vpn">آغاز وی‌پی‌ان</string>
-    <string name="btn_configure">نحوهٔ اتّصال را انتخاب کنید</string>
-    <string name="volunteer_mode">حالت مهربانی</string>
     <string name="btn_choose_apps">گزینش کاره‌ها</string>
     <string name="btn_change_exit">تغییر خروجی</string>
     <string name="btn_refresh">نوسازی</string>
@@ -213,42 +183,15 @@
     <string name="btn_tor_off">تور را خاموش کنید</string>
     <string name="no_thx">نه ممنون</string>
     <string name="menu_header_features">قابلیت‌ها</string>
-    <string name="btn_use_custom_bridge">استفاده از پل سفارشی</string>
     <string name="strict_nodes_description">تنظیمات گره‌های مستثنی را به عنوان یک الزام برای ساخت همه مدارها در نظر بگیرید. در صورتی که هیچ مداری با تنظیمات گره‌های مستثنی شما ایجاد نشود، ممکن است عملکرد را از بین ببرد.</string>
     <string name="connect">وصل شدن</string>
-    <string name="solve_captcha">حل کپچا</string>
-    <string name="volunteer_mode_title">کمک به دیگران در
-\nوصل شدن به تور</string>
-    <string name="volunteer_mode_subtitle_desc">حالت مهربانی می‌گذارد افزاره‌تان پلی برای دیگران باشد‌. این کار به استفادهٔ افراد در جاهایی که تور مسدود شده کمک می‌کند.
-\n
-\n- باتریتان را خالی نمی‌کند
-\n- اینترنتتان را کند نمی‌کند
-\n- می‌تواند فقط روی وای‌فای اجرا شود
-\n- می‌تواند هر زمانی خاموش شود</string>
     <string name="configure_header">پیکربندی اتّصال تورتان</string>
     <string name="drawer_open">گشودن</string>
     <string name="drawer_close">بستن</string>
     <string name="proxy_ports">درگاه‌های پیشکار</string>
-    <string name="volunteer_mode_label">حالت مهربانی</string>
-    <string name="volunteer_mode_weekly_label">مجموع هفتگی</string>
-    <string name="volunteer_mode_alltime_label">مجموع تمامی زمان‌ها</string>
-    <string name="smart_connect">اتّصال هوشمند (پیش‌گزیده)</string>
-    <string name="direct_connect">اتّصال مستقیم به تور</string>
-    <string name="get_a_bridge">پل از تور (Obfs4)</string>
-    <string name="custom_bridge">پل شخصی</string>
     <string name="next">بعدی</string>
     <string name="ports_not_set">درگاه تنظیم نشده</string>
-    <string name="smart_connect_subtitle">روبوت پیازی تلاش می‌کند از هر راه ممکنی به تور وصل شود: مستقیم، اسنوفلیک و پل.</string>
-    <string name="snowflake">دانه برف (اصل)</string>
-    <string name="snowflake_subtitle">وصل شدن از طریق داوطلبان تور. رد شدن از برخی مسدودیت‌های تور.</string>
-    <string name="direct_connect_subtitle">بهترین روش وصل شدن به تور. استفاده در صورت مسدود نبودن تور.</string>
-    <string name="get_a_bridge_subtitle">پنهان کردن شدآمدتان. رد شدن از برخی مسدودیت‌های تور.</string>
-    <string name="custom_bridge_subtitle">بیش‌ترین احتمال برای وصل نگه داشتنتان به تور در صورت انسداد شدید. نیازمند یک نشانی پل از کسی که اطمینان دارید.</string>
-    <string name="having_trouble">مشکل دارید</string>
-    <string name="having_trouble_subtitle">در ادامه برای استفاده از یک پل تور تلاش می‌کنیم، ولی نیازمند کمکتانیم</string>
-    <string name="bridges_obtained_connecting">پل‌ها گرفته شدند! وصل شدن به تور…</string>
     <string name="incorrect_solution">روش نادرست</string>
-    <string name="custom_bridge_description">یک پل شخصی به دست فردی که می‌شناسید فراهم شده. در سازمان‌ها و شبکه‌های مورد اطمینانتان بپرسید که کسی پلی میزبانی می‌کند یا نه.</string>
     <string name="power_user_mode">حالت کاربری قدرتمند</string>
     <string name="action_activate">فعّال کردن</string>
     <string name="volunteer_status_title">به لطفتان امروز
@@ -263,8 +206,6 @@
     <string name="pref_isolate_port_summary">برای هر درگاه مقصد از مدار متفاوتی استفاده کنید</string>
     <string name="pref_isolate_protocol">شیوه‌نامه‌های کلاینت را مجزا کنید</string>
     <string name="pref_isolate_protocol_summary">برای هر شیوه‌نامهٔ اتّصال از مدار متفاوتی استفاده کنید</string>
-    <string name="snowflake_amp">دانه برف (AMP)</string>
-    <string name="ask_tor">از تور بپرسید</string>
     <string name="not_sure">مطمئن نیستید؟</string>
     <string name="many_ways">راه‌های زیادی برای اتّصال به تور وجود دارد. برخی ممکن است بهتر از دیگران برای شما کار کنند.</string>
     <string name="action_use">استفاده</string>
@@ -272,16 +213,13 @@
     <string name="no_internet_title">به اینترنت وصل شوید</string>
     <string name="no_internet_subtitle">برای استفاده از روبوت پیازی نیاز به اینترنت دارید.</string>
     <string name="kindness_adjust_title">تنظیمات</string>
-    <string name="kindess_config_detail">پیکربندی کنید که چگونه و چه زمانی دستگاه شما می‌تواند به عنوان یک پروکسی دانه برف برای سایر کاربران Tor عمل کند.</string>
     <string name="log_copied">گزارشات رونوشت شدند</string>
     <string name="btn_copy_log">رونوشت گزارشات</string>
     <string name="connection_direct">مستقیم</string>
-    <string name="connection_snowflake">دانه برف</string>
     <string name="connection_custom">سفارشی</string>
     <string name="setting_debug">اشکال‌زدایی</string>
     <string name="menu_more">بیشتر</string>
     <string name="setting_padding">لایه‌گذاری</string>
-    <string name="menu_kindness">مهربانی</string>
     <string name="option_only_on_wifi">فقط روی وای‌فای</string>
     <string name="option_only_when_charging">فقط هنگام شارژ شدن</string>
     <string name="pref_flag_secure_summary">جلوگیری از نماگرفت دیگر کاره‌ها از روبوت پیازی</string>

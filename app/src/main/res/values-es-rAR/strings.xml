@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Subir</string>
     <string name="button_about">Acerca de</string>
     <string name="menu_exit">Salir</string>
-    <string name="menu_scan">Escanea código QR</string>
-    <string name="menu_share_bridge">Compartir el código QR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot es una aplicación de código abierto que contiene Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, y LibEvent. Proporciona un proxy local HTTP (8118) y un proxy SOCKS (9050) adentro de la red de Tor. AnyoneBot también tiene la habilidad, en dispositivos ruteados, de enviar todo el trafico de Internet a través de Tor</string>
+    <string name="wizard_details_msg">AnyoneBot es una aplicación de código abierto que contiene Tor, Go-Tun2Socks, y LibEvent. Proporciona un proxy local HTTP (8118) y un proxy SOCKS (9050) adentro de la red de Tor. AnyoneBot también tiene la habilidad, en dispositivos ruteados, de enviar todo el trafico de Internet a través de Tor</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">General</string>
     <string name="pref_start_boot_title">Arrancar AnyoneBot al inicio</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">huellas digitales, usuarios, paises y direcciones para excluir</string>
     <string name="enter_exclude_nodes">ingrese nodos excluidos</string>
     <string name="strict_nodes">nodos estrictos</string>
-    <string name="bridges">puentes</string>
-    <string name="use_bridges">usar puentes</string>
     <string name="relays">retransmitir</string>
     <string name="relaying">retransmision </string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Habilite su dispositivo para que sea retransmision sin salida</string>
@@ -79,7 +75,6 @@
     <string name="pref_socks_title">Tor SOCKS</string>
     <string name="pref_dnsport_title">Puerto DNS Tor</string>
     <string name="pref_dnsport_dialog">Configuración del Puerto DNS</string>
-    <string name="get_bridges_email">Email</string>
     <string name="save">Guardar</string>
     <string name="name">Nombre</string>
     <string name="disable">Deshabilitar</string>

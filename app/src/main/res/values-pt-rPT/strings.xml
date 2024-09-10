@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Enviar</string>
     <string name="button_about">Sobre</string>
     <string name="menu_exit">Sair</string>
-    <string name="menu_scan">Digitalizar BridgeQR</string>
-    <string name="menu_share_bridge">Compartilhar BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Geral</string>
@@ -34,20 +32,17 @@
     <string name="set_locale_title">Idioma</string>
     <string name="pref_socks_title">SOCKS Tor</string>
     <string name="pref_dnsport_title">Porta DNS Tor</string>
-    <string name="get_bridges_email">Correio Eletrônico</string>
     <string name="send_email">Enviar Mensagem</string>
     <string name="save">Guardar</string>
     <string name="name">Nome</string>
     <string name="done">Concluído!</string>
     <string name="disable">Desativar</string>
     <string name="enable">Ativar</string>
-    <string name="wizard_details_msg">O AnyoneBot é um software de código aberto que contem Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, LibEvent. Ele fornece um proxy local HTTP (8118) e um proxy SOCKS (9050) como acesso a rede Tor. AnyoneBot também tem a habilidade, em aparelhos com acesso root, de enviar todo o trafego de Internet via rede Tor.</string>
+    <string name="wizard_details_msg">O AnyoneBot é um software de código aberto que contem Tor, Go-Tun2Socks, LibEvent. Ele fornece um proxy local HTTP (8118) e um proxy SOCKS (9050) como acesso a rede Tor. AnyoneBot também tem a habilidade, em aparelhos com acesso root, de enviar todo o trafego de Internet via rede Tor.</string>
     <string name="pref_proxy_type_dialog">Inserir Tipo de Proxy</string>
     <string name="pref_proxy_port_dialog">Inserir Porta do Proxy</string>
     <string name="pref_proxy_username_summary">Nome do Utilizador do Proxy (Opcional)</string>
     <string name="pref_proxy_username_dialog">Inserir Nome de Utilizador do Proxy</string>
-    <string name="bridges">Pontes</string>
-    <string name="use_bridges">Usar Pontes</string>
     <string name="relays">Retransmissores</string>
     <string name="pref_isolate_dest_summary">Usar um circuito diferente para cada endereço de destino</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Permita que pares Wi-Fi, aparelhos conectados e outros que se possam conectar ao seu IP, acessem o Tor</string>
@@ -84,7 +79,6 @@
     <string name="pref_proxy_password_title">Palavra-passe do proxy de saída</string>
     <string name="pref_proxy_title">Proxy de Rede de Saída (Opcional)</string>
     <string name="pref_use_expanded_notifications_title">Notificações Estendidas</string>
-    <string name="bridges_updated">Pontes Atualizadas</string>
     <string name="pref_proxy_host_title">Anfitrião Proxy de Saída</string>
     <string name="pref_proxy_host_dialog">Inserir Hospedeiro Proxy</string>
     <string name="pref_proxy_password_summary">Palavra-passe do Proxy (Opcional)</string>
@@ -96,9 +90,6 @@
     <string name="enter_or_port">Inserir OU porta</string>
     <string name="full_device_vpn">VPN Para Todo o Aparelho</string>
     <string name="trouble_connecting">Problemas na conexão \?</string>
-    <string name="bridge_cloud">Conecte-se através de servidores em nuvem</string>
-    <string name="bridge_community">Conecte-se através de servidores da comunidade</string>
-    <string name="bridge_direct_connect">Conecte-se diretamente ao Tor (O melhor)</string>
     <string name="app_shortcuts">Aplicações ativadas para o Tor</string>
     <string name="share_as_qr">Compartilhar como QR</string>
     <string name="please_restart_to_enable_the_changes">Por favor reinicie AnyoneBot para ativar as mundanças</string>
@@ -115,8 +106,6 @@
     <string name="local_port">Porta Local</string>
     <string name="vpn_default_world">Global (Automático)</string>
     <string name="apps_mode">Modo VPN</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Se a sua rede móvel bloquear activamente o Tor, pode usar um \'Bridge Server\' como uma forma alternativa de entrada. Seleccione uma das opções para configurar e testar…</string>
-    <string name="restart_to_use_this_bridge_">Por favor reinicie AnyoneBot para ativar as mundanças</string>
     <string name="pref_torrc_dialog">Torrc Personalizado</string>
     <string name="pref_torrc_summary">SOMENTE EXPERIENTES: adicione sua própria linha de configuração torrc</string>
     <string name="pref_torrc_title">Configuração Personalizada do Torrc</string>
@@ -150,19 +139,6 @@
     <string name="pref_entrance_node_summary">Impressões digitais, apelidos, países e endereços para a primeira etapa</string>
     <string name="pref_entrance_node">Nós de Entrada</string>
     <string name="pref_node_configuration_summary">Aqui estão as configurações avançadas que podem reduzir o seu anonimato</string>
-    <string name="bridge_snowflake">Ligar através de outros utilizadores Tor usando o Floco de Neve (Método 1)</string>
-    <string name="use_qr_code">Use um Código QR</string>
-    <string name="paste_bridges">Colar as Pontes</string>
-    <string name="in_a_browser">Visite o %s com um navegador e toque no Get Bridges &gt; Just Give Me Bridges!</string>
-    <string name="use_custom_bridges">Use Pontes Personalizadas</string>
-    <string name="configure_custom_bridges">Configure as Pontes Personalizadas</string>
-    <string name="custom_bridges">Pontes Personalizadas</string>
-    <string name="request_bridges_from_torproject">Solicite pontes do torproject.org</string>
-    <string name="enter_characters_from_image">Digite o texto acima</string>
-    <string name="captcha">Captcha</string>
-    <string name="solve_captcha_instruction">Para solicitar pontes resolva o CAPTCHA.</string>
-    <string name="refresh_captcha">Atualize o CAPTCHA</string>
-    <string name="request_bridges">Solicitar Pontes</string>
     <string name="testing_tor_direct_success">Sucesso. A conexão com o Tor é boa!</string>
     <string name="testing_tor_direct">Testando a conexão com o Tor…</string>
     <string name="pref_reduced_circuit_padding_summary">Use menos algoritmos de preenchimento para reduzir o uso dos dados e da bateria</string>
@@ -181,7 +157,6 @@
     <string name="v3_key_hash">Chave privada x25519 na Base 32</string>
     <string name="v3_client_auth_activity_title">Autorização do cliente</string>
     <string name="v3_hosted_services">Serviços de Cebola Alojada</string>
-    <string name="get_bridges_email_request">Solicite Pontes através do E-mail</string>
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
     <string name="deny">Negue</string>
@@ -191,8 +166,6 @@
     <string name="secure_your_connection_subtitle">Oculte apps do monitoramento da rede e obtenha acesso quando eles estiverem bloqueados.</string>
     <string name="connected_title">Conectado</string>
     <string name="btn_start_vpn">Iniciar VPN</string>
-    <string name="btn_configure">Escolha como se ligar</string>
-    <string name="volunteer_mode">Modo bondade</string>
     <string name="volunteer_mode_subtitle">Ajudar os outros a ligarem-se</string>
     <string name="trying_to_connect_title">Conectando…</string>
     <string name="btn_tor_off">Desligar o Tor</string>
@@ -207,49 +180,19 @@
     <string name="menu_app_settings">Definições do aplicativo</string>
     <string name="menu_faq">FAQ</string>
     <string name="menu_header_learn">Saiba mais</string>
-    <string name="btn_use_custom_bridge">Usar ponte personalizada</string>
     <string name="msg_taking_too_long">Isso parece estar demorando demais</string>
     <string name="msg_try_something_else">Tente outra coisa</string>
-    <string name="bridge_snowflake_amp">Ligar através de outros utilizadores Tor usando Floco de Neve (Método 2)</string>
-    <string name="snowflake_proxy_msg_description">Mostrar uma mensagem quando se ajuda alguém a contornar a censura</string>
-    <string name="snowflake_proxy_msg_title">Mostrar notificação de ligação</string>
     <string name="strict_nodes_description">Tratar as definições de Excluir Nós como um requisito para a construção de todos os circuitos. Isto pode quebrar a funcionalidade se nenhum circuito for capaz de ser gerado com as suas definições de Excluir Nós.</string>
     <string name="version">Versão:</string>
-    <string name="volunteer_mode_weekly_label">Total semanal</string>
-    <string name="volunteer_mode_alltime_label">Total de todos os períodos</string>
     <string name="title_choose_apps">Escolha as apps</string>
-    <string name="snowflake">Snowflake (Original)</string>
-    <string name="snowflake_subtitle">Conecta-se através de voluntários do Tor. Contorna alguns bloqueios do Tor.</string>
-    <string name="get_a_bridge">Ponte do Tor (Obfs4)</string>
-    <string name="having_trouble">Tendo problemas</string>
     <string name="configure_header">Configure a sua conexão Tor</string>
     <string name="drawer_open">Abrir</string>
     <string name="drawer_close">Fechar</string>
     <string name="proxy_ports">Portas do proxy</string>
     <string name="ports_not_set">Portas não definidas</string>
-    <string name="volunteer_mode_title">Ajude outros
-\na se conectar ao Tor</string>
-    <string name="volunteer_mode_label">Modo bondade</string>
-    <string name="volunteer_mode_subtitle_desc">O modo bondade permite que o seu aparelho seja uma ponte para os outros. Ajuda as pessoas a usar o Tor em lugares onde ele está bloqueado.
-\n
-\n• Não esgota a bateria
-\n• Não desacelera a sua Internet
-\n• Só funciona através de Wi-Fi
-\n• Pode ser desligado em qualquer momento</string>
-    <string name="smart_connect">Conexão inteligente (padrão)</string>
-    <string name="smart_connect_subtitle">O AnyoneBot tenta se conectar ao Tor por qualquer meio disponível: Direto, Snowflake, Ponte.</string>
-    <string name="direct_connect">Conexão direta com o Tor</string>
-    <string name="direct_connect_subtitle">A melhor maneira de se conectar ao Tor. Use caso o Tor não esteja bloqueado.</string>
-    <string name="get_a_bridge_subtitle">Oculta o seu tráfego. Contorna alguns bloqueios do Tor.</string>
-    <string name="custom_bridge">Ponte personalizada</string>
-    <string name="custom_bridge_subtitle">O mais provável é mantê-lo conectado caso o Tor esteja totalmente bloqueado. Requer um endereço de ponte de alguém que confie.</string>
     <string name="connect">Conectar</string>
     <string name="next">Próximo</string>
-    <string name="solve_captcha">Resolver o captcha</string>
     <string name="incorrect_solution">Solução incorreta</string>
-    <string name="bridges_obtained_connecting">Pontes obtidas! Conectando-se ao tor…</string>
-    <string name="custom_bridge_description">Uma ponte personalizada foi fornecida por alguém que conhece. Pergunte nas suas redes e organizações confiáveis para ver se alguém está hospedando um.</string>
-    <string name="having_trouble_subtitle">Podemos tentar uma ponte Tor em seguida, mas precisaremos da sua ajuda</string>
     <string name="power_user_mode">Modo de utilizador avançado</string>
     <string name="power_user_description">Para utilizadores familiarizados com Tor. Permite que inicie o AnyoneBot sem a configuração VPN e mostra as portas SOCKS e HTTP que estejam abertas</string>
     <string name="action_activate">Ativar</string>
@@ -260,10 +203,8 @@
     <string name="apps_other_apps">Outras apps</string>
     <string name="action_use">Usar</string>
     <string name="setting_padding">Preenchimento</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Personalizado</string>
     <string name="setting_debug">Debug</string>
-    <string name="menu_kindness">Bondade</string>
     <string name="menu_more">Mais</string>
     <string name="hide_apps">Oculte apps do monitoramento da rede e obtenha acesso quando eles estiverem bloqueados.</string>
     <string name="pref_isolate_protocol">Isolar os protocolos do cliente</string>
@@ -274,17 +215,14 @@
     <string name="pref_isolate_port">Isolar as portas de destino</string>
     <string name="btn_copy_log">Copia registo</string>
     <string name="log_copied">Registo copiado</string>
-    <string name="ask_tor">Pergunte ao Tor</string>
     <string name="many_ways">Existem muitas maneiras de se ligar ao Tor. Algumas podem funcionar melhor do que outras para você.</string>
     <string name="asking">A PERGUNTAR…</string>
     <string name="no_internet_subtitle">Precisa de uma ligação à Internet para utilizar o AnyoneBot.</string>
-    <string name="kindess_config_detail">Configure como e quando seu dispositivo pode atuar como um proxy Snowflake para outros usuários Tor.</string>
     <string name="connection_direct">Direto</string>
     <string name="pref_flag_secure_summary">Impedir que outras aplicações tirem capturas de ecrã do AnyoneBot</string>
     <string name="pref_flag_secure_title">Segurança do ecrã</string>
     <string name="root_warning">O AnyoneBot detectou que o seu dispositivo tem root, e isso pode causar problemas de segurança.</string>
     <string name="pref_isolate_protocol_summary">Utilizar um circuito diferente para cada protocolo de ligação</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="not_sure">Não tem a certeza\?</string>
     <string name="pref_isolate_port_summary">Utilizar um circuito diferente para cada porta de destino</string>
     <string name="pref_detect_root_summary">Avisar no arranque se permissões de root estão ativadas neste dispositivo</string>

@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Feltöltés</string>
     <string name="button_about">Névjegy</string>
     <string name="menu_exit">Kilépés</string>
-    <string name="menu_scan">BridgeQR szkennelése</string>
-    <string name="menu_share_bridge">BridgeQR megosztása</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">Az AnyoneBot egy nyilt forráskódú alkalmazás ami Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, és LibEvent alkalmazásokat tartalmaz. Helyi  HTTP proxyt (8118) és  SOCKS proxyt (9050) biztosít a Tor hálózatba. Az AnyoneBot továbbá képes arra, hogy rootolt eszközön a teljes internet forgalmat keresztül küldje a Tor-on.</string>
+    <string name="wizard_details_msg">Az AnyoneBot egy nyilt forráskódú alkalmazás ami Tor, Go-Tun2Socks, és LibEvent alkalmazásokat tartalmaz. Helyi  HTTP proxyt (8118) és  SOCKS proxyt (9050) biztosít a Tor hálózatba. Az AnyoneBot továbbá képes arra, hogy rootolt eszközön a teljes internet forgalmat keresztül küldje a Tor-on.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Általános</string>
     <string name="pref_start_boot_title">Az AnyoneBot indítása rendszerindításkor</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Kizárandó ujjlenyomatok, becenevek, országok és címek</string>
     <string name="enter_exclude_nodes">Add meg a kizárandó csomópontokat</string>
     <string name="strict_nodes">Szigorú csomópontok</string>
-    <string name="bridges">Hidak</string>
-    <string name="use_bridges">Hidak használata</string>
     <string name="relays">Átjátszók</string>
     <string name="relaying">Átjátszás</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Engedélyezd az eszközödnek, hogy nem-átjátszó elosztó legyen</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Torrc egyedi konfiguráció</string>
     <string name="pref_torrc_summary">CSAK SZAKÉRTŐKNEK: torrc konfigurációs sorok közvetlen beírása</string>
     <string name="pref_torrc_dialog">Egyedi Torrc</string>
-    <string name="bridges_updated">Hidak frissítve</string>
-    <string name="restart_to_use_this_bridge_">Kérlek indítsd újra az AnyoneBot-ot a változások engedélyezéséhez</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ha a mobil hálózata aktívan blokkolja a Tor-t, akkor választhatja a \'Híd szerver\'-t, mint alternatív utat. VÁLASSZON egyet a lehetőségek közül és tesztelje….</string>
-    <string name="get_bridges_email">Email</string>
     <string name="apps_mode">VPN Mód</string>
     <string name="send_email">Email küldése</string>
     <string name="vpn_default_world">Globális (Auto)</string>
@@ -131,18 +123,13 @@
     <string name="pref_reduced_connection_padding">Csökkentett kapcsolat kitöltés</string>
     <string name="pref_reduced_connection_padding_summary">Hamarabb lezárja a relé kapcsolatokat, és kevesebb kitöltő csomagot küld a csökkentett adat és akkumulátor használat érdekében</string>
     <string name="app_shortcuts">Tor-engedélyezett Alkalmazások</string>
-    <string name="bridge_direct_connect">Csatlakozás közvetlenül a Tor-hoz (Legjobb)</string>
-    <string name="bridge_community">Csatlakozás közösségi szervereken keresztül</string>
-    <string name="bridge_cloud">Csatlakozás felhőszervereken keresztül</string>
     <string name="trouble_connecting">Probléma a csatlakozással?</string>
     <string name="full_device_vpn">Teljes Készülék VPN</string>
     <string name="vpn_disabled">VPN Letiltva</string>
     <string name="confirm">OK</string>
-    <string name="captcha">Captcha</string>
     <string name="trying_to_connect_title">Csatlakozás…</string>
     <string name="menu_faq">GYIK</string>
     <string name="connection_direct">Közvetlen</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="menu_new_identity">Új személyazonosság</string>
     <string name="menu_tor_connection">Tor kapcsolat</string>
     <string name="menu_help_others">Segítsen másoknak</string>

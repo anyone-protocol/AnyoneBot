@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollView"
     android:background="@color/new_background"
     android:layout_width="fill_parent"
@@ -25,7 +24,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15px"
+            android:paddingTop="15dp"
             android:text="@string/version"
             android:textColor="@color/bright_green"
             android:textStyle="bold" />
@@ -40,7 +39,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15px"
+            android:paddingTop="15dp"
             android:text="@string/project_home"
             android:textColor="@color/bright_green"
             android:textStyle="bold" />
@@ -65,7 +64,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15px"
+            android:paddingTop="15dp"
             android:text="@string/third_party_software"
             android:textColor="@color/bright_green"
             android:textStyle="bold" />
@@ -75,25 +74,6 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:text="@string/tor_url"
-            android:textColor="@android:color/white"
-            android:textColorLink="@android:color/white" />
-
-        <TextView
-            android:id="@+id/tvObfs4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:autoLink="web"
-            tools:text="@string/obfs4_url"
-            android:textColor="@android:color/white"
-            android:textColorLink="@android:color/white" />
-
-
-        <TextView
-            android:id="@+id/tvSnowflake"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:autoLink="web"
-            tools:text="@string/snowflake_url"
             android:textColor="@android:color/white"
             android:textColorLink="@android:color/white" />
 
@@ -108,7 +88,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15px"
+            android:paddingTop="15dp"
             android:text="@string/license"
             android:textColor="@color/bright_green"
             android:textStyle="bold" />

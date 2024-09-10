@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Прикачи</string>
     <string name="button_about">За</string>
     <string name="menu_exit">Излез</string>
-    <string name="menu_scan">Скенирај QR на мост</string>
-    <string name="menu_share_bridge">Сподели QR на мост</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot e апликација со отворен код која содржи Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, и LibEvent. Овозможува локален HTTP прокси (8118) и SOCKS прокси (9050) во Tor мрежата. AnyoneBot исто така има можност, на уред со root пристап, да го испраќа целиот интернет сообраќај преку Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot e апликација со отворен код која содржи Tor, Go-Tun2Socks, и LibEvent. Овозможува локален HTTP прокси (8118) и SOCKS прокси (9050) во Tor мрежата. AnyoneBot исто така има можност, на уред со root пристап, да го испраќа целиот интернет сообраќај преку Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Општо</string>
     <string name="pref_start_boot_title">Стартувај го AnyoneBot на бутирање</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Отпечатоци од прсти, прекари, држави и адреси кои треба да се исклучат</string>
     <string name="enter_exclude_nodes">Внесете ги исклучните јазли</string>
     <string name="strict_nodes">Задолжителни јазли</string>
-    <string name="bridges">Мостови</string>
-    <string name="use_bridges">Користи мостови</string>
     <string name="relays">Релеи</string>
     <string name="relaying">Препраќање</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Овозможи го уредот да биде реле без излез</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Прилагодено поставување на torrc</string>
     <string name="pref_torrc_summary">САМО ЗА ЕКСПЕРТИ: внесете директни команди за поставување на torrc</string>
     <string name="pref_torrc_dialog">Прилагоден torrc</string>
-    <string name="bridges_updated">Ажурирани мостови</string>
-    <string name="restart_to_use_this_bridge_">Ве молиме повторно стартувајте го AnyoneBot за да се овозможат промените</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ако вашата мобилна мрежа активно го блокира Tor, можете да користите „Мост сервер“ како алтернативен пристап. ОДБЕРЕТЕ една од опциите за поставување и тестирање…</string>
-    <string name="get_bridges_email">Е-пошта</string>
     <string name="apps_mode">VPN мод</string>
     <string name="send_email">Испратете е-пошта</string>
     <string name="vpn_default_world">Глобално (Автоматски)</string>
@@ -131,16 +123,12 @@
     <string name="pref_reduced_connection_padding">Редуцирај поврзување со камуфлажа</string>
     <string name="pref_reduced_connection_padding_summary">Исклучете ги врските на релеата поскоро и испраќањето на камуфлирани пакети за да го намалите користењето на податоци и потрошувачката на батеријата</string>
     <string name="app_shortcuts">Tor-овозможени апликации</string>
-    <string name="bridge_direct_connect">Поврзи директно на Tor (Најдобро)</string>
-    <string name="bridge_community">Поврзи преку сервери на заедницата</string>
-    <string name="bridge_cloud">Поврзи преку облак-сервери</string>
     <string name="trouble_connecting">Проблеми со поврзувањето?</string>
     <string name="full_device_vpn">Целосен VPN  уред</string>
     <string name="vpn_disabled">VPN оневозможен</string>
     <string name="menu_tor_connection">Tor Поврзување</string>
     <string name="action_activate">Aktiviraj</string>
     <string name="menu_more">Повеќе</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Прилагоден(о)</string>
     <string name="trying_to_connect_title">Се поврзува…</string>
     <string name="menu_faq">FAQ</string>

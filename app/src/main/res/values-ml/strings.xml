@@ -18,7 +18,6 @@
     <string name="disable">പ്രവർത്തനരഹിതമാക്കു </string>
     <string name="app_name">AnyoneBot</string>
     <string name="connection_direct">നേരിട്ടു്</string>
-    <string name="connection_snowflake">സ്നോഫ്ളൈക്</string>
     <string name="connection_custom">നടപടിക്രമം</string>
     <string name="set_locale_title">ഭാഷ</string>
     <string name="trying_to_connect_title">കണ്ണെക്റ്റിംഗ് / ബന്ധിപ്പിക്കുന്നു ..</string>
@@ -41,7 +40,6 @@
     <string name="connect">ബന്ധിപ്പിക്കുക</string>
     <string name="menu_settings">ക്രമീകരണങ്ങൾ</string>
     <string name="menu_log">പ്രശ്നക്കുറിപ്പ്</string>
-    <string name="bridges">ബ്രിഡ്ജുകൾ</string>
     <string name="menu_new_identity">പുതിയ ഡിജിറ്റൽ വ്യക്തിത്വം</string>
     <string name="menu_exit">പുറത്തേക്കുള്ള വഴി</string>
     <string name="confirm">സ്ഥിരീകരിക്കുക</string>
@@ -51,6 +49,5 @@
     <string name="drawer_close">അടയ്ക്കുക</string>
     <string name="main_layout_download">ഡൗൺലോഡ്</string>
     <string name="main_layout_upload">Upload</string>
-    <string name="get_bridges_email">ഇമെയിൽ</string>
     <string name="hidden_services">ഒണിയൻ സേവനങ്ങൾ</string>
 </resources>

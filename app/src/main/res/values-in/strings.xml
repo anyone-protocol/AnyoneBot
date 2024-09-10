@@ -10,8 +10,6 @@
     <string name="main_layout_upload">Unggah</string>
     <string name="button_about">Tentang</string>
     <string name="menu_exit">Keluar</string>
-    <string name="menu_scan">Pindai BridgeQR</string>
-    <string name="menu_share_bridge">Bagikan BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Umum</string>
@@ -54,8 +52,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Pengecualian fingerprints,nama, negara dan alamat</string>
     <string name="enter_exclude_nodes">Memasuki Node Pengecualian</string>
     <string name="strict_nodes">Node Terlarang</string>
-    <string name="bridges">Jembatan-jembatan</string>
-    <string name="use_bridges">Pakai Bridges</string>
     <string name="relays">Relays</string>
     <string name="relaying">Sedang me-Relay</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Nyalakan perangkat anda menjadi non-exit relay</string>
@@ -91,12 +87,8 @@
     <string name="pref_torrc_title">Konfigurasi Torrc</string>
     <string name="pref_torrc_summary">HANYA UNTUK AHLI: masukkan baris konfigurasi direct Torrc</string>
     <string name="pref_torrc_dialog">Torrc Custom</string>
-    <string name="bridges_updated">Bridge Telah Diperbarui</string>
-    <string name="restart_to_use_this_bridge_">Silakan start ulang AnyoneBot untuk mengaktifkan perubahan</string>
-    <string name="get_bridges_email">Email</string>
     <string name="send_email">Kirim Email</string>
     <string name="please_restart_to_enable_the_changes">Silakan start ulang AnyoneBot untuk mengaktifkan perubahan</string>
-    <string name="captcha">Captcha</string>
     <string name="done">Beres!</string>
     <string name="name">Nama</string>
     <string name="menu_hidden_services">Perkhidmatan Onion</string>
@@ -111,12 +103,10 @@
     <string name="onion">.onion</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Buka Proxy di Semua Antarmuka</string>
     <string name="pref_http_dialog">Konfigurasi Port HTTP</string>
-    <string name="get_bridges_email_request">Minta Bridges melalui Email</string>
     <string name="vpn_default_world">Global (Otomatis)</string>
     <string name="hidden_services">Layanan Onion</string>
     <string name="v3_hosted_services">Layanan Onion yang Disediakan</string>
     <string name="v3_client_auth_activity_title">Otorisasi Klien</string>
-    <string name="use_qr_code">Gunakan Kode QR</string>
     <string name="secure_your_connection_subtitle">Sembunyikan aplikasi dari pemantauran jaringan dan dapatkan akses ketika mereka diblokir..</string>
     <string name="power_user_mode">Mode Pengguna Berdaya</string>
     <string name="power_user_description">Untuk pengguna yang familier dengan Tor. Memungkinkan Anda untuk memulai AnyoneBot tanpa pengaturan VPN dan menampilkan porta SOCKS dan HTTP yang terbuka</string>
@@ -134,42 +124,16 @@
     <string name="menu_new_identity">Identitas Baru</string>
     <string name="version">Versi:</string>
     <string name="license">Lisensi:</string>
-    <string name="bridge_cloud">Hubungkan melalui server awan</string>
-    <string name="solve_captcha_instruction">Selesaikan CAPTCHA untuk meminta jembatan.</string>
-    <string name="enter_characters_from_image">Masukkan teks di atas</string>
-    <string name="request_bridges_from_torproject">Minta Jembatan dari torproject.org</string>
-    <string name="in_a_browser">Dalam sebuah peramban, kunjungi %s dan ketuk Get Bridgs &gt; Just Give Me Bridges!</string>
-    <string name="paste_bridges">Tempelkan Jembatan</string>
-    <string name="bridge_snowflake">Hubungkan melalui pengguna Tor lain menggunakan Snowflake (Metode 1 - Fastly)</string>
-    <string name="bridge_snowflake_amp">Hubungkan melalui pengguna Tor lain menggunakan Snowflake (Metode 2 - AMP)</string>
-    <string name="snowflake_proxy_msg_title">Tampilkan Notifikasi Koneksi</string>
-    <string name="snowflake_proxy_msg_description">Tampilkan pesan ketika Anda membantu seseorang melewati sensor</string>
     <string name="configure_header">Konfigurasi Koneksi Tor Anda</string>
     <string name="drawer_open">Buka</string>
     <string name="drawer_close">Tutup</string>
     <string name="proxy_ports">Porta Proksi</string>
-    <string name="volunteer_mode_title">Bantu orang lain
-\nmenghubung ke Tor</string>
-    <string name="volunteer_mode_label">Mode Kebaikan</string>
-    <string name="volunteer_mode_weekly_label">Jumlah Setiap Minggu</string>
-    <string name="volunteer_mode_alltime_label">Jumlah Sepanjang Waktu</string>
-    <string name="smart_connect">Penghubungan Pintar (bawaan)</string>
-    <string name="smart_connect_subtitle">AnyoneBot mencoba menghubungkan ke Tor melalui cara apa pun yang tersedia: Langsung, Snowflake, Jembatan.</string>
-    <string name="direct_connect">Koneksi Langsung ke Tor</string>
-    <string name="direct_connect_subtitle">Cara yang terbaik untuk menghubungkan ke Tor. Gunakan jika Tor tidak diblokir.</string>
-    <string name="snowflake">Snowflake (Asli)</string>
-    <string name="snowflake_subtitle">Menghubungkan melalui sukarelawan Tor. Melewati beberapa pemblokiran Tor.</string>
-    <string name="get_a_bridge">Jembatan dari Tor (Obfs4)</string>
-    <string name="get_a_bridge_subtitle">Menyembunyikan lalu lintas Anda. Melewati beberapa pemblokiran Tor.</string>
-    <string name="custom_bridge">Jembatan Khusus</string>
     <string name="connect">Hubungkan</string>
     <string name="next">Lanjutkan</string>
-    <string name="solve_captcha">Selesaikan Captcha</string>
     <string name="ports_not_set">Porta Tidak Ditetapkan</string>
     <string name="secure_your_connection_title">Siap untuk menghubungkan</string>
     <string name="connected_title">Terhubung</string>
     <string name="btn_start_vpn">Mulai VPN</string>
-    <string name="btn_configure">Pilih Cara Menghubungkan</string>
     <string name="trying_to_connect_title">Menghubungkan…</string>
     <string name="btn_change_exit">Pilih nodus keluar</string>
     <string name="btn_refresh">Muat ulang</string>
@@ -181,7 +145,6 @@
     <string name="menu_help_others">Bantu Orang Lain</string>
     <string name="menu_app_settings">Pengaturan Aplikasi</string>
     <string name="menu_header_learn">Pelajari Lebih Lanjut</string>
-    <string name="btn_use_custom_bridge">Gunakan Jembatan Khusus</string>
     <string name="msg_taking_too_long">Sepertinya ini membutuhkan waktu yang lama</string>
     <string name="msg_try_something_else">Coba yang lain</string>
     <string name="pref_connection_padding">Lapisan koneksi</string>
@@ -191,39 +154,21 @@
     <string name="pref_reduced_circuit_padding">Lapisan sirkuit yang dikurangi</string>
     <string name="full_device_vpn">VPN Perangkat Penuh</string>
     <string name="vpn_disabled">VPN Dinonaktifkan</string>
-    <string name="bridge_direct_connect">Hubungkan langsung ke Tor (terbaik)</string>
-    <string name="bridge_community">Hubungkan melalui server komunitas</string>
     <string name="user_services">Layanan pengguna</string>
-    <string name="request_bridges">Minta Jembatan</string>
     <string name="app_services">Layanan aplikasi</string>
     <string name="refresh_apps">Muat Ulang Aplikasi</string>
-    <string name="custom_bridges">Jembatan Khusu</string>
-    <string name="configure_custom_bridges">Konfigurasi Jembatan Khusu</string>
-    <string name="use_custom_bridges">Gunakan Jembatan Khusu</string>
-    <string name="wizard_details_msg">AnyoneBot adalah aplikasi sumber terbuka yang berisi Tor, IPtProxy (Obfs4proxy, Meek, Snowflake), Go-Tun2Socks dan LibEvent. Ini menyediakan terowongan VPN, proksi Koneksi HTTP (hanya HTTPS dan di porta 8118) dan sebuah proksi SOCKS (9050) ke jaringan Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot adalah aplikasi sumber terbuka yang berisi Tor, Go-Tun2Socks dan LibEvent. Ini menyediakan terowongan VPN, proksi Koneksi HTTP (hanya HTTPS dan di porta 8118) dan sebuah proksi SOCKS (9050) ke jaringan Tor.</string>
     <string name="hidden_service_request">Sebuah aplikasi ingin membuka server onion di porta %1$s ke jaringan Tor. Ini aman jika Anda mempercayai aplikasinya.</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Perbolehkan peer Wi-Fi, perangkat tertambat dan siapa pun yang dapat menghubungkan ke IP Anda, untuk mengakses Tor</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jika jaringan ponsel Anda secara aktif memblokir Tor, Anda dapat menggunakan \'Server Jembatan\' sebagai cara lain untuk masuk. Pilih salah satu opsi untuk diatur dan coba…</string>
     <string name="strict_nodes_description">Terapkan pengaturan Kecualikan Nodus sebagai kebutuhan untuk membangun semua sirkuit. Ini mungkin merusak penggunaan jika tidak ada sirkuit yang dapat dibuat dengan pengaturan Kecualikan Nodus Anda.</string>
     <string name="enable">Aktifkan</string>
     <string name="consider_disable_battery_optimizations">Layanan berjalan, pertimbangkan untuk menonaktifkan optimisasi baterai</string>
     <string name="pref_disable_ipv4_summary">Memberi tahu nodus keluar untuk tidak menghubungkan ke alamat IPv4</string>
     <string name="pref_disable_ipv4">Nonaktifkan koneksi IPv4</string>
     <string name="app_shortcuts">Aplikasi diaktifkan dengan Tor</string>
-    <string name="volunteer_mode">Mode Kebaikan</string>
     <string name="volunteer_mode_subtitle">Bantu orang lain menghubung</string>
     <string name="btn_choose_apps">Pilih aplikasi</string>
     <string name="menu_faq">SSD</string>
-    <string name="volunteer_mode_subtitle_desc">Mode kebaikan membuat perangkat Anda menjadi jembatan untuk orang lain. Ini membantu orang-orang menggunakan Tor di tempat di mana Tor diblokir.
-\n
-\n• Tidak akan menghabiskan baterai Anda
-\n
-\n• Tidak akan memperlambat internet Anda
-\n
-\n• Hanya bisa berjalan dengan wifi
-\n
-\n• Dapat dimatikan kapan pun</string>
-    <string name="custom_bridge_subtitle">Kemungkinan untuk membuat Anda tetap terhubung jika kebanyakan Tor diblokir. Membutuhkan alamat jembatan dari seseorang yang Anda percaya.</string>
     <string name="confirm">Konfirmasi</string>
     <string name="v3_backup_key_warning">Peringatan: Ini dapat membocorkan kunci Anda ke aplikasi lain</string>
     <string name="delete_service">Hapus Layanan</string>
@@ -255,22 +200,14 @@
     <string name="pref_prefer_ipv6_summary">Menggunakan nodus keluar bahwa alamat IPv6 lebih disukai</string>
     <string name="testing_tor_direct">Menguji koneksi ke Tor…</string>
     <string name="testing_tor_direct_success">Berhasil. Koneksi Tor baik!</string>
-    <string name="refresh_captcha">Muat ulang CAPTCHA</string>
     <string name="incorrect_solution">Solusi Tidak Benar</string>
-    <string name="bridges_obtained_connecting">Jembatan didapatkan! Menghubungkan ke tor…</string>
-    <string name="custom_bridge_description">Sebuah jembatan khusus disediakan oleh seseorang yang Anda tahu. Tanya dalam jaringan dan organisasi terpercaya Anda jika seseorang menyediakan sebuah jembatan.</string>
-    <string name="having_trouble">Mengalami masalah</string>
-    <string name="having_trouble_subtitle">Kami bisa mencoba sebuah jembatan Tor berikut tetapi akan membutuhkan bantuan Anda</string>
     <string name="hide_apps">Sembunyikan aplikasi dari pemantauan jaringan dan dapatkan akses ketika mereka diblokir.</string>
     <string name="log_copied">Catatan Disalin</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="not_sure">Tidak yakin\?</string>
-    <string name="ask_tor">Tanyakan Tor</string>
     <string name="many_ways">Ada lebih banyak cara untuk mencapai Tor. Beberapa dapat bekerja dengan baik daripada yang lain untuk Anda.</string>
     <string name="no_internet_title">Hubungkan ke internet</string>
     <string name="no_internet_subtitle">Anda membutuhkan koneksi internet untuk menggunakan AnyoneBot.</string>
     <string name="kindness_adjust_title">Pengaturan</string>
-    <string name="kindess_config_detail">Atur bagaimana dan kapan perangkat Anda dapat menjadi sebagai proksi Snowflake untuk pengguna Tor lain.</string>
     <string name="asking">MENANYAKAN…</string>
     <string name="action_use">Gunakan</string>
     <string name="pref_isolate_port_summary">Gunakan sirkuit yang berbeda untuk setiap porta tujuan</string>
@@ -280,12 +217,10 @@
     <string name="btn_copy_log">Salin Catatan</string>
     <string name="setting_padding">Bantalan</string>
     <string name="setting_debug">Pengawakutuan</string>
-    <string name="menu_kindness">Kebaikan</string>
     <string name="menu_more">Lainnya</string>
     <string name="option_only_on_wifi">Hanya pada Wi-Fi</string>
     <string name="option_only_when_charging">Hanya saat mengisi daya</string>
     <string name="connection_direct">Direct</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Kustom</string>
     <string name="root_warning">AnyoneBot telah mendeteksi bahwa perangkat Anda telah di‐root, yang dapat membuat masalah keamanan.</string>
     <string name="pref_flag_secure_summary">Cegah aplikasi lain mengambil tangkapan layar AnyoneBot</string>

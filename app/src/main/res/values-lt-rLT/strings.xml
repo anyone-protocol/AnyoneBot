@@ -30,23 +30,15 @@
     <string name="fingerprints_nicks_countries_and_addresses_for_the_last_hop">Pirštų atspaudai, slapyvardžiai, šalys ir adresai, pirmajam šuoliui</string>
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Pirštų atspaudai, slapyvardžiai, šalys ir adresai, kurių nereikia traukti</string>
     <string name="v3_key_hash">x25519 privatus raktas Base32</string>
-    <string name="bridge_snowflake">Prisijungimas per kitus „Tor“ naudotojus naudojant „Snowflake“ (1 būdas)</string>
-    <string name="solve_captcha_instruction">Išspręskite CAPTCHA, kad galėtumėte prašyti tiltų.</string>
     <string name="ports_reachable_behind_a_restrictive_firewall">Prievadai, pasiekiami už ribojančiosios ugniasienės</string>
     <string name="listening_port_for_your_tor_relay">„Tor“ relės klausymo prievadas</string>
     <string name="testing_tor_direct_success">Sėkmė. „Tor“ jungtis yra gera!</string>
-    <string name="bridge_direct_connect">Prisijungti tiesiogiai prie „Tor“ (geriausia)</string>
     <string name="backup_saved_at_external_storage">Atsarginė kopija išsaugota išorinėje saugykloje</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Atidaryti įgaliotąjį serverį visose sąsajose</string>
     <string name="enter_a_custom_relay_nickname">Įveskite pasirinktinės relės slapyvardį</string>
     <string name="v3_delete_client_authorization">Ištrinti kliento autorizavimo raktą</string>
     <string name="v3_backup_key">Padaryti kliento autorizavimo rakto atsarginę kopiją</string>
-    <string name="request_bridges_from_torproject">Prašyti tiltų iš torproject.org</string>
-    <string name="enter_characters_from_image">Įveskite tekstą viršuje</string>
     <string name="testing_tor_direct">Bandomas ryšys su „Tor“…</string>
-    <string name="get_bridges_email_request">Prašyti tiltų elektroniniu paštu</string>
-    <string name="bridge_cloud">Prisijungti per debesų serverius</string>
-    <string name="bridge_community">Prisijungti per bendruomenės serverius</string>
     <string name="consider_enable_battery_optimizations">Neveikia jokios prieglobos paslaugos, apsvarstykite galimybę įjungti akumuliatoriaus optimizavimą</string>
     <string name="consider_disable_battery_optimizations">Veikia prieglobos paslaugos, apsvarstykite galimybę išjungti akumuliatoriaus optimizavimą</string>
     <string name="create_a_backup_first">Pirmiausia sukurkite atsarginę kopiją</string>
@@ -56,9 +48,6 @@
     <string name="v3_delete_client_authorization_confirm">Naikinti kliento autorizavimą</string>
     <string name="v3_client_auth_activity_title">Kliento autorizacija</string>
     <string name="v3_onion">.onion domenas</string>
-    <string name="use_qr_code">Naudoti QR kodą</string>
-    <string name="use_custom_bridges">Naudoti pasirinktinius tiltus</string>
-    <string name="configure_custom_bridges">Konfigūruoti pasirinktinius tiltus</string>
     <string name="pref_reduced_circuit_padding">Sumažintas grandinės užpildymas</string>
     <string name="full_device_vpn">Viso įrenginio VPN</string>
     <string name="pref_disable_ipv4">Išjungti IPv4 ryšius</string>
@@ -91,10 +80,6 @@
     <string name="pref_entrance_node_dialog">Įveskite įėjimo mazgus</string>
     <string name="v3_import_auth_private">Importuoti .auth_private</string>
     <string name="v3_backup_name_hint">Atsarginės kopijos failo pavadinimas…</string>
-    <string name="paste_bridges">Įklijuoti tiltus</string>
-    <string name="custom_bridges">Pasirinktiniai tiltai</string>
-    <string name="refresh_captcha">Atnaujinti CAPTCHA</string>
-    <string name="request_bridges">Prašyti tiltų</string>
     <string name="pref_circuit_padding">Grandinės užpildymas</string>
     <string name="refresh_apps">Atnaujinti programėles</string>
     <string name="app_services">Programėlių paslaugos</string>
@@ -115,7 +100,6 @@
     <string name="vpn_default_world">Visuotinis (automatinis)</string>
     <string name="send_email">Siųsti el. laišką</string>
     <string name="apps_mode">VPN režimas</string>
-    <string name="bridges_updated">Tiltai atnaujinti</string>
     <string name="pref_torrc_dialog">Pasirinktinis Torrc</string>
     <string name="pref_http_title">„Tor“ HTTP</string>
     <string name="pref_socks_title">Tor SOCKS</string>
@@ -126,24 +110,19 @@
     <string name="reachable_addresses">Pasiekiami adresai</string>
     <string name="relay_nickname">Relės slapyvardis</string>
     <string name="relay_port">Relės prievadas</string>
-    <string name="use_bridges">Naudoti tiltus</string>
     <string name="exclude_nodes">Išskirti mazgus</string>
     <string name="strict_nodes">Griežti mazgai</string>
     <string name="exit_nodes">Išėjimo mazgai</string>
     <string name="pref_entrance_node">Įėjimo mazgai</string>
     <string name="pref_node_configuration">Mazgo konfigūracija</string>
-    <string name="menu_share_bridge">Dalintis BridgeQR</string>
-    <string name="menu_scan">Skenuoti BridgeQR</string>
     <string name="confirm">Patvirtinti</string>
     <string name="deny">Drausti</string>
     <string name="allow">Leisti</string>
-    <string name="captcha">Captcha</string>
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
     <string name="the_nickname_for_your_tor_relay">Jūsų „Tor“ relės slapyvardis</string>
     <string name="please_restart_to_enable_the_changes">Paleiskite „AnyoneBot“ iš naujo, kad įgalintumėte pakeitimus</string>
     <string name="start_tor_again_for_finish_the_process">Norėdami užbaigti procesą, vėl paleiskite „Tor“</string>
-    <string name="restart_to_use_this_bridge_">Paleiskite „AnyoneBot“ iš naujo, kad įgalintumėte pakeitimus</string>
     <string name="pref_torrc_summary">TIK EKSPERTAMS: įveskite tiesiogines torrc konfigūracijos eilutes</string>
     <string name="newnym">Jūs perėjote prie naujos „Tor“ tapatybės!</string>
     <string name="v3_backup_key_warning">Įspėjimas: Tai gali atskleisti jūsų raktą kitoms programėlėms</string>
@@ -155,7 +134,6 @@
     <string name="backup_service">Atsarginio kopijavimo paslauga <i>(Įspėjimas: tai gali atskleisti jūsų paslaugos konfigūraciją kitoms programoms)</i></string>
     <string name="enable_debug_log_to_output_must_use_adb_or_alogcat_to_view_">Įgalinti derinimo žurnalo išvestį (norėdami peržiūrėti turite naudoti adb arba aLogcat)</string>
     <string name="pref_dnsport_summary">Prievadas, kuriuo „Tor“ siūlo savo DNS (numatytoji reikšmė: 5400 arba 0, jei norite išjungti)</string>
-    <string name="in_a_browser">Naršyklėje apsilankykite %s ir bakstelėkite Get Bridges &gt; Just Give Me Bridges!</string>
     <string name="pref_connection_padding_summary">Visada įjungiamas ryšio užpildymas, kad būtų apsisaugota nuo kai kurių srauto analizės formų. Numatytoji reikšmė: auto</string>
     <string name="pref_transport_summary">Prievadas, per kurį „Tor“ siūlo savo skaidrųjį įgaliotąjį serverį (numatytoji reikšmė: 9040 arba 0, jei norite išjungti)</string>
     <string name="pref_http_summary">Prievadas, kuriuo „Tor“ siūlo savo HTTP įgaliotąjį serverį (numatytoji reikšmė: 8118 arba 0, jei norite išjungti)</string>
@@ -163,8 +141,7 @@
     <string name="pref_reduced_connection_padding_summary">Greičiau uždaromos relių jungtys ir siunčiama mažiau užpildymo paketų, kad būtų sumažintas duomenų ir akumuliatoriaus naudojimas</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Leisti „Wi-Fi“ poroms, pririštiems įrenginiams ir visiems kitiems, kurie gali prisijungti prie jūsų IP, pasiekti „Tor“</string>
     <string name="hidden_service_request">Programėlė nori atidaryti „Tor“ tinklo prievado %1$s onion serverį. Tai saugu, jei pasitikite programėle.</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Jei jūsų mobiliojo ryšio tinklas aktyviai blokuoja „Tor“, galite naudoti „tilto serverį“ kaip alternatyvų prisijungimo būdą. Pasirinkite vieną iš parinkčių, kad galėtumėte konfigūruoti ir išbandyti…</string>
-    <string name="wizard_details_msg">„AnyoneBot“ yra atvirojo kodo programa, kurią sudaro „Tor“, „Obfs4Proxy“, „Go-Tun2Socks“ ir „LibEvent“. Ji suteikia vietinį HTTP įgaliotąjį (proxy) serverį (8118) ir SOCKS įgaliotąjį serverį (9050) į „Tor“ tinklą.</string>
+    <string name="wizard_details_msg">„AnyoneBot“ yra atvirojo kodo programa, kurią sudaro „Tor“, „Go-Tun2Socks“ ir „LibEvent“. Ji suteikia vietinį HTTP įgaliotąjį (proxy) serverį (8118) ir SOCKS įgaliotąjį serverį (9050) į „Tor“ tinklą.</string>
     <string name="relaying">Perdavimas</string>
     <string name="pref_general_group">Bendrieji</string>
     <string name="menu_log">Žurnalas</string>
@@ -176,9 +153,7 @@
     <string name="set_locale_title">Kalba</string>
     <string name="third_party_software">3-iųjų šalių programinė įranga:</string>
     <string name="relays">Relės</string>
-    <string name="bridges">Tiltai</string>
     <string name="error">Klaida</string>
-    <string name="get_bridges_email">El. Paštas</string>
     <string name="menu_exit">Išeiti</string>
     <string name="button_about">Apie</string>
     <string name="main_layout_upload">Įkelti</string>
@@ -192,8 +167,6 @@
     <string name="secure_your_connection_subtitle">Paslėpkite programėles nuo tinklo stebėjimo ir gaukite prieigą, kai jos blokuojamos.</string>
     <string name="connected_title">Prisijungta</string>
     <string name="btn_start_vpn">Pradėti VPN</string>
-    <string name="btn_configure">Pasirinkite, kaip prisijungti</string>
-    <string name="volunteer_mode">Gerumo režimas</string>
     <string name="volunteer_mode_subtitle">Padėkite kitiems prisijungti</string>
     <string name="trying_to_connect_title">Prisijungiama…</string>
     <string name="btn_choose_apps">Pasirinkite programėles</string>
@@ -208,22 +181,13 @@
     <string name="menu_app_settings">Programėlės nustatymai</string>
     <string name="menu_faq">DUK</string>
     <string name="menu_header_learn">Sužinokite daugiau</string>
-    <string name="btn_use_custom_bridge">Naudoti pasirinktinį tiltą</string>
     <string name="msg_taking_too_long">Atrodo, kad tai trunka per ilgai</string>
     <string name="msg_try_something_else">Išbandykite ką nors kita</string>
     <string name="strict_nodes_description">Išskirti mazgų nustatymus vertinkite kaip reikalavimą kuriant visas grandines. Tai gali sutrikdyti funkcionalumą, jei nepavyks sugeneruoti jokių grandinių, naudojant nustatymus Išskirti mazgus.</string>
-    <string name="bridge_snowflake_amp">Prisijungimas per kitus „Tor“ naudotojus naudojant „Snowflake“ (2 būdas)</string>
-    <string name="snowflake_proxy_msg_title">Rodyti pranešimą apie ryšį</string>
-    <string name="snowflake_proxy_msg_description">Rodyti pranešimą, kai padedate kam nors apeiti cenzūrą</string>
     <string name="configure_header">Konfigūruoti savo „Tor“ ryšį</string>
     <string name="drawer_open">Atidaryti</string>
     <string name="drawer_close">Uždaryti</string>
     <string name="proxy_ports">Įgaliotojo serverio prievadai</string>
-    <string name="volunteer_mode_title">Padėkite kitiems
-\nprisijungti prie „Tor“</string>
-    <string name="volunteer_mode_label">Gerumo režimas</string>
-    <string name="volunteer_mode_weekly_label">Iš viso per savaitę</string>
-    <string name="volunteer_mode_alltime_label">Iš viso per visą laiką</string>
     <string name="ports_not_set">Prievadai nenustatyti</string>
     <string name="power_user_mode">Patyrusio vartotojo režimas</string>
     <string name="action_activate">Aktyvuoti</string>
@@ -231,43 +195,20 @@
 \ndėka jūsų.</string>
     <string name="apps_other_apps">Kitos programėlės</string>
     <string name="power_user_description">Vartotojams, susipažinusiems su . Leidžia paleisti „AnyoneBot“ be VPN nustatymo ir rodo atvirus SOCKS ir HTTP prievadus</string>
-    <string name="volunteer_mode_subtitle_desc">Gerumo režimas leidžia jūsų įrenginiui būti tiltu kitiems. Tai padeda žmonėms naudoti „Tor“ vietose, kur jis užblokuotas.
-\n
-\n• Tai neišsekins jūsų baterijos
-\n• Tai nesustabdys jūsų interneto
-\n• Jis gali veikti tik per WI-FI
-\n• Jį galima bet kada išjungti</string>
-    <string name="smart_connect">Gudrusis ryšys (numatytasis)</string>
-    <string name="snowflake">Snowflake (originalus)</string>
-    <string name="snowflake_subtitle">Prisijungia per „Tor“ savanorius. Apeina tam tikrą „Tor“ blokavimą.</string>
-    <string name="get_a_bridge">Tiltas iš Tor (Obfs4)</string>
     <string name="connect">Prisijungti</string>
     <string name="next">Toliau</string>
-    <string name="solve_captcha">Išspręskite „Captcha“</string>
-    <string name="custom_bridge_subtitle">Labiausiai tikėtina, kad palaikysite ryšį, jei „Tor“ yra labai užblokuotas. Reikalingas tilto adresas iš asmens, kuriuo pasitikite.</string>
     <string name="incorrect_solution">Neteisingas sprendimas</string>
-    <string name="custom_bridge">Pasirinktinis tiltas</string>
     <string name="app_suggested_subtitle">„AnyoneBot“ geriausiai veikia su pranešimų ir socialinių tinklų programėlėmis.</string>
-    <string name="bridges_obtained_connecting">Gauti tiltai! Jungiamasi prie „Tor“…</string>
-    <string name="having_trouble">Turi problemų</string>
-    <string name="having_trouble_subtitle">Galime išbandyti „Tor“ tiltą, bet mums reikės jūsų pagalbos</string>
-    <string name="get_a_bridge_subtitle">Uždengia jūsų srautą. Apeina tam tikrą „Tor“ blokavimą.</string>
     <string name="title_choose_apps">Pasirinkti programėles</string>
     <string name="apps_suggested_title">Siūlomos programėlės</string>
-    <string name="direct_connect_subtitle">Geriausias būdas prisijungti prie „Tor“. Naudokite, jei „Tor“ neužblokuotas.</string>
-    <string name="smart_connect_subtitle">„AnyoneBot“ bando prisijungti prie „Tor“ bet kokiu būdu: tiesioginiu, „Snowflake“, tiltu.</string>
-    <string name="direct_connect">Tiesioginis ryšys su „Tor“</string>
-    <string name="custom_bridge_description">Pasirinktinį tiltą pateikia pažįstamas asmuo. Paklauskite savo patikimų tinklų ir organizacijų, kad sužinotumėte, ar kas nors jį palaiko.</string>
     <string name="hide_apps">Paslėpkite programėles nuo tinklo stebėjimo ir gaukite prieigą, kai jos blokuojamos.</string>
     <string name="menu_more">Daugiau</string>
-    <string name="connection_snowflake">„Snowflake“</string>
     <string name="connection_custom">Pasirinktinis</string>
     <string name="setting_debug">Derinimas</string>
     <string name="action_use">Naudoti</string>
     <string name="no_internet_title">Prisijunkite prie interneto</string>
     <string name="no_internet_subtitle">Norint naudotis \"AnyoneBot\", reikia interneto ryšio.</string>
     <string name="not_sure">Nesate tikri\?</string>
-    <string name="ask_tor">Paklauskite Tor</string>
     <string name="option_only_when_charging">Tik įkraunant</string>
     <string name="pref_isolate_port_summary">Kiekvienam paskirties prievadui naudokite skirtingą grandinę</string>
     <string name="pref_isolate_protocol">Izoliuoti kliento protokolus</string>
@@ -279,11 +220,8 @@
     <string name="connection_direct">Tiesioginis</string>
     <string name="pref_isolate_port">Išskirti paskirties prievadai</string>
     <string name="asking">KLAUSIMAS…</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
-    <string name="menu_kindness">Gerumas</string>
     <string name="pref_flag_secure_title">Ekrano apsauga</string>
     <string name="root_warning">\"AnyoneBot\" nustatė, kad jūsų įrenginys yra įsišaknijęs, o tai gali sukelti saugumo problemų.</string>
-    <string name="kindess_config_detail">Konfigūruokite, kaip ir kada jūsų įrenginys gali veikti kaip \"Snowflake\" tarpinis serveris kitiems \"Tor\" naudotojams.</string>
     <string name="pref_isolate_protocol_summary">Kiekvienam jungiamajam protokolui naudokite skirtingą grandinę</string>
     <string name="pref_flag_secure_summary">Neleiskite kitoms programoms daryti \"AnyoneBot\" ekrano nuotraukų</string>
     <string name="many_ways">Yra daugybė būdų pasiekti Tor. Vieni iš jų jums gali tikti labiau nei kiti.</string>

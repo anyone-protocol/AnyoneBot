@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Send gögn</string>
     <string name="button_about">Um hugbúnaðinn</string>
     <string name="menu_exit">Hætta</string>
-    <string name="menu_scan">Skanna BridgeQR</string>
-    <string name="menu_share_bridge">Deila BridgeQR</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot er opinn og frjáls hugbúnaður sem inniheldur Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, og LibEvent. Það sér um að útbúa staðværan HTTP-milliþjón (8118) og SOCKS-milliþjón (9050) inn á Tor-netið.</string>
+    <string name="wizard_details_msg">AnyoneBot er opinn og frjáls hugbúnaður sem inniheldur Tor, Go-Tun2Socks, og LibEvent. Það sér um að útbúa staðværan HTTP-milliþjón (8118) og SOCKS-milliþjón (9050) inn á Tor-netið.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Almennt</string>
     <string name="pref_start_boot_title">Virkja AnyoneBot í ræsingu</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Fingraför, gælunöfn, lönd og heimilisföng til að útiloka</string>
     <string name="enter_exclude_nodes">Settu inn punkta sem á að útiloka</string>
     <string name="strict_nodes">Ófrávíkjanlegir punktar</string>
-    <string name="bridges">Brýr</string>
-    <string name="use_bridges">Nota brýr</string>
     <string name="relays">Endurvarpar</string>
     <string name="relaying">Endurvörpun</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Leyfa tækinu þínu að vera útgangslaus endurvarpi</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Sérsniðnar stillingar Torrc</string>
     <string name="pref_torrc_summary">AÐEINS SÉRFRÆÐINGAR: sláðu inn stillingarlínur beint í torrc</string>
     <string name="pref_torrc_dialog">Sérsniðið Torrc</string>
-    <string name="bridges_updated">Brýr uppfærðar</string>
-    <string name="restart_to_use_this_bridge_">Endurræstu AnyoneBot til að breytingarnar taki gildi</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ef farsímanetið þitt er virkt í að loka á Tor, geturðu notað \'Brúarþjón\' sem varaleið inn. Veldu einn af valkostunum til að setja upp og prófa…</string>
-    <string name="get_bridges_email">Tölvupóstur</string>
     <string name="apps_mode">VPN-hamur</string>
     <string name="send_email">Senda tölvupóst</string>
     <string name="vpn_default_world">Víðvært (sjálfvirkt)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">Minnkuð bólstrun tengingar (padding)</string>
     <string name="pref_reduced_connection_padding_summary">Lokar tengingum við endurvarpa fyrr og sendir færri pakka til að bólstra tengingu (padding) svo gagnamagn og rafhlöðunotkun sé sem minnst</string>
     <string name="app_shortcuts">Tor-virkjuð forrit</string>
-    <string name="bridge_direct_connect">Tengjast beint við Tor (best)</string>
-    <string name="bridge_community">Tengjast í gegnum þjóna meðlima</string>
-    <string name="bridge_cloud">Tengjast í gegnum þjóna í tölvuskýjum</string>
     <string name="trouble_connecting">Vandamál við tengingu?</string>
     <string name="full_device_vpn">Fullt VPN á tækinu</string>
     <string name="vpn_disabled">VPN óvirkt</string>
@@ -150,19 +139,6 @@
     <string name="user_services">Þjónustur notandans</string>
     <string name="app_services">Þjónustur forrita</string>
     <string name="refresh_apps">Endurlesa forrit</string>
-    <string name="in_a_browser">Í vafra, farðu á %s og ýttu á Ná í brýr &gt; Gefðu mér bara brýrnar!</string>
-    <string name="bridge_snowflake">Tengjast í gegnum aðra Tor-jafningja með Snowflake (aðferð 1 - Fastly)</string>
-    <string name="use_qr_code">Nota QR-kóða</string>
-    <string name="paste_bridges">Líma brýr</string>
-    <string name="use_custom_bridges">Nota sérsniðnar brýr</string>
-    <string name="configure_custom_bridges">Stilla sérsniðnar brýr</string>
-    <string name="custom_bridges">Sérsniðnar brýr</string>
-    <string name="request_bridges_from_torproject">Biðja um brýr frá torproject.org</string>
-    <string name="enter_characters_from_image">Settu inn textann hér fyrir ofan</string>
-    <string name="captcha">CAPTCHA-mennskupróf</string>
-    <string name="solve_captcha_instruction">Leystu CAPTCHA-þraut til að biðja um brýr.</string>
-    <string name="refresh_captcha">Endurlesa CAPTCHA</string>
-    <string name="request_bridges">Biðja um brýr</string>
     <string name="pref_reduced_circuit_padding_summary">Nota umfangsminni reiknirit við bólstrun (padding) svo gagnamagn og rafhlöðunotkun sé sem minnst</string>
     <string name="pref_reduced_circuit_padding">Minnkuð bólstrun rásar (padding)</string>
     <string name="pref_circuit_padding_summary">Virkjar alltaf bólstrun rásar (padding) til varnar gegn ákveðnum gerðum umferðargreiningar</string>
@@ -170,7 +146,6 @@
     <string name="kibibyte">KiB</string>
     <string name="testing_tor_direct_success">Tókst. Tor-tengingin er góð!</string>
     <string name="testing_tor_direct">Prófa tengingu við Tor…</string>
-    <string name="get_bridges_email_request">Biðja um brýr með tölvupósti</string>
     <string name="mebibyte">MiB</string>
     <string name="backup_port_exist">Villa: Önnur onion-þjónusta er þegar að nota gátt %s</string>
     <string name="confirm">Staðfesta</string>
@@ -188,17 +163,12 @@
     <string name="allow">Leyfa</string>
     <string name="version">Útgáfa:</string>
     <string name="license">Notkunarleyfi:</string>
-    <string name="bridge_snowflake_amp">Tengjast í gegnum aðra Tor-notendur með Snowflake (aðferð 2 - AMP)</string>
-    <string name="snowflake_proxy_msg_title">Birta tilkynningu um tengingu</string>
-    <string name="snowflake_proxy_msg_description">Birta skilaboð þegar þú hjálpar einhverjum að komast framhjá ritskoðun</string>
     <string name="configure_header">Stilla Tor-tenginguna þína</string>
     <string name="drawer_open">Opna</string>
     <string name="drawer_close">Loka</string>
     <string name="ports_not_set">Gáttir ekki stilltar</string>
-    <string name="volunteer_mode">Vænleikahamur</string>
     <string name="connected_title">Tengt</string>
     <string name="btn_start_vpn">Ræsa VPN</string>
-    <string name="btn_configure">Veldu hvernig á að tengjast</string>
     <string name="btn_tor_off">Slökkva á Tor</string>
     <string name="no_thx">Nei takk</string>
     <string name="menu_header_features">Eiginleikar</string>
@@ -215,40 +185,13 @@
     <string name="menu_faq">Algengar spurningar</string>
     <string name="menu_header_learn">Kanna nánar</string>
     <string name="msg_taking_too_long">Þetta lítur út fyrir að taka of langan tíma</string>
-    <string name="btn_use_custom_bridge">Nota sérsniðna brú</string>
     <string name="msg_try_something_else">Prófaðu eitthvað annað</string>
     <string name="proxy_ports">Gáttir milliþjóna</string>
-    <string name="smart_connect">Snjalltenging (sjálfgefið)</string>
-    <string name="direct_connect">Bein tenging við Tor</string>
-    <string name="snowflake">Snowflake (upprunalegt)</string>
     <string name="secure_your_connection_subtitle">Feldu forrit fyrir netvöktun og náðu aðgangi þegar lokað er á þau.</string>
-    <string name="volunteer_mode_title">Hjálpaðu öðrum
-\nað tengjast við Tor</string>
-    <string name="volunteer_mode_label">Vænleikahamur</string>
-    <string name="volunteer_mode_weekly_label">Alls í vikunni</string>
-    <string name="volunteer_mode_alltime_label">Samtals frá upphafi</string>
-    <string name="volunteer_mode_subtitle_desc">Vænleikahamur lætur tækið þitt verða að brú fyrir annað fólk. Það hjálpar því fólki til að nota Tori við aðstæður þar sem annars er lokað á það.
-\n
-\n• Það mun ekki eyða rafhlöðunni þinni um of
-\n• Það mun ekki hægja á internetinu
-\n• Það getur aðeins notað þráðlaust wi-fi net
-\n• Hægt er að slökkva á því hvenær sem er</string>
-    <string name="smart_connect_subtitle">AnyoneBot reynir að tengjast við Tor með öllum tiltækum ráðum: Beint, með Snowflake, með brúm.</string>
-    <string name="direct_connect_subtitle">Besta leiðin til að tengjast við Tor. Notist ef ekki er lokað á Tor.</string>
-    <string name="snowflake_subtitle">Tengist í gegnum Tor-sjálfboðaliða. Kemst framhjá sumum hindrunum gagnvart Tor.</string>
-    <string name="get_a_bridge">Brú frá Tor (Obfs4)</string>
-    <string name="get_a_bridge_subtitle">Stíflar netið þitt. Kemst framhjá sumum hindrunum gagnvart Tor.</string>
-    <string name="custom_bridge">Sérsniðin brú</string>
-    <string name="custom_bridge_subtitle">Líklegast til að halda þér tengdum ef Tor er alvarlega hindrað. Krefst brúarvistfangs frá einhverjum sem þú treystir.</string>
     <string name="connect">Tengjast</string>
     <string name="next">Næsta</string>
-    <string name="solve_captcha">Leystu CAPTCHA-þraut</string>
     <string name="strict_nodes_description">Meðhöndla útilokaða punkta sem forsendu við byggingu allra rása. Þetta gæti skemmt fyrir virkni ef ekki er hægt að byggja upp neinar rásir út frá stillingum útilokaðra punkta.</string>
     <string name="incorrect_solution">Röng lausn</string>
-    <string name="having_trouble">Eru vandamál</string>
-    <string name="bridges_obtained_connecting">Fékk brýr! Tengist við Tor…</string>
-    <string name="custom_bridge_description">Einhver sem þú þekkir er að skaffa brú. Spurðu fólk í þeim hópum sem þú treystir hvort einhver þeirra sé að hýsa brúna.</string>
-    <string name="having_trouble_subtitle">Við getum næst prófað Tor-brú en þurfum þína hjálp til þess</string>
     <string name="action_activate">Virkja</string>
     <string name="title_choose_apps">Veldu forrit</string>
     <string name="volunteer_status_title">Dagurinn í dag er betri
@@ -261,8 +204,6 @@
     <string name="pref_isolate_port">Einangra markgáttir</string>
     <string name="pref_isolate_protocol">Einangra samskiptamáta biðlara</string>
     <string name="pref_isolate_protocol_summary">Nota mismunandi rás fyrir hvern samskiptamáta tengingar</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
-    <string name="ask_tor">Spurðu Tor</string>
     <string name="many_ways">Það eru margar aðferðir við að ná sambandi við Tor. Sumar gætu virkað betur fyrir þig en aðrar.</string>
     <string name="action_use">Nota</string>
     <string name="no_internet_title">Tengjast við internetið</string>
@@ -274,19 +215,16 @@
     <string name="asking">SPYR…</string>
     <string name="log_copied">Atvikaskrá afrituð</string>
     <string name="menu_more">Meira</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Sérsniðið</string>
     <string name="setting_debug">Aflúsa</string>
     <string name="option_only_when_charging">Aðeins við hleðslu</string>
     <string name="btn_copy_log">Afrita atvikaskráningu</string>
-    <string name="menu_kindness">Umhyggja</string>
     <string name="option_only_on_wifi">Aðeins á þráðlausu Wi-Fi</string>
     <string name="connection_direct">Beint</string>
     <string name="pref_flag_secure_summary">Koma í veg fyrir að önnur forrit taki sjámyndir af AnyoneBot</string>
     <string name="pref_flag_secure_title">Öryggi skjás</string>
     <string name="setting_padding">Útvíkkun</string>
     <string name="root_warning">AnyoneBot hefur skynjað að tækið þitt sé með rótaraðgangi (rooted), sem getur valdið öryggisvandamálum.</string>
-    <string name="kindess_config_detail">Stilltu hvernig og hvenær tækið þitt getur unnið sem Snowflake-milliþjónn fyrir aðra Tor-notendur.</string>
     <string name="pref_detect_root_summary">Aðvara í ræsingu ef rótarheimildir eru virkar á þessu tæki</string>
     <string name="pref_detect_root_title">Skynja rótarheimildir</string>
 </resources>

@@ -10,9 +10,7 @@
   <string name="main_layout_upload">Neera pasrɵp</string>
   <string name="button_about">Ikwan wamɵrɵsrɵpik</string>
   <string name="menu_exit">Wepiamik</string>
-  <string name="menu_scan">QRyu kutri asamik</string>
-  <string name="menu_share_bridge">BridgeQwan purɵramik</string>
-  <string name="wizard_details_msg">AnyoneBotpe mayaelai kɵn, ikpe møi eshkailø tøkaik køn Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks and LibEvent. Kan VPN kelichai purɵrɵpik, kan Proxy HTTP (HTTPS puerto 8118yutɵ kepintrapik) srape kan proxy SOCKS (9050) Toryu kelichapik.</string>
+  <string name="wizard_details_msg">AnyoneBotpe mayaelai kɵn, ikpe møi eshkailø tøkaik køn Tor, Go-Tun2Socks and LibEvent. Kan VPN kelichai purɵrɵpik, kan Proxy HTTP (HTTPS puerto 8118yutɵ kepintrapik) srape kan proxy SOCKS (9050) Toryu kelichapik.</string>
   <string name="pref_general_group">Mayaelai</string>
   <string name="pref_start_boot_title">AnyoneBotwan kurɵptɵ pɵlpasramik</string>
   <string name="pref_start_boot_summary">Ñui Android pɵlpasrentɵ AnyoneBotwan pɵlpasrinkaru Tor yu Kelitsɵska</string>
@@ -49,8 +47,6 @@
   <string name="enter_exclude_nodes">mentamaram Nodoswan  ker</string>
   <string name="strict_nodes">katɵkuchi mur isuik tɵmmera</string>
   <string name="strict_nodes_description">Mɵi tɵmmera wampik kɵtrɵmariklan, srɵitɵ circuitos tamaramiku ash. Trek marmupene, chi wan kɵpen tap marɵp pasramisrmɵntrapik kɵn. </string>
-  <string name="bridges">Chi kɵpen purentrai piuntsik mera</string>
-  <string name="use_bridges">Piuntsik meran kemɵr</string>
   <string name="relays">Nak srup, kemesrɵpelɵ</string>
   <string name="relaying">katɵpurɵ wam lasrpitsamik.</string>
   <string name="enable_your_device_to_be_a_non_exit_relay">Nak srup, kemesrɵpelɵ mupurap kucha latrpichimɵntrai mar.</string>
@@ -98,12 +94,6 @@
   <string name="pref_torrc_dialog">Torrc Netik kɵn</string>
   <string name="kibibyte">KiB</string>
   <string name="mebibyte">MiB</string>
-  <string name="bridges_updated">piuntsik meran katɵyu tamarɵp.</string>
-  <string name="restart_to_use_this_bridge_">Ik AnyoneBotwan katɵyu pɵlpasrinkaru chine tamariklan yunɵmara tap pɵlpasrtrai</string>
-  <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Ñui wam srum purukupik Torwan chi martrap mamupene, kan servidor piuntsik lateikpe ñun kepiam purukuntrapik kɵn. 
-Trek tamaramikwane  asha mar</string>
-  <string name="get_bridges_email">Pɵrinkal srɵl.</string>
-  <string name="get_bridges_email_request">Pɵrinkal srɵl yu kutri pintsik teiklan miamik.</string>
   <string name="apps_mode">VPNmei pasran</string>
   <string name="send_email">Pɵrinkal srɵl mai pɵra ɵramik</string>
   <string name="vpn_default_world">Mupa kuinpurap (munasrɵ)</string>
@@ -160,9 +150,6 @@ Trek tamaramikwane  asha mar</string>
   <string name="app_shortcuts">Torpa-maram purukupele</string>
   <string name="testing_tor_direct">Torpa kelichip pasreikwan asamik</string>
   <string name="testing_tor_direct_success">Tap kɵn! Torpa kelitsan </string>
-  <string name="bridge_direct_connect">Kanmeitɵ Toryu kelichi (katekuchi tap puntrun)</string>
-  <string name="bridge_community">Mayaelan purukuntrapik wam srupeleyu kepiamik</string>
-  <string name="bridge_cloud">Wañiyu esekawa pɵnsreik wam srupeleyu kepiamik</string>
   <string name="trouble_connecting">Kelichipyu Pesrɵsrtelɵ Ilesrkɵpelɵ kenamisrita?</string>
   <string name="full_device_vpn">VPN neik</string>
   <string name="vpn_disabled">VPN Kuetsik pasran</string>
@@ -171,31 +158,13 @@ Trek tamaramikwane  asha mar</string>
   <string name="app_services">Maram purukuntrapelɵyu chine purupelɵ</string>
   <string name="refresh_apps">Katɵyu tamara pɵnsrɵp maram purukuntrapelan</string>
   <!--MoatActivity-->
-  <string name="request_bridges">Piuntsik teiklan miamik</string>
-  <string name="refresh_captcha">CAPTCHAn srɵilɵ tamaramik</string>
-  <string name="solve_captcha_instruction">CAPTCHAn tamar, piuntsik teiklan miamikpe</string>
-  <string name="captcha">CAPTCHA</string>
-  <string name="enter_characters_from_image">Wentau pɵrik pasrapikwan pɵr</string>
   <!--BridgeWizardActivity-->
-  <string name="request_bridges_from_torproject">torproject.org piuntsik teilkan miamik</string>
-  <string name="custom_bridges">Neteelɵ Piuntsikmera </string>
-  <string name="configure_custom_bridges">Na isuikmei piuntsik teiklan tamaramik</string>
   <!--CustomBridgesActivity-->
-  <string name="use_custom_bridges">Piuntsikmera teiklan naaship tamara pɵnsramik</string>
-  <string name="in_a_browser">Kan wampirishipiku, \"piuntsikmera\" chipiku kepintrɵ %s&gt; \"piuntsikmerantɵ trantra!\"</string>
-  <string name="paste_bridges">Pasta piuntsik teiklɵ</string>
-  <string name="use_qr_code">QR tɵka mar </string>
-  <string name="bridge_snowflake">Toryu pek munchimerayu kutri kepiamik, Snowflake (Método 1 - Fastly) teka </string>
-  <string name="bridge_snowflake_amp">Toryu pek munchimerayu kutri kepiamik, Snowflake (Método 2-AMP) teka</string>
-  <string name="snowflake_proxy_msg_title">Wam srɵlmera kelichen eshkantrapikwan pila pasramik</string>
-  <string name="snowflake_proxy_msg_description">Mun kepen marɵp unikwan  wampiksrɵ kutri ashchap inchen purɵ pasren eshkantrei pasramik</string>
   <!--new UX-->
-  <string name="volunteer_mode">Tapmei kuikwan kenamaramik</string>
   <string name="secure_your_connection_title">Kelitsamikwan  tamarinpasran</string>
   <string name="secure_your_connection_subtitle">Wam lasrpichipikwan tamara aship kɵpene maram purukupelan kena marmɵta incha truyu kepintrappe, tap asha mar</string>
   <string name="connected_title">Kelitsik</string>
   <string name="btn_start_vpn">VPNen pɵlmaramik</string>
-  <string name="btn_configure">Tamaramik</string>
   <string name="configure_header">Kelitsamikawan tamara pasr</string>
   <string name="volunteer_mode_subtitle">Katɵkanelan kelitsam puruku</string>
   <string name="trying_to_connect_title">Kelichip</string>
@@ -211,38 +180,15 @@ Trek tamaramikwane  asha mar</string>
   <string name="menu_app_settings">Maram purukupelan tamara pɵnsreik pɵrap</string>
   <string name="menu_faq">FAQ</string>
   <string name="menu_header_learn">Srɵitɵ wammɵrɵsrɵpik </string>
-  <string name="btn_use_custom_bridge">Piuntsik meran kan kan isuimei tamarik tɵka maramik</string>
   <string name="msg_taking_too_long">Ikpe purɵ yana sratrap pasran</string>
   <string name="msg_try_something_else">Srɵilɵtɵ aship puramun</string>
   <string name="drawer_open">Kurɵp</string>
   <string name="drawer_close">Kasramik </string>
   <string name="proxy_ports">Proxy wam srɵl mera </string>
   <string name="ports_not_set">Wam srɵlmera tamarikmelɵ kɵn</string>
-  <string name="volunteer_mode_title">Katɵkanelan purukumik wan ketlitsamikyu</string>
-  <string name="volunteer_mode_label">Tapmei kuikwan kenamaramik</string>
-  <string name="volunteer_mode_weekly_label">Truneyu ketriku purayeikwan eshkapik</string>
-  <string name="volunteer_mode_alltime_label">Ketriku utɵmerayu purayeiklan eshkapik</string>
-  <string name="volunteer_mode_subtitle_desc">Tap meitɵ kɵntrei tamara pasrikpe ñui wamsrupik pekelan piuntsik lateik mara purukuntrapik kɵn . 
-Toryu kepiam keik kasreik pasrɵpen pekelɵ kepamtreik purukupik kɵn \n\n-naktsi nikapikwan petɵ patsɵkɵmik kɵn\n\n- wam pirishipikwan tsuntastik marmik kɵn\n\n wifi kuik kutrimpe chi kɵpen maramtik kɵn \n\n- chiuras kɵpen kuetsamtik kɵn</string>
-  <string name="smart_connect">Smart Connect (trentө trek pasrөntrai tamarik)</string>
-  <string name="smart_connect_subtitle">AnyoneBotpe Toryu chiincha kɵpen kelichap inchip pasran: kanmeitɵ kui, copo de nieve teikmei, kape piuntsik mei </string>
-  <string name="direct_connect">Kan meitɵ Torsrɵ kɵlichipik</string>
-  <string name="direct_connect_subtitle">ɵyamei Toryu kelitsamikpe katɵ kuchi tap kɵn. Tor kuetsik pasrɵmupene kepintrun</string>
-  <string name="snowflake">Copo de nieve teik</string>
-  <string name="snowflake_subtitle">Ikpe Toryu kepiamik katɵ kuchi mai purukupik kɵn. Tor kuetsik pasrɵmupene kepiamtik kɵntrun</string>
-  <string name="get_a_bridge">Toryu (Obfs4) kutri kan piuntsik teikwan tөka kөmik</string>
-  <string name="get_a_bridge_subtitle">Nu marɵpyu kalɵ kenamisrmɵntrai esekau</string>
-  <string name="custom_bridge">Piuntsik teikwan na isuimei marik</string>
-  <string name="custom_bridge_subtitle">Toryu kutri tap esekaik kuetsik pasramisrene ñui chikɵpen maramelan tap kelitsik pentramisrtrun. 
-Mun kɵpen  purukutracha piuntsik lateik purɵrtra chi</string>
   <string name="connect">Kɵlichip</string>
   <string name="next">Katɵkan</string>
-  <string name="solve_captcha">Captchan Tamaramik</string>
   <string name="incorrect_solution">Tamara pasrikpe kalɵ kɵn</string>
-  <string name="bridges_obtained_connecting">Piuntsik meran wetөtran! Toryu kelicha kepip pasran...</string>
-  <string name="custom_bridge_description">Ñun piuntsik palapikpe mu kɵpen ñi ashipik tɵwei purɵrtrun. Ñui pɵtekatan pai mu kɵpen purukuntrun</string>
-  <string name="having_trouble">Pesrɵsrtelɵ Ilesrkɵpelɵ</string>
-  <string name="having_trouble_subtitle">Toryu kelitsamik kan piuntsik lateik maramtik kɵn inchentɵ ñi purukupene martrun</string>
   <string name="power_user_mode">Power Usermei pasran</string>
   <string name="power_user_description">Torwan ashipelai. AnyoneBotwan pelpasrtrappe  VPN palɵmentrun incha wam srɵl kuri pentrapelan SOCKSpa  HTTPpa kenamartrun </string>
   <string name="action_activate">Pilɵkɵp</string>

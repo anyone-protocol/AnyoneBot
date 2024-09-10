@@ -10,8 +10,6 @@
     <string name="main_layout_upload">আপলোড</string>
     <string name="button_about">বিস্তারিত</string>
     <string name="menu_exit">প্রস্থান</string>
-    <string name="menu_scan">ব্রিজকিউআর চেক করুন</string>
-    <string name="menu_share_bridge">ব্রিজকিউআর শেয়ার করুন</string>
     <!--Welcome Wizard strings (DJH)-->
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">সাধারণ</string>
@@ -22,7 +20,6 @@
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
     <string name="error">ভুল</string>
-    <string name="bridges">ব্রিজ</string>
     <string name="set_locale_title">ভাষা</string>
     <string name="save">সংরক্ষণ করুন</string>
     <string name="name">Name</string>
@@ -48,7 +45,6 @@
     <string name="allow">অনুমোদন</string>
     <string name="enable">সক্ষম করো</string>
     <string name="hidden_services">ওনিওন সেবা</string>
-    <string name="get_bridges_email">ইমেইল</string>
     <string name="menu_header_features">বৈশিষ্ট্যসমূহ</string>
     <string name="drawer_open">খুলো</string>
     <string name="drawer_close">বন্ধ করুন</string>

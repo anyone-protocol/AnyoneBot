@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Yükle</string>
     <string name="button_about">Hakkında</string>
     <string name="menu_exit">Çıkış</string>
-    <string name="menu_scan">QR kodu tara</string>
-    <string name="menu_share_bridge">QR kodu paylaş</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot; Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks, LibEvent yapılarını kapsayan açık kaynaklı bir uygulamadır. Tor ağına bağlanmak için bir yerel HTTP vekil sunucu (8118) ve bir SOCKS vekil sunucu (9050) sağlar.</string>
+    <string name="wizard_details_msg">AnyoneBot; Tor, Go-Tun2Socks, LibEvent yapılarını kapsayan açık kaynaklı bir uygulamadır. Tor ağına bağlanmak için bir yerel HTTP vekil sunucu (8118) ve bir SOCKS vekil sunucu (9050) sağlar.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Genel</string>
     <string name="pref_start_boot_title">AnyoneBot Açılışta Başlatılsın</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Katılmayacak parmak izleri, kısaltmalar, ülkeler ve adresler</string>
     <string name="enter_exclude_nodes">Hariç Tutulacak Düğümleri Girin</string>
     <string name="strict_nodes">Değişmeyen Düğümler</string>
-    <string name="bridges">Köprüler</string>
-    <string name="use_bridges">Köprüleri Kullan</string>
     <string name="relays">Aktarıcılar</string>
     <string name="relaying">Aktarım</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Aygıtınız çıkış yapmayan bir aktarıcı olarak kullanılsın</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Özel Torrc Ayarları</string>
     <string name="pref_torrc_summary">UZMANLAR İÇİN: doğrudan torrc yapılandırma satırlarını girin</string>
     <string name="pref_torrc_dialog">Özel Torrc Ayarları</string>
-    <string name="bridges_updated">Köprüler Güncellendi</string>
-    <string name="restart_to_use_this_bridge_">Değişiklikleri etkinleştirmek için AnyoneBot uygulamasını yeniden başlatın</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Tor kullanımı mobil ağınızda etkin olarak engelleniyorsa, Tor ağına erişmek için bir \'Köprü Sunucusu\' kullanabilirsiniz. Yapılandırmak ve denemek için aşağıdaki seçeneklerden birini seçin…</string>
-    <string name="get_bridges_email">E-posta</string>
     <string name="apps_mode">VPN Modu</string>
     <string name="send_email">E-posta Gönder</string>
     <string name="vpn_default_world">Genel (Otomatik)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">Azaltılmış bağlantı yastıklaması</string>
     <string name="pref_reduced_connection_padding_summary">Aktarıcı bağlantılarını daha kısa sürede kapatır ve veri ve pil kullanımını azaltmak için daha az yastıklama paketi gönderir</string>
     <string name="app_shortcuts">Tor Kullanan Uygulamalar</string>
-    <string name="bridge_direct_connect">Doğrudan Tor ağına bağlanılsın (en iyisi)</string>
-    <string name="bridge_community">Topluluk sunucuları üzerinden bağlanılsın</string>
-    <string name="bridge_cloud">Bulut sunucular üzerinden bağlanılsın</string>
     <string name="trouble_connecting">Bağlanmakta sorun mu yaşıyorsunuz?</string>
     <string name="full_device_vpn">Cihaz Geneli VPN</string>
     <string name="vpn_disabled">VPN Devre Dışı</string>
@@ -150,26 +139,12 @@
     <string name="user_services">Kullanıcı hizmetleri</string>
     <string name="app_services">Uygulama hizmetleri</string>
     <string name="refresh_apps">Uygulamaları Yenile</string>
-    <string name="bridge_snowflake">Snowflake kullanarak diğer Tor kullanıcıları aracılığıyla bağlanın (Yöntem 1 - Hızlı)</string>
-    <string name="use_qr_code">QR Kodu Kullan</string>
-    <string name="paste_bridges">Köprüleri Yapıştır</string>
-    <string name="in_a_browser">Bir tarayıcıda %s adresini ziyaret edin ve Get Bridges &gt; Just Give Me Bridges! seçeneğine dokunun!</string>
-    <string name="use_custom_bridges">Özel Köprüler Kullan</string>
-    <string name="configure_custom_bridges">Özel Köprüleri Yapılandır</string>
-    <string name="custom_bridges">Özel Köprüler</string>
-    <string name="request_bridges_from_torproject">torproject.org\'dan Köprü İste</string>
-    <string name="enter_characters_from_image">Yukarıdaki metni girin</string>
-    <string name="captcha">CAPTCHA</string>
-    <string name="solve_captcha_instruction">Köprü istemek için CAPTCHA\'yı çözün.</string>
-    <string name="refresh_captcha">CAPTCHA\'yı Yenile</string>
-    <string name="request_bridges">Köprü İste</string>
     <string name="testing_tor_direct_success">Başarılı. Tor bağlantısı iyi!</string>
     <string name="testing_tor_direct">Tor bağlantısı test ediliyor…</string>
     <string name="pref_reduced_circuit_padding_summary">Veri ve pil kullanımını azaltmak için daha hafif yastıklama algoritmaları kullanın</string>
     <string name="pref_reduced_circuit_padding">Azaltılmış devre yastıklaması</string>
     <string name="pref_circuit_padding_summary">Bazı trafik analizi türlerine karşı korunmak için devre yastıklamasını etkinleştirin</string>
     <string name="pref_circuit_padding">Devre yastıklama</string>
-    <string name="get_bridges_email_request">Köprüleri E-postayla İste</string>
     <string name="mebibyte">MiB</string>
     <string name="kibibyte">KiB</string>
     <string name="confirm">Onayla</string>
@@ -188,14 +163,9 @@
     <string name="backup_port_exist">Hata: Bir Onion hizmeti zaten %s bağlantı noktasını kullanıyor</string>
     <string name="version">Sürüm:</string>
     <string name="license">Lisans:</string>
-    <string name="bridge_snowflake_amp">Snowflake kullanarak diğer Tor kullanıcıları aracılığıyla bağlanın (Yöntem 2 - AMP)</string>
-    <string name="snowflake_proxy_msg_title">Bağlantı Bildirimi Göster</string>
-    <string name="snowflake_proxy_msg_description">Birinin sansürü aşmasına yardımcı olduğunuzda bir mesaj göster</string>
     <string name="strict_nodes_description">Katılmayacak Düğümler ayarlarını tüm devreleri oluştururken bir gereklilik olarak ele alın. Bu, Katılmayacak Düğümler ayarlarınızla hiçbir devre oluşturulamıyorsa işlevselliği bozabilir.</string>
     <string name="secure_your_connection_subtitle">Uygulamaları ağ izlenmesinden gizleyin ve engellendiklerinde erişim sağlayın.</string>
     <string name="connected_title">Bağlandı</string>
-    <string name="btn_configure">Nasıl Bağlanılacağını Seç</string>
-    <string name="volunteer_mode">Nezaket Modu</string>
     <string name="volunteer_mode_subtitle">Başkalarının bağlanmasına yardım edin</string>
     <string name="trying_to_connect_title">Bağlanıyor…</string>
     <string name="menu_tor_connection">Tor Bağlantısı</string>
@@ -204,7 +174,6 @@
     <string name="msg_try_something_else">Başka bir şey deneyin</string>
     <string name="btn_start_vpn">VPN\'i başlat</string>
     <string name="secure_your_connection_title">Bağlanmaya hazır</string>
-    <string name="btn_use_custom_bridge">Özel Köprü Kullan</string>
     <string name="menu_header_learn">Daha fazla bilgi edin</string>
     <string name="btn_choose_apps">Uygulamaları seç</string>
     <string name="btn_change_exit">Çıkışı değiştir</string>
@@ -217,39 +186,13 @@
     <string name="menu_faq">SSS</string>
     <string name="drawer_open">Aç</string>
     <string name="drawer_close">Kapat</string>
-    <string name="volunteer_mode_title">Başkalarının Tor\'a 
-\nbağlanmasına yardımcı olun</string>
-    <string name="volunteer_mode_alltime_label">Tüm Zamanlar Toplamı</string>
-    <string name="smart_connect">Akıllı Bağlan (öntanımlı)</string>
-    <string name="direct_connect">Tor\'a Doğrudan Bağlantı</string>
-    <string name="direct_connect_subtitle">Tor\'a bağlanmanın en iyi yolu. Tor engelli değilse kullanın.</string>
-    <string name="snowflake_subtitle">Tor gönüllüleri aracılığıyla bağlanır. Bazı Tor engellemelerini aşar.</string>
-    <string name="get_a_bridge">Tor\'dan Köprü (Obfs4)</string>
-    <string name="get_a_bridge_subtitle">Trafiğinizi gizler. Bazı Tor engellemelerini aşar.</string>
-    <string name="custom_bridge">Özel Köprü</string>
     <string name="connect">Bağlan</string>
     <string name="next">Sonraki</string>
-    <string name="solve_captcha">Captcha Çöz</string>
-    <string name="volunteer_mode_weekly_label">Haftalık Toplam</string>
     <string name="configure_header">Tor Bağlantınızı Yapılandırın</string>
     <string name="proxy_ports">Vekil Bağlantı Noktaları</string>
     <string name="ports_not_set">Bağlantı Noktaları Ayarlanmadı</string>
-    <string name="custom_bridge_subtitle">Tor ciddi şekilde engellendiyse büyük olasılıkla bağlı kalmanızı sağlar. Güvendiğiniz birinden bir köprü adresi gerektirir.</string>
-    <string name="volunteer_mode_label">Nezaket Modu</string>
-    <string name="volunteer_mode_subtitle_desc">Nezaket modu, aygıtınızın başkaları için bir köprü olmasını sağlar. İnsanların Tor\'u engellendiği yerlerde kullanmasına yardımcı olur.
-\n
-\n• Pilinizi boşaltmaz
-\n• İnternetinizi yavaşlatmaz
-\n• Yalnızca wi-fi üzerinden çalışabilir
-\n• İstenildiği zaman kapatılabilir</string>
-    <string name="smart_connect_subtitle">AnyoneBot, Tor\'a kullanılabilir herhangi bir yolla bağlanmayı dener: Doğrudan, Snowflake, Köprü.</string>
-    <string name="snowflake">Snowflake (Orijinal)</string>
     <string name="incorrect_solution">Yanlış Çözüm</string>
-    <string name="bridges_obtained_connecting">Köprüler alındı! Tor\'a bağlanılıyor…</string>
-    <string name="custom_bridge_description">Tanıdığınız biri tarafından özel bir köprü sağlanır. Güvenilir ağlarınızda ve kuruluşlarınızda barındıran biri olup olmadığını sorun.</string>
-    <string name="having_trouble">Sorun yaşıyorum</string>
-    <string name="having_trouble_subtitle">Bir sonraki adımda Tor köprüsünü deneyebiliriz ancak yardımınıza ihtiyacımız olacak</string>
-    <string name="volunteer_status_title">Bugün sizin 
+    <string name="volunteer_status_title">Bugün sizin
 \nsayenizde daha iyi.</string>
     <string name="title_choose_apps">Uygulamaları Seç</string>
     <string name="apps_suggested_title">Önerilen Uygulamalar</string>
@@ -261,29 +204,24 @@
     <string name="hide_apps">Uygulamaları ağ izlenmesinden gizleyin ve engellendiklerinde erişim sağlayın.</string>
     <string name="log_copied">Günlük Kopyalandı</string>
     <string name="not_sure">Emin değil misiniz\?</string>
-    <string name="ask_tor">Tor\'a sor</string>
     <string name="many_ways">Tor\'a erişmenin birçok yolu vardır. Bazıları sizin için diğerlerinden daha iyi çalışabilir.</string>
     <string name="action_use">Kullan</string>
     <string name="asking">SORUYOR…</string>
     <string name="no_internet_title">İnternete bağlan</string>
     <string name="kindness_adjust_title">Ayarlar</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="no_internet_subtitle">AnyoneBot\'u kullanmak için internet bağlantınızın olması gerekir.</string>
-    <string name="kindess_config_detail">Aygıtınızın diğer Tor kullanıcıları için nasıl ve ne zaman bir Snowflake vekili olarak çalışabileceğini yapılandırın.</string>
     <string name="pref_isolate_port_summary">Her hedef bağlantı noktası için farklı bir devre kullanın</string>
     <string name="pref_isolate_port">Hedef bağlantı noktaları yalıtılsın</string>
     <string name="pref_isolate_protocol">İstemci iletişim kuralları yalıtılsın</string>
     <string name="pref_isolate_protocol_summary">Her bağlantı iletişim kuralı için farklı bir devre kullanın</string>
     <string name="btn_copy_log">Günlüğü Kopyala</string>
     <string name="setting_debug">Hata ayıklama</string>
-    <string name="menu_kindness">Nezaket</string>
     <string name="option_only_on_wifi">Yalnızca Wi-Fi\'de</string>
     <string name="option_only_when_charging">Yalnızca şarj olurken</string>
     <string name="menu_more">Daha fazla</string>
     <string name="setting_padding">Yastıklama</string>
     <string name="pref_flag_secure_summary">Diğer uygulamaların AnyoneBot\'un ekran görüntülerini almasını engelleyin</string>
     <string name="connection_direct">Doğrudan</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Özel</string>
     <string name="pref_flag_secure_title">Ekran Güvenliği</string>
     <string name="root_warning">AnyoneBot, aygıtınızın root yapılmış olduğunu tespit etti, bu güvenlik sorunlarına neden olabilir.</string>

@@ -10,10 +10,8 @@
     <string name="main_layout_upload">Отправка</string>
     <string name="button_about">О приложении</string>
     <string name="menu_exit">Выход</string>
-    <string name="menu_scan">Сканировать QR-код моста</string>
-    <string name="menu_share_bridge">Поделиться QR-кодом моста</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBot — это приложение с открытым исходным кодом, которое содержит Tor, IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks и LibEvent. Оно обеспечивает VPN-туннель, локальный прокси HTTP Connect (HTTPS только на порту 8118) и SOCKS-прокси (9050) в сеть Tor.</string>
+    <string name="wizard_details_msg">AnyoneBot — это приложение с открытым исходным кодом, которое содержит Tor, Go-Tun2Socks и LibEvent. Оно обеспечивает VPN-туннель, локальный прокси HTTP Connect (HTTPS только на порту 8118) и SOCKS-прокси (9050) в сеть Tor.</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">Общие</string>
     <string name="pref_start_boot_title">Автоматический запуск AnyoneBot при загрузке системы</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">Отпечатки, псевдонимы, страны и адреса для исключения</string>
     <string name="enter_exclude_nodes">Введите исключённые узлы</string>
     <string name="strict_nodes">Точные узлы</string>
-    <string name="bridges">Мосты</string>
-    <string name="use_bridges">Использовать мосты</string>
     <string name="relays">Ретрансляторы</string>
     <string name="relaying">Ретрансляция</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">Разрешить вашему устройству быть невыходным ретранслятором</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Пользовательские настройки Torrc</string>
     <string name="pref_torrc_summary">ТОЛЬКО ДЛЯ ЭКСПЕРТОВ: внесите настройки напрямую в строки файла конфигурации torrc</string>
     <string name="pref_torrc_dialog">Пользовательский Torrc</string>
-    <string name="bridges_updated">Мосты обновлены</string>
-    <string name="restart_to_use_this_bridge_">Перезапустите AnyoneBot для применения изменений</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">Если ваша мобильная сеть активно блокирует Tor, вы можете использовать \"мосты\" в качестве альтернативного способа входа. Выберите один из вариантов для настройки и тестирования…</string>
-    <string name="get_bridges_email">Электронная почта</string>
     <string name="apps_mode">VPN-режим</string>
     <string name="send_email">Отправить письмо</string>
     <string name="vpn_default_world">Мир (авто)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">Сокращённая прокладка соединения</string>
     <string name="pref_reduced_connection_padding_summary">Раньше закрывает ретранслированные соединения и отправляет меньше пакетов заполнения для уменьшения объёма передаваемых данных и использования батареи</string>
     <string name="app_shortcuts">Приложения с поддержкой Tor</string>
-    <string name="bridge_direct_connect">Подключение непосредственно к Tor (рекомендуется)</string>
-    <string name="bridge_community">Подключение через серверы сообщества</string>
-    <string name="bridge_cloud">Подключение через облачные серверы</string>
     <string name="trouble_connecting">Проблема с подключением?</string>
     <string name="full_device_vpn">VPN для всего устройства</string>
     <string name="vpn_disabled">VPN отключён</string>
@@ -150,19 +139,6 @@
     <string name="pref_http_title">Tor HTTP</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Разрешить пирам Wi-Fi, привязанным устройствам и всем, кто может подключиться к вашему IP, доступ к Tor</string>
     <string name="pref_open_proxy_on_all_interfaces_title">Открыть прокси на всех интерфейсах</string>
-    <string name="bridge_snowflake">Использовать Snowflake (метод 1)</string>
-    <string name="use_qr_code">Использовать QR-код</string>
-    <string name="paste_bridges">Вставить мосты</string>
-    <string name="in_a_browser">В браузере зайдите на сайт %s и нажмите \"Get Bridges\" &gt; \"Just Give Me Bridges\"!</string>
-    <string name="use_custom_bridges">Использовать пользовательские мосты</string>
-    <string name="configure_custom_bridges">Настройка пользовательских мостов</string>
-    <string name="custom_bridges">Пользовательские мосты</string>
-    <string name="request_bridges_from_torproject">Запросить мосты с сайта torproject.org</string>
-    <string name="enter_characters_from_image">Введите текст, который указан выше</string>
-    <string name="captcha">Captcha</string>
-    <string name="solve_captcha_instruction">Решите CAPTCHA, чтобы запросить мосты.</string>
-    <string name="refresh_captcha">Обновить CAPTCHA</string>
-    <string name="request_bridges">Запросить мосты</string>
     <string name="testing_tor_direct_success">Успешно. Соединение с Tor установлено!</string>
     <string name="testing_tor_direct">Проверка подключения к Tor…</string>
     <string name="pref_reduced_circuit_padding_summary">Использовать алгоритмы заполнения с меньшими расходами, чтобы уменьшить расход данных и батареи</string>
@@ -181,29 +157,22 @@
     <string name="v3_key_hash">Закрытый ключ x25519 в Base32</string>
     <string name="v3_client_auth_activity_title">Авторизация клиента</string>
     <string name="v3_hosted_services">Размещённые Onion-службы</string>
-    <string name="get_bridges_email_request">Запросить мосты по электронной почте</string>
     <string name="mebibyte">МБ</string>
     <string name="kibibyte">КБ</string>
     <string name="deny">Отказать</string>
     <string name="allow">Разрешить</string>
-    <string name="bridge_snowflake_amp">Использовать Snowflake (AMP)</string>
     <string name="connected_title">Подключено</string>
-    <string name="btn_configure">Настроить подключение</string>
     <string name="trying_to_connect_title">Подключение…</string>
     <string name="btn_choose_apps">Выбор приложений</string>
     <string name="btn_change_exit">Сменить выходной узел</string>
     <string name="btn_refresh">Обновить</string>
     <string name="no_thx">Нет, спасибо</string>
     <string name="menu_header_features">Функции</string>
-    <string name="volunteer_mode">Режим доброты</string>
     <string name="volunteer_mode_subtitle">Помочь другим с подключением</string>
     <string name="menu_help_others">Помочь другим</string>
     <string name="menu_app_settings">Настройки приложения</string>
     <string name="menu_header_learn">Узнать больше</string>
-    <string name="btn_use_custom_bridge">Использовать пользовательский мост</string>
     <string name="msg_taking_too_long">Кажется, это займёт очень много времени</string>
-    <string name="snowflake_proxy_msg_title">Показывать уведомление о подключении</string>
-    <string name="snowflake_proxy_msg_description">Показывать уведомление, когда вы помогаете кому-то обходить цензуру</string>
     <string name="version">Версия:</string>
     <string name="license">Лицензия:</string>
     <string name="btn_tor_off">Выключить Tor</string>
@@ -215,40 +184,14 @@
     <string name="menu_faq">FAQ</string>
     <string name="msg_try_something_else">Попробуйте что-нибудь ещё</string>
     <string name="strict_nodes_description">Рассматривать настройки исключённых узлов как требование для построения всех цепочек. Это может нарушить функциональность, если ни одна цепочка не сможет быть создана с вашими настройками.</string>
-    <string name="volunteer_mode_title">Помогите другим
-\nподключиться к Tor</string>
-    <string name="volunteer_mode_label">Режим доброты</string>
-    <string name="volunteer_mode_weekly_label">Итого за неделю</string>
-    <string name="volunteer_mode_alltime_label">Итого за всё время</string>
-    <string name="snowflake">Snowflake (оригинал)</string>
-    <string name="get_a_bridge_subtitle">Маскировка вашего трафика. Обходит некоторые блокировки Tor.</string>
-    <string name="custom_bridge_subtitle">Скорее всего, это поможет сохранить подключение, даже если Tor будет жёстко заблокирован. Требуется адрес моста от кого-то, кому вы доверяете.</string>
-    <string name="custom_bridge">Пользовательский мост</string>
     <string name="connect">Подключить</string>
     <string name="next">Далее</string>
-    <string name="solve_captcha">Решить капчу</string>
-    <string name="snowflake_subtitle">Подключение через добровольцев Tor. Обходит некоторые блокировки Tor.</string>
-    <string name="direct_connect_subtitle">Лучший способ подключения к Tor. Используйте, если Tor не заблокирован.</string>
     <string name="configure_header">Настройте своё подключение к Tor</string>
     <string name="drawer_open">Открыть</string>
     <string name="drawer_close">Закрыть</string>
     <string name="proxy_ports">Порты прокси</string>
     <string name="ports_not_set">Порты не указаны</string>
-    <string name="smart_connect_subtitle">AnyoneBot пытается подключиться к Tor любым доступным способом: напрямую, через Snowflake, через мост.</string>
-    <string name="volunteer_mode_subtitle_desc">Режим доброты позволяет вашему устройству быть мостом для других. Это помогает людям использовать Tor в местах, где он заблокирован.
-\n
-\n• Он не расходует заряд батареи
-\n• Он не замедляет ваш интернет
-\n• Он может работать только через Wi-Fi
-\n• Его можно отключить в любое время</string>
-    <string name="smart_connect">Умное подключение (по умолчанию)</string>
-    <string name="get_a_bridge">Мост от Tor (Obfs4)</string>
-    <string name="direct_connect">Прямое подключение к Tor</string>
     <string name="incorrect_solution">Неправильное решение</string>
-    <string name="bridges_obtained_connecting">Мосты получены! Подключение к Tor…</string>
-    <string name="having_trouble">Есть проблема</string>
-    <string name="having_trouble_subtitle">В следующий раз можно попробовать использовать мост Tor, но понадобится ваша помощь</string>
-    <string name="custom_bridge_description">Пользовательский мост предоставляется кем-то из ваших знакомых. Спросите в своих доверенных сетях и организациях, нет ли у кого-нибудь такого моста.</string>
     <string name="power_user_mode">Режим опытного пользователя</string>
     <string name="volunteer_status_title">Мир стал лучше
 \nблагодаря вам.</string>
@@ -260,16 +203,13 @@
     <string name="app_suggested_subtitle">AnyoneBot лучше всего работает с приложениями для обмена сообщениями и социальными сетями.</string>
     <string name="hide_apps">Скрывайте приложения от отслеживания в сети и получайте доступ при блокировке.</string>
     <string name="log_copied">Журнал скопирован</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="many_ways">Есть много способов добраться до Tor. Некоторые из них могут сработать у вас лучше, чем другие.</string>
     <string name="not_sure">Не уверены\?</string>
-    <string name="ask_tor">Спросить у Tor</string>
     <string name="action_use">Использовать</string>
     <string name="asking">ЗАПРОС…</string>
     <string name="no_internet_title">Подключиться к интернету</string>
     <string name="no_internet_subtitle">Для использования AnyoneBot необходимо подключение к интернету.</string>
     <string name="kindness_adjust_title">Настройки</string>
-    <string name="kindess_config_detail">Настройте, как и когда ваше устройство может использоваться в качестве прокси-сервера Snowflake для других пользователей Tor.</string>
     <string name="pref_isolate_protocol">Изолировать протоколы клиентов</string>
     <string name="pref_isolate_port_summary">Использовать разные цепочки подключения для каждого порта назначения</string>
     <string name="pref_isolate_port">Изолировать порты назначения</string>
@@ -278,11 +218,9 @@
     <string name="option_only_when_charging">Только при зарядке</string>
     <string name="option_only_on_wifi">Только по Wi-Fi</string>
     <string name="menu_more">Ещё</string>
-    <string name="menu_kindness">Доброта</string>
     <string name="setting_padding">Прокладка</string>
     <string name="setting_debug">Отладка</string>
     <string name="connection_direct">Прямое</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">Настраиваемое</string>
     <string name="pref_flag_secure_title">Защита экрана</string>
     <string name="pref_flag_secure_summary">Не позволять другим приложениям получать снимки экрана AnyoneBot</string>

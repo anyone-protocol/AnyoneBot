@@ -45,8 +45,6 @@
     <string name="exit_nodes">Finnodoj</string>
     <string name="fingerprints_nicks_countries_and_addresses_for_the_last_hop">Fingrospuroj, kaŝnomoj, landoj kaj adresoj por la lasta hopo</string>
     <string name="enter_exit_nodes">Entajpu finnofojn</string>
-    <string name="bridges">Pontoj</string>
-    <string name="use_bridges">Uzi Pontojn</string>
     <string name="enter_or_port">Entajpu OR-pordon</string>
     <string name="relay_nickname">Kaŝnomo de la relajso</string>
     <string name="the_nickname_for_your_tor_relay">Kaŝnomo por via Tor-relajso</string>
@@ -72,7 +70,6 @@
     <string name="license">Permesilo:</string>
     <string name="allow">permesi</string>
     <string name="deny">Malakcepti</string>
-    <string name="get_bridges_email">Retpoŝto</string>
     <string name="enable">Aktivigi</string>
     <string name="btn_refresh">Aktualigi</string>
     <string name="menu_header_features">Funkcioj</string>

@@ -10,10 +10,8 @@
     <string name="main_layout_upload">アップロード</string>
     <string name="button_about">バージョン情報</string>
     <string name="menu_exit">終了</string>
-    <string name="menu_scan">ブリッジQRをスキャン</string>
-    <string name="menu_share_bridge">ブリッジQRを共有</string>
     <!--Welcome Wizard strings (DJH)-->
-    <string name="wizard_details_msg">AnyoneBotはTor、IPtProxy (Obfs4Proxy, Meek, Snowflake), Go-Tun2Socks、LibEventを含むオープンソースアプリです。Torネットワークに入るVPNトンネル、ローカルHTTP接続プロキシ (8118) SOCKSプロキシ (9050) を提供します。</string>
+    <string name="wizard_details_msg">AnyoneBotはTor、Go-Tun2Socks、LibEventを含むオープンソースアプリです。Torネットワークに入るVPNトンネル、ローカルHTTP接続プロキシ (8118) SOCKSプロキシ (9050) を提供します。</string>
     <!--END Welcome Wizard strings (DJH)-->
     <string name="pref_general_group">一般</string>
     <string name="pref_start_boot_title">起動時にAnyoneBotを実行</string>
@@ -55,8 +53,6 @@
     <string name="fingerprints_nicks_countries_and_addresses_to_exclude">除外するデジタル指紋、ニックネーム、国とIPアドレス</string>
     <string name="enter_exclude_nodes">除外ノードを入力</string>
     <string name="strict_nodes">Strictノード</string>
-    <string name="bridges">ブリッジ</string>
-    <string name="use_bridges">ブリッジを使う</string>
     <string name="relays">中継</string>
     <string name="relaying">中継する</string>
     <string name="enable_your_device_to_be_a_non_exit_relay">この端末を非出口中継にする</string>
@@ -93,10 +89,6 @@
     <string name="pref_torrc_title">Torrc カスタム設定</string>
     <string name="pref_torrc_summary">上級者のみ: 直接torrc設定行を入力します</string>
     <string name="pref_torrc_dialog">Torrcをカスタム</string>
-    <string name="bridges_updated">ブリッジを更新しました</string>
-    <string name="restart_to_use_this_bridge_">変更を有効にするには、AnyoneBotを再起動してください</string>
-    <string name="if_your_mobile_network_actively_blocks_tor_you_can_use_a_tor_bridge_to_access_the_network_another_way_to_get_bridges_is_to_send_an_email_to_bridges_torproject_org_please_note_that_you_must_send_the_email_using_an_address_from_one_of_the_following_email_providers_riseup_gmail_or_yahoo_">もしあなたのモバイルネットワークがTorを積極的に遮断するなら、代替手段として\'ブリッジサーバ\'を使用することができます。設定と試験のために、選択肢の一つを選択してください…</string>
-    <string name="get_bridges_email">電子メール</string>
     <string name="apps_mode">VPN方式</string>
     <string name="send_email">電子メール送信</string>
     <string name="vpn_default_world">世界中 (自動)</string>
@@ -131,9 +123,6 @@
     <string name="pref_reduced_connection_padding">節減型通信水増し</string>
     <string name="pref_reduced_connection_padding_summary">データと電池の消費量を減らすために、中継接続を早めに閉じ、水増しパケットを少なく送信します</string>
     <string name="app_shortcuts">Torが有効化されたアプリ</string>
-    <string name="bridge_direct_connect">Torに直接接続する(最良)</string>
-    <string name="bridge_community">コミュニティーサーバーを介して接続する</string>
-    <string name="bridge_cloud">クラウドサーバーを介して接続する</string>
     <string name="trouble_connecting">接続に問題がありましたか?</string>
     <string name="full_device_vpn">全デバイスVPN</string>
     <string name="vpn_disabled">VPNが無効</string>
@@ -158,13 +147,10 @@
     <string name="v3_import_auth_private">.auth_privateをインポート</string>
     <string name="confirm">確認</string>
     <string name="v3_hosted_services">オニオンサービスによるホスト</string>
-    <string name="custom_bridges">カスタムブリッジ</string>
     <string name="secure_your_connection_title">接続準備完了</string>
     <string name="secure_your_connection_subtitle">アプリをネットワーク監視から隠し、遮断されているときにはアクセスできるようにします。</string>
     <string name="connected_title">接続されました</string>
     <string name="btn_start_vpn">VPNを開始</string>
-    <string name="btn_configure">接続の仕方を選択</string>
-    <string name="volunteer_mode">親切モード</string>
     <string name="trying_to_connect_title">接続しています…</string>
     <string name="btn_choose_apps">アプリを選ぶ</string>
     <string name="btn_change_exit">出口を変更する</string>
@@ -177,7 +163,6 @@
     <string name="menu_app_settings">アプリの設定</string>
     <string name="menu_faq">よくある質問</string>
     <string name="menu_header_learn">もっと詳しく</string>
-    <string name="btn_use_custom_bridge">カスタムブリッジを使用する</string>
     <string name="msg_taking_too_long">これはとても時間がかかるようです</string>
     <string name="msg_try_something_else">他のものを試してみる</string>
     <string name="version">バージョン:</string>
@@ -186,19 +171,7 @@
     <string name="pref_circuit_padding">回路水増し</string>
     <string name="pref_circuit_padding_summary">ある種のトラフィック解析から防御するために、回路水増しを有効にします</string>
     <string name="pref_reduced_circuit_padding_summary">データと電池の消費量を減らすために、低い追加処理水増しアルゴリズムを使います</string>
-    <string name="request_bridges">ブリッジを要求する</string>
-    <string name="refresh_captcha">CAPTCHAを更新する</string>
-    <string name="solve_captcha_instruction">ブリッジをリクエストするにはCAPTCHAを解いてください。</string>
-    <string name="captcha">Captcha</string>
-    <string name="paste_bridges">ブリッジを貼り付け</string>
-    <string name="configure_custom_bridges">カスタムブリッジの設定</string>
-    <string name="use_qr_code">QRコードを使用</string>
-    <string name="bridge_snowflake">Snowflakeを使って他のTorユーザーを経由して接続する(方法第1 - Fastly)</string>
-    <string name="bridge_snowflake_amp">Snowflakeを使って他のTorユーザーを経由して接続する(方法第2 - AMP)</string>
-    <string name="use_custom_bridges">カスタムブリッジの使用</string>
-    <string name="snowflake_proxy_msg_description">あなたが誰かの検閲迂回を助けたら、メッセージを表示する</string>
     <string name="kibibyte">KiB</string>
-    <string name="get_bridges_email_request">電子メールによるブリッジのリクエスト</string>
     <string name="v3_client_auth_activity_title">クライアント認証</string>
     <string name="v3_key_hash">Base32内のx25519秘密鍵</string>
     <string name="v3_delete_client_authorization_confirm">クライアント認証を削除</string>
@@ -206,49 +179,19 @@
     <string name="backup_port_exist">エラー: オニオンサービスは既にポート %s を使用しています</string>
     <string name="testing_tor_direct">Torへの接続を試行しています…</string>
     <string name="testing_tor_direct_success">成功しました。Tor接続は良好です!</string>
-    <string name="enter_characters_from_image">上のテキストを入力</string>
-    <string name="in_a_browser">ブラウザで%sに訪れ、Get Bridges &gt; Just Give Me Bridges!をタップ</string>
-    <string name="snowflake_proxy_msg_title">接続通知を表示</string>
     <string name="volunteer_mode_subtitle">他の人の接続を助ける</string>
     <string name="menu_header_features">特徴</string>
     <string name="v3_onion">.onionドメイン</string>
     <string name="strict_nodes_description">除外ノードの設定は、すべての回路を構築するための要件として扱われます。このため、除外ノードの設定で回路を生成できない場合、根本的な機能が停止することがあります。</string>
     <string name="mebibyte">MiB</string>
-    <string name="request_bridges_from_torproject">torproject.orgからブリッジを要求する</string>
     <string name="drawer_open">開く</string>
     <string name="drawer_close">閉じる</string>
     <string name="proxy_ports">プロキシのポート</string>
-    <string name="volunteer_mode_label">親切モード</string>
     <string name="ports_not_set">ポート設定していません</string>
     <string name="configure_header">あなたのTor接続を構成する</string>
     <string name="next">次へ</string>
-    <string name="bridges_obtained_connecting">ブリッジを獲得しました！ torに接続しています…</string>
-    <string name="custom_bridge_description">カスタムブリッジは、あなたが知っている誰かによって提供されます。信頼できるネットワークや組織内で、誰かがカスタムブリッジをホストしていないか尋ねてみてください。</string>
-    <string name="volunteer_mode_title">Torに接続する
-\n他の人を助ける</string>
-    <string name="volunteer_mode_subtitle_desc">親切モードは、あなたのデバイスが他の人のためのブリッジになることを可能にします。Torが遮断されている場所でも使えるようにします。
-\n
-\n• 電池を消耗しません
-\n• インターネットを遅くすることはありません
-\n• wifiのみで動作可能です
-\n• いつでも電源を切ることができます</string>
-    <string name="smart_connect">気の利いた接続(初期設定)</string>
-    <string name="volunteer_mode_weekly_label">週間合計</string>
-    <string name="volunteer_mode_alltime_label">全期間累計</string>
-    <string name="smart_connect_subtitle">AnyoneBotはあらゆる手段でTorに接続しようとします: 直接、Snowflake、ブリッジ。</string>
-    <string name="direct_connect">Torに直接接続</string>
-    <string name="direct_connect_subtitle">Torに接続する最良の手段です。Torが遮断されてないときに使用します。</string>
-    <string name="snowflake">Snowflake (元のまま)</string>
-    <string name="snowflake_subtitle">Torの有志を介した接続です。一部のTor遮断を回避できます。</string>
-    <string name="get_a_bridge_subtitle">あなたのトラフィックを隠します。一部のTor遮断を回避できます。</string>
-    <string name="custom_bridge">カスタムブリッジ</string>
-    <string name="custom_bridge_subtitle">Torが厳重に遮断されている場合、接続を維持できる可能性が最も高いです。信頼できる人からのブリッジアドレスが必要です。</string>
-    <string name="get_a_bridge">Torからのブリッジ(Obfs4)</string>
     <string name="connect">接続</string>
-    <string name="solve_captcha">Captchaを解く</string>
     <string name="incorrect_solution">不正解</string>
-    <string name="having_trouble">問題発生</string>
-    <string name="having_trouble_subtitle">次に、Torブリッジを試すことができますが、あなたの助力が必要です</string>
     <string name="power_user_mode">パワーユーザーモード</string>
     <string name="apps_other_apps">他のアプリ</string>
     <string name="power_user_description">Torに精通しているユーザー向け。VPN設定なしでAnyoneBotを起動でき、開いているSOCKSポートとHTTPポートが表示されます</string>
@@ -265,24 +208,19 @@
     <string name="action_use">使用</string>
     <string name="no_internet_title">インターネットに接続</string>
     <string name="no_internet_subtitle">AnyoneBotを使用するには、インターネット接続が必要です。</string>
-    <string name="snowflake_amp">Snowflake (AMP)</string>
     <string name="log_copied">ログをコピーしました</string>
     <string name="volunteer_status_title">今日の方がいい。
 \nあなたのおかげで。</string>
     <string name="not_sure">わからない？</string>
-    <string name="ask_tor">トールに聞く</string>
     <string name="asking">質問…</string>
     <string name="kindness_adjust_title">設定</string>
-    <string name="kindess_config_detail">あなたの端末が他のTor利用者用のSnowflakeプロキシとしてどう動作するか、いつ動作するかを設定します。</string>
     <string name="btn_copy_log">ログをコピー</string>
     <string name="setting_padding">水増し</string>
     <string name="menu_more">詳細を表示</string>
     <string name="option_only_on_wifi">Wifiのみ</string>
-    <string name="menu_kindness">親切</string>
     <string name="option_only_when_charging">充電時のみ</string>
     <string name="setting_debug">デバッグ</string>
     <string name="connection_direct">直接</string>
-    <string name="connection_snowflake">Snowflake</string>
     <string name="connection_custom">カスタム</string>
     <string name="pref_flag_secure_summary">他のアプリがAnyoneBotのスクリーンショットを撮るのを防ぐ</string>
     <string name="pref_flag_secure_title">画面の安全</string>
