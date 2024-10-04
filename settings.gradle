@@ -12,13 +12,6 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        // noinspection JcenterRepositoryObsolete
-        jcenter {
-            content {
-                includeGroup('com.jraska')
-                includeGroup('tools.fastlane')
-            }
-        }
         mavenCentral()
         maven { url "https://jitpack.io" }
         maven { url "https://raw.githubusercontent.com/guardianproject/gpmaven/master" }
@@ -33,3 +26,5 @@ include(
         ':OrbotLib',
         ':anyonebotservice'
 )
+include ':anon-android-binary'
+project(':anon-android-binary').projectDir = new File("../anon-android/anon-android-binary")

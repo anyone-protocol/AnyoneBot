@@ -12,7 +12,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Ezin izan da Tor prozesua hasi:</string>
+    <string name="couldn_t_start_anon_process_">Ezin izan da anon prozesua hasi:</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Zure helbide atzigarriak salbuespena sortu du!</string>
   <string name="your_relay_settings_caused_an_exception_">Zure errele ezarpenak salbuespena sortu dute!</string>
     <string name="found_existing_tor_process">Aurreko Tor prozesua topatuta…</string>

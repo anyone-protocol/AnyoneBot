@@ -5,10 +5,11 @@ package io.anyone.anyonebot.service;
 
 import android.content.Intent;
 
-import org.torproject.jni.TorService;
 
 import java.util.Arrays;
 import java.util.List;
+
+import io.anyone.jni.AnonService;
 
 public interface AnyoneBotConstants {
 
@@ -20,7 +21,7 @@ public interface AnyoneBotConstants {
     String PREF_REACHABLE_ADDRESSES = "pref_reachable_addresses";
     String PREF_REACHABLE_ADDRESSES_PORTS = "pref_reachable_addresses_ports";
 
-    String PREF_TOR_SHARED_PREFS = "org.torproject.android_preferences";
+    String PREF_TOR_SHARED_PREFS = "io.anyone.anyonebot_preferences";
 
     String PREF_SOCKS = "pref_socks";
 
@@ -44,15 +45,15 @@ public interface AnyoneBotConstants {
     String APP_WIFI_KEY = "_app_wifi";
 
 
-    String DIRECTORY_TOR_DATA = "tordata";
+    String DIRECTORY_ANON_DATA = "anondata";
 
     //geoip data file asset key
     String GEOIP_ASSET_KEY = "geoip";
     String GEOIP6_ASSET_KEY = "geoip6";
 
-    int TOR_TRANSPROXY_PORT_DEFAULT = 9040;
+    int ANON_TRANSPROXY_PORT_DEFAULT = 9040;
 
-    int TOR_DNS_PORT_DEFAULT = 5400;
+    int ANON_DNS_PORT_DEFAULT = 5400;
 
     String HTTP_PROXY_PORT_DEFAULT = "8118"; // like Privoxy!
     String SOCKS_PROXY_PORT_DEFAULT = "9050";
@@ -62,52 +63,52 @@ public interface AnyoneBotConstants {
     String LOG_NOTICE_BOOTSTRAPPED = "Bootstrapped";
 
     /**
-     * A request to Orbot to transparently start Tor services
+     * A request to Orbot to transparently start anon services
      */
-    String ACTION_START = TorService.ACTION_START;
-    String ACTION_STOP = "org.torproject.android.intent.action.STOP";
+    String ACTION_START = AnonService.ACTION_START;
+    String ACTION_STOP = "io.anyone.anyonebot.intent.action.STOP";
 
     // needed when Orbot exits and tor is not running, but the notification is still active
-    String ACTION_STOP_FOREGROUND_TASK = "org.torproject.android.intent.action.STOP_FOREGROUND_TASK";
+    String ACTION_STOP_FOREGROUND_TASK = "io.anyone.anyonebot.intent.action.STOP_FOREGROUND_TASK";
 
-    String ACTION_START_VPN = "org.torproject.android.intent.action.START_VPN";
-    String ACTION_STOP_VPN = "org.torproject.android.intent.action.STOP_VPN";
-    String ACTION_RESTART_VPN = "org.torproject.android.intent.action.RESTART_VPN";
+    String ACTION_START_VPN = "io.anyone.anyonebot.intent.action.START_VPN";
+    String ACTION_STOP_VPN = "io.anyone.anyonebot.intent.action.STOP_VPN";
+    String ACTION_RESTART_VPN = "io.anyone.anyonebot.intent.action.RESTART_VPN";
 
-    String ACTION_LOCAL_LOCALE_SET = "org.torproject.android.intent.LOCAL_LOCALE_SET";
+    String ACTION_LOCAL_LOCALE_SET = "io.anyone.anyonebot.intent.LOCAL_LOCALE_SET";
 
-    String ACTION_UPDATE_ONION_NAMES = "org.torproject.android.intent.action.UPDATE_ONION_NAMES";
+    String ACTION_UPDATE_ONION_NAMES = "io.anyone.anyonebot.intent.action.UPDATE_ONION_NAMES";
 
     /**
      * {@link Intent} send by Orbot with {@code ON/OFF/STARTING/STOPPING} status
      */
-    String ACTION_STATUS = TorService.ACTION_STATUS;
+    String ACTION_STATUS = AnonService.ACTION_STATUS;
     /**
      * {@code String} that contains a status constant: {@link #STATUS_ON},
      * {@link #STATUS_OFF}, {@link #STATUS_STARTING}, or
      * {@link #STATUS_STOPPING}
      */
-    String EXTRA_STATUS = TorService.EXTRA_STATUS;
+    String EXTRA_STATUS = AnonService.EXTRA_STATUS;
     /**
      * A {@link String} {@code packageName} for Orbot to direct its status reply
      * to, used in {@link #ACTION_START} {@link Intent}s sent to Orbot
      */
-    String EXTRA_PACKAGE_NAME = TorService.EXTRA_PACKAGE_NAME;
+    String EXTRA_PACKAGE_NAME = AnonService.EXTRA_PACKAGE_NAME;
     /**
      * The SOCKS proxy settings in URL form.
      */
-    String EXTRA_SOCKS_PROXY = "org.torproject.android.intent.extra.SOCKS_PROXY";
-    String EXTRA_SOCKS_PROXY_HOST = "org.torproject.android.intent.extra.SOCKS_PROXY_HOST";
-    String EXTRA_SOCKS_PROXY_PORT = "org.torproject.android.intent.extra.SOCKS_PROXY_PORT";
+    String EXTRA_SOCKS_PROXY = "io.anyone.anyonebot.intent.extra.SOCKS_PROXY";
+    String EXTRA_SOCKS_PROXY_HOST = "io.anyone.anyonebot.intent.extra.SOCKS_PROXY_HOST";
+    String EXTRA_SOCKS_PROXY_PORT = "io.anyone.anyonebot.intent.extra.SOCKS_PROXY_PORT";
     /**
      * The HTTP proxy settings in URL form.
      */
-    String EXTRA_HTTP_PROXY = "org.torproject.android.intent.extra.HTTP_PROXY";
-    String EXTRA_HTTP_PROXY_HOST = "org.torproject.android.intent.extra.HTTP_PROXY_HOST";
-    String EXTRA_HTTP_PROXY_PORT = "org.torproject.android.intent.extra.HTTP_PROXY_PORT";
+    String EXTRA_HTTP_PROXY = "io.anyone.anyonebot.intent.extra.HTTP_PROXY";
+    String EXTRA_HTTP_PROXY_HOST = "io.anyone.anyonebot.intent.extra.HTTP_PROXY_HOST";
+    String EXTRA_HTTP_PROXY_PORT = "io.anyone.anyonebot.intent.extra.HTTP_PROXY_PORT";
 
-    String EXTRA_DNS_PORT = "org.torproject.android.intent.extra.DNS_PORT";
-    String EXTRA_TRANS_PORT = "org.torproject.android.intent.extra.TRANS_PORT";
+    String EXTRA_DNS_PORT = "io.anyone.anyonebot.intent.extra.DNS_PORT";
+    String EXTRA_TRANS_PORT = "io.anyone.anyonebot.intent.extra.TRANS_PORT";
     /**
      * When present, indicates with certainty that the system itself did *not* send the Intent.
      * Effectively, the lack of this extra indicates that the VPN is being started by the system
@@ -115,7 +116,7 @@ public interface AnyoneBotConstants {
      * See: <a href="https://developer.android.com/guide/topics/connectivity/vpn#detect_always-on">
      * Detect always-on | VPN | Android Developers</a>
      */
-    String EXTRA_NOT_SYSTEM = "org.torproject.android.intent.extra.NOT_SYSTEM";
+    String EXTRA_NOT_SYSTEM = "io.anyone.anyonebot.intent.extra.NOT_SYSTEM";
 
     String LOCAL_ACTION_LOG = "log";
     String LOCAL_ACTION_STATUS = "status";
@@ -136,16 +137,16 @@ public interface AnyoneBotConstants {
 
 
     /**
-     * All tor-related services and daemons are stopped
+     * All anon-related services and daemons are stopped
      */
-    String STATUS_OFF = TorService.STATUS_OFF;
+    String STATUS_OFF = AnonService.STATUS_OFF;
 
     /**
-     * All tor-related services and daemons have completed starting
+     * All anon-related services and daemons have completed starting
      */
-    String STATUS_ON = TorService.STATUS_ON;
-    String STATUS_STARTING = TorService.STATUS_STARTING;
-    String STATUS_STOPPING = TorService.STATUS_STOPPING;
+    String STATUS_ON = AnonService.STATUS_ON;
+    String STATUS_STARTING = AnonService.STATUS_STARTING;
+    String STATUS_STOPPING = AnonService.STATUS_STOPPING;
 
     /**
      * The user has disabled the ability for background starts triggered by
@@ -164,11 +165,11 @@ public interface AnyoneBotConstants {
 
     String PREFS_DNS_PORT = "PREFS_DNS_PORT";
 
-    String PREFS_KEY_TORIFIED = "PrefTord";
+    String PREFS_KEY_ANONIFIED = "PrefAnond";
 
     /**
      * Include packages here to make the VPNService ignore these apps. This is to
-     * prevent tor over tor scenarios...
+     * prevent anon over anon/tor scenarios...
      */
     List<String> BYPASS_VPN_PACKAGES = Arrays.asList(
             "org.torproject.torbrowser_alpha",

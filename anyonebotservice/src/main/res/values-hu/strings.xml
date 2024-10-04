@@ -14,7 +14,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Nem indítható el a Tor folyamat:</string>
+    <string name="couldn_t_start_anon_process_">Nem indítható el a anon folyamat:</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Az elérhető címeid beállításai kivételt okoztak!</string>
   <string name="your_relay_settings_caused_an_exception_">Az átjátszód beállításai kivételt okoztak!</string>
     <string name="found_existing_tor_process">létező Tor folyamat találva…</string>

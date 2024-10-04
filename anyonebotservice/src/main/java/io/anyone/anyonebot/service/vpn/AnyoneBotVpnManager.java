@@ -280,11 +280,11 @@ public class AnyoneBotVpnManager implements Handler.Callback, AnyoneBotConstants
     }
 
     private void doAppBasedRouting(VpnService.Builder builder) throws NameNotFoundException {
-        var apps = TorifiedApp.getApps(mService, prefs);
+        var apps = AnonifiedApp.getApps(mService, prefs);
         var individualAppsWereSelected = false;
         var isLockdownMode = isVpnLockdown(mService);
 
-        for (TorifiedApp app : apps) {
+        for (AnonifiedApp app : apps) {
             if (app.isTorified() && (!app.getPackageName().equals(mService.getPackageName()))) {
                 if (prefs.getBoolean(app.getPackageName() + AnyoneBotConstants.APP_TOR_KEY, true)) {
                     builder.addAllowedApplication(app.getPackageName());

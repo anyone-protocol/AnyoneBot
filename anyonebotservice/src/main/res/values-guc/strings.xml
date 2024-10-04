@@ -11,7 +11,7 @@
     <string name="connect_to_tor">Antirrawaa sunain Tor</string>
     <string name="config_invalid">sükumajia AnyoneBot maliaasat</string>
 
-    <string name="couldn_t_start_tor_process_">Nojotsü o\'ottuin sukuaipa shiatain Tor</string>
+    <string name="couldn_t_start_anon_process_">Nojotsü o\'ottuin sukuaipa shiatain anon</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Tü anatiaaka   erree juntunuín  casaa, nojots jainrre\'in</string>
     <string name="your_relay_settings_caused_an_exception_">Tü anatiaka  eerjaya maimatuaa, nojots  jainrrei´n </string>
     <string name="found_existing_tor_process">Antusü sünain sajia wanee Tor etüjulia &#8230;</string>
@@ -33,7 +33,7 @@
     <string name="log_notice_low_memory_warning">Motée ainrüü</string>
     <string name="log_notice_updating_torrc">Jeketerr  tu anatiakal  tu ipünamiukal C</string>
     <string name="log_notice_added_event_handler">Kaa´muinshi atumaa  chi ayawuajuikai  kazachiki</string>
-    <string name="log_notice_connected_to_tor_control_port">Antirrashi  Tor  juma ipunamuika eki.</string>
+    <string name="log_notice_connected_to_anon_control_port">Antirrashi  anon  juma ipunamuika eki.</string>
     <string name="log_notice_ignoring_start_request">Nojots apunuin  juchuntia  eepeja\'asú</string>
 
 </resources>

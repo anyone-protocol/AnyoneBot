@@ -5,7 +5,7 @@ apply from : '../dependencies.gradle'
 android {
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 35
     }
 
     buildTypes {
@@ -34,12 +34,10 @@ android {
 }
 
 dependencies {
-    api libs.guardian_jtorctl
+    api project(':anon-android-binary')
 
     //use locally built ipt_proxy+go_tun2socks
     api project(':OrbotLib')
-
-    api libs.tor_android
 
     implementation(
             libs.android_shell,

@@ -1,11 +1,12 @@
 package io.anyone.anyonebot.service;
 
-import net.freehaven.tor.control.RawEventListener;
-import net.freehaven.tor.control.TorControlCommands;
+import androidx.annotation.NonNull;
 
 import io.anyone.anyonebot.service.util.Prefs;
 import io.anyone.anyonebot.service.util.Utils;
-import org.torproject.jni.TorService;
+import io.anyone.jni.AnonControlCommands;
+import io.anyone.jni.AnonService;
+import io.anyone.jni.RawEventListener;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -38,20 +39,20 @@ public class AnyoneBotRawEventListener implements RawEventListener {
     @Override
     public void onEvent(String keyword, String data) {
         String[] payload = data.split(" ");
-        if (TorControlCommands.EVENT_BANDWIDTH_USED.equals(keyword)) {
+        if (AnonControlCommands.EVENT_BANDWIDTH_USED.equals(keyword)) {
             handleBandwidth(Long.parseLong(payload[0]), Long.parseLong(payload[1]));
-        } else if (TorControlCommands.EVENT_NEW_DESC.equals(keyword)) {
+        } else if (AnonControlCommands.EVENT_NEW_DESC.equals(keyword)) {
             handleNewDescriptors(payload);
-        } else if (TorControlCommands.EVENT_STREAM_STATUS.equals(keyword)) {
+        } else if (AnonControlCommands.EVENT_STREAM_STATUS.equals(keyword)) {
 
             handleStreamEventExpandedNotifications(payload[1], payload[3], payload[2], payload[4]);
 
             if (Prefs.useDebugLogging()) handleStreamEventsDebugLogging(payload[1], payload[0]);
-        } else if (TorControlCommands.EVENT_CIRCUIT_STATUS.equals(keyword)) {
+        } else if (AnonControlCommands.EVENT_CIRCUIT_STATUS.equals(keyword)) {
             String status = payload[1];
             String circuitId = payload[0];
             String path;
-            if (payload.length < 3 || status.equals(TorControlCommands.CIRC_EVENT_LAUNCHED))
+            if (payload.length < 3 || status.equals(AnonControlCommands.CIRC_EVENT_LAUNCHED))
                 path = "";
             else path = payload[2];
             handleCircuitStatus(status, circuitId, path);
@@ -62,9 +63,9 @@ public class AnyoneBotRawEventListener implements RawEventListener {
             }
             handleCircuitStatusExpandedNotifications(status, circuitId, path);
 
-        } else if (TorControlCommands.EVENT_OR_CONN_STATUS.equals(keyword)) {
+        } else if (AnonControlCommands.EVENT_OR_CONN_STATUS.equals(keyword)) {
             handleConnectionStatus(payload[1], payload[0]);
-        } else if (TorControlCommands.EVENT_DEBUG_MSG.equals(keyword) || TorControlCommands.EVENT_INFO_MSG.equals(keyword) || TorControlCommands.EVENT_NOTICE_MSG.equals(keyword) || TorControlCommands.EVENT_WARN_MSG.equals(keyword) || TorControlCommands.EVENT_ERR_MSG.equals(keyword)) {
+        } else if (AnonControlCommands.EVENT_DEBUG_MSG.equals(keyword) || AnonControlCommands.EVENT_INFO_MSG.equals(keyword) || AnonControlCommands.EVENT_NOTICE_MSG.equals(keyword) || AnonControlCommands.EVENT_WARN_MSG.equals(keyword) || AnonControlCommands.EVENT_ERR_MSG.equals(keyword)) {
             handleDebugMessage(keyword, data);
         } else {
             String unrecognized = "Message (" + keyword + "): " + data;
@@ -75,7 +76,7 @@ public class AnyoneBotRawEventListener implements RawEventListener {
     private void handleBandwidth(long read, long written) {
         String message = AnyoneBotService.formatBandwidthCount(mService, read) + " ↓ / " + AnyoneBotService.formatBandwidthCount(mService, written) + " ↑";
 
-        if (mService.getCurrentStatus().equals(TorService.STATUS_ON))
+        if (mService.getCurrentStatus().equals(AnonService.STATUS_ON))
             mService.showBandwidthNotification(message, read != 0 || written != 0);
 
         mTotalBandwidthWritten += written;
@@ -91,7 +92,7 @@ public class AnyoneBotRawEventListener implements RawEventListener {
     }
 
     private void handleStreamEventExpandedNotifications(String status, String target, String circuitId, String clientProtocol) {
-        if (!status.equals(TorControlCommands.STREAM_EVENT_SUCCEEDED)) return;
+        if (!status.equals(AnonControlCommands.STREAM_EVENT_SUCCEEDED)) return;
         if (!clientProtocol.contains("SOCKS5")) return;
         int id = Integer.parseInt(circuitId);
         if (target.contains(".onion"))
@@ -130,7 +131,7 @@ public class AnyoneBotRawEventListener implements RawEventListener {
     private void handleCircuitStatusExpandedNotifications(String circuitStatus, String circuitId, String path) {
         int id = Integer.parseInt(circuitId);
         switch (circuitStatus) {
-            case TorControlCommands.CIRC_EVENT_BUILT -> {
+            case AnonControlCommands.CIRC_EVENT_BUILT -> {
                 if (ignoredInternalCircuits.contains(id))
                     return; // this circuit won't be used by user clients
                 String[] nodes = path.split(",");
@@ -138,11 +139,11 @@ public class AnyoneBotRawEventListener implements RawEventListener {
                 String fingerprint = exit.split("~")[0];
                 exitNodeMap.put(id, new ExitNode(fingerprint));
             }
-            case TorControlCommands.CIRC_EVENT_CLOSED -> {
+            case AnonControlCommands.CIRC_EVENT_CLOSED -> {
                 exitNodeMap.remove(id);
                 ignoredInternalCircuits.remove(id);
             }
-            case TorControlCommands.CIRC_EVENT_FAILED -> ignoredInternalCircuits.remove(id);
+            case AnonControlCommands.CIRC_EVENT_FAILED -> ignoredInternalCircuits.remove(id);
         }
     }
 
@@ -195,12 +196,12 @@ public class AnyoneBotRawEventListener implements RawEventListener {
 
             if (st.hasMoreTokens()) sb.append(" > ");
 
-            if (circuitStatus.equals(TorControlCommands.CIRC_EVENT_EXTENDED) && isFirstNode) {
+            if (circuitStatus.equals(AnonControlCommands.CIRC_EVENT_EXTENDED) && isFirstNode) {
                 hmBuiltNodes.put(node.id, node);
                 isFirstNode = false;
-            } else if (circuitStatus.equals(TorControlCommands.CIRC_EVENT_LAUNCHED)) {
+            } else if (circuitStatus.equals(AnonControlCommands.CIRC_EVENT_LAUNCHED)) {
                 if (Prefs.useDebugLogging() && nodeCount > 3) mService.debug(sb.toString());
-            } else if (circuitStatus.equals(TorControlCommands.CIRC_EVENT_CLOSED)) {
+            } else if (circuitStatus.equals(AnonControlCommands.CIRC_EVENT_CLOSED)) {
                 hmBuiltNodes.remove(node.id);
             }
 
@@ -234,6 +235,7 @@ public class AnyoneBotRawEventListener implements RawEventListener {
         public String ipAddress;
         boolean querying = false;
 
+        @NonNull
         @Override
         public String toString() {
             return ipAddress + " " + country;

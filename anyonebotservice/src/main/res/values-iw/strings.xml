@@ -13,7 +13,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">אין אפשרות להתחיל תהליך Tor:</string>
+    <string name="couldn_t_start_anon_process_">אין אפשרות להתחיל תהליך anon:</string>
     <string name="found_existing_tor_process">נמצא תהליך Tor קיים…</string>
     <string name="unable_to_start_tor">לא מסוגל להתחיל את Tor:</string>
     <string name="newnym">החלפת אל זהות Tor חדשה!</string>

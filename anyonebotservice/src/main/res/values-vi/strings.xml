@@ -14,7 +14,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Không thể khởi động tiến trình Tor:</string>
+    <string name="couldn_t_start_anon_process_">Không thể khởi động tiến trình anon:</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Thiết lập ReachableAddresses đã gây ra một vấn đề! </string>
   <string name="your_relay_settings_caused_an_exception_">Thiết lập relay của bạn đã gây ra một vấn đề!</string>
     <string name="found_existing_tor_process">tìm ra tiến trình hiện hành của Tor…</string>

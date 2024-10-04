@@ -20,8 +20,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 
-import net.freehaven.tor.control.TorControlCommands
-
 import io.anyone.anyonebot.core.NetworkUtils.isNetworkAvailable
 import io.anyone.anyonebot.core.putNotSystem
 import io.anyone.anyonebot.service.AnyoneBotConstants
@@ -30,6 +28,7 @@ import io.anyone.anyonebot.service.util.Prefs
 import io.anyone.anyonebot.ui.AppManagerActivity
 import io.anyone.anyonebot.ui.MenuAction
 import io.anyone.anyonebot.ui.MenuActionAdapter
+import io.anyone.jni.AnonControlCommands
 
 
 class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
@@ -105,7 +104,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
     }
 
     private fun sendNewnymSignal() {
-        sendIntentToService(TorControlCommands.SIGNAL_NEWNYM)
+        sendIntentToService(AnonControlCommands.SIGNAL_NEWNYM)
         ivOnion.animate().alpha(0f).duration = 500
         Handler().postDelayed({ ivOnion.animate().alpha(1f).duration = 500 }, 600)
     }
@@ -116,11 +115,11 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
         )
     }
 
-    private fun startTorAndVpnDelay(@Suppress("SameParameterValue") ms: Long) =
-        Handler(Looper.getMainLooper()).postDelayed({ startTorAndVpn() }, ms)
+    private fun startAnonAndVpnDelay(@Suppress("SameParameterValue") ms: Long) =
+        Handler(Looper.getMainLooper()).postDelayed({ startAnonAndVpn() }, ms)
 
 
-    fun startTorAndVpn() {
+    fun startAnonAndVpn() {
         val vpnIntent = VpnService.prepare(requireActivity())?.putNotSystem()
         if (vpnIntent != null && (!Prefs.isPowerUserMode())) {
             startActivityForResult(vpnIntent, AnyoneBotActivity.REQUEST_CODE_VPN)
@@ -152,7 +151,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == AnyoneBotActivity.REQUEST_CODE_VPN && resultCode == AppCompatActivity.RESULT_OK) {
-            startTorAndVpn()
+            startAnonAndVpn()
         } else if (requestCode == AnyoneBotActivity.REQUEST_CODE_SETTINGS && resultCode == AppCompatActivity.RESULT_OK) {
             // todo respond to language change extra data here...
         } else if (requestCode == AnyoneBotActivity.REQUEST_VPN_APP_SELECT && resultCode == AppCompatActivity.RESULT_OK) {
@@ -219,11 +218,11 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
                     requireContext(), R.color.btn_enabled_purple
                 )
             )
-            setOnClickListener { startTorAndVpn() }
+            setOnClickListener { startAnonAndVpn() }
         }
 
         ivOnion.setOnClickListener {
-            startTorAndVpn()
+            startAnonAndVpn()
         }
     }
 
@@ -264,7 +263,7 @@ class ConnectFragment : Fragment(), ConnectionHelperCallbacks,
     }
 
     override fun tryConnecting() {
-        startTorAndVpn() // TODO for now just start tor and VPN, we need to decouple this down the line
+        startAnonAndVpn() // TODO for now just start tor and VPN, we need to decouple this down the line
     }
 
     override fun onExitNodeSelected(countryCode: String, displayCountryName: String) {

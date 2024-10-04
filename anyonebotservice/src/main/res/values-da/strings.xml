@@ -5,7 +5,7 @@
     <string name="status_starting_up">AnyoneBot starter op …</string>
     <string name="status_activated">Der er forbindelse til Tor-netværket</string>
     <string name="status_disabled">AnyoneBot er slået fra</string>
-    <string name="couldn_t_start_tor_process_">Kunne ikke starte Tor processen:</string>
+    <string name="couldn_t_start_anon_process_">Kunne ikke starte anon processen:</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Din ReachableAdresses indstilling forudsagede en fejl!</string>
     <string name="your_relay_settings_caused_an_exception_">Dine relæindstillinger forårsagede en fejl!</string>
     <string name="found_existing_tor_process">fandt eksisterende Tor process…</string>

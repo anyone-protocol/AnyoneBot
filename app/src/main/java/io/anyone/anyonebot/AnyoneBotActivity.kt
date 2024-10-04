@@ -185,7 +185,7 @@ class AnyoneBotActivity : BaseActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQUEST_CODE_VPN && resultCode == RESULT_OK) {
-            fragConnect.startTorAndVpn()
+            fragConnect.startAnonAndVpn()
         } else if (requestCode == REQUEST_CODE_SETTINGS && resultCode == RESULT_OK) {
             Prefs.setDefaultLocale(data?.getStringExtra("locale"))
             sendIntentToService(AnyoneBotConstants.ACTION_LOCAL_LOCALE_SET)

@@ -12,7 +12,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Não foi possível iniciar o processo Tor: </string>
+    <string name="couldn_t_start_anon_process_">"Não foi possível iniciar o processo anon: "</string>
     <string name="found_existing_tor_process">encontrado o processo Tor existente…</string>
     <string name="unable_to_start_tor">Não é possível iniciar o Tor:</string>
     <string name="newnym">Mudou para uma nova identidade do Tor!</string>

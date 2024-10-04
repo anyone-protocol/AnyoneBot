@@ -11,7 +11,7 @@
     <string name="connect_to_tor">Connect to Tor</string>
     <string name="config_invalid">AnyoneBot Configuration Invalid</string>
 
-    <string name="couldn_t_start_tor_process_">Couldn\'t start Tor process: </string>
+    <string name="couldn_t_start_anon_process_">Couldn\'t start anon process: </string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Your ReachableAddresses settings caused an exception!</string>
     <string name="your_relay_settings_caused_an_exception_">Your relay settings caused an exception!</string>
     <string name="found_existing_tor_process">found existing Tor process&#8230;</string>
@@ -33,7 +33,7 @@
     <string name="log_notice_low_memory_warning">Low memory warning!</string>
     <string name="log_notice_updating_torrc">Updating torrc custom configuration…</string>
     <string name="log_notice_added_event_handler">Added control port event handler</string>
-    <string name="log_notice_connected_to_tor_control_port">Connected to tor control port</string>
+    <string name="log_notice_connected_to_anon_control_port">Connected to anon control port</string>
     <string name="log_notice_ignoring_start_request">Ignoring start request, already started.</string>
 
 </resources>

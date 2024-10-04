@@ -34,7 +34,7 @@ import kotlinx.coroutines.withContext
 
 import io.anyone.anyonebot.service.AnyoneBotConstants
 import io.anyone.anyonebot.service.util.Prefs
-import io.anyone.anyonebot.service.vpn.TorifiedApp
+import io.anyone.anyonebot.service.vpn.AnonifiedApp
 
 import java.util.Arrays
 import java.util.StringTokenizer
@@ -44,7 +44,7 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
     inner class TorifiedAppWrapper {
         var header: String? = null
         var subheader: String? = null
-        var app: TorifiedApp? = null
+        var app: AnonifiedApp? = null
     }
 
     private var pMgr: PackageManager? = null
@@ -109,13 +109,13 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
         job.cancel()
     }
 
-    private var allApps: List<TorifiedApp>? = null
-    private var suggestedApps: List<TorifiedApp>? = null
+    private var allApps: List<AnonifiedApp>? = null
+    private var suggestedApps: List<AnonifiedApp>? = null
     var uiList: MutableList<TorifiedAppWrapper> = ArrayList()
 
     private fun loadApps() {
         if (allApps == null) allApps = getApps(this@AppManagerActivity, mPrefs, null, alSuggested)
-        TorifiedApp.sortAppsForTorifiedAndAbc(allApps)
+        AnonifiedApp.sortAppsForTorifiedAndAbc(allApps)
         if (suggestedApps == null) suggestedApps =
             getApps(this@AppManagerActivity, mPrefs, alSuggested, null)
         val inflater = layoutInflater
@@ -238,7 +238,7 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
             }
         }
         val edit = mPrefs!!.edit()
-        edit.putString(AnyoneBotConstants.PREFS_KEY_TORIFIED, tordApps.toString())
+        edit.putString(AnyoneBotConstants.PREFS_KEY_ANONIFIED, tordApps.toString())
         edit.apply()
         setResult(RESULT_OK, response)
     }
@@ -248,7 +248,7 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
         if (v is CheckBox) cbox = v else if (v.tag is CheckBox) cbox =
             v.tag as CheckBox else if (v.tag is ListEntry) cbox = (v.tag as ListEntry).box
         if (cbox != null) {
-            val app = cbox.tag as TorifiedApp
+            val app = cbox.tag as AnonifiedApp
             app.isTorified = !app.isTorified
             cbox.isChecked = app.isTorified
         }
@@ -278,9 +278,9 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
             prefs: SharedPreferences?,
             filterInclude: List<String>?,
             filterRemove: List<String>?
-        ): ArrayList<TorifiedApp> {
+        ): ArrayList<AnonifiedApp> {
             val pMgr = context.packageManager
-            val tordAppString = prefs!!.getString(AnyoneBotConstants.PREFS_KEY_TORIFIED, "")
+            val tordAppString = prefs!!.getString(AnyoneBotConstants.PREFS_KEY_ANONIFIED, "")
             val tordApps: Array<String?>
             val st = StringTokenizer(tordAppString, "|")
             tordApps = arrayOfNulls(st.countTokens())
@@ -291,7 +291,7 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
             Arrays.sort(tordApps)
             val lAppInfo = pMgr.getInstalledApplications(0)
             val itAppInfo: Iterator<ApplicationInfo> = lAppInfo.iterator()
-            val apps = ArrayList<TorifiedApp>()
+            val apps = ArrayList<AnonifiedApp>()
             while (itAppInfo.hasNext()) {
                 val aInfo = itAppInfo.next()
                 if (!includeAppInUi(aInfo)) continue
@@ -311,11 +311,11 @@ class AppManagerActivity : AppCompatActivity(), View.OnClickListener,
                     }
                     if (wasFound) continue
                 }
-                val app = TorifiedApp()
+                val app = AnonifiedApp()
                 try {
                     val pInfo = pMgr.getPackageInfo(aInfo.packageName, PackageManager.GET_PERMISSIONS)
                     if (pInfo?.requestedPermissions != null) {
-                        for (permInfo in pInfo.requestedPermissions) {
+                        for (permInfo in pInfo.requestedPermissions!!) {
                             if (permInfo == Manifest.permission.INTERNET) {
                                 app.setUsesInternet(true)
                             }

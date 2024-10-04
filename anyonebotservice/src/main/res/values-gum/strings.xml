@@ -13,7 +13,7 @@ Torpe kan software kɵn mayaelai chi anwei kɵmɵ, incha chu puisrɵ, kape chu p
     <string name="connect_to_tor">Tor yu kelitsik pasran</string>
     <string name="config_invalid">Orborwan tamartrentikpe kalɵ kɵn</string>
 
-    <string name="couldn_t_start_tor_process_">Torwan p­‎​ɵlpasrtrap kaimeik pasran</string>
+    <string name="couldn_t_start_anon_process_">Anonwan p­‎​ɵlpasrtrap kaimeik pasran</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">ReachableAddresses wan tamartrentikpe nɵrɵ pek tamarik kenamisran</string>
     <string name="your_relay_settings_caused_an_exception_">Relay wan tamartrentikpe nɵrɵ pek tamarik kenamisran</string>
     <string name="found_existing_tor_process">Wetɵtraik kenamisran Tor&#8230; </string>
@@ -34,7 +34,7 @@ Torpe kan software kɵn mayaelai chi anwei kɵmɵ, incha chu puisrɵ, kape chu p
     <string name="log_notice_low_memory_warning">Memoria patsap pasran</string>
     <string name="log_notice_updating_torrc">Torrcwan na isuikmai tamaramik</string>
     <string name="log_notice_added_event_handler">Control portwan keerik pasramisran</string>
-    <string name="log_notice_connected_to_tor_control_port">Control portwan kelitsik pasran</string>
+    <string name="log_notice_connected_to_anon_control_port">Control portwan kelitsik pasran</string>
     <string name="log_notice_ignoring_start_request">Katɵle pɵlpasramik cha mieikwan ka tan, yantɵ pɵlmarik pasran</string>
 
 </resources>

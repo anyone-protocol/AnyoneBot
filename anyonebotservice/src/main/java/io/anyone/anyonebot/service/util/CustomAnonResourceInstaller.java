@@ -11,12 +11,12 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.zip.ZipInputStream;
 
-public class CustomTorResourceInstaller {
+public class CustomAnonResourceInstaller {
 
     private final File installFolder;
     private final Context context;
 
-    public CustomTorResourceInstaller(Context context, File installFolder) {
+    public CustomAnonResourceInstaller(Context context, File installFolder) {
         this.installFolder = installFolder;
         this.context = context;
     }

@@ -14,7 +14,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Tor işlemi başlatılamadı</string>
+    <string name="couldn_t_start_anon_process_">Anon işlemi başlatılamadı</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">ErişilebilirAdresleriniz ayarlarınız bir istisnaya yol açtı!</string>
   <string name="your_relay_settings_caused_an_exception_">Tor aktarıcı ayarlarınız bir istisnaya yol açtı!</string>
     <string name="found_existing_tor_process">varolan bir Tor işlemi bulundu…</string>

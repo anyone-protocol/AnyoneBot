@@ -14,7 +14,7 @@
     <!--Permissions screen-->
     <!--TipsAndTricks screen-->
     <!--Transparent Proxy screen-->
-    <string name="couldn_t_start_tor_process_">Nije moguće započeti Tor proces:</string>
+    <string name="couldn_t_start_anon_process_">Nije moguće započeti anon proces:</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">Vaše ReachableAddresses postavke su uzrokovale iznimku!</string>
   <string name="your_relay_settings_caused_an_exception_">Vaše postavke releja su uzrokovale iznimku!</string>
     <string name="found_existing_tor_process">pronađeni postojeći Tor procesi…</string>

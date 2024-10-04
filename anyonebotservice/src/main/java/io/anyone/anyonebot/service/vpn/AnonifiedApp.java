@@ -8,6 +8,8 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 
+import androidx.annotation.NonNull;
+
 import io.anyone.anyonebot.service.AnyoneBotConstants;
 
 import java.text.Normalizer;
@@ -18,7 +20,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class TorifiedApp implements Comparable {
+/** @noinspection unused*/
+public class AnonifiedApp implements Comparable {
 
     private boolean enabled;
     private int uid;
@@ -31,9 +34,9 @@ public class TorifiedApp implements Comparable {
     private boolean torified = false;
     private boolean usesInternet = false;
 
-    public static ArrayList<TorifiedApp> getApps(Context context, SharedPreferences prefs) {
+    public static ArrayList<AnonifiedApp> getApps(Context context, SharedPreferences prefs) {
 
-        String tordAppString = prefs.getString(AnyoneBotConstants.PREFS_KEY_TORIFIED, "");
+        String tordAppString = prefs.getString(AnyoneBotConstants.PREFS_KEY_ANONIFIED, "");
         String[] tordApps;
 
         StringTokenizer st = new StringTokenizer(tordAppString, "|");
@@ -52,11 +55,11 @@ public class TorifiedApp implements Comparable {
 
         Iterator<ApplicationInfo> itAppInfo = lAppInfo.iterator();
 
-        ArrayList<TorifiedApp> apps = new ArrayList<>();
+        ArrayList<AnonifiedApp> apps = new ArrayList<>();
 
         while (itAppInfo.hasNext()) {
             ApplicationInfo aInfo = itAppInfo.next();
-            TorifiedApp app = new TorifiedApp();
+            AnonifiedApp app = new AnonifiedApp();
             try {
                 PackageInfo pInfo = pMgr.getPackageInfo(aInfo.packageName, PackageManager.GET_PERMISSIONS);
                 if (AnyoneBotConstants.BYPASS_VPN_PACKAGES.contains(aInfo.packageName)) {
@@ -110,7 +113,7 @@ public class TorifiedApp implements Comparable {
         return apps;
     }
 
-    public static void sortAppsForTorifiedAndAbc(List<TorifiedApp> apps) {
+    public static void sortAppsForTorifiedAndAbc(List<AnonifiedApp> apps) {
         Collections.sort(apps, (o1, o2) -> {
             /* Some apps start with lowercase letters and without the sorting being case
                insensitive they'd appear at the end of the grid of apps, a position where users
@@ -192,6 +195,7 @@ public class TorifiedApp implements Comparable {
         return this.toString().compareToIgnoreCase(another.toString());
     }
 
+    @NonNull
     @Override
     public String toString() {
         return getName();

@@ -11,7 +11,7 @@
     <string name="connect_to_tor">Xictencuiz Tor</string>
     <string name="config_invalid">Ahmo melahuac mocentilis AnyoneBot</string>
 
-    <string name="couldn_t_start_tor_process_">Ahmo huel opehua Tor</string>
+    <string name="couldn_t_start_anon_process_">Ahmo huel opehua anon</string>
     <string name="your_reachableaddresses_settings_caused_an_exception_">¡Mocentiliz ReachableAddresses ye omochihua, yehce za iyopa!</string>
     <string name="your_relay_settings_caused_an_exception_">¡Mocentilis tepozteknolotilistli ye omochihua, yehce za iyopa!</string>
     <string name="found_existing_tor_process">Otinamiqueh ce ayiliztli cenyuhqui quenime Tor &#8230;</string>
@@ -32,7 +32,7 @@
     <string name="log_notice_low_memory_warning">¡Ihuaniamatlacuiloli, ocachi tlamantli ahmo actica motepoznonotza!</string>
     <string name="log_notice_updating_torrc">Mocentiliz torrc quenime mitzpactia, papatica.</string>
     <string name="log_notice_added_event_handler">Mocahuaz in ihuelititzalantli</string>
-    <string name="log_notice_connected_to_tor_control_port">Ye octencui huelititzalantli</string>
+    <string name="log_notice_connected_to_anon_control_port">Ye octencui huelititzalantli</string>
     <string name="log_notice_ignoring_start_request">Ahmo onicma pehuaicihuitiliztli, ye opehua.</string>
 
 </resources>

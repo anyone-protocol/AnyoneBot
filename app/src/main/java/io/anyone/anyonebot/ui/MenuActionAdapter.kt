@@ -69,7 +69,7 @@ class MenuActionAdapter(context: Context, list: ArrayList<MenuAction>) :
     private fun drawAppShortcuts(llBoxShortcuts: HorizontalScrollView): Boolean {
 
         val tordAppString =
-            Prefs.getSharedPrefs(context).getString(AnyoneBotConstants.PREFS_KEY_TORIFIED, "")
+            Prefs.getSharedPrefs(context).getString(AnyoneBotConstants.PREFS_KEY_ANONIFIED, "")
         if (!TextUtils.isEmpty(tordAppString)) {
 
             val packageManager: PackageManager = context.getPackageManager()
