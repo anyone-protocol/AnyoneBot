@@ -1,18 +1,20 @@
-Orbot is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.
+Anyone VPN is a privacy-first network client that gives you a safer, more anonymous way to access the internet. Built on the Anyone Network, it routes your traffic through a hidden, decentralized relay system, helping you break through firewalls, avoid surveillance, and stay private online.
 
-Orbot is the only app that creates a truly private internet connection. As the New York Times writes, “when a communication arrives from Tor, you can never know where or whom it’s from.” 
+Unlike traditional VPNs that rely on centralized servers, Anyone VPN connects through a network of independent nodes operated by individual community members. This means no single operator can see who you are, where you connect from, or what you’re accessing. Your privacy stays yours.
 
-Tor won the 2012 Electronic Frontier Foundation (EFF) Pioneer Award.
+Why Anyone?
+• Privacy without compromise: Anyone VPN is designed from the ground up to minimize data exposure. No accounts, no tracking, no logs. Your traffic is encrypted and relayed without revealing your origin, providing strong protection against snooping, profiling, and censorship.
 
-★ ACCEPT NO SUBSTITUTES: Orbot is the safest way to use the Internet on Android. Period. Orbot bounces your encrypted traffic several times through computers around the world, instead of connecting you directly like VPNs and proxies. This process takes a little longer, but the strongest privacy and identity protection available is worth the wait.
-★ PRIVACY FOR APPS: Any app can be routed over Tor via the Orbot VPN feature
-★ PRIVACY FOR EVERYONE: Orbot prevents someone watching your connection from knowing what apps you are using or websites you visit. All anyone monitoring your network traffic can see is that you're using Tor.
+• Decentralized routing, community-powered: The Anyone Network is powered by independent operators worldwide rather than corporate servers. This decentralization improves resilience and reduces the risks associated with traditional VPN providers.
 
-***We Love Feedback***
-★ LEARN MORE: Learn more about Orbot and get involved at https://orbot.app
-★ ABOUT US: Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.
-★ OPEN-SOURCE: Orbot is free software. Take a look at our source code, or join the community to make it better: https://github.com/guardianproject/orbot
-★ MESSAGE US: Are we missing your favorite feature? Found an annoying bug? We’d love to hear from you! Send us an email: support@guardianproject.info
+• Bypass firewalls and censorship: Works where other VPNs fail. The network’s hidden, multi-hop routing helps you access blocked services and bypass restrictive networks.
 
-***Disclaimer***
-Guardian Project makes apps that are designed to protect your security and anonymity. The protocols that we use are widely regarded as the state of the art in security technology. While we are constantly upgrading our software to combat the latest threats and eliminate bugs, no technology is 100% foolproof. For maximum security and anonymity users must utilize best practices to keep themselves safe.  You can find a good introductory guide to these topics at https://securityinabox.org
+• Encrypted end-to-end: Your connection is fully encrypted and protected from network surveillance, giving you peace of mind no matter where you are.
+
+We Value Feedback: 
+• Learn more: https://www.anyone.io
+• Open-source: Browse code, contribute, or audit our work on GitHub: https://github.com/anyone-protocol/AnyoneVPN
+• Contact us: Found an issue or want to suggest a feature? We’re listening — support@anyone.io
+
+Disclaimer:
+Anyone VPN is designed to enhance privacy, anonymity, and resistance to censorship. While we continuously improve our technology, no tool can guarantee perfect protection in all situations. Users should follow security best practices and stay informed about digital threats.
