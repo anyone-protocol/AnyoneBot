@@ -1,5 +1,9 @@
 # AnyoneVPN Changelog
 
+## 0.1.12
+- Updated to latest anon-android 0.4.9.13.
+- Updated other dependencies.
+
 ## 0.1.11
 - Open testing release.
 
