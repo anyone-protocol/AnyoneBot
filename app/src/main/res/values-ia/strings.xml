@@ -104,7 +104,7 @@
     <string name="ports_not_set">Portos non definite</string>
     <string name="kibibyte">KiB</string>
     <string name="v3_key_hash">Clave private x25519 in Base32</string>
-    <string name="v3_anon">Dominio .anon</string>
+    <string name="v3_anyone">Dominio .anyone</string>
     <string name="v3_import_auth_private">Importar .auth_private</string>
     <string name="full_device_vpn">VPN de apparato plen</string>
     <string name="pref_anonrc_title">Configuration personalisate de anonrc</string>

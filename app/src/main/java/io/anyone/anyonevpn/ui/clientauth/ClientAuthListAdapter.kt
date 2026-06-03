@@ -31,7 +31,7 @@ class ClientAuthListAdapter internal constructor(context: Context, cursor: Curso
     override fun bindView(view: View, context: Context, cursor: Cursor) {
 
         view.findViewById<TextView>(R.id.tvDomain).text =
-            cursor.getString(ClientAuthContentProvider.ClientAuth.DOMAIN) + context.getString(R.string.anon)
+            cursor.getString(ClientAuthContentProvider.ClientAuth.DOMAIN) + context.getString(R.string.anyone)
 
         val enabled = view.findViewById<SwitchCompat>(R.id.swAuth)
 

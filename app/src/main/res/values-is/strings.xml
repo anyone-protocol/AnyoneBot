@@ -153,7 +153,7 @@
     <string name="v3_delete_client_authorization">Eyða auðkennislykli biðlara</string>
     <string name="v3_backup_key_warning">Aðvörun: Þetta gæti gert lykilinn þinn sýnilegan öðrum forritum</string>
     <string name="v3_backup_key">Auðkennislykill öryggisafrits biðlara</string>
-    <string name="v3_anon">.anon lén</string>
+    <string name="v3_anyone">.anyone lén</string>
     <string name="v3_key_hash">x25519 einkalykill í Base 32</string>
     <string name="v3_client_auth_activity_title">Auðkenning biðlara</string>
     <string name="v3_hosted_services">Hýstar anon-þjónustur</string>

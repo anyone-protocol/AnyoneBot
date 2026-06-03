@@ -131,7 +131,7 @@
     <string name="license">Άδεια:</string>
     <string name="v3_client_auth_activity_title">Εξουσιοδότηση πελάτη</string>
     <string name="v3_key_hash">x25519 Ιδιωτικό κλειδί σε Base32</string>
-    <string name="v3_anon">.anon Τομέας</string>
+    <string name="v3_anyone">.anyone Τομέας</string>
     <string name="secure_your_connection_title">Ετοιμοι για σύνδεση</string>
     <string name="secure_your_connection_subtitle">Απόκρυψη εφαρμογών από την παρακολούθηση του δικτύου και πρόσβαση σε αυτές όταν είναι μπλοκαρισμένες.</string>
     <string name="connected_title">Συνδεδεμένο</string>

@@ -192,7 +192,7 @@
     <string name="apps_mode">Modd VPN</string>
     <string name="local_port">Porthladd Lleol</string>
     <string name="backup_restored">Copi wrth gefn wedi\'i adfer</string>
-    <string name="v3_anon">Parth .anon</string>
+    <string name="v3_anyone">Parth .anyone</string>
     <string name="done">Wedi\'i wneud!</string>
     <string name="v3_key_hash">x25519 Allwedd Breifat yn Sylfaen32</string>
     <string name="configure_header">Ffurfweddu eich Cysylltiad Anon</string>

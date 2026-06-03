@@ -156,7 +156,7 @@
     <string name="pref_prefer_ipv6">首選 IPv6 連接</string>
     <string name="pref_open_proxy_on_all_interfaces_title">在所有接口上開啟代理</string>
     <string name="v3_import_auth_private">匯入 .auth_private</string>
-    <string name="v3_anon">.anon 域名</string>
+    <string name="v3_anyone">.anyone 域名</string>
     <string name="pref_isolate_port">隔離目的地連接埠</string>
     <string name="pref_circuit_padding">迴路填充</string>
     <string name="v3_backup_key_warning">警告：這可能會將你的金鑰暴露給其他應用程式</string>

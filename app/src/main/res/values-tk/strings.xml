@@ -189,7 +189,7 @@
     <string name="mebibyte">MiB</string>
     <string name="v3_hosted_services">Eýeçiligindäki Anon Hyzmatlary</string>
     <string name="v3_key_hash">Base32 üçin x25519 Şahsy Açary</string>
-    <string name="v3_anon">.anon Domen</string>
+    <string name="v3_anyone">.anyone Domen</string>
     <string name="v3_import_auth_private">.auth_private goş</string>
     <string name="backup_port_exist">Ýalňyşlyk: Anon hyzmaty eýýäm port %s ulanýar</string>
     <string name="backup_service">Ätiýaçlyk Hyzmaty<i>(Duýduryş: Hyzmat sazlamalaryňyzy beýleki programmalara aç-açan biler)</i></string>

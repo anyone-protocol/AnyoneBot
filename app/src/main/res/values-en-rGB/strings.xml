@@ -33,7 +33,7 @@
     <string name="pref_http_dialog">HTTP Port Config</string>
     <string name="pref_transport_dialog">TransProxy Port Config</string>
     <string name="v3_key_hash">x25519 Private Key in Base32</string>
-    <string name="v3_anon">.anon Domain</string>
+    <string name="v3_anyone">.anyone Domain</string>
     <string name="connected_title">Connected</string>
     <string name="trying_to_connect_title">Connecting…</string>
     <string name="power_user_mode">Power User Mode</string>

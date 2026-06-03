@@ -195,7 +195,7 @@
     <string name="v3_client_auth_activity_title">क्लाइंट प्रमाणिकरण</string>
     <string name="v3_backup_key">बैकअप क्लाइंट प्रमाणिकरण चाबी</string>
     <string name="v3_backup_key_warning">खबरदार: ये आपका चाबी दूसरे ऐपों को लीक कर सकता है</string>
-    <string name="v3_anon">.anon डोमेन</string>
+    <string name="v3_anyone">.anyone डोमेन</string>
     <string name="pref_circuit_padding">सर्किट पैडिंग</string>
     <string name="testing_anon_direct_success">सफल। टॉर कनेक्शन लाजवाब है!</string>
     <string name="volunteer_mode_subtitle">दूसरों को जुड़ने में मदद करें</string>

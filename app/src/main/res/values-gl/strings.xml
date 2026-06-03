@@ -164,7 +164,7 @@
     <string name="strict_nodes_description">Trate a configuración de Exclusión de nós como un requisito para construír todos os circuítos. Isto pode romper a funcionalidade se non se poden xerar circuítos coa túa configuración de Exclusión de nós.</string>
     <string name="v3_delete_client_authorization_confirm">Eliminar a autorización do cliente</string>
     <string name="pref_http_summary">Porto no que Anon ofrece o seu proxy HTTP (predeterminado: 8118 ou 0 para desactivar)</string>
-    <string name="v3_anon">Dominio .cebola</string>
+    <string name="v3_anyone">Dominio .anyone</string>
     <string name="v3_key_hash">x25519 Chave privada en Base32</string>
     <string name="pref_isolate_protocol">Illar protocolos do cliente</string>
     <string name="pref_disable_ipv4_summary">Decir ás saídas que non se conecten a enderezos IPv4</string>

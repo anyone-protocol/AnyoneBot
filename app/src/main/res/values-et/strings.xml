@@ -143,7 +143,7 @@
     <string name="hidden_services">Sibulateenused</string>
     <string name="v3_client_auth_activity_title">Kliendi autoriseerimine</string>
     <string name="v3_key_hash">x25519 privaatne võti Base32-süsteemis</string>
-    <string name="v3_anon">.anon domeen</string>
+    <string name="v3_anyone">.anyone domeen</string>
     <string name="v3_backup_key_warning">Hoiatus: See võib paljastada teie võtme teistele rakendustele</string>
     <string name="v3_import_auth_private">Impordi .auth_private</string>
     <string name="confirm">Kinnitage</string>

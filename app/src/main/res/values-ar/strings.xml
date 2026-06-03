@@ -214,7 +214,7 @@
     <string name="pref_open_proxy_on_all_interfaces_summary">اسمح لأقران Wi-Fi والأجهزة المقيدة وأي شخص آخر يمكنه الاتصال بـ IP الخاص بك بالوصول إلى تور</string>
     <string name="pref_http_summary">المنفذ الذي يقدم تور وكيل HTTP عليه (افتراضي: 8118 أو 0 للتعطيل)</string>
     <string name="v3_hosted_services">خدمات البصل المستضافة</string>
-    <string name="v3_anon">نطاق anon.</string>
+    <string name="v3_anyone">نطاق anyone.</string>
     <string name="v3_backup_key">نسخ احتياطي لمفتاح استيثاق العميل</string>
     <string name="v3_backup_key_warning">تحذير: هذا قد يعرض مفتاحك لتطبيقات أخرى</string>
     <string name="v3_backup_name_hint">نسخ احتياطي لاسم ملف…</string>

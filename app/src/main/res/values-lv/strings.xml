@@ -140,7 +140,7 @@
     <string name="v3_hosted_services">Hostētie sīpolu pakalpojumi</string>
     <string name="v3_client_auth_activity_title">Klienta autorizācija</string>
     <string name="v3_key_hash">x25519 Privātā atslēga vienībā Base32</string>
-    <string name="v3_anon">.anon domēns</string>
+    <string name="v3_anyone">.anyone domēns</string>
     <string name="v3_backup_key">Rezerves kopijas klienta autorizācijas atslēga</string>
     <string name="v3_backup_key_warning">Brīdinājums: Tas var atklāt jūsu atslēgu citām lietotnēm</string>
     <string name="v3_import_auth_private">Importēt .auth_private</string>

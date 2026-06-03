@@ -73,7 +73,7 @@ class ClientAuthCreateDialogFragment : DialogFragment() {
     }
 
     private fun sanitizeDomain(domain: Editable?): String {
-        val tld = context?.getString(R.string.anon) ?: ".anon"
+        val tld = context?.getString(R.string.anyone) ?: ".anyone"
 
         return if (domain?.endsWith(tld) == true) domain.substring(0, domain.indexOf(tld)) else domain.toString()
     }

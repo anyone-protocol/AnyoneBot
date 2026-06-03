@@ -39,7 +39,7 @@
     <string name="pref_start_boot_title">Paleisti „Anyone VPN“ paleidimo metu</string>
     <string name="v3_delete_client_authorization_confirm">Naikinti kliento autorizavimą</string>
     <string name="v3_client_auth_activity_title">Kliento autorizacija</string>
-    <string name="v3_anon">.anon domenas</string>
+    <string name="v3_anyone">.anyone domenas</string>
     <string name="pref_reduced_circuit_padding">Sumažintas grandinės užpildymas</string>
     <string name="full_device_vpn">Viso įrenginio VPN</string>
     <string name="pref_disable_ipv4">Išjungti IPv4 ryšius</string>

@@ -170,7 +170,7 @@
     <string name="delete_service">Hapus Layanan</string>
     <string name="start_anon_again_for_finish_the_process">Mulai Anon lagi untuk menyelesaikan proses</string>
     <string name="v3_key_hash">Kunci Pribadi x25519 dalam Base32</string>
-    <string name="v3_anon">Domain .anon</string>
+    <string name="v3_anyone">Domain .anyone</string>
     <string name="v3_backup_key">Kunci Otorisasi Klien Cadangan</string>
     <string name="v3_delete_client_authorization_confirm">Hapus Otorisasi Klien</string>
     <string name="v3_backup_name_hint">Nama berkas cadangan…</string>

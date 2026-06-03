@@ -101,7 +101,7 @@
     <string name="v3_hosted_services">Wam esekamel Anonyu maramtelɵ</string>
     <string name="v3_client_auth_activity_title">Naaship ɵ tamik</string>
     <string name="v3_key_hash">x25519 LLavi kutsik pasrikwan ashmɵntraik marik Base 32</string>
-    <string name="v3_anon">Anon chinetɵ nɵtrɵ wam mera esekailɵ</string>
+    <string name="v3_anyone">.anyone chinetɵ nɵtrɵ wam mera esekailɵ</string>
     <string name="v3_backup_key">Llavi kutsik wan kura kepintrai chi trupɵmentrai esekaikwan</string>
     <string name="v3_backup_key_warning">Isunanamik: wam meran esekawa pɵnsrailan maikɵpentɵ ashchai tɵkakɵmumik</string>
     <string name="v3_delete_client_authorization">Chinetɵ karuwa pɵrilan sɵtɵkatap pasrapik wan ketramik</string>

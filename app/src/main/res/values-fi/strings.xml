@@ -154,7 +154,7 @@
     <string name="v3_delete_client_authorization_confirm">Poista päätteen todennus</string>
     <string name="v3_delete_client_authorization">Poista päätteen todennusavain</string>
     <string name="v3_backup_key_warning">Varoitus: Tämä voi paljastaa avaimesi muille sovelluksille</string>
-    <string name="v3_anon">.anon-verkkotunnus</string>
+    <string name="v3_anyone">.anyone-verkkotunnus</string>
     <string name="v3_client_auth_activity_title">Päätteen todennus</string>
     <string name="v3_hosted_services">Isännöidyt Anon-palvelut</string>
     <string name="pref_open_proxy_on_all_interfaces_summary">Salli Anon-yhteydet suoran Wi-Fi-yhteyden ja hotspot-yhteyden välityksellä yhdistetyille laitteille sekä muille tahoille, jotka voivat yhdistää IP-osoitteeseesi.</string>

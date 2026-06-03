@@ -104,7 +104,7 @@
     <string name="v3_hosted_services">Hosted Anon Services</string>
     <string name="v3_client_auth_activity_title">Client Authorization</string>
     <string name="v3_key_hash">x25519 Private Key in Base32</string>
-    <string name="v3_anon">.anon Domain</string>
+    <string name="v3_anyone">.anyone Domain</string>
     <string name="v3_backup_key">Backup Client Authorization Key</string>
     <string name="v3_backup_key_warning">Warning: This could expose your key to other apps</string>
     <string name="v3_delete_client_authorization">Delete Client Authorization Key</string>
@@ -130,7 +130,7 @@
     <string name="confirm_service_deletion">Confirm service deletion</string>
     <string name="service_type">Service type</string>
     <string name="please_restart_to_enable_the_changes">Please restart Anyone VPN to enable the changes</string>
-    <string name="anon" translatable="false">.anon</string>
+    <string name="anyone" translatable="false">.anyone</string>
     <string name="share_as_qr">Share as QR</string>
     <string name="disable">Disable</string>
     <string name="enable">Enable</string>

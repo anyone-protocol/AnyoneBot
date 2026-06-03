@@ -141,7 +141,7 @@
     <string name="v3_delete_client_authorization">Xoá mã uỷ quyền khách</string>
     <string name="v3_backup_key_warning">Cảnh báo: Việc này có thể sẽ làm lộ mã của bạn cho các ứng dụng khác</string>
     <string name="v3_backup_key">Sao lưu mã uỷ quyền khách</string>
-    <string name="v3_anon">Tên miền Domain .anon</string>
+    <string name="v3_anyone">Tên miền Domain .anyone</string>
     <string name="v3_key_hash">Mã khoá riêng tư x25519 trong Base 32</string>
     <string name="v3_client_auth_activity_title">Uỷ quyền máy/ứng dụng khách v3</string>
     <string name="v3_hosted_services">Dịch vụ Anon được Host</string>

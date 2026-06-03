@@ -116,7 +116,7 @@
     <string name="v3_hosted_services">Servicios alojados de Anon</string>
     <string name="v3_client_auth_activity_title">Autorización del cliente</string>
     <string name="v3_key_hash">x25519 Clave privada en Base32</string>
-    <string name="v3_anon">Dominio .anon</string>
+    <string name="v3_anyone">Dominio .anyone</string>
     <string name="v3_backup_key">Salvar Llave de Autorización del Cliente</string>
     <string name="v3_backup_key_warning">Advertencia: Esto podría exponer tu clave a otras aplicaciones</string>
     <string name="v3_delete_client_authorization">Eliminar la Llave de Autorización del Cliente</string>

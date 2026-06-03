@@ -101,7 +101,7 @@ Notificaciones ampliadas</string>
     <string name="v3_hosted_services">Anon yuwe’s kajiyu’jnxi ayte u\'pta’</string>
     <string name="v3_client_auth_activity_title">Naamu jxkaahnxi</string>
     <string name="v3_key_hash">x25519 Clave privada en Base32</string>
-    <string name="v3_anon">Jxkaahnxi yase .anon</string>
+    <string name="v3_anyone">Jxkaahnxi yase .anyone</string>
     <string name="v3_backup_key">Backupte jxkaahwa naamu lxavxitx mki’p</string>
     <string name="v3_backup_key_warning">Pa’yatx: na’ u’kanxi lxavxitx kaavxaa’jana vxite appesu</string>
     <string name="v3_delete_client_authorization">jxkaahwa naamu lxavxitx mkũukh</string>

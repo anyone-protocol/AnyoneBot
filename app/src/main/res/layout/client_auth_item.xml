@@ -28,6 +28,6 @@
         app:layout_constraintEnd_toStartOf="@id/swAuth"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.anon" />
+        tools:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.anyone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

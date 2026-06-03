@@ -187,7 +187,7 @@
     <string name="confirm">Potwierdź</string>
     <string name="backup_port_exist">Błąd: usługa anon używa już portu %s</string>
     <string name="v3_hosted_services">Hostowane usługi anon</string>
-    <string name="v3_anon">Domena .anon</string>
+    <string name="v3_anyone">Domena .anyone</string>
     <string name="v3_client_auth_activity_title">Autoryzacja klienta</string>
     <string name="v3_import_auth_private">Importuj .auth_private</string>
     <string name="v3_delete_client_authorization">Usuń klucz autoryzacji klienta</string>

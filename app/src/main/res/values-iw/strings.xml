@@ -107,7 +107,6 @@
     <string name="confirm_service_deletion">אישור מחיקת שירות</string>
     <string name="service_type">סוג שירות</string>
     <string name="please_restart_to_enable_the_changes">נא להפעיל את Anyone VPN מחדש כדי להפעיל את השינויים</string>
-    <string name="anon">‎</string>
     <string name="share_as_qr">שיתוף כ־QR</string>
     <string name="enable">הפעלה</string>
     <string name="pref_isolate_dest">בידוד כתובות יעד</string>
@@ -172,7 +171,7 @@
     <string name="pref_use_expanded_notifications">להציג בהתראה את המדינה וכתובת ה־IP של צומת יציאת התור שלך כאשר הן זמינות</string>
     <string name="v3_hosted_services">שירותי בצל באירוח</string>
     <string name="v3_key_hash">מפתח פרטי x25519 לפי Base32</string>
-    <string name="v3_anon">שם התחום ‎.anon</string>
+    <string name="v3_anyone">שם התחום ‎.anyone</string>
     <string name="pref_circuit_padding">ריפוד מעגל</string>
     <string name="pref_reduced_circuit_padding_summary">להשתמש באלגוריתמים עם תקורת ריפוד נמוכה כדי לחסוך בתעבורת נתונים ובניצולת סוללה</string>
     <string name="pref_circuit_padding_summary">אפשר להפעיל ריפוד מעגל כדי להגן מפני מגוון צורות של ניתוח תעבורה</string>

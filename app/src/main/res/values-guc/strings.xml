@@ -100,7 +100,7 @@
   <string name="v3_hosted_services">süpülajana cewollaka anáterüshi</string>
   <string name="v3_client_auth_activity_title">alüwataya sümüin sümajat</string>
   <string name="v3_key_hash">x25519   nojo jutújain aúú 32</string>
-  <string name="v3_anon">Julataa aül cewollaka</string>
+  <string name="v3_anyone">Julataa aül .anyone</string>
   <string name="v3_backup_key">putchi jupula jikerolia.</string>
   <string name="v3_backup_key_warning">epain: tü esü süpüla shiyatüin tü püjutaliakat wane akümajia apps.</string>
   <string name="v3_delete_client_authorization">ojütchajaya süjutalia tü alüwataya sümüin sümajatükat</string>

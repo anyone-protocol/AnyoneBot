@@ -151,7 +151,7 @@
     <string name="v3_delete_client_authorization">Удалить ключ авторизации клиента</string>
     <string name="v3_backup_key_warning">Внимание: это может раскрыть ваш ключ другим приложениям</string>
     <string name="v3_backup_key">Резервная копия ключа авторизации</string>
-    <string name="v3_anon">Домен .anon</string>
+    <string name="v3_anyone">Домен .anyone</string>
     <string name="v3_key_hash">Закрытый ключ x25519 в Base32</string>
     <string name="v3_client_auth_activity_title">Авторизация клиента</string>
     <string name="v3_hosted_services">Размещённые Anon-службы</string>

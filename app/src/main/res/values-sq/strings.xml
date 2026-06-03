@@ -132,7 +132,7 @@
     <string name="v3_hosted_services">Shërbime Anon të Strehuara</string>
     <string name="v3_client_auth_activity_title">Autorizim Klienti</string>
     <string name="v3_key_hash">Kyç Privat x25519 në Base32</string>
-    <string name="v3_anon">Përkatësi .anon</string>
+    <string name="v3_anyone">Përkatësi .anyone</string>
     <string name="v3_backup_key">Kopjeruani Kyç Autorizimi Klienti</string>
     <string name="v3_backup_key_warning">Kujdes: Kjo mund të ekspozojë kyçet tuaj ndaj aplikacionet të tjera</string>
     <string name="v3_delete_client_authorization">Fshi Kyç Autorizimi Klienti</string>

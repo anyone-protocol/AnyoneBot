@@ -151,7 +151,7 @@
     <string name="v3_delete_client_authorization">Exclua a chave de autorização do cliente</string>
     <string name="v3_backup_key_warning">Advertência: Isto pode expor a sua chave a outras aplicações</string>
     <string name="v3_backup_key">Chave de autorização do cliente de backup</string>
-    <string name="v3_anon">Domínio .anon</string>
+    <string name="v3_anyone">Domínio .anyone</string>
     <string name="v3_key_hash">Chave privada x25519 na Base 32</string>
     <string name="v3_client_auth_activity_title">Autorização do cliente</string>
     <string name="v3_hosted_services">Serviços de Cebola Alojada</string>

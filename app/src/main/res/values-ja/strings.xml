@@ -178,7 +178,7 @@
     <string name="testing_anon_direct_success">成功しました。Anon接続は良好です!</string>
     <string name="volunteer_mode_subtitle">他の人の接続を助ける</string>
     <string name="menu_header_features">特徴</string>
-    <string name="v3_anon">.anonドメイン</string>
+    <string name="v3_anyone">.anyoneドメイン</string>
     <string name="strict_nodes_description">除外ノードの設定は、すべての回路を構築するための要件として扱われます。このため、除外ノードの設定で回路を生成できない場合、根本的な機能が停止することがあります。</string>
     <string name="mebibyte">MiB</string>
     <string name="drawer_open">開く</string>

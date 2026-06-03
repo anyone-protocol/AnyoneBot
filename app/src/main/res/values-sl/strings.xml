@@ -124,7 +124,7 @@
     <string name="hidden_services">Storitve podjetja Anon</string>
     <string name="v3_client_auth_activity_title">Pooblastilo stranke</string>
     <string name="v3_key_hash">x25519 Zasebni ključ v zapisu Base32</string>
-    <string name="v3_anon">.anon domena</string>
+    <string name="v3_anyone">.anyone domena</string>
     <string name="v3_backup_key">Avtorizacijski ključ odjemalca varnostne kopije</string>
     <string name="v3_delete_client_authorization_confirm">Brisanje pooblastila odjemalca</string>
     <string name="v3_backup_name_hint">Rezervno ime datoteke…</string>

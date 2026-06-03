@@ -81,7 +81,7 @@
     <string name="pref_dnsport_summary">Port, som Anon tilbyder sin DNS på (standard: 5400 eller 0 for at deaktivere)</string>
     <string name="pref_anonrc_title">Anonrc brugerdefineret konfiguration</string>
     <string name="kibibyte">KiB</string>
-    <string name="v3_anon">.anon-domæne</string>
+    <string name="v3_anyone">.anyone-domæne</string>
     <string name="testing_anon_direct_success">Succes. Anon-forbindelsen er god!</string>
     <string name="pref_circuit_padding_summary">Aktiver kredsløbspolstring for at beskytte mod visse former for trafikanalyse</string>
     <string name="pref_disable_ipv4">Deaktiver IPv4-forbindelser</string>
