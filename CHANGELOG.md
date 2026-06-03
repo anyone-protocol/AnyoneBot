@@ -1,16 +1,25 @@
 # AnyoneVPN Changelog
 
+## 0.2.0
+
+- Updated anon to version 0.4.10.2.
+- Hard system-wide change: Anyone services now use the TLD `.anyone` instead of `.anon`.
+
 ## 0.1.12
+
 - Updated to latest anon-android 0.4.9.13.
 - Updated other dependencies.
 
 ## 0.1.11
+
 - Open testing release.
 
 ## 0.1.10
+
 - Updated exit node list.
 
 ## 0.1.9
+
 - Improved no-internet image.
 
 ## 0.1.8
